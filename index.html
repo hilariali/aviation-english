@@ -259,28 +259,45 @@ function renderListen(el){
       ${L.icaoRefs.map(r=>`<span class="icao">• ${esc(r)}</span><br>`).join("")}</div>`:""}`;
   const au=$("au");
   if(au){
-    /* Drive's direct-stream endpoint is flaky: try mirrors in order,
-       falling back automatically before giving up. */
+    /* Drive's download host sends Cross-Origin-Resource-Policy: same-site and
+       Content-Disposition: attachment, so browsers refuse to hotlink it in an
+       <audio> tag. Workaround: fetch the MP3 with CORS (Drive replies with
+       Access-Control-Allow-Origin: *) and play it from a same-origin blob URL.
+       Mirrors are tried in order; a non-audio response (Drive's interstitial
+       page) counts as a miss and moves to the next mirror. */
     const fid=(L.audioPageURL||"").match(/\/file\/d\/([^/]+)/);
     const mirrors=fid?[
       `https://drive.usercontent.google.com/download?id=${fid[1]}&export=download&confirm=t`,
       `https://drive.google.com/uc?export=download&id=${fid[1]}&confirm=t`,
       `https://drive.google.com/uc?export=download&id=${fid[1]}`
     ]:[L.audioURL];
-    let mi=0;
     const st=$("au-status");
-    au.addEventListener("error",()=>{
-      if(mi<mirrors.length-1){
-        mi++;
-        st.style.display="block";
-        st.textContent=`First source didn't play — trying alternative ${mi+1} of ${mirrors.length}…`;
-        au.src=mirrors[mi];
-      }else{
-        st.style.display="block";
-        st.innerHTML=`Couldn't stream the audio from Drive. <a href="${esc(L.audioPageURL)}" target="_blank" rel="noopener">Open in Google Drive ↗</a><br><small>If Drive asks you to sign in, the file's sharing needs to be “Anyone with the link”.</small>`;
+    const myRender=(window.__aeSeq=(window.__aeSeq||0)+1);
+    if(window.__aeBlob){URL.revokeObjectURL(window.__aeBlob);window.__aeBlob=null;}
+    (async()=>{
+      for(let i=0;i<mirrors.length;i++){
+        if(myRender!==window.__aeSeq)return; /* user moved to another lesson */
+        try{
+          st.style.display="block";
+          st.textContent=`Loading audio${mirrors.length>1?` (source ${i+1} of ${mirrors.length})`:``}…`;
+          const r=await fetch(mirrors[i],{mode:"cors"});
+          if(!r.ok)throw new Error("HTTP "+r.status);
+          const ct=(r.headers.get("content-type")||"").toLowerCase();
+          if(ct.indexOf("audio")<0&&ct.indexOf("octet-stream")<0)throw new Error("not audio ("+ct+")");
+          const buf=await r.arrayBuffer();
+          if(buf.byteLength<1024)throw new Error("empty file");
+          if(myRender!==window.__aeSeq)return;
+          const url=URL.createObjectURL(new Blob([buf],{type:"audio/mpeg"}));
+          window.__aeBlob=url;
+          au.src=url;
+          st.style.display="none";
+          return;
+        }catch(e){/* try next mirror */}
       }
-    });
-    au.src=mirrors[0];
+      if(myRender!==window.__aeSeq)return;
+      st.style.display="block";
+      st.innerHTML=`Couldn't load the audio from Drive. <a href="${esc(L.audioPageURL)}" target="_blank" rel="noopener">Open in Google Drive ↗</a><br><small>Check the file is shared as “Anyone with the link”.</small>`;
+    })();
   }
 }
 function setRate(r,btn){ const au=$("au"); if(au) au.playbackRate=r;
