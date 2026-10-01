@@ -1,0 +1,129 @@
+{
+ "day": 8,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Tower, Cathay 251, holding point Runway 07 Right on Alpha, ready for departure.",
+   "meaning": "The pilot reports holding short at the runway holding point and ready to depart."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, Hong Kong Tower, behind landing Boeing 777, line up Runway 07 Right behind.",
+   "meaning": "A conditional line-up clearance: Cathay 251 may only enter the runway and line up behind the landing Boeing 777."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Behind landing Boeing 777, line up Runway 07 Right behind, traffic in sight, Cathay 251.",
+   "meaning": "The mandatory readback restates the condition first and repeats it at the end, confirming the traffic is in sight."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, behind departing Boeing 777, wind 080 degrees, 14 knots, Runway 07 Right, cleared for takeoff.",
+   "meaning": "A takeoff clearance issued behind the departing Boeing 777, with current wind, authorizing Cathay 251 to begin the takeoff roll."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Runway 07 Right, cleared for takeoff, Cathay 251.",
+   "meaning": "Standard readback of the takeoff clearance."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, behind landing Airbus 320 on two-mile final, line up Runway 07 Right behind.",
+   "meaning": "A conditional line-up clearance sequencing Cathay 251 behind the landing Airbus 320 on two-mile final."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Tower, Cathay 251, negative contact on the Airbus 320, holding short Runway 07 Right.",
+   "meaning": "The crew cannot see the Airbus 320, so they report negative contact and remain holding short rather than entering the runway on assumption."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, roger, hold short Runway 07 Right.",
+   "meaning": "The controller instructs Cathay 251 to remain holding short of the runway."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Holding short Runway 07 Right, Cathay 251.",
+   "meaning": "Standard readback of the hold-short instruction."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, BEHIND landing Boeing 777, line up Runway 07 Right BEHIND.",
+   "meaning": "The canonical 4-part ICAO conditional clearance format: callsign, condition, traffic identification, instruction, condition repeated."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "BEHIND landing Boeing 777, line up Runway 07 Right BEHIND, traffic in sight, Cathay 251.",
+   "meaning": "The mandatory readback format for conditional clearances: condition first, instruction, condition repeated, plus 'traffic in sight'."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Negative contact, holding short.",
+   "meaning": "The report a pilot must make when the referenced traffic is not visible — never enter the runway without visual contact."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "conditional clearance",
+   "definition": "A runway clearance that only takes effect relative to another aircraft's movement, following the strict 4-part ICAO structure: condition first, instruction, condition repeated."
+  },
+  {
+   "term": "traffic in sight",
+   "definition": "The mandatory pilot report confirming visual contact with the specific aircraft the controller referenced in a conditional clearance."
+  },
+  {
+   "term": "negative contact",
+   "definition": "Phraseology used when the pilot cannot visually acquire the referenced traffic; the pilot must hold short and never enter the runway on assumption."
+  },
+  {
+   "term": "hold short",
+   "definition": "An instruction to remain stopped before the runway holding point and not enter the runway."
+  },
+  {
+   "term": "wake turbulence",
+   "definition": "Violent counter-rotating wingtip vortices trailing behind an aircraft, requiring 2-minute departure separation behind Heavy aircraft and 3 minutes behind Super (A380)."
+  },
+  {
+   "term": "line up",
+   "definition": "To taxi onto the runway and align the aircraft with the runway centerline."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "[Question 1 — Air Law & Radiotelephony (ICAO Doc 9432)] Under ICAO standard radiotelephony procedures, which of the following is the correct format for reading back a conditional clearance?",
+   "options": [
+    "\"Line up and wait Runway 07R behind the landing B777, Cathay 251.\"",
+    "\"Behind the landing Boeing 777, line up Runway 07 Right behind, Cathay 251.\"",
+    "\"Roger, will line up after the Boeing 777 lands, Cathay 251.\"",
+    "\"Wilco, line up Runway 07 Right, Cathay 251.\""
+   ],
+   "correctIndex": 1,
+   "explanation": "Under ICAO Doc 9432 Section 4.5.4, conditional clearances must be read back in the order: Condition → Identification → Instruction → Repeat Condition, so placing the condition first prevents any risk of radio clipping or misunderstanding."
+  },
+  {
+   "question": "[Question 2 — Principles of Flight & Aerodynamics (Wake Turbulence)] At what point during flight operations do aircraft wingtip vortices begin being generated, and when do they terminate?",
+   "options": [
+    "They begin as soon as the engines start up, and terminate upon engine shutdown.",
+    "They begin when the aircraft begins its ground taxi roll, and terminate when touchdown occurs.",
+    "They begin the moment the aircraft's nose wheel lifts off the runway (lift generation begins), and terminate the moment the nose wheel touches down on landing.",
+    "They only exist at transonic speeds above Mach 0.8."
+   ],
+   "correctIndex": 2,
+   "explanation": "Wingtip vortices are a byproduct of induced drag and lift creation — they begin the exact instant the aircraft rotates and the wings produce lift, and cease the moment weight-on-wheels occurs."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Core Learning Content — Conditional Clearance Syntax",
+   "body": "Per ICAO Doc 9432 Section 4.5.4, the ATC sequence is: [Callsign] → CONDITION → IDENTIFICATION OF TRAFFIC → INSTRUCTION → REPEAT CONDITION (e.g. \"Cathay 251, BEHIND landing Boeing 777, line up Runway 07 Right BEHIND.\"). The pilot readback must put the condition FIRST and repeat it at the end: \"BEHIND landing Boeing 777, line up Runway 07 Right BEHIND, traffic in sight, Cathay 251.\" Strict rules: the referenced aircraft must be visible to both controller and pilot; the pilot must report \"traffic in sight\" before crossing the holding point line; if the traffic cannot be seen, the pilot must NOT move onto the runway and must report \"Negative contact, holding short.\""
+  },
+  {
+   "heading": "Spaced Repetition (Forgetting Curve) Review",
+   "body": "Day 5 & 7 recall — (1) An aircraft is officially \"vacated\" only when ALL parts (including tail and wingtips) have completely crossed beyond the yellow holding line onto the taxiway side. (2) If ATC gives a verbal crossing clearance but the red stop-bar is still illuminated, hold short — never cross an illuminated red stop-bar. (3) The nosewheel steering bypass pin bypasses the hydraulic steering system, allowing the tow tug to turn the nosewheel without damaging hydraulic actuators."
+  },
+  {
+   "heading": "Fun Aviation Fact Of The Day",
+   "body": "Wake turbulence: high pressure under the wings curls around the wingtips into two violent counter-rotating horizontal tornadoes trailing miles behind the aircraft. On a calm day these vortices can linger on the runway spinning at over 150 knots — a smaller aircraft taking off immediately behind can be flipped completely upside down, which is why controllers strictly enforce the 2-to-3 minute separation window."
+  }
+ ]
+}

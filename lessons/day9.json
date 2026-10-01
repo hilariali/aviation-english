@@ -1,0 +1,124 @@
+{
+ "day": 9,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Tower, Cathay 251, holding point Runway 07 Right on Alpha, ready for departure.",
+   "meaning": "The pilot reports holding short at the holding point and ready to depart; 'departure' is used because the word 'takeoff' is forbidden until ATC issues the clearance."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, Hong Kong Tower, Runway 07 Right, line up and wait.",
+   "meaning": "ATC authorizes Cathay 251 to taxi into position on the runway and align with the centerline; throttles remain at idle — this is not permission to roll."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Runway 07 Right, line up and wait, Cathay 251.",
+   "meaning": "Standard readback of the line-up authorization."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, wind 080 degrees, 14 knots, Runway 07 Right, cleared for takeoff.",
+   "meaning": "The takeoff clearance with wind information, authorizing Cathay 251 to begin the high-speed departure roll."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Runway 07 Right, cleared for takeoff, Cathay 251.",
+   "meaning": "Standard readback of the takeoff clearance."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, Runway 07 Right, line up and wait.",
+   "meaning": "The canonical short form of the line-up authorization: enter the runway, align with the centerline, keep throttles at idle — no permission to roll."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, cancel takeoff clearance, hold position.",
+   "meaning": "The command cancelling a takeoff clearance before the roll starts; the aircraft must remain in position."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, STOP IMMEDIATELY!",
+   "meaning": "The emergency abort command used after the takeoff roll has started; the crew must stop the aircraft immediately."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Stopping, Cathay 251.",
+   "meaning": "The pilot's readback confirming the emergency stop."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, STOP IMMEDIATELY! Cancel takeoff clearance, vehicle on the runway!",
+   "meaning": "The tactical drill's emergency abort: the takeoff clearance is cancelled because an inspection vehicle is on the runway."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, NEGATIVE! HOLD POSITION, line up and wait ONLY.",
+   "meaning": "The mandatory ATC correction after a hearback error where the pilot read back 'cleared for takeoff' instead of 'line up and wait'."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "line up and wait",
+   "definition": "Authorization to taxi into position on the active runway and align with the centerline; throttles stay at idle and the aircraft must not roll until cleared for takeoff."
+  },
+  {
+   "term": "cleared for takeoff",
+   "definition": "The takeoff clearance authorizing the aircraft to begin the high-speed departure roll; the word 'takeoff' is only issued by ATC as a clearance or cancellation."
+  },
+  {
+   "term": "takeoff taboo",
+   "definition": "The ICAO rule that the word 'takeoff' is strictly reserved for the actual takeoff clearance or its cancellation — pilots report ready with 'ready for departure', never 'ready for takeoff'."
+  },
+  {
+   "term": "rejected takeoff (RTO)",
+   "definition": "An emergency stop initiated on the runway before reaching V1: throttles closed, maximum braking, speedbrakes and maximum reverse thrust until the aircraft halts."
+  },
+  {
+   "term": "V1",
+   "definition": "Takeoff decision speed — the maximum speed at which the takeoff can still be rejected and the aircraft stopped on the remaining runway; above V1 the takeoff must continue."
+  },
+  {
+   "term": "hold position",
+   "definition": "An instruction to remain stopped and not move the aircraft."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "[Question 1 — Air Law & Radiotelephony (ICAO Doc 9432)] When holding short of an active runway and completing before-takeoff checks, what is the correct ICAO phraseology to notify the tower that you are ready?",
+   "options": [
+    "\"Cathay 251, ready for takeoff.\"",
+    "\"Cathay 251, ready for departure.\"",
+    "\"Cathay 251, ready to roll.\"",
+    "\"Cathay 251, ready to go.\""
+   ],
+   "correctIndex": 1,
+   "explanation": "Under ICAO Doc 9432, the word 'TAKEOFF' is strictly prohibited when reporting ready — pilots must always say 'ready for DEPARTURE' so the word cannot be misheard as an actual takeoff clearance."
+  },
+  {
+   "question": "[Question 2 — Principles of Flight & Performance (V-Speeds)] What is the operational significance of V1 speed during a takeoff roll?",
+   "options": [
+    "It is the speed at which the pilot pulls back on the control yoke to rotate the aircraft.",
+    "It is the maximum speed at which the pilot can reject the takeoff and bring the aircraft to a safe stop within the remaining runway length.",
+    "It is the best rate of climb speed with one engine inoperative.",
+    "It is the maximum flap extension speed."
+   ],
+   "correctIndex": 1,
+   "explanation": "V1 is the Takeoff Decision Speed — above V1, stopping within the available runway is no longer possible, so the takeoff must be continued even after a catastrophic failure."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Core Learning Content — Takeoff Phraseology",
+   "body": "Per ICAO Doc 9432: (1) Report ready as \"Hong Kong Tower, Cathay 251, holding point Runway 07 Right on Alpha, ready for departure.\" — NEVER say \"ready for takeoff\"; the word \"takeoff\" is taboo until ATC uses it in the clearance. (2) Line up: ATC \"Cathay 251, Runway 07 Right, line up and wait.\" → readback \"Runway 07 Right, line up and wait, Cathay 251.\" Meaning: taxi onto the runway, align with centerline, throttles at IDLE — NO permission to roll. (3) Takeoff clearance: ATC \"Cathay 251, wind 080 degrees, 14 knots, Runway 07 Right, cleared for takeoff.\" → readback \"Runway 07 Right, cleared for takeoff, Cathay 251.\" (4) Cancelling: before the roll starts — \"Cathay 251, cancel takeoff clearance, hold position.\"; after the roll starts — \"Cathay 251, STOP IMMEDIATELY!\" → readback \"Stopping, Cathay 251.\""
+  },
+  {
+   "heading": "Spaced Repetition (Forgetting Curve) Review",
+   "body": "Day 6 & 8 recall — (1) Conditional clearance readback: condition first, action, repeat condition (e.g. \"Behind landing B777, line up Runway 07R behind\"). (2) If ATC gives a conditional line-up but the crew cannot see the landing traffic, report \"Negative contact, holding short\" — never enter on assumption. (3) Signage mnemonics: \"Black square, you're there!\" (location sign), \"Yellow array, points the way!\" (direction sign), \"Red and white, runway in sight!\" (mandatory stop sign)."
+  },
+  {
+   "heading": "Fun Aviation Fact Of The Day",
+   "body": "V1, the \"point of no return\": before every departure, pilots calculate V1 (decision speed), Vr (rotation speed), and V2 (single-engine climb speed). Below V1, if an engine fails or ATC aborts, the pilot can safely stop on the remaining runway; above V1 the aircraft CANNOT stop on the runway — even if an engine explodes or catches fire, the pilot MUST continue the takeoff, get airborne, and deal with the emergency in the air."
+  }
+ ]
+}
