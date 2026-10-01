@@ -1,0 +1,143 @@
+{
+ "day": 10,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Ground, Cathay 251, Stand Whiskey 42, request taxi to remote de-icing pad North.",
+   "meaning": "The pilot requests taxi from the stand to the remote de-icing pad for surface treatment."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, Hong Kong Ground, taxi to de-icing pad North via taxiway Alpha, hold short of pad entrance.",
+   "meaning": "ATC clears Cathay 251 to taxi to the de-icing pad via Alpha and hold short of the pad entrance."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Taxi to de-icing pad North via Alpha, hold short pad entrance, Cathay 251.",
+   "meaning": "The pilot reads back the taxi clearance to the de-icing pad."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, de-icing completed. Type four fluid applied, start of holdover time zero zero four five, post de-icing inspection complete.",
+   "meaning": "The de-icing crew reports treatment complete: Type IV fluid applied, holdover time starting at 00:45, post-treatment inspection done."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Type four fluid, holdover time zero zero four five, post inspection complete, request taxi to Runway zero seven Right, Cathay 251.",
+   "meaning": "The pilot's mandatory readback confirming the fluid type and holdover start time, and requesting taxi to the runway."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, taxi to holding point Runway zero seven Right via taxiway Alpha and Hotel.",
+   "meaning": "ATC clears Cathay 251 to the runway holding point via Alpha and Hotel."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Taxi to holding point Runway zero seven Right via Alpha and Hotel, Cathay 251.",
+   "meaning": "The pilot reads back the taxi clearance to the holding point."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Tower, Cathay 251, holdover time has expired, unable departure, request taxi to de-icing pad for re-treatment.",
+   "meaning": "The pilot reports that holdover time has expired in the departure queue, declares unable to depart, and requests taxi back to the de-icing pad for re-treatment."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, roger, turn right on taxiway Hotel, contact Ground on one two one decimal six for return to de-icing pad.",
+   "meaning": "ATC acknowledges and routes the aircraft back via Hotel with the ground frequency for return to the pad."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Right on Hotel, Ground on one two one decimal six, Cathay 251.",
+   "meaning": "The pilot reads back the return taxi routing and frequency."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, taxi to de-icing pad North via taxiway Alpha, hold short of pad entrance.",
+   "meaning": "The canonical ATC clearance to taxi to the de-icing pad, holding short of the pad entrance."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Type four fluid, holdover time zero zero four five, post inspection complete, request taxi Runway zero seven Right, Cathay 251.",
+   "meaning": "The taught readback confirming Type IV fluid and the holdover start time, requesting taxi to the runway."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cathay 251, holdover time expired, unable departure, request return to de-icing pad for re-treatment.",
+   "meaning": "The taught form for reporting expired holdover time and requesting re-treatment."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, NEGATIVE! Confirm TYPE FOUR fluid applied.",
+   "meaning": "The mandatory correction after the pilot mistakenly read back 'Type one fluid' instead of 'Type four fluid'."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "de-icing",
+   "definition": "Removing existing snow and ice from the aircraft, typically with heated Type I fluid sprayed at high pressure."
+  },
+  {
+   "term": "anti-icing",
+   "definition": "Coating clean aircraft surfaces with cold Type IV gel fluid to prevent new ice from forming while taxiing in freezing precipitation."
+  },
+  {
+   "term": "holdover time (HOT)",
+   "definition": "The estimated time anti-icing fluid will prevent ice formation under current weather conditions, beginning the instant anti-icing application starts; exceeding it in active precipitation makes takeoff illegal."
+  },
+  {
+   "term": "clean aircraft concept",
+   "definition": "The international rule (ICAO Annex 6) that an aircraft must never take off with frost, ice, snow, or slush adhering to wings, control surfaces, propellers, or engine inlets."
+  },
+  {
+   "term": "Type I fluid",
+   "definition": "Orange heated de-icing fluid used to melt existing snow and ice; provides almost zero protection against future snowfall (3–5 minutes)."
+  },
+  {
+   "term": "Type IV fluid",
+   "definition": "Green thick gelatinous anti-icing fluid (pseudoplastic/shear-thinning) that protects on the ground and shears cleanly off the wings at about 100 knots on the takeoff roll."
+  },
+  {
+   "term": "cold weather altimetry error",
+   "definition": "In extreme cold, dense air contracts and the barometric altimeter over-reads, so true altitude is lower than indicated ('High to Low or Hot to Cold, Look Out Below')."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "[Question 1 — Aircraft General Knowledge & Flight Safety] Under the international \"Clean Aircraft Concept\", which of the following statements regarding wing contamination is correct?",
+   "options": [
+    "A light coating of frost on the upper wing surface is acceptable provided airspeed is increased by 10 knots.",
+    "Frost, snow, or ice on the upper wing surface disrupts the boundary layer, dramatically reducing maximum lift and increasing stall speed.",
+    "De-icing is only required if ice thickness exceeds 5 millimeters.",
+    "Anti-icing fluid is designed to melt existing ice after the aircraft takes off."
+   ],
+   "correctIndex": 1,
+   "explanation": "Under ICAO Annex 6, aircraft must be completely free of frost, ice, and snow before takeoff — even sandpaper-thin frost can destroy up to 30% of maximum lift and raise stall speed."
+  },
+  {
+   "question": "[Question 2 — Meteorology & Altimetry] When flying in atmospheric conditions where the ambient air temperature is significantly colder than the standard International Standard Atmosphere (ISA), how will the barometric altimeter indicate relative to the aircraft's true altitude?",
+   "options": [
+    "The altimeter will under-read (indicating lower than true altitude).",
+    "The altimeter will over-read (indicating higher than true altitude).",
+    "Cold air has no effect on indicated altitude.",
+    "The altimeter will read zero."
+   ],
+   "correctIndex": 1,
+   "explanation": "In cold air, pressure levels compact toward the surface, so the altimeter over-reads — the aircraft is physically lower than indicated ('High to Low or Hot to Cold, Look Out Below!')."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Core Learning Content — De-Icing Phraseology Table",
+   "body": "Per ICAO Doc 9432 and ICAO Doc 9640: (1) Requesting de-icing: \"Hong Kong Ground, Cathay 251, Stand Whiskey 42, request taxi to remote de-icing pad North.\" ATC: \"Cathay 251, taxi to de-icing pad North via taxiway Alpha, hold short of pad entrance.\" (2) De-icing completion: \"Cathay 251, de-icing completed. Type four fluid applied, start of holdover time zero zero four five, post de-icing inspection complete.\" Pilot readback: \"Type four fluid, holdover time zero zero four five, post inspection complete, request taxi Runway zero seven Right, Cathay 251.\" (3) Holdover time expired: \"Cathay 251, holdover time expired, unable departure, request return to de-icing pad for re-treatment.\""
+  },
+  {
+   "heading": "Spaced Repetition (Forgetting Curve) Review",
+   "body": "Day 4, 7 & 9 recall — (1) When reporting ready at the holding point, the forbidden word is \"TAKEOFF\" — always say \"ready for DEPARTURE\". (2) An illuminated red stop-bar is an absolute physical barrier that overrides verbal ATC clearances. (3) The allowable CTOT slot window is -5 minutes to +10 minutes around the assigned time."
+  },
+  {
+   "heading": "Fun Aviation Fact Of The Day",
+   "body": "The secret chemistry of Type IV \"shearing fluid\": it is pseudoplastic (shear-thinning). While taxiing slowly it behaves like thick gelatin that coats the wing and absorbs freezing rain, but as the aircraft accelerates past 100 knots down the runway, aerodynamic shear stress drops its viscosity instantly to that of water, so it blows cleanly off the wings before rotation."
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "day": 11,
+ "exchanges": [
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, airborne zero zero five two, contact Hong Kong Departure on one two three decimal eight.",
+   "meaning": "Tower transfers Cathay 251 to Departure, announcing the airborne time and the new frequency 123.8."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "One two three decimal eight, Cathay 251.",
+   "meaning": "The pilot reads back the new frequency, confirming the transfer."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Departure, Cathay 251, passing one thousand five hundred feet, climbing via SID to Flight Level zero nine zero.",
+   "meaning": "The mandatory initial check-in on Departure: station, callsign, passing altitude, climbing-to level, and SID."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, Hong Kong Departure, radar contact. Passing BEKOL, climb to Flight Level one six zero, cancel level restriction.",
+   "meaning": "Departure establishes radar contact, assigns a climb to FL160, and cancels the published SID level restrictions."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Climb to Flight Level one six zero, cancel level restriction, Cathay 251.",
+   "meaning": "The pilot's readback of the climb to FL160 with the restriction cancellation."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, negative radar contact. Scope indicates four thousand two hundred feet; you reported passing two thousand five hundred feet. Check altimeter setting and confirm level.",
+   "meaning": "Departure reports no radar contact: the scope shows 4,200 ft versus the reported 2,500 ft, and asks the crew to check the altimeter setting."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Departure, Cathay 251, altimeter setting one zero one two verified, level is two thousand five hundred feet. Cycling transponder.",
+   "meaning": "The crew confirms the altimeter setting and actual level, and cycles the transponder to reset the Mode C encoder."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, radar contact, Mode C verified two thousand five hundred feet. Climb to Flight Level zero nine zero.",
+   "meaning": "Departure re-establishes radar contact with Mode C verified at 2,500 ft and clears the climb to FL090."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Climb to Flight Level zero nine zero, Cathay 251.",
+   "meaning": "The pilot's readback of the climb to FL090."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Squawk ident.",
+   "meaning": "The command to press the transponder IDENT button so the radar tag blooms and flashes for identification."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cancel level restriction.",
+   "meaning": "The instruction deleting published SID altitude ceilings so the aircraft may climb unrestricted."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, negative! Level restriction cancelled, climb unrestricted Flight Level one six zero.",
+   "meaning": "The mandatory ATC correction after the pilot read back the cancelled SID restriction at BEKOL."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, Hong Kong Departure, radar contact.",
+   "meaning": "The canonical short form of the controller's radar identification after Mode C verification."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "radar contact",
+   "definition": "The controller's declaration that the aircraft's radar target is identified and Mode C altitude verified within ±200 feet of the reported passing altitude."
+  },
+  {
+   "term": "Mode C",
+   "definition": "The transponder altitude encoder that automatically transmits the aircraft's pressure altitude (referenced to 1013.25 hPa) to ATC radar."
+  },
+  {
+   "term": "squawk ident",
+   "definition": "The ATC command to press the transponder IDENT button, sending an SPI pulse that makes the radar tag bloom and flash for 18–20 seconds to confirm identification."
+  },
+  {
+   "term": "cancel level restriction",
+   "definition": "An ATC instruction deleting published SID step-up altitude constraints so the aircraft may climb unrestricted to the newly assigned level."
+  },
+  {
+   "term": "SID",
+   "definition": "Standard Instrument Departure — a published lateral and vertical departure route with waypoint altitude and speed restrictions."
+  },
+  {
+   "term": "initial check-in",
+   "definition": "The mandatory first call on a new radar frequency containing station, callsign, passing altitude, climbing-to level, and SID/routing."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "[Question 1 — Air Law & Air Traffic Procedures (ICAO Doc 4444)] When a pilot is transferred from Tower to Departure Radar immediately following takeoff, what information MUST be included in the initial check-in transmission?",
+   "options": [
+    "The aircraft's current fuel remaining in hours and minutes.",
+    "The aircraft's callsign, current passing altitude, and assigned cleared level or altitude.",
+    "Only the aircraft callsign and the word \"Airborne\".",
+    "The aircraft's indicated airspeed and heading."
+   ],
+   "correctIndex": 1,
+   "explanation": "Under ICAO Doc 4444 Section 8.5.1, the initial call must include identification, current passing level/altitude, and cleared level/altitude, enabling the controller's Mode C altitude verification."
+  },
+  {
+   "question": "[Question 2 — Aircraft Instruments & Avionics (Transponders)] What barometric reference does an aircraft Mode C transponder encoder use when transmitting altitude data to air traffic control?",
+   "options": [
+    "The local airport altimeter setting (QNH) dialed into the cockpit altimeter.",
+    "The height above ground level (QFE) measured by the radar altimeter.",
+    "The standard pressure datum of 1013.25 hPa (29.92 inHg), regardless of the cockpit altimeter setting.",
+    "GPS geometric altitude calculated from orbital satellites."
+   ],
+   "correctIndex": 2,
+   "explanation": "Mode C encoders always transmit pressure altitude referenced to 1013.25 hPa; the ATC radar computer applies local QNH to convert it to corrected indicated altitude on the scope."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Core Learning Content — Departure Handoff & Check-In",
+   "body": "Per ICAO Doc 9432 and ICAO Doc 4444 (PANS-ATM): (1) Tower frequency transfer: ATC \"Cathay 251, airborne zero zero five two, contact Hong Kong Departure on one two three decimal eight.\" → readback \"One two three decimal eight, Cathay 251.\" (2) Mandatory initial check-in syntax: [Station Called] → [Callsign] → PASSING [Current Altitude] → CLIMBING TO [Assigned Level] → [SID / Routing], e.g. \"Hong Kong Departure, Cathay 251, passing one thousand five hundred feet, climbing via SID to Flight Level zero nine zero.\" (3) Controller acknowledgment: \"Cathay 251, Hong Kong Departure, radar contact.\" (UK/some ICAO states: \"Identified\"). (4) Radar commands: \"Squawk ident\" — press the transponder IDENT button to flash the target on radar; \"Cancel level restriction\" — published altitude ceilings on the SID no longer apply, climb unrestricted to the new level."
+  },
+  {
+   "heading": "Spaced Repetition (Forgetting Curve) Review",
+   "body": "Day 8 & 10 recall — (1) De-icing Type I melts existing ice/snow; Type IV is a thick pseudoplastic gel preventing new ice, shearing off at 100 knots during takeoff. (2) Cold dense air contracts the pressure column so the altimeter over-reads — true altitude is lower than indicated (\"Hot to Cold, Look Out Below!\"). (3) Conditional line-up readback sequence: Condition → Identification → Instruction → Repeat Condition."
+  },
+  {
+   "heading": "Fun Aviation Fact Of The Day",
+   "body": "The transponder IDENT button: pressing it broadcasts an SPI pulse for exactly 18 seconds, making the data block blossom into a bright flashing double-target on the controller's scope — which is why instructors drill \"Never press IDENT unless ATC commands it\", since random IDENT presses would flood busy terminal scopes with flashing blooms."
+  }
+ ]
+}

@@ -1,0 +1,153 @@
+{
+ "day": 6,
+ "exchanges": [
+  {
+   "speaker": "ATC",
+   "text": "Give way to Boeing 777 crossing left to right on Bravo",
+   "meaning": "Yield right-of-way to intersecting taxi traffic — hold short of the intersection until the crossing Boeing 777 passes clear."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Hold short of Runway 07 Left",
+   "meaning": "Mandatory instruction to stop before the runway holding point markings (two solid and two dashed yellow lines); must be read back verbatim."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Request progressive taxi instructions",
+   "meaning": "The pilot asks ATC for step-by-step turn-by-turn guidance, used in low visibility or at unfamiliar airports."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Ground, Cathay 251, Stand Whiskey 42, request taxi.",
+   "meaning": "The pilot requests taxi clearance from the stand."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, Hong Kong Ground, taxi to holding point Runway 07 Right via taxiway Alpha and Hotel. Give way to Boeing 777 crossing left to right on Bravo.",
+   "meaning": "Taxi clearance to the Runway 07R holding point via taxiways Alpha and Hotel, with an instruction to yield to a crossing Boeing 777 on Bravo."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Taxi to holding point Runway 07 Right via Alpha and Hotel, give way to the Boeing 777 on Bravo, Cathay 251.",
+   "meaning": "Readback of the taxi route and the give-way instruction."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, hold short of Runway 07 Left on Hotel.",
+   "meaning": "ATC instructs the aircraft to stop before the Runway 07L holding point while on taxiway Hotel."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hold short Runway 07 Left on Hotel, Cathay 251.",
+   "meaning": "Verbatim readback of the mandatory hold-short instruction."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Ground, Cathay 251, low visibility, request progressive taxi to Runway 07 Right.",
+   "meaning": "In dense fog (RVR 400m), the crew requests step-by-step progressive taxi guidance to Runway 07R."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, progressive taxi approved. Follow taxiway Alpha, turn left onto taxiway Juliet, hold short of taxiway Hotel.",
+   "meaning": "ATC approves progressive taxi and issues the first turn-by-turn instructions."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Follow Alpha, left on Juliet, hold short of Hotel, Cathay 251.",
+   "meaning": "Readback of the first progressive taxi instructions."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, proceed across Hotel, continue to holding point Runway 07 Right, hold short Runway 07 Left.",
+   "meaning": "Continued progressive guidance: cross Hotel, continue to the Runway 07R holding point, and hold short of Runway 07L."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Across Hotel, to holding point Runway 07 Right, hold short Runway 07 Left, Cathay 251.",
+   "meaning": "Readback of the continued progressive taxi instructions including the final hold-short."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, taxi to holding point Runway 07 Right via Alpha and Hotel, hold short of Runway 07 Left.",
+   "meaning": "Taxi clearance with a mandatory hold-short instruction before Runway 07L."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Taxi to holding point Runway 07 Right via Alpha and Hotel, crossing Runway 07 Left, Cathay 251.",
+   "meaning": "A dangerous faulty readback — the pilot said 'crossing Runway 07 Left' instead of 'hold short', which the controller must catch immediately."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, NEGATIVE! HOLD SHORT of Runway 07 Left.",
+   "meaning": "The controller urgently rejects the faulty readback and re-issues the mandatory hold-short instruction."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "progressive taxi",
+   "definition": "Turn-by-turn taxi guidance issued by ATC, used in dense fog (Low Visibility Procedures), at night, or at complex unfamiliar airports."
+  },
+  {
+   "term": "hold short",
+   "definition": "A mandatory instruction to stop before the runway holding point markings (two solid and two dashed yellow lines); crossing a runway without explicit clearance is the #1 cause of catastrophic runway incursion collisions."
+  },
+  {
+   "term": "give way",
+   "definition": "An instruction to yield right-of-way to intersecting taxi traffic — hold short of the intersection until the crossing aircraft passes clear."
+  },
+  {
+   "term": "mandatory instruction sign",
+   "definition": "White lettering on a red background (e.g. 07L - 25R NO ENTRY) marking a runway holding point or prohibited area; it must never be crossed without explicit ATC clearance."
+  },
+  {
+   "term": "location sign",
+   "definition": "Yellow letters on a black background ('Black square, you're there!') identifying the taxiway the aircraft is currently on."
+  },
+  {
+   "term": "direction sign",
+   "definition": "Black letters on yellow with an arrow ('Yellow array, points the way!') identifying intersecting taxiways and turns."
+  },
+  {
+   "term": "CTOT",
+   "definition": "Calculated Take-Off Time — the departure slot time, with a permitted window of −5 minutes to +10 minutes around it."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "While taxiing on an aerodrome, you observe a sign with WHITE lettering on a RED background displaying \"07L-25R\". What does this sign signify and what action is required?",
+   "options": [
+    "It indicates the taxiway you are currently on; you may proceed at normal taxi speed.",
+    "It is a direction sign indicating that Runway 07L-25R is located to your left.",
+    "It is a mandatory instruction sign marking the holding position for Runway 07L-25R; you must NOT cross this line without specific ATC clearance.",
+    "It indicates an unserviceable area of the aerodrome where taxiing is prohibited."
+   ],
+   "correctIndex": 2,
+   "explanation": "Under ICAO Annex 14, white characters on a red background denote a Mandatory Instruction Sign (e.g. runway holding position or no-entry sign). Pilots are legally forbidden from crossing a mandatory sign without explicit ATC clearance."
+  },
+  {
+   "question": "If the surface ambient temperature is 23°C and the dewpoint is 18°C, at approximately what height above ground level (AGL) will the base of convective cumulus clouds form?",
+   "options": [
+    "1,200 feet AGL",
+    "2,000 feet AGL",
+    "2,800 feet AGL",
+    "3,500 feet AGL"
+   ],
+   "correctIndex": 1,
+   "explanation": "Using the convergence formula: (Temperature − Dewpoint) × 400 = cloud base AGL. Here 23°C − 18°C = 5°C spread, and 5 × 400 = 2,000 feet AGL."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Core Learning Content — Taxi Clearance & Signage Guide",
+   "body": "Taxiway operations require strict adherence to standard syntax and visual signage (ICAO Annex 14 / Doc 9432). Mandatory Sign: 07L - 25R NO ENTRY — white on red: runway holding point or prohibited area; NEVER cross without explicit clearance. Location Sign: A H — yellow on black ('Black square, you're there!'): identifies the taxiway your aircraft is currently on. Direction Sign: ← A H → — black on yellow ('Yellow array, points the way!'): identifies intersecting taxiways and turns. Give Way Rule: 'Give way to B777 crossing left to right on Bravo' — hold short of the intersection until the crossing aircraft passes clear. Progressive Taxi: 'Request progressive taxi instructions' — step-by-step turn guidance issued by ATC during low visibility or unfamiliar airport layouts."
+  },
+  {
+   "heading": "Spaced Repetition (Forgetting Curve) Review",
+   "body": "Day 4 & Day 5 recall: 1. CTOT = Calculated Take-Off Time (departure slot time). 2. Slot time tolerance window: −5 minutes to +10 minutes around the CTOT. 3. 'Facing west' in pushback refers to the direction the NOSE of the aircraft points when finished."
+  },
+  {
+   "heading": "Fun Aviation Fact — The Airport Signage Rhyme",
+   "body": "Pilots memorize this classic rhyme to prevent disorientation on taxiway networks: 'Black square, you're there!' (yellow letters on black = Location sign); 'Yellow array, points the way!' (black letters on yellow with an arrow = Direction sign); 'Red and white, runway in sight!' (white letters on red = Mandatory stop sign)."
+  }
+ ]
+}

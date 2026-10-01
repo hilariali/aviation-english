@@ -1,0 +1,136 @@
+{
+ "day": 5,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Cathay 251, Stand W42, request push and start, Information Echo.",
+   "meaning": "The pilot requests gate departure permission — pushback and engine start — confirming receipt of ATIS Information Echo."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Push and start approved, facing west, QNH 1012.",
+   "meaning": "ATC approves pushback and engine start with the nose finishing pointing west, confirming the local altimeter setting QNH 1012."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Standby, traffic passing behind.",
+   "meaning": "Hold at the gate — another aircraft is taxiing across the pushback path behind the aircraft."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Ground from flight deck, brakes released, cleared to push.",
+   "meaning": "The intercom call to the ground tug driver confirming the parking brake is off and the tug may start pushing the aircraft back."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Starting engine number two.",
+   "meaning": "Announcement to the ground crew that engine number two is being ignited."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Ground, Cathay 251, Stand Whiskey 42, request push and start, Information Echo.",
+   "meaning": "Initial call to Ground requesting pushback and engine start from Stand Whiskey 42 with Information Echo."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, Hong Kong Ground, push and start approved, facing west, QNH 1012.",
+   "meaning": "Pushback and start approved, nose to finish facing west, QNH 1012."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Push and start approved, facing west, QNH 1012, Cathay 251.",
+   "meaning": "Mandatory readback of the pushback clearance, facing direction, and altimeter setting."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Ground, Cathay 251, pushback complete, request taxi.",
+   "meaning": "The pilot reports the pushback is finished and requests taxi clearance."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, taxi to holding point Runway 07 Right via taxiway Alpha, hold short Runway 07 Left.",
+   "meaning": "Taxi clearance to the Runway 07R holding point via taxiway Alpha, with an instruction to hold short of Runway 07L."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Taxi to holding point Runway 07 Right via Alpha, hold short Runway 07 Left, Cathay 251.",
+   "meaning": "Readback of the taxi route and the mandatory hold-short instruction."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, push and start approved, facing north, QNH 1012.",
+   "meaning": "Pushback clearance issued with the nose finishing pointing north and QNH 1012."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Push and start approved, facing south, QNH 1012, Cathay 251.",
+   "meaning": "A faulty readback — the pilot said 'facing south' instead of 'facing north', which ATC must correct."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, NEGATIVE. Push and start approved, facing NORTH.",
+   "meaning": "The controller rejects the faulty readback and re-issues the clearance with the correct facing direction north."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Facing west",
+   "meaning": "The pushback 'facing' direction always refers to where the NOSE of the aircraft will point when pushback is completed."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "pushback",
+   "definition": "The procedure of pushing the aircraft backwards away from the gate with a motorized tug before engine start and taxi."
+  },
+  {
+   "term": "nosewheel steering bypass pin",
+   "definition": "A lockout pin inserted into the nose gear to bypass the hydraulic steering system during pushback, letting the tug turn the nosewheel freely without damaging hydraulic actuators."
+  },
+  {
+   "term": "red anti-collision beacon",
+   "definition": "A high-intensity flashing red light on the top and bottom of the fuselage, switched on before engine start to warn ramp personnel that engines are live."
+  },
+  {
+   "term": "CTOT",
+   "definition": "Calculated Take-Off Time — the departure slot time, with a permitted window of −5 minutes to +10 minutes around it."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "A surface weather report gives an ambient temperature of 28°C and a dewpoint of 20°C. Based on the standard convective cloud base estimation formula, at approximately what altitude AGL would you expect cumulus cloud bases to form?",
+   "options": [
+    "1,600 feet AGL",
+    "2,400 feet AGL",
+    "3,200 feet AGL",
+    "4,000 feet AGL"
+   ],
+   "correctIndex": 2,
+   "explanation": "The rule-of-thumb formula is (Temperature − Dewpoint) × 400 = cloud base in feet AGL. Here 28°C − 20°C = 8°C spread, and 8 × 400 = 3,200 feet AGL."
+  },
+  {
+   "question": "What is the primary safety purpose of inserting the nosewheel steering bypass pin during airport pushback operations?",
+   "options": [
+    "It disconnects the main aircraft battery from the hydraulic pump.",
+    "It locks the nosewheel firmly in the straight-ahead position.",
+    "It bypasses the aircraft's hydraulic nosewheel steering system, allowing the tow tug to turn the nosewheel freely without damaging internal hydraulic actuators.",
+    "It automatically releases the aircraft's main landing gear brakes."
+   ],
+   "correctIndex": 2,
+   "explanation": "If a tug turned the nose gear while hydraulic steering pressure was active, it would damage hydraulic seals and mechanical linkages. The bypass pin depressurizes the steering circuit, allowing free castering while under tow."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Core Learning Content — Pushback & Start Phraseology",
+   "body": "Pushback Request: 'Cathay 251, Stand W42, request push and start, Information Echo.' — pilot requests gate departure permission. ATC Approval: 'Push and start approved, facing west, QNH 1012.' — nose points west; confirms local altimeter. Hold Instruction: 'Standby, traffic passing behind.' — gate hold due to active taxiway traffic. Intercom Push Call: 'Ground from flight deck, brakes released, cleared to push.' — clearance to ground tug driver. Engine Spooling: 'Starting engine number two.' — notifies ground crew of engine ignition. Tug Disconnect: 'Towbar disconnected, bypass pin removed, hand signals on the left.' — confirms steering restored and ground crew clear."
+  },
+  {
+   "heading": "Spaced Repetition (Forgetting Curve) Review",
+   "body": "Cloud and weather math recall: 1. Temp 24°C, dewpoint 21°C (3°C spread) → expected cloud base 3 × 400 = 1,200 ft AGL. 2. Temp 18°C, dewpoint 18°C (0°C spread) → FOG on the surface. 3. Mandatory readbacks: runway clearances, hold-short, altitudes, headings, speeds, QNH, and squawks."
+  },
+  {
+   "heading": "Fun Aviation Fact — The Red Beacon Light",
+   "body": "Ramp workers wear heavy noise-cancelling ear defenders and cannot hear jet engines starting up. The red rotating/flashing beacon on the top and belly of the fuselage is the universally recognized visual signal that fuel pumps, hydraulic systems, and jet engines are being energized — when ground handlers see the red beacon flashing, they clear the 15-meter intake hazard zone immediately."
+  }
+ ]
+}

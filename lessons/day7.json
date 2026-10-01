@@ -1,0 +1,140 @@
+{
+ "day": 7,
+ "exchanges": [
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, hold short of Runway 07 Left.",
+   "meaning": "Mandatory instruction to stop before the Runway 07L holding point; the pilot must read back the runway designator and 'hold short' verbatim."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, cross Runway 07 Left at Hotel. Report vacated.",
+   "meaning": "Clearance to cross Runway 07L only at taxiway Hotel, with a requirement to report once the runway is vacated."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cathay 251, Runway 07 Left vacated.",
+   "meaning": "The pilot reports the runway is vacated — transmitted only when the entire aircraft has cleared past the holding line."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Expedite crossing Runway 07 Left, traffic on 5-mile final.",
+   "meaning": "Cross the runway without delay and do not stop on the runway centerline because landing traffic is on a five-mile final."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Tower, Cathay 251, approaching Runway 07 Left on Hotel, ready to cross.",
+   "meaning": "The pilot informs Tower they are approaching Runway 07L on taxiway Hotel and are ready to cross."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, Hong Kong Tower, cross Runway 07 Left at Hotel, expedite crossing, traffic on five-mile final. Report vacated.",
+   "meaning": "Tower clears the aircraft to cross Runway 07L at Hotel, to expedite because of traffic on five-mile final, and to report vacated."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cross Runway 07 Left at Hotel, expediting, report vacated, Cathay 251.",
+   "meaning": "Readback of the crossing clearance with the expedite and report-vacated requirements."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cathay 251, Runway 07 Left vacated.",
+   "meaning": "The pilot confirms the entire aircraft is clear of the runway beyond the holding line."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, roger, contact Hong Kong Ground on one two one decimal six.",
+   "meaning": "Frequency change instruction: contact Hong Kong Ground on 121.6 MHz."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "One two one decimal six, Cathay 251.",
+   "meaning": "Readback of the frequency change to 121.6."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, STOP IMMEDIATELY! Cancel crossing clearance, HOLD SHORT of Runway 07 Left, go-around in progress!",
+   "meaning": "Emergency instruction to stop immediately and cancel the crossing clearance because a go-around is in progress on Runway 07L."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Stopping, holding short Runway 07 Left, Cathay 251.",
+   "meaning": "The pilot confirms immediate max braking and compliance with the cancelled clearance, holding short of Runway 07L."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, taxi via Hotel, hold short of Runway 07 Left.",
+   "meaning": "Taxi instruction via Hotel with a mandatory hold-short before Runway 07L."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cathay 251, roger.",
+   "meaning": "A fatal mistake — the pilot answered with 'Roger' instead of reading back the mandatory hold-short instruction, giving the controller no verification."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, NEGATIVE ROGER! Read back HOLD SHORT Runway 07 Left.",
+   "meaning": "The controller rejects the 'Roger' and demands a verbatim readback of the mandatory hold-short instruction."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "runway incursion",
+   "definition": "Any unauthorized presence of an aircraft, vehicle, or person on the protected area of a runway (ICAO Doc 9870)."
+  },
+  {
+   "term": "hold short",
+   "definition": "A mandatory instruction to stop before the runway holding point markings (two solid and two dashed yellow lines); must be read back verbatim."
+  },
+  {
+   "term": "stop bar",
+   "definition": "A row of unidirectional high-intensity red lights embedded across the taxiway pavement at the runway holding point — an absolute barrier that overrides verbal ATC clearances."
+  },
+  {
+   "term": "vacated",
+   "definition": "The legal state of an aircraft only when ALL parts (including trailing wingtips and tail cone) have completely crossed beyond the runway holding position lines onto the taxiway side."
+  },
+  {
+   "term": "expedite",
+   "definition": "An ATC instruction to perform the action without delay — e.g. cross the runway immediately without stopping on the centerline because traffic is on final."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Under international ICAO aerodrome standards, when is an aircraft legally considered to have \"vacated\" an active runway?",
+   "options": [
+    "As soon as the aircraft's nose gear crosses the runway edge line.",
+    "When the aircraft decelerates to normal taxi speed of 15 knots.",
+    "Only when all parts of the aircraft have completely passed beyond the runway holding position marking onto the taxiway side.",
+    "When the pilot switches communications from Tower to Ground control."
+   ],
+   "correctIndex": 2,
+   "explanation": "Under ICAO Annex 14 and Doc 9432, an aircraft is only vacated when the entirety of the aircraft (including trailing wingtips and tail cone) has completely crossed beyond the runway holding position marking. If the tail overhangs the line, the aircraft is still infringing the runway safety area."
+  },
+  {
+   "question": "You are taxiing towards Runway 07R and receive the verbal clearance: \"Cross Runway 07R at taxiway Hotel.\" As you reach the holding point, the red stop-bar lights across the taxiway remain illuminated. What action should you take?",
+   "options": [
+    "Proceed across the runway because verbal ATC clearance takes precedence over ground lights.",
+    "Hold short of the red stop-bar, do not cross, and immediately advise ATC that the red stop-bar is still illuminated.",
+    "Cross the red stop-bar slowly while flashing landing lights to alert traffic.",
+    "Turn around on the taxiway and return to the apron."
+   ],
+   "correctIndex": 1,
+   "explanation": "Under international standard operating procedures (ICAO Doc 9870), an illuminated red stop-bar is an absolute barrier. Pilots must NEVER cross it, even with verbal clearance, because it may indicate unserviceable interlocks or an unperceived runway conflict — the pilot must hold short and query ATC."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Core Learning Content — Runway Safety Phraseology",
+   "body": "Hold-Short Instruction: 'Cathay 251, hold short of Runway 07 Left.' — MANDATORY READBACK: must repeat runway designator and 'hold short' verbatim. Crossing Clearance: 'Cathay 251, cross Runway 07 Left at Hotel. Report vacated.' — clearance applies ONLY to the named runway and taxiway intersection. Runway Vacated: 'Cathay 251, Runway 07 Left vacated.' — transmitted ONLY when the entire aircraft has cleared past the holding line. Expedite Crossing: 'Expedite crossing Runway 07 Left, traffic on 5-mile final.' — cross without delay; do not stop on the runway centerline. Stop-Bar Crossing Rule: red stop-bar across taxiway — NEVER cross an illuminated red stop-bar, even if cleared verbally by ATC!"
+  },
+  {
+   "heading": "Spaced Repetition (Forgetting Curve) Multi-Phase Review",
+   "body": "Cumulative recall: 1. Read aloud: Squawk 7000 (SEV-EN ZE-RO ZE-RO ZE-RO), QNH 1013 (Q-N-H WUN ZE-RO WUN TREE), Heading 075 (HEAD-ING ZE-RO SEV-EN FIFE). 2. CTOT slot window rule: departure permitted from −5 minutes to +10 minutes around slot time. 3. Sign colors: white on red = mandatory stop; yellow on black = location ('Black square, you're there')."
+  },
+  {
+   "heading": "Fun Aviation Fact — The 1977 Tenerife Disaster",
+   "body": "On March 27, 1977, two Boeing 747s collided on a foggy runway at Tenerife, claiming 583 lives in aviation history's deadliest accident. The tragedy occurred because the KLM crew radioed 'We are now at takeoff', which ATC thought meant waiting at the line, while the plane was actively rolling down the runway in fog. In response, ICAO completely rewrote global radiotelephony: banned the word 'takeoff' except for actual clearance to take off; mandated verbatim readbacks for every runway clearance and hold-short order; banned conversational phrases like 'roger' or 'okay' for clearances."
+  }
+ ]
+}

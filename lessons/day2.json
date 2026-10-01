@@ -1,0 +1,186 @@
+{
+ "day": 2,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Wilco",
+   "meaning": "'I understand your message and will comply with it' — abbreviation of 'Will Comply', used to acknowledge instructions requiring future execution."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Roger",
+   "meaning": "'I have received all of your last transmission' — acknowledges receipt only; NEVER use for instructions requiring compliance or readbacks."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Affirm",
+   "meaning": "'Yes' — the standard affirmative; never say 'yeah', 'yep', or 'roger that'."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Negative",
+   "meaning": "'No' / 'Permission not granted' / 'That is not correct' — used by ATC to deny requests or flag pilot readback errors."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Say again",
+   "meaning": "'Repeat all, or the specified part, of this message' — the mandatory request for repetition; the word 'REPEAT' is strictly forbidden in civil aviation."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Standby",
+   "meaning": "'Wait and I will call you' — the controller is busy or coordinating; do not reply, wait for ATC to call back."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Correction",
+   "meaning": "'An error was made in this transmission. Correct version is...' — used immediately upon noticing your own speaking error."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Monitor",
+   "meaning": "'Listen out on frequency' — tune the frequency and listen without transmitting an initial check call."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Contact",
+   "meaning": "'Establish communications with...' — tune the frequency and transmit a full standard initial call."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Ground, Cathay 251, Stand Whiskey 42, request push and start, Information Charlie.",
+   "meaning": "Initial call requesting permission to push back from the gate and start engines, confirming receipt of ATIS information Charlie."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, Hong Kong Ground, standby. Traffic passing behind.",
+   "meaning": "Wait at the gate — do not push back because another aircraft is taxiing across the pushback path behind."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, push and start approved, facing west, QNH 1014.",
+   "meaning": "Cleared to push back with the nose finishing pointing west and to start engines; the local altimeter setting is QNH 1014."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Push and start approved, facing west, QNH 1014, Cathay 251.",
+   "meaning": "Mandatory readback confirming the pushback clearance, final facing direction, and altimeter setting."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, correction, QNH 1013.",
+   "meaning": "The controller corrects their own error: the correct altimeter setting is QNH 1013, not 1014."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "QNH 1013, Cathay 251.",
+   "meaning": "Readback of the corrected altimeter setting QNH 1013."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Station calling Ground, stepped on, unreadable. Cathay 251, say again your stand number.",
+   "meaning": "Two pilots transmitted at the same instant and blocked each other, so the controller asks Cathay 251 to repeat its stand number."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cathay 251, Stand Whiskey 42.",
+   "meaning": "Repeating the stand number after a blocked transmission."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, roger, push and start approved, facing west, QNH 1013.",
+   "meaning": "Receipt acknowledged; pushback clearance issued with nose facing west and altimeter setting QNH 1013."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Push and start approved, facing west, QNH 1013, Cathay 251.",
+   "meaning": "Full readback of the pushback clearance and corrected altimeter setting."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, push and start approved, facing east, QNH 1014.",
+   "meaning": "Pushback clearance issued with the nose finishing pointing east and QNH 1014."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Push and start approved, facing west, QNH 1014, Cathay 251.",
+   "meaning": "A faulty readback — the pilot said 'facing west' instead of 'facing east', which the controller must catch and correct."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, NEGATIVE. Push and start approved, facing EAST.",
+   "meaning": "The controller rejects the faulty readback and re-issues the clearance with the correct facing direction east."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Push and Start Approved, Facing West",
+   "meaning": "Clearance to disconnect ground power, connect the motorized tug, push backwards out of the gate alleyway, and start the engines so the nose points west when finished."
+  },
+  {
+   "speaker": "ATC",
+   "text": "QNH 1014, correction, QNH 1013",
+   "meaning": "The local barometric altimeter setting (1 hPa ≈ 27–30 feet); an uncorrected 10 hPa error would create a 300-foot altitude discrepancy and a level-bust risk."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Standby, Traffic Passing Behind",
+   "meaning": "Instruction to remain static at the gate because another aircraft is taxiing across the pushback path."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "readback",
+   "definition": "The pilot's mandatory repetition of an ATC clearance or instruction so the controller can verify it was heard correctly."
+  },
+  {
+   "term": "hearback",
+   "definition": "The controller's act of actively listening to the pilot's readback to detect and correct errors (hearback error)."
+  },
+  {
+   "term": "QNH",
+   "definition": "The local barometric altimeter setting; 1 hPa corresponds to roughly 27–30 feet of altitude."
+  },
+  {
+   "term": "wilco",
+   "definition": "ICAO keyword meaning 'I understand your message and will comply with it' — used for instructions requiring future execution."
+  },
+  {
+   "term": "roger",
+   "definition": "ICAO keyword meaning 'I have received all of your last transmission' — never used for instructions requiring compliance."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "When an air traffic controller transmits an instruction requiring future compliance, such as: \"Cathay 251, report reaching Flight Level 120\", what is the ONLY acceptable abbreviated acknowledgment?",
+   "options": [
+    "\"Roger, Cathay 251.\"",
+    "\"Wilco, Cathay 251.\"",
+    "\"Affirm, Cathay 251.\"",
+    "\"Check, Cathay 251.\""
+   ],
+   "correctIndex": 1,
+   "explanation": "Under ICAO Doc 9432 Section 2.8, ROGER only acknowledges receipt without committing to compliance. Instructions requiring future execution must be acknowledged with WILCO ('will comply') or the full readback. AFFIRM means yes, and CHECK is non-standard."
+  },
+  {
+   "question": "An aircraft flies from an area of high barometric pressure into an area of low barometric pressure without resetting its altimeter subscale. How will the altimeter indicate relative to true altitude?",
+   "options": [
+    "The altimeter will read lower than the aircraft's true altitude.",
+    "The altimeter will read higher than the aircraft's true altitude (dangerous over-reading).",
+    "The altimeter will remain perfectly accurate because altitude is governed by airspeed.",
+    "The altimeter will fluctuate between positive and negative readings."
+   ],
+   "correctIndex": 1,
+   "explanation": "Golden rule: 'High to Low, Look Out Below!' Flying into lower ambient pressure without updating the subscale makes the instrument over-read, so the aircraft is physically closer to the ground than indicated — a severe terrain collision hazard."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Core Learning Content — Standard Icao Keywords",
+   "body": "Radiotelephony replaces everyday English with standardized, unambiguous keywords (ICAO Doc 9432). ROGER = 'I have received all of your last transmission' — NEVER use for instructions requiring compliance or readbacks. WILCO = 'I understand your message and will comply with it' — abbreviation of 'Will Comply'; used for instructions requiring future execution. AFFIRM = 'Yes' — never say 'yeah', 'yep', or 'roger that'. NEGATIVE = 'No' / 'Permission not granted' / 'That is not correct' — used by ATC to deny requests or flag pilot readback errors. SAY AGAIN = 'Repeat all, or the specified part, of this message' — the word 'REPEAT' is strictly forbidden in civil aviation. STANDBY = 'Wait and I will call you' — controller is busy or coordinating; do not reply, wait for ATC to call back. CORRECTION = 'An error was made in this transmission. Correct version is...' — use immediately upon noticing your own speaking error. MONITOR = 'Listen out on frequency' — tune frequency and listen without transmitting an initial check call. CONTACT = 'Establish communications with...' — tune frequency and transmit a full standard initial call."
+  },
+  {
+   "heading": "Fun Aviation Fact — Why 'Repeat' Is Banned",
+   "body": "In military operations and artillery fire, 'REPEAT' is an official command meaning 'Fire another artillery barrage of the same volume at the same target coordinates!' When military and civil traffic shared frequencies in early aviation, confusion over 'repeat' caused serious safety hazards, so ICAO banned the word 'repeat' and mandated 'SAY AGAIN'."
+  }
+ ]
+}

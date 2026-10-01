@@ -1,0 +1,129 @@
+{
+ "day": 3,
+ "exchanges": [
+  {
+   "speaker": "ATC",
+   "text": "Hong Kong International Airport Information Delta. Time zero zero three zero. Runway zero seven Right in use for arrival, Runway zero seven Left in use for departure. Wind zero eight zero degrees, one five knots. Visibility one zero kilometers. Few clouds two thousand feet. Temperature two seven, dewpoint two four. QNH one zero one four hectopascals. Acknowledge information Delta on initial contact.",
+   "meaning": "The full automated ATIS broadcast (Information Delta) giving the 0030Z observation: runways 07R arrival / 07L departure, wind 080° at 15 knots, 10 km visibility, few clouds at 2,000 feet, temperature 27°C, dewpoint 24°C, QNH 1014 hPa."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Delivery, Cathay 251, Stand Whiskey 42, Information Delta, request clearance to Tokyo Haneda.",
+   "meaning": "Initial contact with Delivery requesting IFR clearance to Tokyo Haneda, confirming receipt of current ATIS Information Delta."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, Hong Kong Delivery, cleared to Tokyo Haneda, OCEAN 2A departure, climb via SID to Flight Level 090, squawk 4321.",
+   "meaning": "IFR clearance to Tokyo Haneda via the OCEAN 2A departure procedure, climb per SID to Flight Level 090, transponder code 4321."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cleared to Tokyo Haneda, OCEAN 2A departure, climb via SID Flight Level 090, squawk 4321, Cathay 251.",
+   "meaning": "Full readback of the IFR clearance: destination, SID, altitude, and squawk code."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, special information Echo current: wind zero six zero degrees, two two knots gusts three five, moderate windshear reported on two-mile final Runway zero seven Left, QNH one zero one one. Acknowledge Echo.",
+   "meaning": "Urgent Special ATIS (SPECI) update: new wind 060° at 22 gusting 35 knots, moderate windshear on the two-mile final for Runway 07L, QNH 1011; pilot must acknowledge the new information letter Echo."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Information Echo acknowledged, wind zero six zero at two two gusts three five, windshear Runway zero seven Left, QNH one zero one one, Cathay 251.",
+   "meaning": "Acknowledging the Special ATIS update and reading back the new wind, windshear report, and QNH."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, updated QNH one zero one four.",
+   "meaning": "The controller issues an updated altimeter setting of QNH 1014."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "QNH one zero two four, Cathay 251.",
+   "meaning": "A faulty readback — the pilot said 1024 instead of 1014, a +10 hPa error the controller must catch."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, NEGATIVE. QNH one zero one four.",
+   "meaning": "The controller rejects the faulty readback and re-issues the correct QNH 1014."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Holding position, Cathay 251.",
+   "meaning": "The correct response to a 'hold position' instruction — read back the hold, never just say 'Roger'."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Wilco, Cathay 251.",
+   "meaning": "The correct response to 'Cathay 251, report passing waypoint PORPA' — an instruction requiring future compliance."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Correction, Runway zero seven Left, Cathay 251.",
+   "meaning": "The correct way to fix a self-made error — having misstated Runway 07R instead of 07L, the pilot issues a CORRECTION."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "ATIS",
+   "definition": "Automatic Terminal Information Service — a continuous automated VHF broadcast of current airport weather, runways in use, and local operational notices."
+  },
+  {
+   "term": "cloud ceiling",
+   "definition": "The height above ground of the lowest cloud layer covering more than half the sky (Broken BKN or Overcast OVC); FEW and SCT do not constitute a ceiling."
+  },
+  {
+   "term": "dewpoint",
+   "definition": "The temperature to which air must cool to become 100% saturated; a temperature–dewpoint spread of 2–3°C or less warns of fog, low stratus, and carburetor icing."
+  },
+  {
+   "term": "Zulu time",
+   "definition": "UTC expressed with the ICAO phonetic letter Z ('Zulu') — e.g. 0030Z is 'Zero-Zero-Three-Zero Zulu' — used worldwide to avoid local time confusion."
+  },
+  {
+   "term": "transition level",
+   "definition": "The flight level at which descending aircraft switch from the standard 1013 hPa altimeter setting to the local QNH."
+  },
+  {
+   "term": "SPECI",
+   "definition": "A Special ATIS update broadcast urgently when weather deteriorates, e.g. sudden windshear reported on final approach."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "According to aviation meteorological standards, which of the following cloud layer descriptions constitutes an official \"Cloud Ceiling\"?",
+   "options": [
+    "FEW clouds at 1,500 feet.",
+    "SCATTERED (SCT) clouds at 2,000 feet.",
+    "BROKEN (BKN) clouds at 2,500 feet.",
+    "Cirrus clouds with no coverage specified."
+   ],
+   "correctIndex": 2,
+   "explanation": "Under ICAO and WMO standards, a ceiling is the height above ground of the lowest cloud layer covering MORE than half the sky (5 to 8 oktas) — strictly BROKEN (BKN, 5–7 oktas) or OVERCAST (OVC, 8 oktas). FEW and SCT do not constitute an official ceiling."
+  },
+  {
+   "question": "Before contacting Air Traffic Control for engine start, pushback, or taxi clearance, what is a pilot legally required to do regarding the ATIS broadcast?",
+   "options": [
+    "Listen to the ATIS only if flying under Instrument Flight Rules (IFR).",
+    "Monitor the ATIS broadcast, note the phonetic designator code, and state that designator on initial contact with ATC.",
+    "Read back the entire ATIS text verbatim to the ground controller.",
+    "Contact the tower controller to ask for the current weather verbally."
+   ],
+   "correctIndex": 1,
+   "explanation": "Under ICAO Annex 11 and Doc 9432, pilots at airports with ATIS must listen to the current broadcast before two-way contact with ground or delivery control, extract the operating parameters, and state the current phonetic designator (e.g. 'Information Delta') on initial call to confirm receipt."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Core Learning Content — Atis Decoding Guide",
+   "body": "The ATIS follows a mandatory sequence under ICAO Doc 9432: Identifier ('Hong Kong Information Delta' — sequential phonetic letter of the current update); Time UTC ('Time zero zero three zero' — 00:30 UTC/Zulu time of the observation); Active Runways ('Runway 07R for arrival, Runway 07L for departure' — assigned by current wind alignment); Transition Level ('Transition level Flight Level one one zero' — FL110, where descending aircraft switch from 1013 to QNH); Surface Wind ('Wind zero eight zero degrees, one five knots' — direction in degrees Magnetic and speed); Visibility ('Visibility one zero kilometers' — in meters if below 5,000m); Cloud Cover ('Few clouds two thousand feet' — FEW 1-2 oktas, SCT 3-4 oktas, BKN 5-7 oktas = ceiling, OVC 8 oktas); Temp/Dewpoint ('Temperature two seven, dewpoint two four' — surface temperature and dewpoint in Celsius); Altimeter Setting ('QNH one zero one four hectopascals' — local sea level barometric pressure)."
+  },
+  {
+   "heading": "Spaced Repetition (Forgetting Curve) Review",
+   "body": "Day 2 keyword drill: 1. ATC instructs 'Cathay 251, hold position, traffic on crossing taxiway' → correct response 'Holding position, Cathay 251' (never say 'Roger'). 2. ATC instructs 'Cathay 251, report passing waypoint PORPA' → correct response 'Wilco, Cathay 251.' 3. Misstated Runway 07R instead of 07L → 'Correction, Runway zero seven Left, Cathay 251.'"
+  },
+  {
+   "heading": "Fun Aviation Fact — Why Aviation Uses 'Zulu Time'",
+   "body": "The earth is divided into 24 nautical time zones, each assigned a letter A through Z (omitting J). The Greenwich Prime Meridian (UTC/GMT) is assigned letter 'Z', which is 'Zulu' in the ICAO phonetic alphabet. Pilots and controllers worldwide use 'Zulu Time' (e.g. 0030Z = 'Zero-Zero-Three-Zero Zulu') so flights crossing international time borders never confuse local daylight savings hours."
+  }
+ ]
+}

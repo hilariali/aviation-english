@@ -1,0 +1,159 @@
+{
+ "day": 12,
+ "exchanges": [
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, Hong Kong Departure, radar contact. Climb via SID to Flight Level zero nine zero.",
+   "meaning": "Departure establishes radar contact and clears Cathay 251 to climb via the SID to FL090, complying with all published lateral, altitude, and speed constraints."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Climb via SID to Flight Level zero nine zero, Cathay 251.",
+   "meaning": "The pilot's readback of the climb-via-SID clearance."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, cancel level restriction, climb to Flight Level one six zero, expedite through Flight Level one zero zero.",
+   "meaning": "Departure cancels the SID level restrictions and orders a climb to FL160, expedited through FL100."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Climb to Flight Level one six zero, cancel level restriction, expediting through Flight Level one zero zero, Cathay 251.",
+   "meaning": "The pilot's readback confirming the unrestricted climb to FL160 and expediting through FL100."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, traffic conflict overhead, stop climb at Flight Level one two zero!",
+   "meaning": "The emergency command to stop the climb at FL120 because of conflicting traffic overhead."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Stopping climb at Flight Level one two zero, Cathay 251.",
+   "meaning": "The pilot's readback confirming the climb is being arrested at FL120."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, expedite climb through Flight Level one four zero, crossing traffic opposite direction.",
+   "meaning": "Departure orders an expedited climb through FL140 because of crossing traffic in the opposite direction."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Departure, Cathay 251, UNABLE to expedite, maximum climb rate 800 feet per minute.",
+   "meaning": "The pilot declares unable to expedite, stating a maximum climb rate of 800 fpm at heavy weight."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, roger, turn left immediately heading zero six zero for traffic avoidance.",
+   "meaning": "ATC acknowledges and issues a left turn to heading 060 for traffic avoidance."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Turn left heading zero six zero, Cathay 251.",
+   "meaning": "The pilot's readback of the traffic-avoidance turn."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, climb via SID to Flight Level zero nine zero.",
+   "meaning": "The pure taught form of the climb-via-SID clearance: follow the published lateral route and all altitude/speed constraints up to FL090."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, cancel level restriction, climb to Flight Level one six zero.",
+   "meaning": "The pure taught form cancelling published step-climb caps for an unrestricted climb to FL160."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Climb to Flight Level one six zero, cancel level restriction, Cathay 251.",
+   "meaning": "The pure taught readback of the unrestricted climb with the restriction cancellation."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, STOP CLIMB at Flight Level one two zero!",
+   "meaning": "The pure taught emergency command to arrest the climb immediately at FL120."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, expedite climb through Flight Level one zero zero.",
+   "meaning": "The pure taught command to increase vertical speed through FL100."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Expediting through Flight Level one zero zero, Cathay 251.",
+   "meaning": "The pilot's readback confirming the expedited climb through FL100."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cathay 251, unable to expedite, maximum vertical speed 800 feet per minute.",
+   "meaning": "The mandatory pilot response when the aircraft cannot climb faster; aerodynamic safety is never sacrificed for an expedite request."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, NEGATIVE! STOP CLIMB IMMEDIATELY at Flight Level one two zero!",
+   "meaning": "The mandatory ATC correction after the pilot read back 'climbing to FL120' instead of 'stopping climb at FL120'."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "SID",
+   "definition": "Standard Instrument Departure — a published 3D departure route with lateral track and waypoint altitude/speed constraints."
+  },
+  {
+   "term": "climb via SID",
+   "definition": "A clearance legally binding the pilot to follow the SID's lateral track and comply with all published waypoint altitude and speed constraints up to the cleared level."
+  },
+  {
+   "term": "altitude restriction",
+   "definition": "A published waypoint crossing constraint on a SID (e.g. 'cross BEKOL at or below 5,000 ft') protecting terrain clearance and airspace segregation."
+  },
+  {
+   "term": "stop climb",
+   "definition": "An urgent ATC command to immediately arrest the climb and level off at the assigned flight level, used for unexpected overhead traffic conflicts."
+  },
+  {
+   "term": "expedite",
+   "definition": "An ATC command to increase vertical speed to the maximum safe rate through a flight level."
+  },
+  {
+   "term": "open climb",
+   "definition": "The autopilot vertical mode (Level Change) used after 'cancel level restriction' to climb unrestricted at maximum climb thrust to the assigned level."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "[Question 1 — Air Law & Radiotelephony (ICAO Doc 4444)] When an air traffic controller issues the clearance: \"Cathay 251, climb via SID to Flight Level 100\", what is the pilot authorized and required to do?",
+   "options": [
+    "Climb unrestricted directly to FL100, disregarding all published SID waypoint altitude constraints.",
+    "Follow the lateral track of the SID, comply with all published waypoint altitude and speed constraints on the chart, and climb up to FL100.",
+    "Maintain runway heading until reaching 3,000 feet, then turn direct to the first waypoint.",
+    "Maintain minimum clean speed and request radar vectors."
+   ],
+   "correctIndex": 1,
+   "explanation": "Under ICAO Doc 4444 Amendment 7, 'CLIMB VIA SID' legally binds the pilot to the lateral track AND all published vertical and speed constraints up to the cleared level."
+  },
+  {
+   "question": "[Question 2 — Principles of Flight & Aircraft Performance] How do an increase in aircraft gross weight and high density altitude affect an aircraft's Rate of Climb (ROC) and Angle of Climb (AOC)?",
+   "options": [
+    "Both Rate of Climb and Angle of Climb are reduced.",
+    "Rate of Climb increases, but Angle of Climb decreases.",
+    "Angle of Climb increases, but Rate of Climb remains unchanged.",
+    "Both Rate of Climb and Angle of Climb are improved due to increased inertia."
+   ],
+   "correctIndex": 0,
+   "explanation": "Higher weight creates more induced drag and reduces excess thrust; high density altitude degrades engine power — since climb depends on excess power (ROC) and excess thrust (AOC), both are reduced."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Core Learning Content — Sid Climb Phraseology",
+   "body": "Per ICAO Doc 4444 (PANS-ATM) Amendment 7 and ICAO Doc 9432: (1) Climb via SID: ATC \"Cathay 251, climb via SID to Flight Level zero nine zero.\" → readback \"Climb via SID to Flight Level zero nine zero, Cathay 251.\" Meaning: follow the published lateral route AND comply with all published altitude crossing limits and speed restrictions up to FL090. (2) Cancelling constraints: ATC \"Cathay 251, cancel level restriction, climb to Flight Level one six zero.\" → readback \"Climb to Flight Level one six zero, cancel level restriction, Cathay 251.\" Meaning: ignore all published step-climb caps; climb unrestricted straight to FL160. (3) Emergency level-off: ATC \"Cathay 251, STOP CLIMB at Flight Level one two zero!\" → readback \"Stopping climb at Flight Level one two zero, Cathay 251.\" (4) Expedite: ATC \"Cathay 251, expedite climb through Flight Level one zero zero.\" → readback \"Expediting through Flight Level one zero zero, Cathay 251.\" If unable: \"Cathay 251, unable to expedite, maximum vertical speed 800 feet per minute.\""
+  },
+  {
+   "heading": "Spaced Repetition (Forgetting Curve) Review",
+   "body": "Day 9 & 11 recall — (1) Initial check-in sequence: Station → Callsign → PASSING [Current Altitude] → CLIMBING TO [Assigned Level] → [SID]. (2) Passing altitude is reported so the controller can verify Mode C telemetry matches the cockpit altimeter within ±200 feet. (3) Takeoff Taboo: the word \"takeoff\" is reserved for takeoff clearance or cancellation; at the holding point always say \"ready for DEPARTURE\"."
+  },
+  {
+   "heading": "Fun Aviation Fact Of The Day",
+   "body": "The \"Expedite\" trap and heavy jet aerodynamics: in a fully loaded airliner climbing at high altitude on a warm day, the aircraft operates near its performance ceiling (\"Coffin Corner\") — pitching up to climb faster trades airspeed for altitude, and speed can decay toward an unrecoverable high-altitude stall. ICAO procedures explicitly instruct pilots to reply \"UNABLE to expedite\" whenever performance or safety margins would be compromised."
+  }
+ ]
+}
