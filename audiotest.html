@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Audio Diagnostic</title>
+<style>
+body{font-family:system-ui,-apple-system,sans-serif;padding:20px;max-width:700px;margin:auto;line-height:1.5}
+pre{background:#f4f6f8;border:1px solid #ddd;border-radius:8px;padding:12px;white-space:pre-wrap;word-break:break-word;font-size:14px}
+audio{width:100%;margin:12px 0}
+.ok{color:#0a7d2c}.bad{color:#c00}
+</style>
+</head>
+<body>
+<h1>🔧 Audio Diagnostic <small style="color:#888">v1</small></h1>
+<p>If you can read this, new site files are reaching your phone. Results appear below automatically — please screenshot them and send the screenshot.</p>
+<pre id="log">Starting…</pre>
+<p><b>Test player (uses the same method as the app):</b></p>
+<audio id="au" controls></audio>
+<script>
+const logEl = document.getElementById('log');
+const L = m => { logEl.textContent += m + "\n"; };
+const ID = "1qK-bpXIsy0do9frK2xTJWok2zYHmftoo";
+const URL1 = "https://drive.usercontent.google.com/download?id=" + ID + "&export=download&confirm=t";
+(async () => {
+  logEl.textContent = "";
+  L("TEST A — fetch() + blob URL (the app's method)");
+  try {
+    const r = await fetch(URL1, {mode: "cors"});
+    L("  fetch status: " + r.status + " ok=" + r.ok);
+    L("  content-type: " + r.headers.get("content-type"));
+    const buf = await r.arrayBuffer();
+    L("  bytes received: " + buf.byteLength);
+    const url = URL.createObjectURL(new Blob([buf], {type: "audio/mpeg"}));
+    L("  blob URL created ✅");
+    const au = document.getElementById('au');
+    au.src = url;
+    await new Promise(res => {
+      const to = setTimeout(() => { L("  audio: TIMEOUT waiting for metadata ❌"); res(); }, 20000);
+      au.addEventListener('loadedmetadata', () => { clearTimeout(to);
+        L("  audio metadata: duration=" + au.duration.toFixed(1) + "s ✅ — press play above"); res(); });
+      au.addEventListener('error', () => { clearTimeout(to);
+        L("  audio ERROR code=" + (au.error && au.error.code) + " ❌"); res(); });
+    });
+  } catch (e) {
+    L("  ❌ FAILED: " + e.name + ": " + e.message);
+  }
+  L("");
+  L("TEST B — direct audio src (old method, for comparison)");
+  await new Promise(res => {
+    const a2 = new Audio();
+    a2.preload = "metadata";
+    const to = setTimeout(() => { L("  direct: TIMEOUT ❌"); res(); }, 20000);
+    a2.addEventListener('loadedmetadata', () => { clearTimeout(to);
+      L("  direct metadata: duration=" + a2.duration.toFixed(1) + "s ✅"); res(); });
+    a2.addEventListener('error', () => { clearTimeout(to);
+      L("  direct ERROR code=" + (a2.error && a2.error.code) + " ❌"); res(); });
+    a2.src = URL1;
+  });
+  L("");
+  L("Done — screenshot this page please 📸");
+})();
+</script>
+</body>
+</html>
