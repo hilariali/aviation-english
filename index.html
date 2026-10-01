@@ -266,11 +266,15 @@ function renderListen(el){
        Mirrors are tried in order; a non-audio response (Drive's interstitial
        page) counts as a miss and moves to the next mirror. */
     const fid=(L.audioPageURL||"").match(/\/file\/d\/([^/]+)/);
-    const mirrors=fid?[
+    /* Same-origin MP3s (audio/dayN.mp3, uploaded to the repo) are tried first:
+       no CORS/CORP issues at all. Drive fetch->blob mirrors remain as fallback. */
+    const localAudio=(L.day!=null)?new URL("audio/day"+L.day+".mp3",location.href).href:null;
+    const driveMirrors=fid?[
       `https://drive.usercontent.google.com/download?id=${fid[1]}&export=download&confirm=t`,
       `https://drive.google.com/uc?export=download&id=${fid[1]}&confirm=t`,
       `https://drive.google.com/uc?export=download&id=${fid[1]}`
     ]:[L.audioURL];
+    const mirrors=localAudio?[localAudio,...driveMirrors]:driveMirrors;
     const st=$("au-status");
     const myRender=(window.__aeSeq=(window.__aeSeq||0)+1);
     if(window.__aeBlob){URL.revokeObjectURL(window.__aeBlob);window.__aeBlob=null;}
