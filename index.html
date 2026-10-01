@@ -10,10 +10,11 @@
     --navy:#0a1628; --navy2:#12233d; --amber:#ffb340; --blue:#2f7bff;
     --bg:#f2f4f8; --card:#ffffff; --ink:#101828; --muted:#667085; --line:#e4e7ec;
     --green:#1a9e54; --red:#e04444;
+    --maxw:520px;
   }
   *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
   body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
-       background:var(--bg);color:var(--ink);max-width:520px;margin:0 auto;
+       background:var(--bg);color:var(--ink);max-width:var(--maxw);margin:0 auto;
        min-height:100vh;display:flex;flex-direction:column}
   header{background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff;
          padding:18px 16px 14px;position:sticky;top:0;z-index:20}
@@ -21,7 +22,7 @@
   header h1 .amber{color:var(--amber)}
   header p{margin:3px 0 0;font-size:12px;color:#9fb0c9}
   main{flex:1;padding:12px 12px 96px}
-  nav.tabs{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:520px;
+  nav.tabs{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:var(--maxw);
            background:rgba(255,255,255,.94);backdrop-filter:blur(14px);
            border-top:1px solid var(--line);display:flex;
            padding:8px 0 calc(10px + env(safe-area-inset-bottom));z-index:20}
@@ -97,6 +98,43 @@
   h2.lesson-title{margin:6px 0 2px;font-size:22px}
   .lesson-sub{color:var(--muted);font-size:14px;margin:0 0 6px;line-height:1.5}
   .icao{font-size:12px;color:var(--muted)}
+
+  /* ---------- responsive: interface adapts to screen size ---------- */
+  /* small phones */
+  @media (max-width:379px){
+    main{padding:10px 10px 96px}
+    header{padding:14px 12px 10px}
+    header h1{font-size:19px}
+    .card{padding:13px;border-radius:14px}
+    .quote{font-size:16px}
+    .flash{font-size:18px;min-height:180px}
+    .btn{font-size:15px;padding:13px 16px}
+  }
+  /* large phones / small tablets */
+  @media (min-width:640px){
+    :root{--maxw:660px}
+    header h1{font-size:24px}
+    header p{font-size:13px}
+    main{padding:16px 16px 104px}
+  }
+  /* tablets / small laptops: two-column grids, wrapping step pills */
+  @media (min-width:900px){
+    :root{--maxw:880px}
+    .lesson-grid,.phrase-grid,.decode-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    .lesson-grid .lesson-btn,.phrase-grid .card,.decode-grid .card{margin-bottom:0}
+    .steps{flex-wrap:wrap;overflow:visible}
+    .flash{min-height:240px;font-size:22px}
+  }
+  /* desktops: wider column, three-up phrase bank */
+  @media (min-width:1200px){
+    :root{--maxw:1060px}
+    .phrase-grid{grid-template-columns:1fr 1fr 1fr}
+    h2.lesson-title{font-size:26px}
+    .quote{font-size:18px}
+    .card{padding:20px}
+    .btn{max-width:420px}
+    .btn:not(.ghost):not(.amber){display:block;margin-left:auto;margin-right:auto}
+  }
 </style>
 </head>
 <body>
@@ -147,14 +185,14 @@ function render(){
 function renderLearn(){
   const phases=[...new Set(CONTENT.lessons.map(l=>l.phase))];
   $("app").innerHTML=phases.map(p=>
-    `<div class="sec-h">${esc(p)}</div>`+
+    `<div class="sec-h">${esc(p)}</div><div class="lesson-grid">`+
     CONTENT.lessons.filter(l=>l.phase===p).map(l=>{
       const s=prog(l.day).status;
       return `<button class="lesson-btn" onclick="openLesson(${l.day})">
         <span class="dot ${s==="done"?"done":s==="prog"?"prog":""}"></span>
         <span><b>Day ${l.day}: ${esc(l.topic)}</b><br>
         <small style="color:var(--muted)">${esc(l.summary)}</small></span></button>`;
-    }).join("")
+    }).join("")+`</div>`
   ).join("")+`<p class="note">${CONTENT.lessons.length} lessons · ${CONTENT.phrases.length} phrases · audio included</p>`;
 }
 const detailCache={};
@@ -203,15 +241,14 @@ function renderListen(el){
       <div style="font-size:44px">🎧</div>
       <p style="font-weight:700;margin:6px 0">Dual-voice lesson audio</p>
       ${L.audioURL?`
-        <audio id="au" controls preload="none" src="${esc(L.audioURL)}"></audio>
+        <audio id="au" controls preload="metadata"></audio>
         <div class="rate-row">
           <button onclick="setRate(0.75,this)">0.75×</button>
           <button onclick="setRate(1,this)" class="on">1×</button>
           <button onclick="setRate(1.25,this)">1.25×</button>
         </div>
-        <div class="fallback" id="au-fallback" style="display:none">
-          Couldn't stream directly — <a href="${esc(L.audioPageURL)}" target="_blank" rel="noopener">open in Google Drive ↗</a>
-        </div>
+        <p class="fallback" id="au-status" style="display:none"></p>
+        <div class="fallback"><a href="${esc(L.audioPageURL)}" target="_blank" rel="noopener">Open in Google Drive ↗</a></div>
         <button class="btn ghost" style="margin-top:8px" onclick="toggleTr()">Show / hide transcript</button>
       `:`<p class="note">No audio for this lesson yet.</p>`}
       <div id="tr" style="display:none;text-align:left;margin-top:12px">
@@ -221,7 +258,30 @@ function renderListen(el){
     ${L.icaoRefs.length?`<div class="card"><b>ICAO references</b><br>
       ${L.icaoRefs.map(r=>`<span class="icao">• ${esc(r)}</span><br>`).join("")}</div>`:""}`;
   const au=$("au");
-  if(au) au.addEventListener("error",()=>{ $("au-fallback").style.display="block"; });
+  if(au){
+    /* Drive's direct-stream endpoint is flaky: try mirrors in order,
+       falling back automatically before giving up. */
+    const fid=(L.audioPageURL||"").match(/\/file\/d\/([^/]+)/);
+    const mirrors=fid?[
+      `https://drive.usercontent.google.com/download?id=${fid[1]}&export=download&confirm=t`,
+      `https://drive.google.com/uc?export=download&id=${fid[1]}&confirm=t`,
+      `https://drive.google.com/uc?export=download&id=${fid[1]}`
+    ]:[L.audioURL];
+    let mi=0;
+    const st=$("au-status");
+    au.addEventListener("error",()=>{
+      if(mi<mirrors.length-1){
+        mi++;
+        st.style.display="block";
+        st.textContent=`First source didn't play — trying alternative ${mi+1} of ${mirrors.length}…`;
+        au.src=mirrors[mi];
+      }else{
+        st.style.display="block";
+        st.innerHTML=`Couldn't stream the audio from Drive. <a href="${esc(L.audioPageURL)}" target="_blank" rel="noopener">Open in Google Drive ↗</a><br><small>If Drive asks you to sign in, the file's sharing needs to be “Anyone with the link”.</small>`;
+      }
+    });
+    au.src=mirrors[0];
+  }
 }
 function setRate(r,btn){ const au=$("au"); if(au) au.playbackRate=r;
   btn.parentElement.querySelectorAll("button").forEach(b=>b.classList.remove("on")); btn.classList.add("on"); }
@@ -230,12 +290,12 @@ function toggleTr(){ const t=$("tr"); t.style.display=t.style.display==="none"?"
 /* ---------- decode ---------- */
 function renderDecode(el){
   const L=state.lesson;
-  el.innerHTML=`<p class="lesson-sub">Tap a transmission to decode its real meaning.</p>`+
+  el.innerHTML=`<p class="lesson-sub">Tap a transmission to decode its real meaning.</p><div class="decode-grid">`+
     L.exchanges.map(e=>`
       <div class="card"><details class="ex"><summary>${tag(e.speaker)}
         <p class="quote">“${esc(e.text)}”</p>
         <small style="color:var(--blue);font-weight:600">Tap to decode ▾</small></summary>
-        <p class="meaning">${esc(e.meaning)}</p></details></div>`).join("");
+        <p class="meaning">${esc(e.meaning)}</p></details></div>`).join("")+`</div>`;
 }
 
 /* ---------- speak (Web Speech API, real recognition) ---------- */
@@ -400,11 +460,13 @@ function renderPhrasesList(){
         <small>${(state.pi%list.length)+1} / ${list.length}</small>
         <button onclick="pNav(1)">Next ›</button></div>`;
   }else{
-    el.innerHTML=list.map(p=>`<div class="card">${tag(p.speaker)}
+    el.innerHTML=list.length
+      ?`<div class="phrase-grid">`+list.map(p=>`<div class="card">${tag(p.speaker)}
       <p class="quote">“${esc(p.text)}”</p>
       <p class="meaning">${esc(p.meaning)}</p>
       <small style="color:var(--muted)">Day ${p.day} · ${esc(p.phase)}${p.icaoRef?` · ${esc(p.icaoRef)}`:""}</small>
-    </div>`).join("")||`<p class="note">No phrases match.</p>`;
+    </div>`).join("")+`</div>`
+      :`<p class="note">No phrases match.</p>`;
   }
 }
 function pNav(d){ const n=state._plist.length; state.pi=(state.pi+d+n)%n; state.flip=false; renderPhrasesList(); }
