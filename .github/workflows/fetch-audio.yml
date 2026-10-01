@@ -1,0 +1,72 @@
+name: Fetch lesson audio
+
+# Automatically downloads lesson MP3s from Google Drive into audio/dayN.mp3
+# whenever a new lesson appears in content.json without its audio file.
+# The web app plays audio from this folder first (same-origin, no CORS issues).
+
+on:
+  schedule:
+    # 02:30 UTC = 10:30 HKT, shortly after the daily content sync (10:10 HKT)
+    - cron: '30 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-audio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download missing MP3s
+        run: |
+          python3 - <<'EOF'
+          import json, re, subprocess, os
+
+          d = json.load(open('content.json'))
+          lessons = d.get('lessons', d) if isinstance(d, dict) else d
+          fetched = []
+          for L in lessons:
+              day = L.get('day')
+              page = L.get('audioPageURL') or ''
+              m = re.search(r'/file/d/([^/]+)', page)
+              if day is None or not m:
+                  continue
+              out = f'audio/day{day}.mp3'
+              if os.path.exists(out) and os.path.getsize(out) > 1024:
+                  continue
+              fid = m.group(1)
+              url = f'https://drive.usercontent.google.com/download?id={fid}&export=download&confirm=t'
+              print(f'day{day}: downloading {fid} ...', flush=True)
+              r = subprocess.run(['curl', '-sL', '--max-time', '180', '-o', out, '-w', '%{http_code}', url],
+                                 capture_output=True, text=True)
+              code = r.stdout.strip()
+              ok = False
+              if code == '200' and os.path.exists(out):
+                  size = os.path.getsize(out)
+                  mt = subprocess.run(['file', '--mime-type', '-b', out],
+                                      capture_output=True, text=True).stdout.strip()
+                  ok = size > 10240 and mt in ('audio/mpeg', 'audio/mp3')
+                  print(f'day{day}: http={code} size={size} mime={mt} -> {"OK" if ok else "REJECTED"}', flush=True)
+              else:
+                  print(f'day{day}: http={code} -> FAILED', flush=True)
+              if ok:
+                  fetched.append(out)
+              elif os.path.exists(out):
+                  os.remove(out)
+          print('FETCHED:' + ','.join(fetched))
+          EOF
+
+      - name: Commit new MP3s
+        run: |
+          git config user.name "aviation-english-bot"
+          git config user.email "aviation-english-bot@users.noreply.github.com"
+          git add audio/
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit."
+          else
+            git pull --rebase origin main || true
+            git commit -m "Add lesson audio MP3s"
+            git push origin HEAD:main
+          fi
