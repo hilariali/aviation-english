@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a1628">
+<title>Aviation English — ATC Learning</title>
+<style>
+  :root{
+    --navy:#0a1628; --navy2:#12233d; --amber:#ffb340; --blue:#2f7bff;
+    --bg:#f2f4f8; --card:#ffffff; --ink:#101828; --muted:#667085; --line:#e4e7ec;
+    --green:#1a9e54; --red:#e04444;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+       background:var(--bg);color:var(--ink);max-width:520px;margin:0 auto;
+       min-height:100vh;display:flex;flex-direction:column}
+  header{background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff;
+         padding:18px 16px 14px;position:sticky;top:0;z-index:20}
+  header h1{margin:0;font-size:21px;letter-spacing:.3px}
+  header h1 .amber{color:var(--amber)}
+  header p{margin:3px 0 0;font-size:12px;color:#9fb0c9}
+  main{flex:1;padding:12px 12px 96px}
+  nav.tabs{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:520px;
+           background:rgba(255,255,255,.94);backdrop-filter:blur(14px);
+           border-top:1px solid var(--line);display:flex;
+           padding:8px 0 calc(10px + env(safe-area-inset-bottom));z-index:20}
+  nav.tabs button{flex:1;border:0;background:none;font-size:11px;color:var(--muted);
+                  display:flex;flex-direction:column;align-items:center;gap:3px;font-weight:600}
+  nav.tabs button.active{color:var(--navy)}
+  nav.tabs button .ico{font-size:22px}
+  .card{background:var(--card);border-radius:16px;padding:16px;margin-bottom:10px;
+        box-shadow:0 1px 4px rgba(16,24,40,.07)}
+  .lesson-btn{display:flex;gap:12px;align-items:center;width:100%;text-align:left;border:0;
+              background:var(--card);border-radius:16px;padding:14px 16px;margin-bottom:10px;
+              box-shadow:0 1px 4px rgba(16,24,40,.07);font-size:15px;color:var(--ink);cursor:pointer}
+  .dot{width:12px;height:12px;border-radius:50%;background:#d0d5dd;flex-shrink:0}
+  .dot.prog{background:var(--amber)} .dot.done{background:var(--green)}
+  .sec-h{font-size:12px;font-weight:800;color:var(--muted);text-transform:uppercase;
+         margin:18px 4px 8px;letter-spacing:1px}
+  .back{border:0;background:none;color:var(--blue);font-size:16px;font-weight:600;
+        margin-bottom:4px;cursor:pointer;padding:4px 0}
+  .steps{display:flex;gap:6px;overflow-x:auto;padding:6px 2px 12px;scrollbar-width:none}
+  .steps::-webkit-scrollbar{display:none}
+  .steps button{border:0;border-radius:20px;padding:9px 15px;font-size:14px;font-weight:600;
+                white-space:nowrap;background:#e9edf3;color:#344054;cursor:pointer}
+  .steps button.active{background:var(--navy);color:#fff}
+  .tag{display:inline-block;font-size:11px;font-weight:800;border-radius:20px;padding:3px 10px;
+       letter-spacing:.4px}
+  .tag.atc{color:var(--blue);background:rgba(47,123,255,.13)}
+  .tag.pilot{color:var(--green);background:rgba(26,158,84,.13)}
+  .quote{font-size:17px;line-height:1.45;margin:10px 0}
+  .meaning{font-size:14px;color:var(--muted);line-height:1.5}
+  audio{width:100%;margin:8px 0}
+  .rate-row{display:flex;gap:8px;justify-content:center;margin:6px 0}
+  .rate-row button{border:1px solid var(--line);background:#fff;border-radius:10px;
+                   padding:7px 14px;font-size:14px;font-weight:600;color:var(--ink);cursor:pointer}
+  .rate-row button.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+  .fallback{font-size:13px;text-align:center;margin-top:6px}
+  .fallback a{color:var(--blue)}
+  details.ex summary{list-style:none;cursor:pointer}
+  details.ex summary::-webkit-details-marker{display:none}
+  .opt{display:block;width:100%;text-align:left;border:2px solid transparent;background:#f2f4f8;
+       color:var(--ink);border-radius:12px;padding:13px;margin-bottom:8px;font-size:15px;cursor:pointer}
+  .opt.correct{background:rgba(26,158,84,.14);border-color:var(--green)}
+  .opt.wrong{background:rgba(224,68,68,.12);border-color:var(--red)}
+  .opt:disabled{cursor:default}
+  .btn{border:0;border-radius:14px;background:var(--navy);color:#fff;font-size:16px;
+       font-weight:700;padding:14px 20px;width:100%;cursor:pointer}
+  .btn:disabled{opacity:.4}
+  .btn.ghost{background:#e9edf3;color:var(--navy)}
+  .btn.amber{background:var(--amber);color:var(--navy)}
+  .flash{min-height:210px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+         text-align:center;font-size:20px;font-weight:700;cursor:pointer;line-height:1.4}
+  .flash small{font-weight:400;color:var(--muted);margin-top:12px;font-size:13px}
+  .pager{display:flex;align-items:center;justify-content:space-between;margin-top:12px}
+  .pager button{border:0;background:none;color:var(--blue);font-size:15px;font-weight:600;cursor:pointer}
+  .pager button:disabled{color:#c4c9d2}
+  input.search{width:100%;border:0;background:#e9edf3;border-radius:12px;padding:12px 14px;
+               font-size:15px;margin-bottom:10px;color:var(--ink)}
+  .stats{display:flex;gap:10px;margin-bottom:4px}
+  .stat{flex:1;background:var(--card);border-radius:16px;padding:16px 8px;text-align:center;
+        box-shadow:0 1px 4px rgba(16,24,40,.07)}
+  .stat b{font-size:23px;display:block}
+  .stat span{font-size:12px;color:var(--muted)}
+  .note{font-size:12px;color:var(--muted);text-align:center;margin-top:14px;line-height:1.5}
+  .score-ring{width:110px;height:110px;border-radius:50%;display:flex;align-items:center;
+              justify-content:center;margin:6px auto;font-size:26px;font-weight:800;color:#fff}
+  .mic-btn{width:84px;height:84px;border-radius:50%;border:0;background:var(--red);color:#fff;
+           font-size:34px;cursor:pointer;box-shadow:0 4px 14px rgba(224,68,68,.4)}
+  .mic-btn.listening{animation:pulse 1.2s infinite}
+  @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.1)}}
+  .chip-row{display:flex;gap:8px;margin-bottom:10px}
+  .chip-row button{flex:1;border:0;border-radius:12px;padding:10px;font-size:14px;font-weight:700;
+                   background:#e9edf3;color:var(--ink);cursor:pointer}
+  .chip-row button.on{background:var(--navy);color:#fff}
+  h2.lesson-title{margin:6px 0 2px;font-size:22px}
+  .lesson-sub{color:var(--muted);font-size:14px;margin:0 0 6px;line-height:1.5}
+  .icao{font-size:12px;color:var(--muted)}
+</style>
+</head>
+<body>
+<header>
+  <h1>🛫 Aviation <span class="amber">English</span></h1>
+  <p>ATC communication trainer · ICAO phraseology</p>
+</header>
+<main id="app"></main>
+<nav class="tabs" id="tabs"></nav>
+
+<script>
+/* App shell: lesson data is fetched from content.json at boot (same folder),
+   so daily data updates never require rebuilding this file. */
+let CONTENT = null;
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+const store = {
+  get(){ try{ return JSON.parse(localStorage.getItem("ae.progress.v2")||"{}"); }catch(e){ return {}; } },
+  set(p){ localStorage.setItem("ae.progress.v2", JSON.stringify(p)); }
+};
+const state = { tab:"learn", lesson:null, step:"listen", prog:store.get(),
+  qi:0, qsel:null, qok:0, qdone:false, di:0, flip:false,
+  pq:"", pspk:"all", pflash:false, pi:0,
+  recog:null, listening:false };
+
+function prog(d){ return state.prog[d] || {status:"todo", best:0, n:0}; }
+function saveProg(d,p){ state.prog[d]=p; store.set(state.prog); }
+function touch(d){ const p=prog(d); if(p.status==="todo"){p.status="prog";saveProg(d,p);} }
+function tag(s){ return `<span class="tag ${s==="ATC"?"atc":"pilot"}">${esc(s)}</span>`; }
+
+/* ============================== shell ============================== */
+function renderTabs(){
+  const tabs=[["learn","✈️","Learn"],["phrases","📻","Phrases"],["progress","📊","Progress"]];
+  $("tabs").innerHTML=tabs.map(([k,i,l])=>
+    `<button class="${state.tab===k?"active":""}" onclick="go('${k}')"><span class="ico">${i}</span>${l}</button>`).join("");
+}
+function go(tab){ state.tab=tab; state.lesson=null; render(); window.scrollTo(0,0); }
+function render(){
+  renderTabs();
+  if(state.tab==="learn") state.lesson?renderLesson():renderLearn();
+  else if(state.tab==="phrases") renderPhrases();
+  else renderProgress();
+  window.scrollTo(0,0);
+}
+
+/* ============================== learn list ============================== */
+function renderLearn(){
+  const phases=[...new Set(CONTENT.lessons.map(l=>l.phase))];
+  $("app").innerHTML=phases.map(p=>
+    `<div class="sec-h">${esc(p)}</div>`+
+    CONTENT.lessons.filter(l=>l.phase===p).map(l=>{
+      const s=prog(l.day).status;
+      return `<button class="lesson-btn" onclick="openLesson(${l.day})">
+        <span class="dot ${s==="done"?"done":s==="prog"?"prog":""}"></span>
+        <span><b>Day ${l.day}: ${esc(l.topic)}</b><br>
+        <small style="color:var(--muted)">${esc(l.summary)}</small></span></button>`;
+    }).join("")
+  ).join("")+`<p class="note">${CONTENT.lessons.length} lessons · ${CONTENT.phrases.length} phrases · audio included</p>`;
+}
+const detailCache={};
+async function openLesson(day){
+  const meta=CONTENT.lessons.find(l=>l.day===day);
+  if(!meta) return;
+  Object.assign(state,{lesson:null,step:"listen",qi:0,qsel:null,qok:0,qdone:false,di:0,flip:false,listening:false});
+  if(!detailCache[day]){
+    $("app").innerHTML='<div class="card" style="text-align:center;padding:36px 20px"><p class="lesson-sub">Loading Day '+day+'…</p></div>';
+    try{
+      const r=await fetch("lessons/day"+day+".json",{cache:"no-store"});
+      if(!r.ok) throw new Error("HTTP "+r.status);
+      const det=await r.json();
+      if(!det||!Array.isArray(det.exchanges)) throw new Error("bad data");
+      detailCache[day]=det;
+    }catch(e){
+      $("app").innerHTML='<div class="card" style="text-align:center;padding:36px 20px"><h3>Couldn\'t load Day '+day+'</h3><p class="lesson-sub">Check your connection, then retry.</p><button class="btn" onclick="openLesson('+day+')">Retry</button></div>';
+      return;
+    }
+  }
+  state.lesson=Object.assign({},meta,detailCache[day]);
+  touch(day); render(); window.scrollTo(0,0);
+}
+
+/* ============================== lesson detail ============================== */
+const STEPS=[["listen","🎧","Listen"],["decode","🔍","Decode"],["speak","🎙️","Speak"],
+             ["drill","🃏","Drill"],["quiz","❓","Quiz"],["review","✅","Review"]];
+function renderLesson(){
+  const L=state.lesson;
+  $("app").innerHTML=`
+    <button class="back" onclick="go('learn')">‹ All lessons</button>
+    <h2 class="lesson-title">Day ${L.day}: ${esc(L.topic)}</h2>
+    <p class="lesson-sub">${esc(L.summary)}</p>
+    <div class="steps">${STEPS.map(([k,i,l])=>
+      `<button class="${state.step===k?"active":""}" onclick="setStep('${k}')">${i} ${l}</button>`).join("")}</div>
+    <div id="stepbody"></div>`;
+  renderStep();
+}
+function setStep(k){ state.step=k; state.listening=false; renderLesson(); }
+
+/* ---------- listen ---------- */
+function renderListen(el){
+  const L=state.lesson;
+  el.innerHTML=`
+    <div class="card" style="text-align:center">
+      <div style="font-size:44px">🎧</div>
+      <p style="font-weight:700;margin:6px 0">Dual-voice lesson audio</p>
+      ${L.audioURL?`
+        <audio id="au" controls preload="none" src="${esc(L.audioURL)}"></audio>
+        <div class="rate-row">
+          <button onclick="setRate(0.75,this)">0.75×</button>
+          <button onclick="setRate(1,this)" class="on">1×</button>
+          <button onclick="setRate(1.25,this)">1.25×</button>
+        </div>
+        <div class="fallback" id="au-fallback" style="display:none">
+          Couldn't stream directly — <a href="${esc(L.audioPageURL)}" target="_blank" rel="noopener">open in Google Drive ↗</a>
+        </div>
+        <button class="btn ghost" style="margin-top:8px" onclick="toggleTr()">Show / hide transcript</button>
+      `:`<p class="note">No audio for this lesson yet.</p>`}
+      <div id="tr" style="display:none;text-align:left;margin-top:12px">
+        ${L.exchanges.map(e=>`<p>${tag(e.speaker)}<br><span class="quote">“${esc(e.text)}”</span></p>`).join("")}
+      </div>
+    </div>
+    ${L.icaoRefs.length?`<div class="card"><b>ICAO references</b><br>
+      ${L.icaoRefs.map(r=>`<span class="icao">• ${esc(r)}</span><br>`).join("")}</div>`:""}`;
+  const au=$("au");
+  if(au) au.addEventListener("error",()=>{ $("au-fallback").style.display="block"; });
+}
+function setRate(r,btn){ const au=$("au"); if(au) au.playbackRate=r;
+  btn.parentElement.querySelectorAll("button").forEach(b=>b.classList.remove("on")); btn.classList.add("on"); }
+function toggleTr(){ const t=$("tr"); t.style.display=t.style.display==="none"?"block":"none"; }
+
+/* ---------- decode ---------- */
+function renderDecode(el){
+  const L=state.lesson;
+  el.innerHTML=`<p class="lesson-sub">Tap a transmission to decode its real meaning.</p>`+
+    L.exchanges.map(e=>`
+      <div class="card"><details class="ex"><summary>${tag(e.speaker)}
+        <p class="quote">“${esc(e.text)}”</p>
+        <small style="color:var(--blue);font-weight:600">Tap to decode ▾</small></summary>
+        <p class="meaning">${esc(e.meaning)}</p></details></div>`).join("");
+}
+
+/* ---------- speak (Web Speech API, real recognition) ---------- */
+function renderSpeak(el){
+  const L=state.lesson, e=L.exchanges[state.di % L.exchanges.length];
+  const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+  el.innerHTML=`
+    <div class="card" style="text-align:center">
+      <p class="lesson-sub" style="text-align:left">Repeat the readback exactly as written, then tap the mic.</p>
+      <div style="text-align:left">${tag(e.speaker)}<p class="quote">“${esc(e.text)}”</p></div>
+      <button class="mic-btn ${state.listening?"listening":""}" id="micbtn"
+        ${!SR||state.listening?"disabled":""} onclick="doSpeak()">${state.listening?"⏺":"🎙"}</button>
+      <div id="speakres" style="margin-top:12px"></div>
+      <div class="pager"><button onclick="speakNav(-1)">‹ Prev</button>
+        <small>${(state.di%L.exchanges.length)+1} / ${L.exchanges.length}</small>
+        <button onclick="speakNav(1)">Next ›</button></div>
+      ${!SR?`<p class="note">This browser doesn't support speech recognition — try Chrome on desktop or Android.</p>`:""}
+    </div>`;
+}
+function speakNav(d){ const n=state.lesson.exchanges.length;
+  state.di=(state.di+d+n)%n; renderStep(); }
+function norm(s){ return s.toLowerCase().replace(/[^a-z0-9\s]/g," ").replace(/\s+/g," ").trim(); }
+function scoreReadback(heard, expected){
+  const h=norm(heard).split(" ").filter(Boolean), x=norm(expected).split(" ").filter(Boolean);
+  if(!h.length) return 0;
+  const hx=new Set(h);
+  const hit=x.filter(w=>hx.has(w)).length;
+  const precision=hit/h.length, recall=hit/x.length;
+  const f1=(precision+recall)?2*precision*recall/(precision+recall):0;
+  const lenPen=Math.min(1, h.length/Math.max(1,x.length*0.6));
+  return Math.round(f1*lenPen*100);
+}
+function doSpeak(){
+  const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+  if(!SR) return;
+  const L=state.lesson, expected=L.exchanges[state.di%L.exchanges.length].text;
+  const rec=new SR(); state.recog=rec;
+  rec.lang="en-US"; rec.interimResults=false; rec.maxAlternatives=1;
+  state.listening=true; renderStep();
+  rec.onresult=ev=>{
+    const heard=ev.results[0][0].transcript;
+    const s=scoreReadback(heard,expected);
+    state.listening=false; renderStep();
+    const ring=s>=85?"var(--green)":s>=65?"var(--amber)":"var(--red)";
+    const msg=s>=85?"Excellent readback ⭐":s>=65?"Good — check callsign & numbers":"Listen once more and try again";
+    $("speakres").innerHTML=`
+      <div class="score-ring" style="background:${ring}">${s}%</div>
+      <p style="font-weight:700">${msg}</p>
+      <p class="meaning">You said: “${esc(heard)}”</p>`;
+  };
+  rec.onerror=()=>{ state.listening=false; renderStep();
+    $("speakres").innerHTML=`<p class="note">Couldn't hear you — check mic permission and try again.</p>`; };
+  rec.onend=()=>{ if(state.listening){ state.listening=false; renderStep(); } };
+  rec.start();
+}
+
+/* ---------- drill ---------- */
+function renderDrill(el){
+  const L=state.lesson, v=L.vocabulary[state.di % L.vocabulary.length];
+  el.innerHTML=`
+    <div class="card flash" onclick="state.flip=!state.flip;renderStep()">
+      ${state.flip?esc(v.definition):`<b>${esc(v.term)}</b>`}
+      <small>${state.flip?"Term":"Definition"} · tap to flip</small></div>
+    <div class="pager"><button onclick="drillNav(-1)">‹ Prev</button>
+      <small>${(state.di%L.vocabulary.length)+1} / ${L.vocabulary.length}</small>
+      <button onclick="drillNav(1)">Next ›</button></div>`;
+}
+function drillNav(d){ const n=state.lesson.vocabulary.length;
+  state.di=(state.di+d+n)%n; state.flip=false; renderStep(); }
+
+/* ---------- quiz ---------- */
+function renderQuiz(el){
+  const L=state.lesson;
+  if(state.qdone){
+    const pct=Math.round(state.qok/L.quiz.length*100);
+    el.innerHTML=`<div class="card" style="text-align:center"><h2 style="margin:4px 0">Quiz complete</h2>
+      <div style="font-size:46px;font-weight:800">${state.qok} / ${L.quiz.length}</div>
+      <p class="lesson-sub">${pct>=80?"Cleared for takeoff — lesson complete! 🛫":pct>=50?"Good progress — review and retry.":"Back to the briefing room — revisit Decode."}</p>
+      <button class="btn" onclick="resetQuiz()">Try again</button></div>`;
+    return;
+  }
+  const q=L.quiz[state.qi];
+  el.innerHTML=`<div class="card">
+    <small style="color:var(--muted);font-weight:700">QUESTION ${state.qi+1} OF ${L.quiz.length}</small>
+    <h3 style="margin:8px 0 14px">${esc(q.question)}</h3>
+    ${q.options.map((o,i)=>{
+      const cls=state.qsel!==null?(i===q.correctIndex?"correct":i===state.qsel?"wrong":""):"";
+      return `<button class="opt ${cls}" ${state.qsel!==null?"disabled":""} onclick="answer(${i})">${esc(o)}</button>`;
+    }).join("")}
+    ${state.qsel!==null?`
+      <div style="margin-top:10px">
+        <b style="color:${state.qsel===q.correctIndex?"var(--green)":"var(--red)"}">
+          ${state.qsel===q.correctIndex?"Correct ✓":"Not quite ✗"}</b>
+        <p class="meaning">${esc(q.explanation)}</p>
+        <button class="btn" onclick="nextQ()">${state.qi+1<L.quiz.length?"Next question":"See results"}</button>
+      </div>`:""}
+  </div>`;
+}
+function answer(i){ state.qsel=i; renderStep(); }
+function nextQ(){
+  const L=state.lesson;
+  if(state.qsel===L.quiz[state.qi].correctIndex) state.qok++;
+  if(state.qi+1<L.quiz.length){ state.qi++; state.qsel=null; }
+  else{
+    state.qdone=true;
+    const pct=Math.round(state.qok/L.quiz.length*100), p=prog(L.day);
+    p.n++; p.best=Math.max(p.best,pct); if(pct>=80) p.status="done"; saveProg(L.day,p);
+  }
+  renderStep();
+}
+function resetQuiz(){ Object.assign(state,{qi:0,qsel:null,qok:0,qdone:false}); renderStep(); }
+
+/* ---------- review ---------- */
+function renderReview(el){
+  const L=state.lesson, p=prog(L.day);
+  el.innerHTML=`
+    <div class="card"><h3 style="margin:0 0 10px">Lesson recap</h3>
+      ${L.sections.map(s=>`<p><b>${esc(s.heading)}</b></p><p class="meaning">${esc(s.body)}</p>`).join("")}
+    </div>
+    <div class="card"><b>Your progress</b><br>
+      <small style="color:var(--muted)">Best quiz: ${p.best}% over ${p.n} attempt(s)</small></div>
+    <button class="btn" ${p.status==="done"?"disabled":""} onclick="finishLesson(${L.day})">
+      ${p.status==="done"?"✓ Lesson complete":"Mark lesson complete"}</button>`;
+}
+function finishLesson(day){ const p=prog(day); p.status="done"; saveProg(day,p); renderStep(); }
+
+function renderStep(){
+  const el=$("stepbody"); if(!el) return;
+  ({listen:renderListen,decode:renderDecode,speak:renderSpeak,
+    drill:renderDrill,quiz:renderQuiz,review:renderReview})[state.step](el);
+}
+
+/* ============================== phrases ============================== */
+function renderPhrases(){
+  const q=state.pq.toLowerCase();
+  const list=CONTENT.phrases.filter(p=>
+    (state.pspk==="all"||p.speaker===state.pspk)&&
+    (!q||p.text.toLowerCase().includes(q)||p.meaning.toLowerCase().includes(q)));
+  state._plist=list;
+  const hadFocus=document.activeElement&&document.activeElement.id==="pq";
+  $("app").innerHTML=`
+    <input class="search" id="pq" placeholder="Search phrase or meaning" value="${esc(state.pq)}"
+      oninput="state.pq=this.value;renderPhrases()">
+    <div class="chip-row">
+      ${["all","ATC","Pilot"].map(s=>`<button class="${state.pspk===s?"on":""}" onclick="state.pspk='${s}';renderPhrases()">${s==="all"?"All":s}</button>`).join("")}
+      <button class="${state.pflash?"on":""}" onclick="state.pflash=!state.pflash;state.pi=0;state.flip=false;renderPhrases()">🃏 Cards</button>
+    </div>
+    <div id="plist"></div>
+    <p class="note">${list.length} of ${CONTENT.phrases.length} phrases</p>`;
+  renderPhrasesList();
+  if(hadFocus){ const i=$("pq"); i.focus(); i.setSelectionRange(i.value.length,i.value.length); }
+}
+function renderPhrasesList(){
+  const list=state._plist, el=$("plist");
+  if(state.pflash){
+    if(!list.length){ el.innerHTML=`<p class="note">No phrases match.</p>`; return; }
+    const p=list[state.pi%list.length];
+    el.innerHTML=`<div class="card flash" onclick="state.flip=!state.flip;renderPhrasesList()">
+        ${tag(p.speaker)}<div style="margin-top:8px">${state.flip?esc(p.meaning):`“${esc(p.text)}”`}</div>
+        <small>tap to flip · Day ${p.day}</small></div>
+      <div class="pager"><button onclick="pNav(-1)">‹ Prev</button>
+        <small>${(state.pi%list.length)+1} / ${list.length}</small>
+        <button onclick="pNav(1)">Next ›</button></div>`;
+  }else{
+    el.innerHTML=list.map(p=>`<div class="card">${tag(p.speaker)}
+      <p class="quote">“${esc(p.text)}”</p>
+      <p class="meaning">${esc(p.meaning)}</p>
+      <small style="color:var(--muted)">Day ${p.day} · ${esc(p.phase)}${p.icaoRef?` · ${esc(p.icaoRef)}`:""}</small>
+    </div>`).join("")||`<p class="note">No phrases match.</p>`;
+  }
+}
+function pNav(d){ const n=state._plist.length; state.pi=(state.pi+d+n)%n; state.flip=false; renderPhrasesList(); }
+
+/* ============================== progress ============================== */
+function renderProgress(){
+  const done=CONTENT.lessons.filter(l=>prog(l.day).status==="done").length;
+  const scores=CONTENT.lessons.map(l=>prog(l.day).best).filter(s=>s>0);
+  const avg=scores.length?Math.round(scores.reduce((a,b)=>a+b,0)/scores.length):0;
+  $("app").innerHTML=`
+    <div class="stats">
+      <div class="stat"><b>${done}/${CONTENT.lessons.length}</b><span>Lessons done</span></div>
+      <div class="stat"><b>${avg}%</b><span>Avg best quiz</span></div>
+      <div class="stat"><b>${CONTENT.phrases.length}</b><span>Phrases</span></div>
+    </div>
+    <div class="sec-h">Lessons</div>`+
+    CONTENT.lessons.map(l=>{ const p=prog(l.day), s=p.status;
+      return `<div class="card" style="display:flex;justify-content:space-between;align-items:center">
+        <span><b>Day ${l.day}</b><br><small style="color:var(--muted)">
+        ${s==="done"?"Completed":s==="prog"?"In progress":"To learn"}</small></span>
+        ${p.best?`<b>${p.best}%</b>`:""}</div>`; }).join("")+
+    `<button class="btn ghost" style="margin-top:8px" onclick="if(confirm('Reset all progress?')){state.prog={};store.set({});render();}">Reset progress</button>
+     <p class="note">Progress is saved on this device.</p>`;
+}
+
+/* ---- boot: fetch the daily data file, then render ---- */
+$("app").innerHTML = '<div class="card" style="text-align:center;padding:36px 20px"><p class="lesson-sub">Loading lessons…</p></div>';
+(async function boot(){
+  try{
+    const r = await fetch("content.json", {cache:"no-store"});
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    CONTENT = await r.json();
+    if(!CONTENT || !Array.isArray(CONTENT.lessons) || !CONTENT.lessons.length) throw new Error("bad data");
+  }catch(e){
+    $("app").innerHTML = '<div class="card" style="text-align:center;padding:36px 20px"><h3>Couldn\'t load lessons</h3><p class="lesson-sub">Check your connection, then retry.</p><button class="btn" onclick="location.reload()">Retry</button></div>';
+    return;
+  }
+  render();
+})();
+</script>
+</body>
+</html>

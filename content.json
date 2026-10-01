@@ -1,0 +1,1343 @@
+{
+ "meta": {
+  "version": 2,
+  "updated": "2026-10-01",
+  "lessons": 11,
+  "phrases": 150
+ },
+ "lessons": [
+  {
+   "day": 1,
+   "topic": "ICAO Phonetics & Radiotelephony Numbers — Master Complete Edition",
+   "phase": "Pre-flight",
+   "summary": "The canonical master edition combining the full ICAO numbers/phonetics tables, the command decoder, a routine clearance scenario plus a high-challenge CTOT/amendment drill and a readback/hearback error-detection…",
+   "audioURL": "https://drive.google.com/uc?export=download&id=1qK-bpXIsy0do9frK2xTJWok2zYHmftoo",
+   "audioPageURL": "https://drive.google.com/file/d/1qK-bpXIsy0do9frK2xTJWok2zYHmftoo/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835",
+    "ICAO Operational Level 4+",
+    "ICAO Doc 4444 (PANS-ATM)"
+   ]
+  },
+  {
+   "day": 2,
+   "topic": "Standard Keywords & Readback Rules",
+   "phase": "Ground & Taxi",
+   "summary": "This lesson teaches the nine core ICAO standard radiotelephony keywords (ROGER, WILCO, AFFIRM, NEGATIVE, SAY AGAIN, STANDBY, CORRECTION, MONITOR, CONTACT) and their strict aviation meanings. It builds the mandatory…",
+   "audioURL": "https://drive.google.com/uc?export=download&id=1CWhlHUoh7rn2LPkU_8pMfAxiFB_2UqtQ",
+   "audioPageURL": "https://drive.google.com/file/d/1CWhlHUoh7rn2LPkU_8pMfAxiFB_2UqtQ/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9432 Section 2.8"
+   ]
+  },
+  {
+   "day": 3,
+   "topic": "ATIS Broadcast Decoding & Weather Minima",
+   "phase": "Pre-flight",
+   "summary": "This lesson teaches pilots to decode the Automatic Terminal Information Service (ATIS) broadcast — its mandatory ICAO sequence from phonetic identifier through time, runways, transition level, wind, visibility,…",
+   "audioURL": "https://drive.google.com/uc?export=download&id=1h_zIfrlbad_ZLfMuooZElUdKSk9AWF1T",
+   "audioPageURL": "https://drive.google.com/file/d/1h_zIfrlbad_ZLfMuooZElUdKSk9AWF1T/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Annex 11"
+   ]
+  },
+  {
+   "day": 5,
+   "topic": "Pushback & Engine Start Procedures",
+   "phase": "Ground & Taxi",
+   "summary": "This lesson teaches the standard ICAO pushback and engine-start phraseology chain — from the pilot's push-and-start request, through ATC approval or gate hold, to the intercom call with the tug driver, engine…",
+   "audioURL": "https://drive.google.com/uc?export=download&id=1bCXET0GDWa0We15MK6BLTMtfhTH1SJmw",
+   "audioPageURL": "https://drive.google.com/file/d/1bCXET0GDWa0We15MK6BLTMtfhTH1SJmw/view",
+   "icaoRefs": []
+  },
+  {
+   "day": 6,
+   "topic": "Taxi Instructions & Progressive Taxi",
+   "phase": "Ground & Taxi",
+   "summary": "This lesson teaches taxi clearance syntax, mandatory aerodrome signage (white-on-red mandatory, yellow-on-black location, black-on-yellow direction), the give-way rule, and progressive taxi requests. It runs through…",
+   "audioURL": "https://drive.google.com/uc?export=download&id=1ln2slIENIzJh240NTiM03985P1nrGvUZ",
+   "audioPageURL": "https://drive.google.com/file/d/1ln2slIENIzJh240NTiM03985P1nrGvUZ/view",
+   "icaoRefs": [
+    "ICAO Annex 14",
+    "ICAO Doc 9432"
+   ]
+  },
+  {
+   "day": 7,
+   "topic": "Runway Hold-Short Discipline & Stop-Bar Safety",
+   "phase": "Ground & Taxi",
+   "summary": "This final Week 1 lesson teaches runway incursion prevention: verbatim readback of hold-short instructions, runway crossing clearances, the legal definition of 'runway vacated', expedited crossings with traffic on…",
+   "audioURL": "https://drive.google.com/uc?export=download&id=1oSKCOaqH9wXV7VA3x1PpPIGaLlbh7t19",
+   "audioPageURL": "https://drive.google.com/file/d/1oSKCOaqH9wXV7VA3x1PpPIGaLlbh7t19/view",
+   "icaoRefs": [
+    "ICAO Doc 9870",
+    "ICAO Annex 14",
+    "ICAO Doc 9432"
+   ]
+  },
+  {
+   "day": 8,
+   "topic": "Conditional Clearances & Precision Line-Up",
+   "phase": "Takeoff",
+   "summary": "This lesson teaches ICAO conditional clearance phraseology for runway line-up: the strict 4-part structure (condition stated first and repeated at the end) and the mandatory \"traffic in sight\" readback. It also…",
+   "audioURL": "https://drive.google.com/uc?export=download&id=15-S5llDxaqxRNFouSAujTx7a-P6a3sbw",
+   "audioPageURL": "https://drive.google.com/file/d/15-S5llDxaqxRNFouSAujTx7a-P6a3sbw/view",
+   "icaoRefs": [
+    "ICAO Doc 9432"
+   ]
+  },
+  {
+   "day": 9,
+   "topic": "Line Up & Wait vs Takeoff Clearance",
+   "phase": "Takeoff",
+   "summary": "This lesson teaches the critical distinction between \"Line up and wait\" (enter the runway, throttles at idle, no roll) and \"Cleared for takeoff\" (begin the departure roll), plus the Takeoff Taboo rule reserving the…",
+   "audioURL": "https://drive.google.com/uc?export=download&id=10UqeFYc4JXTSkFtqIfpyMFBoYvxQ28z0",
+   "audioPageURL": "https://drive.google.com/file/d/10UqeFYc4JXTSkFtqIfpyMFBoYvxQ28z0/view",
+   "icaoRefs": [
+    "ICAO Doc 9432"
+   ]
+  },
+  {
+   "day": 10,
+   "topic": "Winter Operations & Ground De-icing",
+   "phase": "Ground & Taxi",
+   "summary": "This lesson teaches winter operations phraseology: requesting taxi to a remote de-icing pad, the de-icing completion and holdover-time report with Type IV fluid codes, and the mandatory return-to-pad call when…",
+   "audioURL": "https://drive.google.com/uc?export=download&id=154fdeU2W4Et3eYPNS_5bzhW1ZxGgriSI",
+   "audioPageURL": "https://drive.google.com/file/d/154fdeU2W4Et3eYPNS_5bzhW1ZxGgriSI/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9640",
+    "ICAO Annex 6"
+   ]
+  },
+  {
+   "day": 11,
+   "topic": "Initial Climb & Departure Handoff",
+   "phase": "Departure & Climb",
+   "summary": "This lesson teaches the tower-to-departure handoff: the airborne frequency transfer, the mandatory initial check-in format (callsign, passing altitude, climbing-to level, SID), and \"radar contact\" identification. It…",
+   "audioURL": "https://drive.google.com/uc?export=download&id=1UOILrlQ1nhazXt89b8EDjISXapEGcJbH",
+   "audioPageURL": "https://drive.google.com/file/d/1UOILrlQ1nhazXt89b8EDjISXapEGcJbH/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 4444"
+   ]
+  },
+  {
+   "day": 12,
+   "topic": "SID Navigation & Altitude Restrictions",
+   "phase": "Departure & Climb",
+   "summary": "This lesson teaches SID climb phraseology: the legal meaning of \"Climb via SID\" (follow the lateral route and all published altitude/speed constraints), \"Cancel level restriction\", and the emergency commands \"Stop…",
+   "audioURL": "https://drive.google.com/uc?export=download&id=1reGataxiWNyDJdQCNNT9DVkWpNpmwp4h",
+   "audioPageURL": "https://drive.google.com/file/d/1reGataxiWNyDJdQCNNT9DVkWpNpmwp4h/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 4444"
+   ]
+  }
+ ],
+ "phrases": [
+  {
+   "text": "Across Hotel, to holding point Runway 07 Right, hold short Runway 07 Left, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "Readback of the continued progressive taxi instructions including the final hold-short.",
+   "day": 6,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Annex 14"
+  },
+  {
+   "text": "Affirm",
+   "speaker": "Pilot",
+   "meaning": "'Yes' — the standard affirmative; never say 'yeah', 'yep', or 'roger that'.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Behind landing Boeing 777, line up Runway 07 Right behind, traffic in sight, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "The mandatory readback restates the condition first and repeats it at the end, confirming the traffic is in sight.",
+   "day": 8,
+   "phase": "Takeoff",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cancel level restriction.",
+   "speaker": "ATC",
+   "meaning": "The instruction deleting published SID altitude ceilings so the aircraft may climb unrestricted.",
+   "day": 11,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, airborne zero zero five two, contact Hong Kong Departure on one two three decimal eight.",
+   "speaker": "ATC",
+   "meaning": "Tower transfers Cathay 251 to Departure, announcing the airborne time and the new frequency 123.8.",
+   "day": 11,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, behind departing Boeing 777, wind 080 degrees, 14 knots, Runway 07 Right, cleared for takeoff.",
+   "speaker": "ATC",
+   "meaning": "A takeoff clearance issued behind the departing Boeing 777, with current wind, authorizing Cathay 251 to begin the takeoff roll.",
+   "day": 8,
+   "phase": "Takeoff",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, behind landing Airbus 320 on two-mile final, line up Runway 07 Right behind.",
+   "speaker": "ATC",
+   "meaning": "A conditional line-up clearance sequencing Cathay 251 behind the landing Airbus 320 on two-mile final.",
+   "day": 8,
+   "phase": "Takeoff",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, BEHIND landing Boeing 777, line up Runway 07 Right BEHIND.",
+   "speaker": "ATC",
+   "meaning": "The canonical 4-part ICAO conditional clearance format: callsign, condition, traffic identification, instruction, condition repeated.",
+   "day": 8,
+   "phase": "Takeoff",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, cancel level restriction, climb to Flight Level one six zero, expedite through Flight Level one zero zero.",
+   "speaker": "ATC",
+   "meaning": "Departure cancels the SID level restrictions and orders a climb to FL160, expedited through FL100.",
+   "day": 12,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, cancel level restriction, climb to Flight Level one six zero.",
+   "speaker": "ATC",
+   "meaning": "The pure taught form cancelling published step-climb caps for an unrestricted climb to FL160.",
+   "day": 12,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, cancel takeoff clearance, hold position.",
+   "speaker": "ATC",
+   "meaning": "The command cancelling a takeoff clearance before the roll starts; the aircraft must remain in position.",
+   "day": 9,
+   "phase": "Takeoff",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, climb via SID to Flight Level zero nine zero.",
+   "speaker": "ATC",
+   "meaning": "The pure taught form of the climb-via-SID clearance: follow the published lateral route and all altitude/speed constraints up to FL090.",
+   "day": 12,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, correction, QNH 1013.",
+   "speaker": "ATC",
+   "meaning": "The controller corrects their own error: the correct altimeter setting is QNH 1013, not 1014.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, cross Runway 07 Left at Hotel. Report vacated.",
+   "speaker": "ATC",
+   "meaning": "Clearance to cross Runway 07L only at taxiway Hotel, with a requirement to report once the runway is vacated.",
+   "day": 7,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9870"
+  },
+  {
+   "text": "Cathay 251, de-icing completed. Type four fluid applied, start of holdover time zero zero four five, post de-icing inspection complete.",
+   "speaker": "ATC",
+   "meaning": "The de-icing crew reports treatment complete: Type IV fluid applied, holdover time starting at 00:45, post-treatment inspection done.",
+   "day": 10,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, expedite climb through Flight Level one four zero, crossing traffic opposite direction.",
+   "speaker": "ATC",
+   "meaning": "Departure orders an expedited climb through FL140 because of crossing traffic in the opposite direction.",
+   "day": 12,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, expedite climb through Flight Level one zero zero.",
+   "speaker": "ATC",
+   "meaning": "The pure taught command to increase vertical speed through FL100.",
+   "day": 12,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, hold short of Runway 07 Left on Hotel.",
+   "speaker": "ATC",
+   "meaning": "ATC instructs the aircraft to stop before the Runway 07L holding point while on taxiway Hotel.",
+   "day": 6,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Annex 14"
+  },
+  {
+   "text": "Cathay 251, hold short of Runway 07 Left.",
+   "speaker": "ATC",
+   "meaning": "Mandatory instruction to stop before the Runway 07L holding point; the pilot must read back the runway designator and 'hold short' verbatim.",
+   "day": 7,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9870"
+  },
+  {
+   "text": "Cathay 251, holdover time expired, unable departure, request return to de-icing pad for re-treatment.",
+   "speaker": "Pilot",
+   "meaning": "The taught form for reporting expired holdover time and requesting re-treatment.",
+   "day": 10,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, Hong Kong Delivery, cleared to Tokyo Haneda, OCEAN 2A departure, climb via SID to Flight Level 090, squawk 4321.",
+   "speaker": "ATC",
+   "meaning": "ATC grants the IFR clearance: destination Tokyo Haneda via the OCEAN 2A departure, climb via the SID to Flight Level 090, transponder squawk 4321.",
+   "day": 1,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, Hong Kong Departure, radar contact.",
+   "speaker": "ATC",
+   "meaning": "The canonical short form of the controller's radar identification after Mode C verification.",
+   "day": 11,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, Hong Kong Departure, radar contact. Climb via SID to Flight Level zero nine zero.",
+   "speaker": "ATC",
+   "meaning": "Departure establishes radar contact and clears Cathay 251 to climb via the SID to FL090, complying with all published lateral, altitude, and speed constraints.",
+   "day": 12,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, Hong Kong Departure, radar contact. Passing BEKOL, climb to Flight Level one six zero, cancel level restriction.",
+   "speaker": "ATC",
+   "meaning": "Departure establishes radar contact, assigns a climb to FL160, and cancels the published SID level restrictions.",
+   "day": 11,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, Hong Kong Ground, push and start approved, facing west, QNH 1012.",
+   "speaker": "ATC",
+   "meaning": "Pushback and start approved, nose to finish facing west, QNH 1012.",
+   "day": 5,
+   "phase": "Ground & Taxi",
+   "icaoRef": null
+  },
+  {
+   "text": "Cathay 251, Hong Kong Ground, standby. Traffic passing behind.",
+   "speaker": "ATC",
+   "meaning": "Wait at the gate — do not push back because another aircraft is taxiing across the pushback path behind.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, Hong Kong Ground, taxi to de-icing pad North via taxiway Alpha, hold short of pad entrance.",
+   "speaker": "ATC",
+   "meaning": "ATC clears Cathay 251 to taxi to the de-icing pad via Alpha and hold short of the pad entrance.",
+   "day": 10,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, Hong Kong Ground, taxi to holding point Runway 07 Right via taxiway Alpha and Hotel. Give way to Boeing 777 crossing left to right on Bravo.",
+   "speaker": "ATC",
+   "meaning": "Taxi clearance to the Runway 07R holding point via taxiways Alpha and Hotel, with an instruction to yield to a crossing Boeing 777 on Bravo.",
+   "day": 6,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Annex 14"
+  },
+  {
+   "text": "Cathay 251, Hong Kong Tower, behind landing Boeing 777, line up Runway 07 Right behind.",
+   "speaker": "ATC",
+   "meaning": "A conditional line-up clearance: Cathay 251 may only enter the runway and line up behind the landing Boeing 777.",
+   "day": 8,
+   "phase": "Takeoff",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, Hong Kong Tower, cross Runway 07 Left at Hotel, expedite crossing, traffic on five-mile final. Report vacated.",
+   "speaker": "ATC",
+   "meaning": "Tower clears the aircraft to cross Runway 07L at Hotel, to expedite because of traffic on five-mile final, and to report vacated.",
+   "day": 7,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9870"
+  },
+  {
+   "text": "Cathay 251, Hong Kong Tower, Runway 07 Right, line up and wait.",
+   "speaker": "ATC",
+   "meaning": "ATC authorizes Cathay 251 to taxi into position on the runway and align with the centerline; throttles remain at idle — this is not permission to roll.",
+   "day": 9,
+   "phase": "Takeoff",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, negative radar contact. Scope indicates four thousand two hundred feet; you reported passing two thousand five hundred feet. Check altimeter setting and confirm level.",
+   "speaker": "ATC",
+   "meaning": "Departure reports no radar contact: the scope shows 4,200 ft versus the reported 2,500 ft, and asks the crew to check the altimeter setting.",
+   "day": 11,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, NEGATIVE ROGER! Read back HOLD SHORT Runway 07 Left.",
+   "speaker": "ATC",
+   "meaning": "The controller rejects the 'Roger' and demands a verbatim readback of the mandatory hold-short instruction.",
+   "day": 7,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9870"
+  },
+  {
+   "text": "Cathay 251, NEGATIVE! Confirm TYPE FOUR fluid applied.",
+   "speaker": "ATC",
+   "meaning": "The mandatory correction after the pilot mistakenly read back 'Type one fluid' instead of 'Type four fluid'.",
+   "day": 10,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, NEGATIVE! HOLD POSITION, line up and wait ONLY.",
+   "speaker": "ATC",
+   "meaning": "The mandatory ATC correction after a hearback error where the pilot read back 'cleared for takeoff' instead of 'line up and wait'.",
+   "day": 9,
+   "phase": "Takeoff",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, NEGATIVE! HOLD SHORT of Runway 07 Left.",
+   "speaker": "ATC",
+   "meaning": "The controller urgently rejects the faulty readback and re-issues the mandatory hold-short instruction.",
+   "day": 6,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Annex 14"
+  },
+  {
+   "text": "Cathay 251, negative! Level restriction cancelled, climb unrestricted Flight Level one six zero.",
+   "speaker": "ATC",
+   "meaning": "The mandatory ATC correction after the pilot read back the cancelled SID restriction at BEKOL.",
+   "day": 11,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, NEGATIVE! STOP CLIMB IMMEDIATELY at Flight Level one two zero!",
+   "speaker": "ATC",
+   "meaning": "The mandatory ATC correction after the pilot read back 'climbing to FL120' instead of 'stopping climb at FL120'.",
+   "day": 12,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, NEGATIVE. HOLD SHORT of Runway 07 Left.",
+   "speaker": "ATC",
+   "meaning": "ATC immediately corrects the error: 'NEGATIVE' (that was wrong) -- hold short of Runway 07 Left.",
+   "day": 1,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, NEGATIVE. Push and start approved, facing EAST.",
+   "speaker": "ATC",
+   "meaning": "The controller rejects the faulty readback and re-issues the clearance with the correct facing direction east.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, NEGATIVE. Push and start approved, facing NORTH.",
+   "speaker": "ATC",
+   "meaning": "The controller rejects the faulty readback and re-issues the clearance with the correct facing direction north.",
+   "day": 5,
+   "phase": "Ground & Taxi",
+   "icaoRef": null
+  },
+  {
+   "text": "Cathay 251, NEGATIVE. QNH one zero one four.",
+   "speaker": "ATC",
+   "meaning": "The controller rejects the faulty readback and re-issues the correct QNH 1014.",
+   "day": 3,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, proceed across Hotel, continue to holding point Runway 07 Right, hold short Runway 07 Left.",
+   "speaker": "ATC",
+   "meaning": "Continued progressive guidance: cross Hotel, continue to the Runway 07R holding point, and hold short of Runway 07L.",
+   "day": 6,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Annex 14"
+  },
+  {
+   "text": "Cathay 251, progressive taxi approved. Follow taxiway Alpha, turn left onto taxiway Juliet, hold short of taxiway Hotel.",
+   "speaker": "ATC",
+   "meaning": "ATC approves progressive taxi and issues the first turn-by-turn instructions.",
+   "day": 6,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Annex 14"
+  },
+  {
+   "text": "Cathay 251, push and start approved, facing east, QNH 1014.",
+   "speaker": "ATC",
+   "meaning": "Pushback clearance issued with the nose finishing pointing east and QNH 1014.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, push and start approved, facing north, QNH 1012.",
+   "speaker": "ATC",
+   "meaning": "Pushback clearance issued with the nose finishing pointing north and QNH 1012.",
+   "day": 5,
+   "phase": "Ground & Taxi",
+   "icaoRef": null
+  },
+  {
+   "text": "Cathay 251, push and start approved, facing west, QNH 1014.",
+   "speaker": "ATC",
+   "meaning": "Cleared to push back with the nose finishing pointing west and to start engines; the local altimeter setting is QNH 1014.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, radar contact, Mode C verified two thousand five hundred feet. Climb to Flight Level zero nine zero.",
+   "speaker": "ATC",
+   "meaning": "Departure re-establishes radar contact with Mode C verified at 2,500 ft and clears the climb to FL090.",
+   "day": 11,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, roger, contact Hong Kong Ground on one two one decimal six.",
+   "speaker": "ATC",
+   "meaning": "Frequency change instruction: contact Hong Kong Ground on 121.6 MHz.",
+   "day": 7,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9870"
+  },
+  {
+   "text": "Cathay 251, roger, hold short Runway 07 Right.",
+   "speaker": "ATC",
+   "meaning": "The controller instructs Cathay 251 to remain holding short of the runway.",
+   "day": 8,
+   "phase": "Takeoff",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, roger, push and start approved, facing west, QNH 1013.",
+   "speaker": "ATC",
+   "meaning": "Receipt acknowledged; pushback clearance issued with nose facing west and altimeter setting QNH 1013.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, roger, turn left immediately heading zero six zero for traffic avoidance.",
+   "speaker": "ATC",
+   "meaning": "ATC acknowledges and issues a left turn to heading 060 for traffic avoidance.",
+   "day": 12,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, roger, turn right on taxiway Hotel, contact Ground on one two one decimal six for return to de-icing pad.",
+   "speaker": "ATC",
+   "meaning": "ATC acknowledges and routes the aircraft back via Hotel with the ground frequency for return to the pad.",
+   "day": 10,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, roger.",
+   "speaker": "Pilot",
+   "meaning": "A fatal mistake — the pilot answered with 'Roger' instead of reading back the mandatory hold-short instruction, giving the controller no verification.",
+   "day": 7,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9870"
+  },
+  {
+   "text": "Cathay 251, Runway 07 Left vacated.",
+   "speaker": "Pilot",
+   "meaning": "The pilot reports the runway is vacated — transmitted only when the entire aircraft has cleared past the holding line.",
+   "day": 7,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9870"
+  },
+  {
+   "text": "Cathay 251, Runway 07 Right, line up and wait.",
+   "speaker": "ATC",
+   "meaning": "The canonical short form of the line-up authorization: enter the runway, align with the centerline, keep throttles at idle — no permission to roll.",
+   "day": 9,
+   "phase": "Takeoff",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, slot time 0345. Clearance amendment: cancel OCEAN 2A, new departure BEKOL 3A, climb via SID to Flight Level 080. Squawk 7142.",
+   "speaker": "ATC",
+   "meaning": "ATC issues a departure slot time (CTOT 0345) and amends the clearance: OCEAN 2A cancelled, new departure BEKOL 3A, climb to Flight Level 080, new squawk 7142.",
+   "day": 1,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, special information Echo current: wind zero six zero degrees, two two knots gusts three five, moderate windshear reported on two-mile final Runway zero seven Left, QNH one zero one one. Acknowledge Echo.",
+   "speaker": "ATC",
+   "meaning": "Urgent Special ATIS (SPECI) update: new wind 060° at 22 gusting 35 knots, moderate windshear on the two-mile final for Runway 07L, QNH 1011; pilot must acknowledge the new information letter Echo.",
+   "day": 3,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, Stand W42, request push and start, Information Echo.",
+   "speaker": "Pilot",
+   "meaning": "The pilot requests gate departure permission — pushback and engine start — confirming receipt of ATIS Information Echo.",
+   "day": 5,
+   "phase": "Ground & Taxi",
+   "icaoRef": null
+  },
+  {
+   "text": "Cathay 251, Stand Whiskey 42.",
+   "speaker": "Pilot",
+   "meaning": "Repeating the stand number after a blocked transmission.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, STOP CLIMB at Flight Level one two zero!",
+   "speaker": "ATC",
+   "meaning": "The pure taught emergency command to arrest the climb immediately at FL120.",
+   "day": 12,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, STOP IMMEDIATELY!",
+   "speaker": "ATC",
+   "meaning": "The emergency abort command used after the takeoff roll has started; the crew must stop the aircraft immediately.",
+   "day": 9,
+   "phase": "Takeoff",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, STOP IMMEDIATELY! Cancel crossing clearance, HOLD SHORT of Runway 07 Left, go-around in progress!",
+   "speaker": "ATC",
+   "meaning": "Emergency instruction to stop immediately and cancel the crossing clearance because a go-around is in progress on Runway 07L.",
+   "day": 7,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9870"
+  },
+  {
+   "text": "Cathay 251, STOP IMMEDIATELY! Cancel takeoff clearance, vehicle on the runway!",
+   "speaker": "ATC",
+   "meaning": "The tactical drill's emergency abort: the takeoff clearance is cancelled because an inspection vehicle is on the runway.",
+   "day": 9,
+   "phase": "Takeoff",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, taxi to de-icing pad North via taxiway Alpha, hold short of pad entrance.",
+   "speaker": "ATC",
+   "meaning": "The canonical ATC clearance to taxi to the de-icing pad, holding short of the pad entrance.",
+   "day": 10,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, taxi to holding point Runway 07 Right via Alpha and Hotel, hold short of Runway 07 Left.",
+   "speaker": "ATC",
+   "meaning": "Taxi clearance with a mandatory hold-short instruction before Runway 07L.",
+   "day": 6,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Annex 14"
+  },
+  {
+   "text": "Cathay 251, taxi to holding point Runway 07 Right via Alpha, hold short of Runway 07 Left.",
+   "speaker": "ATC",
+   "meaning": "ATC instructs the aircraft to taxi to the Runway 07 Right holding point via taxiway Alpha and hold short of Runway 07 Left.",
+   "day": 1,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, taxi to holding point Runway 07 Right via taxiway Alpha, hold short Runway 07 Left.",
+   "speaker": "ATC",
+   "meaning": "Taxi clearance to the Runway 07R holding point via taxiway Alpha, with an instruction to hold short of Runway 07L.",
+   "day": 5,
+   "phase": "Ground & Taxi",
+   "icaoRef": null
+  },
+  {
+   "text": "Cathay 251, taxi to holding point Runway zero seven Right via taxiway Alpha and Hotel.",
+   "speaker": "ATC",
+   "meaning": "ATC clears Cathay 251 to the runway holding point via Alpha and Hotel.",
+   "day": 10,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, taxi via Hotel, hold short of Runway 07 Left.",
+   "speaker": "ATC",
+   "meaning": "Taxi instruction via Hotel with a mandatory hold-short before Runway 07L.",
+   "day": 7,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9870"
+  },
+  {
+   "text": "Cathay 251, traffic conflict overhead, stop climb at Flight Level one two zero!",
+   "speaker": "ATC",
+   "meaning": "The emergency command to stop the climb at FL120 because of conflicting traffic overhead.",
+   "day": 12,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, unable to expedite, maximum vertical speed 800 feet per minute.",
+   "speaker": "Pilot",
+   "meaning": "The mandatory pilot response when the aircraft cannot climb faster; aerodynamic safety is never sacrificed for an expedite request.",
+   "day": 12,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, updated QNH one zero one four.",
+   "speaker": "ATC",
+   "meaning": "The controller issues an updated altimeter setting of QNH 1014.",
+   "day": 3,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, wind 080 degrees, 14 knots, Runway 07 Right, cleared for takeoff.",
+   "speaker": "ATC",
+   "meaning": "The takeoff clearance with wind information, authorizing Cathay 251 to begin the high-speed departure roll.",
+   "day": 9,
+   "phase": "Takeoff",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cleared to Tokyo Haneda, OCEAN 2A departure, climb via SID Flight Level 090, squawk 4321, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reads back the clearance verbatim (callsign last), confirming every element was understood.",
+   "day": 1,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Climb to Flight Level one six zero, cancel level restriction, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "The pilot's readback of the climb to FL160 with the restriction cancellation.",
+   "day": 11,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Climb to Flight Level one six zero, cancel level restriction, expediting through Flight Level one zero zero, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "The pilot's readback confirming the unrestricted climb to FL160 and expediting through FL100.",
+   "day": 12,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Climb to Flight Level zero nine zero, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "The pilot's readback of the climb to FL090.",
+   "day": 11,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Climb via SID to Flight Level zero nine zero, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "The pilot's readback of the climb-via-SID clearance.",
+   "day": 12,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Contact",
+   "speaker": "ATC",
+   "meaning": "'Establish communications with...' — tune the frequency and transmit a full standard initial call.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Correction",
+   "speaker": "Pilot",
+   "meaning": "'An error was made in this transmission. Correct version is...' — used immediately upon noticing your own speaking error.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Correction, Runway zero seven Left, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "The correct way to fix a self-made error — having misstated Runway 07R instead of 07L, the pilot issues a CORRECTION.",
+   "day": 3,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cross Runway 07 Left at Hotel, expediting, report vacated, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "Readback of the crossing clearance with the expedite and report-vacated requirements.",
+   "day": 7,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9870"
+  },
+  {
+   "text": "Expedite crossing Runway 07 Left, traffic on 5-mile final.",
+   "speaker": "ATC",
+   "meaning": "Cross the runway without delay and do not stop on the runway centerline because landing traffic is on a five-mile final.",
+   "day": 7,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9870"
+  },
+  {
+   "text": "Expediting through Flight Level one zero zero, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "The pilot's readback confirming the expedited climb through FL100.",
+   "day": 12,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Facing west",
+   "speaker": "ATC",
+   "meaning": "The pushback 'facing' direction always refers to where the NOSE of the aircraft will point when pushback is completed.",
+   "day": 5,
+   "phase": "Ground & Taxi",
+   "icaoRef": null
+  },
+  {
+   "text": "Follow Alpha, left on Juliet, hold short of Hotel, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "Readback of the first progressive taxi instructions.",
+   "day": 6,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Annex 14"
+  },
+  {
+   "text": "Give way to Boeing 777 crossing left to right on Bravo",
+   "speaker": "ATC",
+   "meaning": "Yield right-of-way to intersecting taxi traffic — hold short of the intersection until the crossing Boeing 777 passes clear.",
+   "day": 6,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Annex 14"
+  },
+  {
+   "text": "Ground from flight deck, brakes released, cleared to push.",
+   "speaker": "Pilot",
+   "meaning": "The intercom call to the ground tug driver confirming the parking brake is off and the tug may start pushing the aircraft back.",
+   "day": 5,
+   "phase": "Ground & Taxi",
+   "icaoRef": null
+  },
+  {
+   "text": "Hold short of Runway 07 Left",
+   "speaker": "ATC",
+   "meaning": "Mandatory instruction to stop before the runway holding point markings (two solid and two dashed yellow lines); must be read back verbatim.",
+   "day": 6,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Annex 14"
+  },
+  {
+   "text": "Hold short Runway 07 Left on Hotel, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "Verbatim readback of the mandatory hold-short instruction.",
+   "day": 6,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Annex 14"
+  },
+  {
+   "text": "Holding position, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "The correct response to a 'hold position' instruction — read back the hold, never just say 'Roger'.",
+   "day": 3,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Holding short Runway 07 Right, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "Standard readback of the hold-short instruction.",
+   "day": 8,
+   "phase": "Takeoff",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Delivery, Cathay 251, Stand Whiskey 42, Information Bravo, request clearance to Tokyo Haneda.",
+   "speaker": "Pilot",
+   "meaning": "Pilot requests an IFR departure clearance to Tokyo Haneda, reporting position (Stand Whiskey 42) and that the crew has the latest ATIS (Information Bravo).",
+   "day": 1,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Delivery, Cathay 251, Stand Whiskey 42, Information Delta, request clearance to Tokyo Haneda.",
+   "speaker": "Pilot",
+   "meaning": "Initial contact with Delivery requesting IFR clearance to Tokyo Haneda, confirming receipt of current ATIS Information Delta.",
+   "day": 3,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Departure, Cathay 251, altimeter setting one zero one two verified, level is two thousand five hundred feet. Cycling transponder.",
+   "speaker": "Pilot",
+   "meaning": "The crew confirms the altimeter setting and actual level, and cycles the transponder to reset the Mode C encoder.",
+   "day": 11,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Departure, Cathay 251, passing one thousand five hundred feet, climbing via SID to Flight Level zero nine zero.",
+   "speaker": "Pilot",
+   "meaning": "The mandatory initial check-in on Departure: station, callsign, passing altitude, climbing-to level, and SID.",
+   "day": 11,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Departure, Cathay 251, UNABLE to expedite, maximum climb rate 800 feet per minute.",
+   "speaker": "Pilot",
+   "meaning": "The pilot declares unable to expedite, stating a maximum climb rate of 800 fpm at heavy weight.",
+   "day": 12,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Ground, Cathay 251, low visibility, request progressive taxi to Runway 07 Right.",
+   "speaker": "Pilot",
+   "meaning": "In dense fog (RVR 400m), the crew requests step-by-step progressive taxi guidance to Runway 07R.",
+   "day": 6,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Annex 14"
+  },
+  {
+   "text": "Hong Kong Ground, Cathay 251, pushback complete, request taxi.",
+   "speaker": "Pilot",
+   "meaning": "The pilot reports the pushback is finished and requests taxi clearance.",
+   "day": 5,
+   "phase": "Ground & Taxi",
+   "icaoRef": null
+  },
+  {
+   "text": "Hong Kong Ground, Cathay 251, Stand Whiskey 42, request push and start, Information Charlie.",
+   "speaker": "Pilot",
+   "meaning": "Initial call requesting permission to push back from the gate and start engines, confirming receipt of ATIS information Charlie.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Ground, Cathay 251, Stand Whiskey 42, request push and start, Information Echo.",
+   "speaker": "Pilot",
+   "meaning": "Initial call to Ground requesting pushback and engine start from Stand Whiskey 42 with Information Echo.",
+   "day": 5,
+   "phase": "Ground & Taxi",
+   "icaoRef": null
+  },
+  {
+   "text": "Hong Kong Ground, Cathay 251, Stand Whiskey 42, request taxi to remote de-icing pad North.",
+   "speaker": "Pilot",
+   "meaning": "The pilot requests taxi from the stand to the remote de-icing pad for surface treatment.",
+   "day": 10,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Ground, Cathay 251, Stand Whiskey 42, request taxi.",
+   "speaker": "Pilot",
+   "meaning": "The pilot requests taxi clearance from the stand.",
+   "day": 6,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Annex 14"
+  },
+  {
+   "text": "Hong Kong International Airport Information Delta. Time zero zero three zero. Runway zero seven Right in use for arrival, Runway zero seven Left in use for departure. Wind zero eight zero degrees, one five knots. Visibility one zero kilometers. Few clouds two thousand feet. Temperature two seven, dewpoint two four. QNH one zero one four hectopascals. Acknowledge information Delta on initial contact.",
+   "speaker": "ATC",
+   "meaning": "The full automated ATIS broadcast (Information Delta) giving the 0030Z observation: runways 07R arrival / 07L departure, wind 080° at 15 knots, 10 km visibility, few clouds at 2,000 feet, temperature 27°C, dewpoint 24°C, QNH 1014 hPa.",
+   "day": 3,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Tower, Cathay 251, approaching Runway 07 Left on Hotel, ready to cross.",
+   "speaker": "Pilot",
+   "meaning": "The pilot informs Tower they are approaching Runway 07L on taxiway Hotel and are ready to cross.",
+   "day": 7,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9870"
+  },
+  {
+   "text": "Hong Kong Tower, Cathay 251, holding point Runway 07 Right on Alpha, ready for departure.",
+   "speaker": "Pilot",
+   "meaning": "The pilot reports holding short at the runway holding point and ready to depart.",
+   "day": 8,
+   "phase": "Takeoff",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Tower, Cathay 251, holdover time has expired, unable departure, request taxi to de-icing pad for re-treatment.",
+   "speaker": "Pilot",
+   "meaning": "The pilot reports that holdover time has expired in the departure queue, declares unable to depart, and requests taxi back to the de-icing pad for re-treatment.",
+   "day": 10,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Tower, Cathay 251, negative contact on the Airbus 320, holding short Runway 07 Right.",
+   "speaker": "Pilot",
+   "meaning": "The crew cannot see the Airbus 320, so they report negative contact and remain holding short rather than entering the runway on assumption.",
+   "day": 8,
+   "phase": "Takeoff",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Information Echo acknowledged, wind zero six zero at two two gusts three five, windshear Runway zero seven Left, QNH one zero one one, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "Acknowledging the Special ATIS update and reading back the new wind, windshear report, and QNH.",
+   "day": 3,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Monitor",
+   "speaker": "ATC",
+   "meaning": "'Listen out on frequency' — tune the frequency and listen without transmitting an initial check call.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Negative",
+   "speaker": "ATC",
+   "meaning": "'No' / 'Permission not granted' / 'That is not correct' — used by ATC to deny requests or flag pilot readback errors.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Negative contact, holding short.",
+   "speaker": "Pilot",
+   "meaning": "The report a pilot must make when the referenced traffic is not visible — never enter the runway without visual contact.",
+   "day": 8,
+   "phase": "Takeoff",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "One two one decimal six, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "Readback of the frequency change to 121.6.",
+   "day": 7,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9870"
+  },
+  {
+   "text": "One two three decimal eight, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "The pilot reads back the new frequency, confirming the transfer.",
+   "day": 11,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Push and start approved, facing south, QNH 1012, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "A faulty readback — the pilot said 'facing south' instead of 'facing north', which ATC must correct.",
+   "day": 5,
+   "phase": "Ground & Taxi",
+   "icaoRef": null
+  },
+  {
+   "text": "Push and Start Approved, Facing West",
+   "speaker": "ATC",
+   "meaning": "Clearance to disconnect ground power, connect the motorized tug, push backwards out of the gate alleyway, and start the engines so the nose points west when finished.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Push and start approved, facing west, QNH 1012, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "Mandatory readback of the pushback clearance, facing direction, and altimeter setting.",
+   "day": 5,
+   "phase": "Ground & Taxi",
+   "icaoRef": null
+  },
+  {
+   "text": "Push and start approved, facing west, QNH 1012.",
+   "speaker": "ATC",
+   "meaning": "ATC approves pushback and engine start with the nose finishing pointing west, confirming the local altimeter setting QNH 1012.",
+   "day": 5,
+   "phase": "Ground & Taxi",
+   "icaoRef": null
+  },
+  {
+   "text": "Push and start approved, facing west, QNH 1013, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "Full readback of the pushback clearance and corrected altimeter setting.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Push and start approved, facing west, QNH 1014, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "Mandatory readback confirming the pushback clearance, final facing direction, and altimeter setting.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "QNH 1013, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "Readback of the corrected altimeter setting QNH 1013.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "QNH 1014, correction, QNH 1013",
+   "speaker": "ATC",
+   "meaning": "The local barometric altimeter setting (1 hPa ≈ 27–30 feet); an uncorrected 10 hPa error would create a 300-foot altitude discrepancy and a level-bust risk.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "QNH one zero two four, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "A faulty readback — the pilot said 1024 instead of 1014, a +10 hPa error the controller must catch.",
+   "day": 3,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Request progressive taxi instructions",
+   "speaker": "Pilot",
+   "meaning": "The pilot asks ATC for step-by-step turn-by-turn guidance, used in low visibility or at unfamiliar airports.",
+   "day": 6,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Annex 14"
+  },
+  {
+   "text": "Right on Hotel, Ground on one two one decimal six, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "The pilot reads back the return taxi routing and frequency.",
+   "day": 10,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Roger",
+   "speaker": "Pilot",
+   "meaning": "'I have received all of your last transmission' — acknowledges receipt only; NEVER use for instructions requiring compliance or readbacks.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Runway 07 Right, cleared for takeoff, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "Standard readback of the takeoff clearance.",
+   "day": 8,
+   "phase": "Takeoff",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Runway 07 Right, line up and wait, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "Standard readback of the line-up authorization.",
+   "day": 9,
+   "phase": "Takeoff",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Say again",
+   "speaker": "Pilot",
+   "meaning": "'Repeat all, or the specified part, of this message' — the mandatory request for repetition; the word 'REPEAT' is strictly forbidden in civil aviation.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Slot time 0345. Cancel OCEAN 2A, new departure BEKOL 3A, climb via SID Flight Level 080, squawk 7142, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reads back the amended clearance (slot time, cancelled and replacement departures, new level and squawk) with the callsign last.",
+   "day": 1,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Squawk ident.",
+   "speaker": "ATC",
+   "meaning": "The command to press the transponder IDENT button so the radar tag blooms and flashes for identification.",
+   "day": 11,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Standby",
+   "speaker": "ATC",
+   "meaning": "'Wait and I will call you' — the controller is busy or coordinating; do not reply, wait for ATC to call back.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Standby, traffic passing behind.",
+   "speaker": "ATC",
+   "meaning": "Instruction to remain static at the gate because another aircraft is taxiing across the pushback path.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Starting engine number two.",
+   "speaker": "Pilot",
+   "meaning": "Announcement to the ground crew that engine number two is being ignited.",
+   "day": 5,
+   "phase": "Ground & Taxi",
+   "icaoRef": null
+  },
+  {
+   "text": "Station calling Ground, stepped on, unreadable. Cathay 251, say again your stand number.",
+   "speaker": "ATC",
+   "meaning": "Two pilots transmitted at the same instant and blocked each other, so the controller asks Cathay 251 to repeat its stand number.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Stopping climb at Flight Level one two zero, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "The pilot's readback confirming the climb is being arrested at FL120.",
+   "day": 12,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Stopping, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "The pilot's readback confirming the emergency stop.",
+   "day": 9,
+   "phase": "Takeoff",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Stopping, holding short Runway 07 Left, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "The pilot confirms immediate max braking and compliance with the cancelled clearance, holding short of Runway 07L.",
+   "day": 7,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9870"
+  },
+  {
+   "text": "Taxi to de-icing pad North via Alpha, hold short pad entrance, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "The pilot reads back the taxi clearance to the de-icing pad.",
+   "day": 10,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Taxi to holding point Runway 07 Right via Alpha and Hotel, crossing Runway 07 Left, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "A dangerous faulty readback — the pilot said 'crossing Runway 07 Left' instead of 'hold short', which the controller must catch immediately.",
+   "day": 6,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Annex 14"
+  },
+  {
+   "text": "Taxi to holding point Runway 07 Right via Alpha and Hotel, give way to the Boeing 777 on Bravo, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "Readback of the taxi route and the give-way instruction.",
+   "day": 6,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Annex 14"
+  },
+  {
+   "text": "Taxi to holding point Runway 07 Right via Alpha, crossing Runway 07 Left, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "The pilot's readback incorrectly says 'crossing Runway 07 Left' instead of 'hold short' -- a dangerous misreadback creating a runway incursion hazard.",
+   "day": 1,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Taxi to holding point Runway 07 Right via Alpha, hold short Runway 07 Left, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "Readback of the taxi route and the mandatory hold-short instruction.",
+   "day": 5,
+   "phase": "Ground & Taxi",
+   "icaoRef": null
+  },
+  {
+   "text": "Taxi to holding point Runway zero seven Right via Alpha and Hotel, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "The pilot reads back the taxi clearance to the holding point.",
+   "day": 10,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Turn left heading zero six zero, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "The pilot's readback of the traffic-avoidance turn.",
+   "day": 12,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Type four fluid, holdover time zero zero four five, post inspection complete, request taxi Runway zero seven Right, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "The taught readback confirming Type IV fluid and the holdover start time, requesting taxi to the runway.",
+   "day": 10,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Type four fluid, holdover time zero zero four five, post inspection complete, request taxi to Runway zero seven Right, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "The pilot's mandatory readback confirming the fluid type and holdover start time, and requesting taxi to the runway.",
+   "day": 10,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Wilco",
+   "speaker": "Pilot",
+   "meaning": "'I understand your message and will comply with it' — abbreviation of 'Will Comply', used to acknowledge instructions requiring future execution.",
+   "day": 2,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Wilco, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "The correct response to 'Cathay 251, report passing waypoint PORPA' — an instruction requiring future compliance.",
+   "day": 3,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  }
+ ]
+}
