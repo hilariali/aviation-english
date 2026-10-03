@@ -1,0 +1,94 @@
+{
+ "day": 14,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Radar, Cathay two five one, passing Flight Level one wun zero climbing to Flight Level one six zero.",
+   "meaning": "Check-in while climbing: passing FL110, cleared to FL160."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, radar contact, turn left heading zero seven zero, vector for sequencing.",
+   "meaning": "ATC establishes radar contact and issues a radar vector: turn left to heading 070 for sequencing."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Turn left heading zero seven zero, vector for sequencing, Cathay two five one.",
+   "meaning": "Pilot reads back the heading instruction and the vector's purpose."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, turn left heading zero two zero, descend to five thousand feet.",
+   "meaning": "ATC vectors the aircraft onto heading 020 with a descent to 5,000 ft."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Radar, Cathay two five one, unable descent to five thousand feet on heading zero two zero due high terrain, minimum vectoring altitude is seven thousand feet.",
+   "meaning": "Pilot exercises the terrain veto: unable the descent due to high terrain, stating the minimum vectoring altitude of 7,000 ft."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger, maintain seven thousand feet, maintain heading zero seven zero.",
+   "meaning": "ATC accepts the veto and amends the clearance: maintain 7,000 ft and heading 070."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Maintain seven thousand feet, maintain heading zero seven zero, Cathay two five one.",
+   "meaning": "Pilot reads back the amended altitude and heading."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Fly heading zero niner zero, descending to Flight Level one zero zero, Cathay two five one.",
+   "meaning": "Correct readback form: say 'heading' (never 'track') and always include 'Flight Level'."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Radar vector",
+   "definition": "A tactical ATC heading instruction that takes the aircraft off its planned route."
+  },
+  {
+   "term": "Turn left/right heading [degrees]",
+   "definition": "Command to turn to a specific magnetic compass heading."
+  },
+  {
+   "term": "Fly heading [degrees]",
+   "definition": "Command to establish and maintain a magnetic heading without wind correction."
+  },
+  {
+   "term": "Vector for [reason]",
+   "definition": "ATC states the intent of the vector, e.g. sequencing or spacing."
+  },
+  {
+   "term": "Maintain present heading",
+   "definition": "Instruction to freeze lateral turns."
+  },
+  {
+   "term": "Resume own navigation",
+   "definition": "Vector termination; the pilot resumes the FMC route."
+  },
+  {
+   "term": "Minimum Vectoring Altitude (MVA)",
+   "definition": "Lowest altitude at which ATC may vector an aircraft while guaranteeing terrain clearance."
+  },
+  {
+   "term": "Unable due terrain",
+   "definition": "The pilot's terrain veto: the pilot-in-command's ultimate responsibility for terrain safety."
+  }
+ ],
+ "quiz": [],
+ "sections": [
+  {
+   "heading": "Core Learning Content -- Radar Vectors & Heading Control",
+   "body": "- Turn left / right heading [degrees]: Command to turn to a specific magnetic compass heading.\r\n- Fly heading [degrees]: Command to establish and maintain a magnetic heading without wind correction.\r\n- Vector for [reason]: Stating intent (e.g. sequencing, spacing, traffic avoidance).\r\n- Maintain present heading: Freezing lateral turns.\r\n- Resume own navigation direct [fix]: Vector termination; resuming FMC route."
+  },
+  {
+   "heading": "Spaced Repetition Drill",
+   "body": "- Day 13 Review (+1d): Crossing 9,000 ft TA at Hong Kong, call \"Standard set, cross-checked\" and switch altimeter subscale to 1013.25 hPa.\r\n- Day 7 Review (+7d): Never cross an illuminated red stop-bar even if cleared by ATC.\r\n- Day 1 Review (+14d): Single-digit phonetics: Heading 359 = \"TREE FIFE NIN-ER\", Altitude 9,000 = \"NIN-ER TOU-ZAND\"."
+  },
+  {
+   "heading": "Fun Aviation Fact",
+   "body": "The 1974 TWA Flight 514 crash near Washington Dulles led directly to the creation of mapped Minimum Vectoring Altitudes (MVAs) and the global mandate for Ground Proximity Warning Systems (GPWS)."
+  }
+ ]
+}

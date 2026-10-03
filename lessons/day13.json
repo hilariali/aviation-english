@@ -1,0 +1,76 @@
+{
+ "day": 13,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Radar, Cathay two five one, passing eight thousand feet climbing to Flight Level one six zero.",
+   "meaning": "Initial climb check-in: station, callsign, passing altitude and cleared level."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, climb to Flight Level one six zero, transition altitude nine thousand, standard altimeter setting one zero one three.",
+   "meaning": "ATC clears the climb to FL160 and issues the transition altitude with the standard pressure setting."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Climb to Flight Level one six zero, standard set one zero one three, Cathay two five one.",
+   "meaning": "Pilot reads back the cleared level and the standard altimeter setting."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, stop climb at Flight Level one four zero, expedite climb through Flight Level one wun zero, traffic twelve o'clock opposite direction Boeing seven seven seven level at Flight Level one fife zero.",
+   "meaning": "Urgent instruction: stop the climb at FL140 but expedite through FL110 due to opposite-direction traffic at FL150."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Stopping climb at Flight Level one four zero, expediting climb through Flight Level one wun zero, traffic in sight, Cathay two five one.",
+   "meaning": "Pilot confirms stopping the climb at FL140, expediting through FL110, with the traffic in sight."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Stopping climb at Flight Level one four zero, standard altimeter one zero one three, Cathay two five one.",
+   "meaning": "Correct readback form: the standard keyword is 'stopping climb' (never 'level off'), and the pressure value must be read back numerically."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Transition Altitude (TA)",
+   "definition": "9,000 ft at Hong Kong (VHHH). Below this, fly on QNH (altitudes)."
+  },
+  {
+   "term": "Transition Level (TL)",
+   "definition": "Lowest usable flight level above the transition altitude (e.g. FL110), assigned by ATC."
+  },
+  {
+   "term": "Standard pressure setting",
+   "definition": "1013.25 hPa / 29.92 inHg (QNE); the altimeter subscale used above the transition altitude."
+  },
+  {
+   "term": "Stop climb at [level]",
+   "definition": "Immediate ATC instruction to level off at the assigned flight level."
+  },
+  {
+   "term": "Expedite climb",
+   "definition": "Climb at best rate (Vy) to clear a traffic conflict."
+  },
+  {
+   "term": "Level bust",
+   "definition": "Climbing or descending through an assigned level without clearance."
+  }
+ ],
+ "quiz": [],
+ "sections": [
+  {
+   "heading": "Core Learning Content -- Level Bust Prevention & Altimetry",
+   "body": "- Transition Altitude (TA): 9,000 ft at Hong Kong (VHHH). Below this, fly on QNH (altitudes).\r\n- Transition Level (TL): Lowest usable flight level above TA (e.g. FL110), assigned by ATC.\r\n- Standard Pressure Setting: 1013.25 hPa / 29.92 inHg (QNE).\r\n- Stop Climb At [FL]: Immediate instruction to level off.\r\n- Expedite Climb: Best rate of climb (Vy) to clear traffic conflicts."
+  },
+  {
+   "heading": "Spaced Repetition Drill",
+   "body": "- Day 12 Review (+1d): Cancelling SID altitude restrictions does NOT cancel lateral waypoints or published speed restrictions.\r\n- Day 10 Review (+3d): In cold air, true altitude is lower than indicated altitude (\"from warm to cold, look out below\")."
+  },
+  {
+   "heading": "Fun Aviation Fact",
+   "body": "Transition Altitudes vary worldwide: 9,000 ft in Hong Kong, 18,000 ft in the USA/Canada, and 3,000-6,000 ft in the UK and Europe."
+  }
+ ]
+}
