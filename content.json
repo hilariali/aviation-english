@@ -1,9 +1,9 @@
 {
  "meta": {
   "version": 2,
-  "updated": "2026-10-01",
-  "lessons": 11,
-  "phrases": 150
+  "updated": "2026-10-03",
+  "lessons": 13,
+  "phrases": 164
  },
  "lessons": [
   {
@@ -132,6 +132,30 @@
    "summary": "This lesson teaches SID climb phraseology: the legal meaning of \"Climb via SID\" (follow the lateral route and all published altitude/speed constraints), \"Cancel level restriction\", and the emergency commands \"Stop…",
    "audioURL": "https://drive.usercontent.google.com/download?id=1reGataxiWNyDJdQCNNT9DVkWpNpmwp4h&export=download&confirm=t",
    "audioPageURL": "https://drive.google.com/file/d/1reGataxiWNyDJdQCNNT9DVkWpNpmwp4h/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 4444"
+   ]
+  },
+  {
+   "day": 13,
+   "topic": "Level Bust Prevention & Altimetry",
+   "phase": "Departure & Climb",
+   "summary": "This lesson covers altimeter subscale transitions at Hong Kong's 9,000 ft transition altitude -- switching from QNH to standard 1013.25 hPa -- and level bust prevention: the urgent 'stop climb' and 'expedite climb'…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1azI6jp1SlCAU5nV1W0wY4P7y4rEVZQC3&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1azI6jp1SlCAU5nV1W0wY4P7y4rEVZQC3/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 4444"
+   ]
+  },
+  {
+   "day": 14,
+   "topic": "Radar Vectors & Heading Control",
+   "phase": "Departure & Climb",
+   "summary": "This lesson introduces radar vectoring: the shift from RNAV navigation to tactical ATC heading control, flying headings without wind correction, minimum vectoring altitudes, and the pilot's terrain veto --…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1EK3dKi3w_OQC0sjuNZ8WiLBawFTXeicZ&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1EK3dKi3w_OQC0sjuNZ8WiLBawFTXeicZ/view",
    "icaoRefs": [
     "ICAO Doc 9432",
     "ICAO Doc 4444"
@@ -1337,6 +1361,118 @@
    "meaning": "The correct response to 'Cathay 251, report passing waypoint PORPA' — an instruction requiring future compliance.",
    "day": 3,
    "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Radar, Cathay two five one, passing eight thousand feet climbing to Flight Level one six zero.",
+   "speaker": "Pilot",
+   "meaning": "Initial climb check-in: station, callsign, passing altitude and cleared level.",
+   "day": 13,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, climb to Flight Level one six zero, transition altitude nine thousand, standard altimeter setting one zero one three.",
+   "speaker": "ATC",
+   "meaning": "ATC clears the climb to FL160 and issues the transition altitude with the standard pressure setting.",
+   "day": 13,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Climb to Flight Level one six zero, standard set one zero one three, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reads back the cleared level and the standard altimeter setting.",
+   "day": 13,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, stop climb at Flight Level one four zero, expedite climb through Flight Level one wun zero, traffic twelve o'clock opposite direction Boeing seven seven seven level at Flight Level one fife zero.",
+   "speaker": "ATC",
+   "meaning": "Urgent instruction: stop the climb at FL140 but expedite through FL110 due to opposite-direction traffic at FL150.",
+   "day": 13,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Stopping climb at Flight Level one four zero, expediting climb through Flight Level one wun zero, traffic in sight, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Pilot confirms stopping the climb at FL140, expediting through FL110, with the traffic in sight.",
+   "day": 13,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Stopping climb at Flight Level one four zero, standard altimeter one zero one three, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Correct readback form: the standard keyword is 'stopping climb' (never 'level off'), and the pressure value must be read back numerically.",
+   "day": 13,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Radar, Cathay two five one, passing Flight Level one wun zero climbing to Flight Level one six zero.",
+   "speaker": "Pilot",
+   "meaning": "Check-in while climbing: passing FL110, cleared to FL160.",
+   "day": 14,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, radar contact, turn left heading zero seven zero, vector for sequencing.",
+   "speaker": "ATC",
+   "meaning": "ATC establishes radar contact and issues a radar vector: turn left to heading 070 for sequencing.",
+   "day": 14,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Turn left heading zero seven zero, vector for sequencing, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reads back the heading instruction and the vector's purpose.",
+   "day": 14,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, turn left heading zero two zero, descend to five thousand feet.",
+   "speaker": "ATC",
+   "meaning": "ATC vectors the aircraft onto heading 020 with a descent to 5,000 ft.",
+   "day": 14,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Radar, Cathay two five one, unable descent to five thousand feet on heading zero two zero due high terrain, minimum vectoring altitude is seven thousand feet.",
+   "speaker": "Pilot",
+   "meaning": "Pilot exercises the terrain veto: unable the descent due to high terrain, stating the minimum vectoring altitude of 7,000 ft.",
+   "day": 14,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, roger, maintain seven thousand feet, maintain heading zero seven zero.",
+   "speaker": "ATC",
+   "meaning": "ATC accepts the veto and amends the clearance: maintain 7,000 ft and heading 070.",
+   "day": 14,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Maintain seven thousand feet, maintain heading zero seven zero, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reads back the amended altitude and heading.",
+   "day": 14,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Fly heading zero niner zero, descending to Flight Level one zero zero, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Correct readback form: say 'heading' (never 'track') and always include 'Flight Level'.",
+   "day": 14,
+   "phase": "Departure & Climb",
    "icaoRef": "ICAO Doc 9432"
   }
  ]

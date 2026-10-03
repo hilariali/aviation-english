@@ -390,6 +390,11 @@ function drillNav(d){ const n=state.lesson.vocabulary.length;
 /* ---------- quiz ---------- */
 function renderQuiz(el){
   const L=state.lesson;
+  if(!L.quiz.length){
+    el.innerHTML=`<div class="card" style="text-align:center"><h2 style="margin:4px 0">Quiz</h2>
+      <p class="lesson-sub">This lesson's email didn't include multiple-choice questions, so there's no quiz here — the Drill flashcards above cover the key phraseology.</p></div>`;
+    return;
+  }
   if(state.qdone){
     const pct=Math.round(state.qok/L.quiz.length*100);
     el.innerHTML=`<div class="card" style="text-align:center"><h2 style="margin:4px 0">Quiz complete</h2>
