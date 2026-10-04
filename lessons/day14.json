@@ -76,7 +76,30 @@
    "definition": "The pilot's terrain veto: the pilot-in-command's ultimate responsibility for terrain safety."
   }
  ],
- "quiz": [],
+ "quiz": [
+  {
+   "question": "When an air traffic controller instructs an aircraft to turn right heading 270, what is the pilot expected to do regarding wind drift?",
+   "options": [
+    "Calculate wind drift and fly ground track 270 degrees",
+    "Steer magnetic heading 270 degrees and make no correction for wind drift",
+    "Follow GPS true track 270 degrees",
+    "Request winds aloft before turning"
+   ],
+   "correctIndex": 1,
+   "explanation": "A vector is an instruction to steer a specific magnetic compass heading. The pilot maintains that heading without applying a drift correction; ATC accounts for wind on radar."
+  },
+  {
+   "question": "Under ICAO procedures, what action should a pilot take if instructed to descend below the Minimum Safe Altitude (MSA) while on radar vectors in IMC?",
+   "options": [
+    "Comply immediately because ATC has legal radar authority",
+    "Descend at a reduced vertical speed",
+    "Immediately challenge the clearance, state inability due terrain, and maintain safe altitude",
+    "Squawk 7700"
+   ],
+   "correctIndex": 2,
+   "explanation": "The pilot-in-command retains ultimate responsibility for terrain separation. If a clearance conflicts with terrain awareness or safe altitudes, the crew must query ATC immediately and level off."
+  }
+ ],
  "sections": [
   {
    "heading": "Core Learning Content -- Radar Vectors & Heading Control",

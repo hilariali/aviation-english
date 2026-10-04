@@ -58,7 +58,30 @@
    "definition": "Climbing or descending through an assigned level without clearance."
   }
  ],
- "quiz": [],
+ "quiz": [
+  {
+   "question": "An aircraft is cruising at 4,500 ft on a QNH of 1025 hPa. The aircraft enters an area where the actual sea level pressure is 1005 hPa, but the pilot forgets to adjust the altimeter subscale. What is the aircraft's true altitude relative to its indicated altitude?",
+   "options": [
+    "600 ft higher than indicated",
+    "600 ft lower than indicated",
+    "Unchanged",
+    "300 ft higher"
+   ],
+   "correctIndex": 1,
+   "explanation": "1 hPa is approximately 30 ft. A 20 hPa pressure drop equals approximately 600 ft. Flying from high to low pressure without resetting the subscale causes the altimeter to overread, placing the aircraft 600 ft lower than indicated."
+  },
+  {
+   "question": "Under ICAO Doc 9432, what is the standardized instruction when ATC requires an aircraft to climb at the maximum operational rate to avoid traffic?",
+   "options": [
+    "Climb as fast as possible to Flight Level...",
+    "Immediate climb to Flight Level...",
+    "Expedite climb [to/through Flight Level...]",
+    "Maximum vertical speed to Flight Level..."
+   ],
+   "correctIndex": 2,
+   "explanation": "ICAO standardizes EXPEDITE (paired with climb or descent) to command maximum operational rate without exceeding aircraft aerodynamic limits."
+  }
+ ],
  "sections": [
   {
    "heading": "Core Learning Content -- Level Bust Prevention & Altimetry",
