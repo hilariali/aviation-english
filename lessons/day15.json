@@ -1,0 +1,98 @@
+{
+ "day": 15,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Radar, Cathay two five one, passing seven thousand feet climbing to Flight Level one six zero, heading zero seven zero.",
+   "meaning": "Departure check-in on climb: station, callsign, passing altitude, cleared level, and assigned heading."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, no speed restriction, maintain two eight zero knots or greater until passing Flight Level wun zero zero.",
+   "meaning": "ATC issues a minimum-speed restriction for climb sequencing: hold 280 kt or faster until past FL100."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "No speed restriction, maintain two eight zero knots or greater until passing Flight Level wun zero zero, Cathay two five one.",
+   "meaning": "Pilot reads back the speed restriction verbatim, digits spoken individually."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, cancel high speed climb, reduce speed to minimum clean speed immediately, traffic twelve o'clock eight miles crossing left to right.",
+   "meaning": "Urgent tactical command: cancel the high-speed climb and slow to minimum clean speed at once due to crossing traffic."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cancelling high speed climb, reducing to minimum clean speed two two zero knots, Cathay two five one.",
+   "meaning": "Pilot complies, stating the aircraft's minimum clean maneuvering speed of 220 kt."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Maintain [speed] knots or greater",
+   "definition": "Minimum airspeed restriction assigned for climb sequencing."
+  },
+  {
+   "term": "Do not exceed 250 knots",
+   "definition": "Maximum airspeed limit below 10,000 ft (FL100) in terminal airspace."
+  },
+  {
+   "term": "Resume normal speed",
+   "definition": "Cancellation of ATC speed control; the pilot resumes the FMC climb profile."
+  },
+  {
+   "term": "Reduce to minimum clean speed",
+   "definition": "Instruction to fly at the lowest maneuvering speed with flaps and slats fully retracted."
+  },
+  {
+   "term": "Maintain present speed",
+   "definition": "Keep the instantaneous indicated airspeed (IAS)."
+  },
+  {
+   "term": "Minimum clean speed (Vclean / Green Dot)",
+   "definition": "Lowest safe maneuvering speed with all flaps and slats retracted; flying slower requires extending flaps."
+  },
+  {
+   "term": "Speed intervention",
+   "definition": "Pulling the speed knob on the MCP/FCU to open the speed window and manually set an ATC-assigned airspeed."
+  },
+  {
+   "term": "250-knot rule below 10,000 ft",
+   "definition": "Global airspace restriction giving pilots visual reaction time and limiting bird-strike impact severity."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "If ATC instructs a transport category aircraft on climb to reduce to an airspeed that is below the aircraft's minimum clean maneuvering speed, what is the pilot required to do?",
+   "options": [
+    "Extend landing gear and flaps to comply with ATC",
+    "Comply with the instruction and rely on alpha protection",
+    "State unable and request the minimum clean maneuvering speed",
+    "Disregard the clearance without notifying ATC"
+   ],
+   "correctIndex": 2,
+   "explanation": "Pilots must never compromise aerodynamic safety margins. If an ATC speed instruction requires deploying flaps during climb or violates the minimum clean speed, the pilot must state \"Unable\" and advise ATC of the lowest acceptable speed."
+  },
+  {
+   "question": "What is the primary operational objective of the 250 kt airspeed restriction below 10,000 ft?",
+   "options": [
+    "Conserving climb fuel",
+    "Providing adequate reaction time for visual traffic separation and mitigating bird strike severity",
+    "Preventing engine thermal shock",
+    "Reducing sonic boom hazards"
+   ],
+   "correctIndex": 1,
+   "explanation": "The 250 kt rule ensures pilots in uncontrolled or mixed terminal airspace have sufficient time to see and avoid other aircraft visually, while keeping bird strike impact energy within certified airframe limits."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Spaced Repetition Drill",
+   "body": "- Day 14 Review (+1d): When flying a radar vector, steer the raw magnetic compass heading without correcting for wind drift. Challenge any vector into terrain (\"Unable due terrain, MVA 7,000 ft\")."
+  },
+  {
+   "heading": "Fun Aviation Fact",
+   "body": "The 250-knot limit below 10,000 ft was created by the FAA after the 1960 Staten Island mid-air collision between a United DC-8 and a TWA Super Constellation. Impact damage from a bird strike quadruples if aircraft speed doubles ($E_k = \\frac{1}{2}mv^2$), making 250 kt a global windshield certification standard."
+  }
+ ]
+}
