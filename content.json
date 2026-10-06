@@ -1,9 +1,9 @@
 {
  "meta": {
   "version": 2,
-  "updated": "2026-10-05",
-  "lessons": 14,
-  "phrases": 169
+  "updated": "2026-10-06",
+  "lessons": 15,
+  "phrases": 174
  },
  "lessons": [
   {
@@ -168,6 +168,18 @@
    "summary": "Day 15 focuses on tactical speed control during departure and climb: minimum and maximum speed assignments such as 'maintain 280 knots or greater' and the 250-knot restriction below 10,000 ft. The lesson explains…",
    "audioURL": "https://drive.usercontent.google.com/download?id=1K1AGpSfSIMjcpiOP8eul3plwC0daypAk&export=download&confirm=t",
    "audioPageURL": "https://drive.google.com/file/d/1K1AGpSfSIMjcpiOP8eul3plwC0daypAk/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 16,
+   "topic": "Transponder & Squawk Phraseology",
+   "phase": "En-route",
+   "summary": "Day 16 enters Phase 3 (En-Route & High-Altitude Operations) with transponder and squawk phraseology: ATC's radar reports FL125 against the pilot's FL120, prompting an altimeter-setting cross-check, then a 'reset…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1sjNgusSZMfn0AVTlt5wBeDc3KuMzwij1&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1sjNgusSZMfn0AVTlt5wBeDc3KuMzwij1/view",
    "icaoRefs": [
     "ICAO Doc 9432",
     "ICAO Doc 9835"
@@ -1525,6 +1537,46 @@
    "meaning": "Pilot complies, stating the aircraft's minimum clean maneuvering speed of 220 kt.",
    "day": 15,
    "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, squawk four five two one.",
+   "speaker": "ATC",
+   "meaning": "ATC issues the assigned 4-digit octal transponder code (0000–7777).",
+   "day": 16,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Reset squawk four fife two wun, squawk Charlie, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reads back the instruction to re-enter the transponder code and activate Mode C altitude reporting.",
+   "day": 16,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Check altimeter setting and confirm level.",
+   "speaker": "ATC",
+   "meaning": "ATC asks the pilot to verify the altimeter setting and actual level after a radar altitude mismatch.",
+   "day": 16,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, roger, radar shows altitude discrepancy, reset squawk four fife two wun, squawk Charlie.",
+   "speaker": "ATC",
+   "meaning": "ATC instructs the pilot to re-enter the transponder code (clearing data corruption) and activate Mode C altitude reporting.",
+   "day": 16,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Stop squawk Charlie.",
+   "speaker": "ATC",
+   "meaning": "ATC instructs the pilot to disable Mode C altitude reporting when it differs more than 200 ft from the actual level (ICAO Doc 9432).",
+   "day": 16,
+   "phase": "En-route",
    "icaoRef": "ICAO Doc 9432"
   }
  ]
