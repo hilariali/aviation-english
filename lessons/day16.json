@@ -1,0 +1,125 @@
+{
+ "day": 16,
+ "exchanges": [
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, check altimeter setting and confirm level, radar indicates Flight Level one two fife.",
+   "meaning": "ATC reports its radar shows FL125 versus the pilot's FL120 and asks the pilot to verify the altimeter setting and actual level."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Altimeter setting standard one zero one three, level indicates Flight Level one two zero, Cathay two five one.",
+   "meaning": "Pilot confirms the standard pressure setting (1013.25 hPa) and that the indicated level is FL120."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger, radar shows altitude discrepancy, reset squawk four fife two wun, squawk Charlie.",
+   "meaning": "ATC instructs the pilot to re-enter the transponder code (to clear data corruption) and activate Mode C altitude reporting."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Reset squawk four fife two wun, squawk Charlie, Cathay two five one.",
+   "meaning": "Pilot reads back the reset-squawk instruction digit by digit — squawk codes are mandatory readbacks."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, radar indicates correct, squawk ident.",
+   "meaning": "ATC commands the pilot to press the IDENT key so the target blooms on the radar screen, confirming identity."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Squawk ident, Cathay two five one.",
+   "meaning": "Pilot reads back the ident command with callsign."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, squawk four five two one.",
+   "meaning": "ATC issues the assigned 4-digit octal transponder code (digits 0–7 only)."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, stop squawk Charlie, altitude discrepancy.",
+   "meaning": "ATC orders the pilot to turn off Mode C altitude reporting when the encoder differs more than 200 ft from the actual level (ICAO Doc 9432)."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Transponder",
+   "definition": "Airborne equipment that replies to secondary surveillance radar interrogations with a 4-digit code and altitude data."
+  },
+  {
+   "term": "Squawk [code]",
+   "definition": "ATC command to enter an assigned 4-digit octal transponder code (0000–7777)."
+  },
+  {
+   "term": "Squawk ident",
+   "definition": "Command to actuate the transponder's Special Position Identification (SPI) pulse, making the radar target bloom for 18–20 seconds."
+  },
+  {
+   "term": "Squawk Charlie",
+   "definition": "Command to activate Mode C pressure-altitude transmission to ATC and TCAS."
+  },
+  {
+   "term": "Stop squawk Charlie",
+   "definition": "Instruction to disable Mode C altitude reporting when the encoder differs more than 200 ft from the actual level."
+  },
+  {
+   "term": "Reset squawk [code]",
+   "definition": "Instruction to re-enter the transponder code to clear data corruption."
+  },
+  {
+   "term": "Secondary surveillance radar (SSR)",
+   "definition": "Radar that interrogates the airborne transponder and receives its code and altitude replies, as opposed to primary radar's skin-paint returns."
+  },
+  {
+   "term": "Altitude encoder",
+   "definition": "Dedicated blind encoder referenced to standard pressure (1013.25 hPa) that supplies the Mode C pressure-altitude reply."
+  },
+  {
+   "term": "Octal (base-8) numbering",
+   "definition": "The numbering system used for transponder codes: four digits, each 0–7, yielding 4,096 discrete codes."
+  },
+  {
+   "term": "7500 / 7600 / 7700",
+   "definition": "Universal ICAO emergency transponder codes: 7500 hijack/unlawful interference, 7600 radio failure, 7700 general emergency."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "If an aircraft's Mode C altitude display on the ATC radar screen differs from the pilot's confirmed indicated altitude by more than 200 feet in RVSM airspace, what standard instruction will ATC issue if the discrepancy cannot be resolved?",
+   "options": [
+    "\"Squawk 7600\"",
+    "\"Stop squawk Charlie, altitude discrepancy\"",
+    "\"Descend immediately to minimum safe altitude\"",
+    "\"Cycle transponder to standby and declare an emergency\""
+   ],
+   "correctIndex": 1,
+   "explanation": "Under ICAO Doc 9432, when an altimeter/encoder error exceeds tolerances, ATC instructs the pilot to \"Stop squawk Charlie\" (turn off Mode C altitude reporting) to prevent false alerts on ATC collision tools and adjacent TCAS displays."
+  },
+  {
+   "question": "What are the three universal ICAO emergency transponder codes that every pilot must memorize?",
+   "options": [
+    "7000 (VFR), 7500 (Hijack), 7700 (Emergency)",
+    "7600 (Lost Comms), 7700 (Emergency), 7777 (Military intercept)",
+    "7500 (Unlawful Interference/Hijack), 7600 (Radio Failure), 7700 (General Emergency)",
+    "1200 (VFR), 2000 (Oceanic entry), 7700 (Emergency)"
+   ],
+   "correctIndex": 2,
+   "explanation": "ICAO standardizes 7500 for hijack/unlawful interference (\"75 – taken alive\"), 7600 for lost communications (\"76 – radio nix\"), and 7700 for general emergency (\"77 – going to heaven\")."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "📖 Section 2: Core Learning Content & Vocabulary Table",
+   "body": "Squawk [code] — Command to enter an assigned 4-digit octal code (0000–7777). Operational example: \"Cathay 251, squawk four five two one.\"\nSquawk ident — Command to actuate the transponder Special Position Identification (SPI); causes the target to bloom/flash on the radar screen.\nSquawk Charlie — Command to activate Mode C pressure-altitude transmission; transmits pressure altitude to ATC and TCAS.\nReset squawk [code] — Instruction to re-enter code to clear transponder data corruption. Example: \"Reset squawk 4521, squawk Charlie.\"\nStop squawk Charlie — Instruction to disable altitude reporting due to encoder discrepancy; used when Mode C differs >200 ft from actual level."
+  },
+  {
+   "heading": "🔄 Section 8: Spaced Repetition Review Drill",
+   "body": "Day 13 Review (+3d): When climbing through 9,000 ft Transition Altitude, switch subscale to Standard (1013.25 hPa). ATC command to arrest a climb is \"Stop climb at Flight Level…\".\nDay 14 Review (+2d): On a radar vector, steer assigned magnetic heading without wind drift compensation. Always assert pilot authority if vectored into terrain (\"Unable due terrain, MVA 7,000 ft\")."
+  },
+  {
+   "heading": "💡 Section 9: Fun Aviation Fact — Why Digits 0 to 7 Only?",
+   "body": "Have you ever wondered why aircraft transponder dials never have the numbers 8 or 9? Transponders use the octal (base-8) numbering system! Developed during WWII for the military IFF (Identification Friend or Foe) system, vacuum tube electronics used 12 binary switches (bits). Grouped in sets of three, 3 bits can represent 2³ = 8 possible states (0 through 7). The four octal digits yield exactly 8⁴ = 4,096 discrete codes (0000 to 7777)."
+  }
+ ]
+}
