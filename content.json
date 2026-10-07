@@ -1,9 +1,9 @@
 {
  "meta": {
   "version": 2,
-  "updated": "2026-10-06",
-  "lessons": 15,
-  "phrases": 174
+  "updated": "2026-10-07",
+  "lessons": 16,
+  "phrases": 179
  },
  "lessons": [
   {
@@ -183,6 +183,19 @@
    "icaoRefs": [
     "ICAO Doc 9432",
     "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 17,
+   "topic": "En-Route Cruising & Flight Levels",
+   "phase": "En-route",
+   "summary": "Day 17 moves to high-altitude en-route cruising and vertical separation management: the semicircular rule (eastbound tracks fly odd flight levels, westbound even), RVSM's 1,000-foot separation minimum between FL290…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1Do4VX6pPJ2D2tbH3c7dZcsg9MfjLRyE_&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1Do4VX6pPJ2D2tbH3c7dZcsg9MfjLRyE_/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835",
+    "ICAO Annex 2 Appendix 3"
    ]
   }
  ],
@@ -1576,6 +1589,46 @@
    "speaker": "ATC",
    "meaning": "ATC instructs the pilot to disable Mode C altitude reporting when it differs more than 200 ft from the actual level (ICAO Doc 9432).",
    "day": 16,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Radar, Cathay two five one, level Flight Level three three zero, request Flight Level three seven zero.",
+   "speaker": "Pilot",
+   "meaning": "Pilot checks in level at FL330 and requests a climb to the higher, more fuel-efficient FL370.",
+   "day": 17,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, unable Flight Level three seven zero due opposite direction traffic, climb to and maintain Flight Level three fife zero, report reaching.",
+   "speaker": "ATC",
+   "meaning": "ATC denies FL370 because of opposite-direction traffic and instead clears a climb to and hold FL350, with a requirement to report when level.",
+   "day": 17,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Climb to and maintain Flight Level three fife zero, report reaching, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reads back the climb clearance, the report-reaching requirement, and the callsign.",
+   "day": 17,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, expedite climb through Flight Level three fife zero, cross SIKOU at Flight Level three fife zero.",
+   "speaker": "ATC",
+   "meaning": "Urgent instruction: climb quickly through FL350 and cross the SIKOU waypoint at FL350.",
+   "day": 17,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Expediting climb through Flight Level three fife zero, cross SIKOU at Flight Level three fife zero, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Pilot acknowledges expediting the climb and confirms the SIKOU crossing restriction.",
+   "day": 17,
    "phase": "En-route",
    "icaoRef": "ICAO Doc 9432"
   }

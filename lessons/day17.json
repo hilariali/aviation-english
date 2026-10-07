@@ -1,0 +1,110 @@
+{
+ "day": 17,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Radar, Cathay two five one, level Flight Level three three zero, request Flight Level three seven zero.",
+   "meaning": "Pilot checks in level at FL330 and requests a climb to the higher, more fuel-efficient FL370."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, unable Flight Level three seven zero due opposite direction traffic, climb to and maintain Flight Level three fife zero, report reaching.",
+   "meaning": "ATC denies FL370 because of opposite-direction traffic and instead clears a climb to and hold FL350, with a requirement to report when level."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Climb to and maintain Flight Level three fife zero, report reaching, Cathay two five one.",
+   "meaning": "Pilot reads back the climb clearance, the report-reaching requirement, and the callsign."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, expedite climb through Flight Level three fife zero, cross SIKOU at Flight Level three fife zero.",
+   "meaning": "Urgent instruction: climb quickly through FL350 and cross the SIKOU waypoint at FL350."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Expediting climb through Flight Level three fife zero, cross SIKOU at Flight Level three fife zero, Cathay two five one.",
+   "meaning": "Pilot acknowledges expediting the climb and confirms the SIKOU crossing restriction."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Request Flight Level [number]",
+   "definition": "Pilot request to climb or descend to an en-route cruising level."
+  },
+  {
+   "term": "Maintain Flight Level [number]",
+   "definition": "Instruction to establish and hold the assigned cruising altitude."
+  },
+  {
+   "term": "Report reaching [level]",
+   "definition": "Requirement to inform ATC upon levelling off at the cleared altitude."
+  },
+  {
+   "term": "Semicircular rule",
+   "definition": "Eastbound tracks (000°–179°) fly odd flight levels; westbound (180°–359°) fly even flight levels, guaranteeing 1,000 ft separation between oncoming traffic."
+  },
+  {
+   "term": "RVSM airspace",
+   "definition": "Reduced Vertical Separation Minimum: 1,000 ft vertical separation between FL290 and FL410; requires dual altimeters within 200 ft agreement and autopilot altitude-hold."
+  },
+  {
+   "term": "Step climb",
+   "definition": "As a jet burns fuel and lightens, climbing to a higher, thinner altitude improves fuel efficiency."
+  },
+  {
+   "term": "'Fife'",
+   "definition": "ICAO pronunciation of the digit 5, avoiding confusion with 'five' on the radio."
+  },
+  {
+   "term": "Altitude alerting",
+   "definition": "System required in RVSM airspace that warns the crew of deviations from the cleared flight level."
+  },
+  {
+   "term": "Metric flight levels",
+   "definition": "Airspace (e.g. China, Russia) that uses meters instead of flight levels, requiring cockpit conversion tables."
+  },
+  {
+   "term": "Squawk codes 7500/7600/7700",
+   "definition": "Transponder emergency codes: 7500 hijack, 7600 lost communications, 7700 emergency (reviewed from Day 16)."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "An aircraft on an IFR flight plan is cruising on a magnetic track of 085 degrees in standard RVSM airspace. Which of the following is a legal cruising flight level under the semicircular rule?",
+   "options": [
+    "FL340",
+    "FL350",
+    "FL360",
+    "FL380"
+   ],
+   "correctIndex": 1,
+   "explanation": "Under standard ICAO semicircular rules, magnetic tracks between 000° and 179° (eastbound) require odd flight levels. FL350 is odd; FL340, FL360, and FL380 are even levels reserved for westbound tracks (180°–359°)."
+  },
+  {
+   "question": "What is the required vertical separation minimum between two RVSM-approved aircraft operating between FL290 and FL410?",
+   "options": [
+    "1,000 feet",
+    "2,000 feet",
+    "500 feet",
+    "1,500 feet"
+   ],
+   "correctIndex": 0,
+   "explanation": "RVSM reduces the vertical separation standard between FL290 and FL410 from 2,000 feet to 1,000 feet for suitably equipped and certified aircraft."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "| Phrase / Command | ICAO Standard Definition | Phonetic Guide | Operational Example |\n| Request Flight Level [number] | Pilot request to climb/descend to an en-route cruising level. | re-KWEST Flight Level... | \"Request Flight Level three seven zero.\" |\n| Maintain Flight Level [number] | Instruction to establish and hold assigned cruising altitude. | mayn-TAYN Flight Level... | \"Maintain Flight Level three five zero due traffic.\" |\n| Report reaching [level] | Requirement to inform ATC upon leveling off at cleared altitude. | re-PORT REE-ching | Confirms aircraft is level in RVSM airspace. |\n| Semicircular Rule | Eastbound tracks (000°–179°) = ODD; Westbound (180°–359°) = EVEN. | SEM-ee-SUR-kyoo-lar | Guarantees 1,000 ft vertical separation between oncoming traffic. |\n| RVSM Airspace | 1,000 ft vertical separation between FL290 and FL410. | AR-VEE-ESS-EM | Requires dual altimeters and altitude alerting systems. |"
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "- **Day 16 Review (+1d):** Transponder altitude discrepancies (>200 ft in RVSM) prompt ATC to instruct *\"Stop squawk Charlie\"* . Memorize emergency codes: 7500 (hijack), 7600 (lost comms), 7700 (emergency).\n- **Day 10 Review (+7d):** True altitude is lower than indicated in extreme cold air; cold weather altimeter temperature corrections must be added to minimum crossing altitudes.\n- **Day 13 Review (+4d):** Transition Altitude at Hong Kong is 9,000 ft. Above this, altimeters are set to Standard 1013.25 hPa."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact — The Miracle of RVSM",
+   "body": "Before RVSM was implemented in the late 1990s, vertical separation above FL290 was 2,000 feet because mechanical barometric altimeters were not accurate enough at high altitudes. With the advent of precision digital air data computers, RVSM halved the separation to 1,000 feet, creating six brand new flight levels (FL300, FL320, FL340, FL360, FL380, FL400) and effectively doubling global high-altitude capacity overnight without building a single foot of runway! Meanwhile, airspace in mainland China and Russia uses metric flight levels (e.g., 10,400 meters instead of FL341), requiring international pilots to refer to cockpit metric conversion tables."
+  }
+ ]
+}
