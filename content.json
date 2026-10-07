@@ -2,8 +2,8 @@
  "meta": {
   "version": 2,
   "updated": "2026-10-07",
-  "lessons": 16,
-  "phrases": 179
+  "lessons": 17,
+  "phrases": 184
  },
  "lessons": [
   {
@@ -192,6 +192,19 @@
    "summary": "Day 17 moves to high-altitude en-route cruising and vertical separation management: the semicircular rule (eastbound tracks fly odd flight levels, westbound even), RVSM's 1,000-foot separation minimum between FL290…",
    "audioURL": "https://drive.usercontent.google.com/download?id=1Do4VX6pPJ2D2tbH3c7dZcsg9MfjLRyE_&export=download&confirm=t",
    "audioPageURL": "https://drive.google.com/file/d/1Do4VX6pPJ2D2tbH3c7dZcsg9MfjLRyE_/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835",
+    "ICAO Annex 2 Appendix 3"
+   ]
+  },
+  {
+   "day": 18,
+   "topic": "Direct Routing & Waypoint Passage",
+   "phase": "En-route",
+   "summary": "Day 18 advances to modern Area Navigation (RNAV) and Performance-Based Navigation: being cleared 'direct' to downline waypoints, entering and activating the fix in the FMC/MCDU LEGS page, cross-checking 5-letter…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1GiFaEGQjG-fLqdpU4wnyV1A0tLljHQcb&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1GiFaEGQjG-fLqdpU4wnyV1A0tLljHQcb/view",
    "icaoRefs": [
     "ICAO Doc 9432",
     "ICAO Doc 9835",
@@ -1629,6 +1642,46 @@
    "speaker": "Pilot",
    "meaning": "Pilot acknowledges expediting the climb and confirms the SIKOU crossing restriction.",
    "day": 17,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Radar, Cathay two five one, level Flight Level three fife zero, request direct SIKOU.",
+   "speaker": "Pilot",
+   "meaning": "Pilot checks in level at FL350 and requests a direct routing to the downline waypoint SIKOU.",
+   "day": 18,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, cleared direct SIKOU, report overhead SIKOU.",
+   "speaker": "ATC",
+   "meaning": "ATC clears a direct great-circle track to SIKOU and requires the crew to report passing overhead the fix.",
+   "day": 18,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cleared direct SIKOU, report overhead SIKOU, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reads back both the direct clearance and the mandatory reporting requirement with the callsign.",
+   "day": 18,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, confirm direct SIKOU, spelling Sierra India Kilo Oscar Uniform, track zero eight fife degrees.",
+   "speaker": "ATC",
+   "meaning": "Controller verifies the direct routing: phonetic spelling of the waypoint plus the expected track, catching FMC entry errors.",
+   "day": 18,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Direct SIKOU, Sierra India Kilo Oscar Uniform, track zero eight fife, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Pilot confirms the waypoint spelling and track, proving the correct fix is loaded in the navigation database.",
+   "day": 18,
    "phase": "En-route",
    "icaoRef": "ICAO Doc 9432"
   }

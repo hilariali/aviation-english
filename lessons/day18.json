@@ -1,0 +1,110 @@
+{
+ "day": 18,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Radar, Cathay two five one, level Flight Level three fife zero, request direct SIKOU.",
+   "meaning": "Pilot checks in level at FL350 and requests a direct routing to the downline waypoint SIKOU."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, cleared direct SIKOU, report overhead SIKOU.",
+   "meaning": "ATC clears a direct great-circle track to SIKOU and requires the crew to report passing overhead the fix."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cleared direct SIKOU, report overhead SIKOU, Cathay two five one.",
+   "meaning": "Pilot reads back both the direct clearance and the mandatory reporting requirement with the callsign."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, confirm direct SIKOU, spelling Sierra India Kilo Oscar Uniform, track zero eight fife degrees.",
+   "meaning": "Controller verifies the direct routing: phonetic spelling of the waypoint plus the expected track, catching FMC entry errors."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Direct SIKOU, Sierra India Kilo Oscar Uniform, track zero eight fife, Cathay two five one.",
+   "meaning": "Pilot confirms the waypoint spelling and track, proving the correct fix is loaded in the navigation database."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Cleared direct [waypoint]",
+   "definition": "Clearance to fly a direct Great Circle track from present position to a specific fix, bypassing intermediate airway segments."
+  },
+  {
+   "term": "Report overhead [waypoint]",
+   "definition": "Requirement to inform ATC when passing vertically above a fix; a mandatory readback item that 'Wilco' can never replace."
+  },
+  {
+   "term": "Report abeam [waypoint]",
+   "definition": "Requirement to report passing perpendicular to a designated off-track point, used when cutting corners past an airway dogleg."
+  },
+  {
+   "term": "Resume own navigation",
+   "definition": "Termination of radar vectoring; the crew resumes autonomous FMC lateral route."
+  },
+  {
+   "term": "Confirm direct [waypoint]",
+   "definition": "Instruction to verify waypoint spelling and coordinates, catching database or typing discrepancies."
+  },
+  {
+   "term": "RNAV (Area Navigation)",
+   "definition": "Position computed from GNSS, IRS and DME/DME to steer straight lines between fixes, free of ground-station geography."
+  },
+  {
+   "term": "5LNC (Five-Letter Name Code)",
+   "definition": "Every RNAV fix on the globe is a unique 5-letter pronounceable code; no duplicates within 4,000 NM to avoid navigation database ambiguity."
+  },
+  {
+   "term": "FMC/MCDU LEGS page",
+   "definition": "Where pilots move the cleared waypoint to the active line, cross-check the new course on the Navigation Display, then EXEC/INSERT."
+  },
+  {
+   "term": "'Fife'",
+   "definition": "ICAO pronunciation of the digit 5, avoiding confusion with 'five' on the radio."
+  },
+  {
+   "term": "Hearback error",
+   "definition": "A readback that sounds compliant but omits a mandatory item — the controller must hear the exact fix repeated for radar tracking synchronicity."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "When an aircraft is cleared \"direct\" to an en-route waypoint by ATC, what does this authorize the flight crew to do?",
+   "options": [
+    "Deviate around weather at pilot's discretion",
+    "Fly a direct Great Circle track from present position to the named waypoint, bypassing intermediate airway fixes",
+    "Cancel IFR and proceed VFR",
+    "Increase speed to maximum cruising speed"
+   ],
+   "correctIndex": 1,
+   "explanation": "A \"cleared direct\" instruction permits the aircraft to fly directly from its current position to the designated fix, cutting the corner and bypassing intervening airway segments."
+  },
+  {
+   "question": "What is the primary operational advantage of Area Navigation (RNAV) over conventional airway navigation?",
+   "options": [
+    "RNAV allows aircraft to fly any desired flight path within navigation coverage without tracking to or from ground-based beacons",
+    "RNAV eliminates all requirements for altitude reporting",
+    "RNAV permits flight in IMC without an instrument rating",
+    "RNAV automatically calculates aircraft weight and balance"
+   ],
+   "correctIndex": 0,
+   "explanation": "RNAV enables direct routing and flexible airspace design by freeing aircraft from the geographic constraints of ground-based VOR/NDB transmitters."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "| Phrase / Command | ICAO Standard Definition | Phonetic Guide | Operational Example |\n| Cleared direct [waypoint] | Clearance to fly a direct Great Circle track to a specific fix. | KLEERD dy-REKT... | \"Cathay 251, cleared direct SIKOU.\" |\n| Report overhead [waypoint] | Requirement to inform ATC when passing vertically above a fix. | re-PORT OH-ver-hed... | \"Report overhead SIKOU.\" |\n| Report abeam [waypoint] | Requirement to report passing perpendicular to a designated off-track point. | re-PORT ah-BEEM... | Used when cutting corners past an airway dogleg. |\n| Resume own navigation | Termination of radar vectoring; resuming autonomous FMC lateral route. | RE-ZOOM OWN NA-VI-GAY-SHUN | \"Resume own navigation direct SIKOU.\" |\n| Confirm direct [waypoint] | Instruction to verify waypoint spelling and coordinates. | kon-FIRM dy-REKT... | Used to catch database or typing discrepancies. |"
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "- **Day 17 Review (+1d):** Under ICAO semicircular rules, Eastbound tracks (000°–179°) fly ODD flight levels, while Westbound tracks (180°–359°) fly EVEN flight levels. In RVSM airspace, vertical separation is 1,000 feet."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact — How Waypoints Get Their Names",
+   "body": "Every RNAV fix on the globe is a 5-letter pronounceable acronym (5LNC - Five-Letter Name Code). ICAO rules stipulate that no duplicate waypoint name can exist within 4,000 nautical miles to avoid navigation database ambiguity! This leads to creative naming: arrivals into Boston fly over `ITAWT`, `ITAWA`, `PUDYE`, `TTATT` (a homage to Tweety Bird: *\"I thought I saw a pussycat\"*), while Orlando has waypoints like `MICKI`, `MINNE`, and `GOOFY`!"
+  }
+ ]
+}
