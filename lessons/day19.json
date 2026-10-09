@@ -1,0 +1,125 @@
+{
+ "day": 19,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Manila Radio, Cathay two five one, position.",
+   "meaning": "Pilot calls the oceanic radio operator to open a position-report transmission."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Manila Radio, go ahead with position report.",
+   "meaning": "The radio operator invites the pilot to transmit the position report."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cathay two five one, position BETTY at zero four one five, Flight Level three five zero, estimating ENKAS at zero four four two, next MONDA, request step climb Flight Level three seven zero.",
+   "meaning": "The full ICAO 6-part position report, plus a request to step-climb to FL370."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Manila Radio, unable Flight Level three seven zero due traffic, maintain Flight Level three five zero, report ENKAS.",
+   "meaning": "ATC denies the step climb because of conflicting traffic and keeps the aircraft at FL350, requiring a report at ENKAS."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Maintain Flight Level three five zero, report ENKAS, Cathay two five one.",
+   "meaning": "Pilot reads back the instruction to remain at FL350 and report passing ENKAS."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Manila Radio, confirm revised estimate for ENKAS, previous estimate zero four four two.",
+   "meaning": "ATC asks the pilot to confirm the updated estimated time over ENKAS."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Manila Radio, Cathay two five one, revised estimate ENKAS zero four four six due headwind, maintaining Flight Level three five zero.",
+   "meaning": "Pilot reports a revised ETA of 0446 over ENKAS caused by headwind while maintaining FL350."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Manila Radio, roger revised estimate ENKAS zero four four six.",
+   "meaning": "ATC acknowledges the revised estimate for ENKAS."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Step climb",
+   "definition": "Climbing in stages to a higher flight level as fuel is consumed and aircraft weight decreases, improving fuel economy."
+  },
+  {
+   "term": "Position report",
+   "definition": "The mandatory 6-part voice report (callsign, position, time, flight level, next fix & ETA, ensuing fix) transmitted in non-radar airspace."
+  },
+  {
+   "term": "Non-radar / procedural airspace",
+   "definition": "Airspace without radar coverage where controllers separate aircraft using reported times rather than observed positions."
+  },
+  {
+   "term": "Procedural separation",
+   "definition": "Maintaining separation by spacing aircraft across time blocks (e.g. 10 to 15 minutes of longitudinal separation) instead of radar."
+  },
+  {
+   "term": "Revised estimate",
+   "definition": "An updated ETA over the next reporting point, mandatory when the FMC prediction changes by 2 minutes or more."
+  },
+  {
+   "term": "Coffin corner",
+   "definition": "The narrow margin between high-speed Mach tuck and low-speed stall at high altitude, which widens as the aircraft burns fuel."
+  },
+  {
+   "term": "HF radio",
+   "definition": "High Frequency radio that bounces off the ionosphere for long-range oceanic communication; it carries heavy atmospheric static."
+  },
+  {
+   "term": "SELCAL",
+   "definition": "Selective Calling: a unique 4-letter audio code assigned to each aircraft that rings a two-tone chime in the cockpit when a ground station calls."
+  },
+  {
+   "term": "RVSM",
+   "definition": "Reduced Vertical Separation Minimum: the reduced vertical spacing regime applied in upper cruise airspace."
+  },
+  {
+   "term": "Ensuing fix",
+   "definition": "The downline waypoint after the next one — the sixth element of a standard position report, establishing intended track."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "In accordance with ICAO standard radiotelephony, which piece of information must immediately follow the aircraft callsign and the position fix name in a voice position report?",
+   "options": [
+    "Flight Level or altitude",
+    "The time overhead the position fix in UTC",
+    "The estimated time over the next waypoint",
+    "Fuel on board in hours and minutes"
+   ],
+   "correctIndex": 1,
+   "explanation": "Under ICAO Annex 2, Section 3.4, the strict order of a standard position report is: (1) Callsign, (2) Position, (3) Time overhead fix, (4) Flight level or altitude, (5) Next position and estimated time, (6) Ensuing significant point."
+  },
+  {
+   "question": "Under ICAO procedural airspace rules, what is the maximum discrepancy between the aircraft's actual estimated time of arrival (ETA) over the next reporting point and the time previously advised to ATC before an updated estimate must be transmitted?",
+   "options": [
+    "5 minutes",
+    "2 minutes",
+    "10 minutes",
+    "30 seconds"
+   ],
+   "correctIndex": 1,
+   "explanation": "ICAO regulations dictate that if the estimated time over the next reporting point changes by 2 minutes or more from the previous report, the pilot must advise ATC of the revised estimate immediately."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Position Report Format",
+   "body": "The Mandatory 6-Part ICAO Position Report (Doc 9432 / Annex 2): | 1 | Aircraft Callsign | Cathay two five one | Identifies flight to oceanic radio operator. | | 2 | Position Fix | Position BETTY | Significant waypoint just flown overhead. | | 3 | Time (UTC) | at zero four one five | Exact 4-digit minute/hour passing fix. | | 4 | Flight Level | Flight Level three five zero | Current altitude in RVSM cruising airspace. | | 5 | Next Fix & ETA | Estimating ENKAS at 0442 | Projected time over next compulsory reporting fix. | | 6 | Ensuing Fix | Next MONDA | Downline waypoint establishing intended track. |"
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "Day 18 Review (+1d): On RNAV direct clearances ('Cleared direct SIKOU'), flight crews must verify waypoint spelling and coordinates to eliminate navigation database errors. Day 12 Review (+7d): ATC cancelling SID level restrictions only lifts vertical constraints; published speed limits and lateral waypoints remain in effect."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact — The Chime in the Night (SELCAL)",
+   "body": "Because High Frequency (HF) radio signals bounce off the ionosphere over thousands of miles, they carry tremendous atmospheric static, lightning crackle, and hiss. Listening to raw HF static for a 14-hour transpacific flight causes severe pilot fatigue. To solve this, aviation created SELCAL (Selective Calling). Each aircraft is assigned a unique 4-letter audio code (e.g. AB-CD). The HF ground station transmits a pair of musical tones only when they want to speak with your flight, ringing a pleasant two-tone chime in the cockpit!"
+  }
+ ]
+}

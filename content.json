@@ -1,9 +1,9 @@
 {
  "meta": {
   "version": 2,
-  "updated": "2026-10-07",
-  "lessons": 17,
-  "phrases": 184
+  "updated": "2026-10-09",
+  "lessons": 18,
+  "phrases": 192
  },
  "lessons": [
   {
@@ -209,6 +209,19 @@
     "ICAO Doc 9432",
     "ICAO Doc 9835",
     "ICAO Annex 2 Appendix 3"
+   ]
+  },
+  {
+   "day": 19,
+   "topic": "Step Climbs & Oceanic Position Reports",
+   "phase": "En-route",
+   "summary": "Day 19 transitions into oceanic and remote non-radar airspace, where controllers maintain separation purely through structured 6-part voice position reports transmitted over HF radio or datalink. The lesson teaches…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=14PXlo30oPtKWpJ2tC7yHw6P3GOdcQWY5&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/14PXlo30oPtKWpJ2tC7yHw6P3GOdcQWY5/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835",
+    "ICAO Annex 2"
    ]
   }
  ],
@@ -1682,6 +1695,70 @@
    "speaker": "Pilot",
    "meaning": "Pilot confirms the waypoint spelling and track, proving the correct fix is loaded in the navigation database.",
    "day": 18,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Manila Radio, Cathay two five one, position.",
+   "speaker": "Pilot",
+   "meaning": "Pilot calls the oceanic radio operator to open a position-report transmission.",
+   "day": 19,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Manila Radio, go ahead with position report.",
+   "speaker": "ATC",
+   "meaning": "The radio operator invites the pilot to transmit the position report.",
+   "day": 19,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, position BETTY at zero four one five, Flight Level three five zero, estimating ENKAS at zero four four two, next MONDA, request step climb Flight Level three seven zero.",
+   "speaker": "Pilot",
+   "meaning": "The full ICAO 6-part position report, plus a request to step-climb to FL370.",
+   "day": 19,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Manila Radio, unable Flight Level three seven zero due traffic, maintain Flight Level three five zero, report ENKAS.",
+   "speaker": "ATC",
+   "meaning": "ATC denies the step climb because of conflicting traffic and keeps the aircraft at FL350, requiring a report at ENKAS.",
+   "day": 19,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Maintain Flight Level three five zero, report ENKAS, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reads back the instruction to remain at FL350 and report passing ENKAS.",
+   "day": 19,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Manila Radio, confirm revised estimate for ENKAS, previous estimate zero four four two.",
+   "speaker": "ATC",
+   "meaning": "ATC asks the pilot to confirm the updated estimated time over ENKAS.",
+   "day": 19,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Manila Radio, Cathay two five one, revised estimate ENKAS zero four four six due headwind, maintaining Flight Level three five zero.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reports a revised ETA of 0446 over ENKAS caused by headwind while maintaining FL350.",
+   "day": 19,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Manila Radio, roger revised estimate ENKAS zero four four six.",
+   "speaker": "ATC",
+   "meaning": "ATC acknowledges the revised estimate for ENKAS.",
+   "day": 19,
    "phase": "En-route",
    "icaoRef": "ICAO Doc 9432"
   }
