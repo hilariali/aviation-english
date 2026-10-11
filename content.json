@@ -1,9 +1,9 @@
 {
  "meta": {
   "version": 2,
-  "updated": "2026-10-09",
-  "lessons": 18,
-  "phrases": 192
+  "updated": "2026-10-11",
+  "lessons": 21,
+  "phrases": 209
  },
  "lessons": [
   {
@@ -222,6 +222,42 @@
     "ICAO Doc 9432",
     "ICAO Doc 9835",
     "ICAO Annex 2"
+   ]
+  },
+  {
+   "day": 20,
+   "topic": "En-Route Frequency Transfer & CPDLC",
+   "phase": "En-route",
+   "summary": "High-altitude frequency handoffs and datalink operations in international cruising airspace. Covers the distinction between \"Contact\" (establish two-way communications) and \"Monitor\" (listen-only watch), the…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1v21VCZXw8FdUQkneHXwoZevUlAYZCfKC&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1v21VCZXw8FdUQkneHXwoZevUlAYZCfKC/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 21,
+   "topic": "Weather Deviations (CB Clouds)",
+   "phase": "En-route",
+   "summary": "Cumulonimbus thunderstorm cells are the primary hazard of high-altitude flight. Covers standard lateral deviation requests around convective weather, weather radar tilt management, the ICAO minimum 20-NM clearance…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=13qSm0DzaUj9gkjfVrbTzdQLnVrpe6hWD&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/13qSm0DzaUj9gkjfVrbTzdQLnVrpe6hWD/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 22,
+   "topic": "Turbulence & PIREP Reporting",
+   "phase": "En-route",
+   "summary": "Clear air turbulence is invisible to airborne radar. Covers managing altitude changes around CAT, flying the turbulence penetration speed (V_RA) for structural margin, and transmitting standardized PIREP sequences to…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1OFpgmP3mdC3rZiV8O-A0F7mTDPIXNbso&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1OFpgmP3mdC3rZiV8O-A0F7mTDPIXNbso/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835"
    ]
   }
  ],
@@ -1759,6 +1795,142 @@
    "speaker": "ATC",
    "meaning": "ATC acknowledges the revised estimate for ENKAS.",
    "day": 19,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Radar, Cathay two five one, level Flight Level three fife zero, overhead SIKOU.",
+   "speaker": "Pilot",
+   "meaning": "En-route initial check-in: pilot reports flight level and position to the new control sector.",
+   "day": 20,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, contact Guangzhou Control wun tree two day-see-mal fife, CPDLC logoff.",
+   "speaker": "ATC",
+   "meaning": "Instruction to establish two-way comms on the new frequency and log off datalink authority.",
+   "day": 20,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Contact Guangzhou Control wun tree two day-see-mal fife, CPDLC logoff, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Correct readback of the frequency transfer instruction.",
+   "day": 20,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Radar, Cathay two five one, unable contact Guangzhou on wun tree two day-see-mal fife, frequency silent.",
+   "speaker": "Pilot",
+   "meaning": "Lost-comms report: the assigned frequency is dead after no response.",
+   "day": 20,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, correction, contact Guangzhou Control on secondary wun two fow-er day-see-mal zero fife, monitor guard wun two wun day-see-mal fife.",
+   "speaker": "ATC",
+   "meaning": "Corrected secondary frequency assignment plus an order to maintain a listening watch on the guard frequency.",
+   "day": 20,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Contact Guangzhou Control wun two fow-er day-see-mal zero fife, monitor guard wun two wun day-see-mal fife, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Readback of the corrected frequency and the guard-monitoring instruction.",
+   "day": 20,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Guangzhou Control, Cathay two five one, request twenty miles left of track due weather.",
+   "speaker": "Pilot",
+   "meaning": "Standard request to deviate laterally from the airway centerline around weather.",
+   "day": 21,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Guangzhou Control, deviate right of track approved, report when clear of weather.",
+   "speaker": "ATC",
+   "meaning": "Clearance authorizing a right deviation; in this scenario it is the ATC-proposed turn the pilot must veto.",
+   "day": 21,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, unable right of track due severe convective cells, request left of track fifteen miles, or climb Flight Level three seven zero.",
+   "speaker": "Pilot",
+   "meaning": "Pilot veto of the turn into severe cells, asserting safety authority and proposing alternatives.",
+   "day": 21,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, roger, deviate left of track fifteen miles approved, maintain Flight Level three fife zero, report clear of weather.",
+   "speaker": "ATC",
+   "meaning": "Revised clearance for the safe left deviation with a requirement to report clear of weather.",
+   "day": 21,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Deviate left of track fifteen miles approved, maintain Flight Level three fife zero, report clear of weather, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Readback of the weather deviation clearance.",
+   "day": 21,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Guangzhou Control, Cathay two five one, encountering moderate chop Flight Level three fife zero, request descent to Flight Level three wun zero.",
+   "speaker": "Pilot",
+   "meaning": "Reports turbulence intensity and requests a level change to escape the chop.",
+   "day": 22,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Guangzhou Control, unable Flight Level three wun zero due traffic, descend to Flight Level three tree zero, report reaching.",
+   "speaker": "ATC",
+   "meaning": "Alternative descent clearance denied at the requested level due to traffic.",
+   "day": 22,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Descend to Flight Level three tree zero, report reaching, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Readback of the descent clearance with the report-reaching requirement.",
+   "day": 22,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, request PIREP, confirm turbulence intensity and conditions.",
+   "speaker": "ATC",
+   "meaning": "ATC requests a standardized pilot weather report to warn downstream traffic.",
+   "day": 22,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Guangzhou Control, Cathay two five one, PIREP: Boeing seven seven seven, position SIKOU at zero fow-er two zero, Flight Level three fife zero, moderate clear air turbulence, airspeed fluctuating plus minus ten knots.",
+   "speaker": "Pilot",
+   "meaning": "The mandatory PIREP sequence: aircraft type, position, time, flight level, turbulence intensity, airspeed fluctuation.",
+   "day": 22,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, roger PIREP, thank you.",
+   "speaker": "ATC",
+   "meaning": "ATC acknowledges the pilot weather report.",
+   "day": 22,
    "phase": "En-route",
    "icaoRef": "ICAO Doc 9432"
   }
