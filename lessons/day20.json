@@ -1,0 +1,103 @@
+{
+ "day": 20,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Radar, Cathay two five one, level Flight Level three fife zero, overhead SIKOU.",
+   "meaning": "En-route initial check-in: pilot reports flight level and position to the new control sector."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, contact Guangzhou Control wun tree two day-see-mal fife, CPDLC logoff.",
+   "meaning": "Instruction to establish two-way comms on the new frequency and log off datalink authority."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Contact Guangzhou Control wun tree two day-see-mal fife, CPDLC logoff, Cathay two five one.",
+   "meaning": "Correct readback of the frequency transfer instruction."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Radar, Cathay two five one, unable contact Guangzhou on wun tree two day-see-mal fife, frequency silent.",
+   "meaning": "Lost-comms report: the assigned frequency is dead after no response."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, correction, contact Guangzhou Control on secondary wun two fow-er day-see-mal zero fife, monitor guard wun two wun day-see-mal fife.",
+   "meaning": "Corrected secondary frequency assignment plus an order to maintain a listening watch on the guard frequency."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Contact Guangzhou Control wun two fow-er day-see-mal zero fife, monitor guard wun two wun day-see-mal fife, Cathay two five one.",
+   "meaning": "Readback of the corrected frequency and the guard-monitoring instruction."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Contact",
+   "definition": "Instruction to switch frequency and establish active two-way communication."
+  },
+  {
+   "term": "Monitor",
+   "definition": "Instruction to switch frequency and maintain a listening watch without transmitting."
+  },
+  {
+   "term": "Guard 121.5 MHz",
+   "definition": "The international emergency distress frequency monitored in cruise as an airliner's lifeline."
+  },
+  {
+   "term": "CPDLC",
+   "definition": "Controller-Pilot Data Link Communications: electronic text messaging that transfers ATC authority between ground systems."
+  },
+  {
+   "term": "Frequency silent",
+   "definition": "Report that an assigned frequency has no response, triggering return to the previous frequency."
+  },
+  {
+   "term": "FIR",
+   "definition": "Flight Information Region: a defined airspace volume managed by one control authority."
+  },
+  {
+   "term": "NORDO",
+   "definition": "No Radio: an aircraft unable to communicate by radio."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is the primary difference between the instructions \"Contact [facility] [frequency]\" and \"Monitor [facility] [frequency]\"?",
+   "options": [
+    "\"Monitor\" requires reading back weather reports; \"Contact\" does not.",
+    "\"Contact\" requires establishing two-way voice communication; \"Monitor\" requires maintaining a listening watch without transmitting.",
+    "\"Monitor\" is only used for military airspace.",
+    "There is no operational difference."
+   ],
+   "correctIndex": 1,
+   "explanation": "Under ICAO Doc 9432, \"Contact\" instructs the pilot to establish active two-way communications, whereas \"Monitor\" instructs the pilot to maintain a listening watch on the specified frequency without transmitting."
+  },
+  {
+   "question": "If a flight crew attempts to establish communication on a newly assigned en-route control frequency and receives no response after repeated calls, what is the correct initial procedure?",
+   "options": [
+    "Verify frequency dialed, check audio panel switches/volume, and return immediately to the previously assigned frequency.",
+    "Squawk 7700 immediately and descend to minimum safe altitude.",
+    "Turn off transponder and continue on track.",
+    "Switch to local approach control frequency without clearance."
+   ],
+   "correctIndex": 0,
+   "explanation": "Standard ICAO lost-comms troubleshooting requires verifying radio selection, checking audio volume/switches, and reverting to the last working frequency to advise the previous controller."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "| Phrase / Command | ICAO Standard Definition | Operational Example |\n|---|---|\n| Contact [facility] [freq] | Instruction to switch frequency and establish active 2-way comms. | \"Contact Guangzhou Control 132.5.\" |\n| Monitor [facility] [freq] | Instruction to switch frequency and listen without transmitting. | \"Monitor Guangzhou 132.5.\" |\n| Monitor guard 121.5 | Requirement to maintain listening watch on the emergency distress frequency. | Used during lost comms or long-haul cruising. |\n| CPDLC logoff / logon | Disconnecting or establishing datalink with a ground authority. | Transfers electronic ATC text authority. |\n| Frequency silent | Report that the assigned frequency has no response. | Triggers return to the previous frequency. |"
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "- Day 19 Review (+1d): standard 6-part ICAO position report sequence. Any estimated time change of 2 minutes or more requires an immediate update to ATC.\n- Day 17 Review (+3d): semicircular rule — Eastbound (000°–179°) = ODD flight levels, Westbound (180°–359°) = EVEN flight levels. RVSM maintains 1,000 ft vertical separation."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact — Guard 121.5 & Supersonic Intercepts",
+   "body": "When an airliner experiences a \"NORDO\" (No Radio) event because pilots mistuned a frequency or fell asleep, military radar triggers a Quick Reaction Alert (QRA): supersonic fighter jets scramble within minutes, and military controllers broadcast urgent intercept warnings on 121.5 MHz — \"Unidentified aircraft cruising over waypoint X, rock your wings immediately or you will be intercepted.\" That is why monitoring Guard 121.5 is an airliner's ultimate lifeline!"
+  }
+ ]
+}

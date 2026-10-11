@@ -1,0 +1,99 @@
+{
+ "day": 22,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Guangzhou Control, Cathay two five one, encountering moderate chop Flight Level three fife zero, request descent to Flight Level three wun zero.",
+   "meaning": "Reports turbulence intensity and requests a level change to escape the chop."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Guangzhou Control, unable Flight Level three wun zero due traffic, descend to Flight Level three tree zero, report reaching.",
+   "meaning": "Alternative descent clearance denied at the requested level due to traffic."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Descend to Flight Level three tree zero, report reaching, Cathay two five one.",
+   "meaning": "Readback of the descent clearance with the report-reaching requirement."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, request PIREP, confirm turbulence intensity and conditions.",
+   "meaning": "ATC requests a standardized pilot weather report to warn downstream traffic."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Guangzhou Control, Cathay two five one, PIREP: Boeing seven seven seven, position SIKOU at zero fow-er two zero, Flight Level three fife zero, moderate clear air turbulence, airspeed fluctuating plus minus ten knots.",
+   "meaning": "The mandatory PIREP sequence: aircraft type, position, time, flight level, turbulence intensity, airspeed fluctuation."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger PIREP, thank you.",
+   "meaning": "ATC acknowledges the pilot weather report."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Clear Air Turbulence (CAT)",
+   "definition": "Invisible high-altitude turbulence caused by wind shear at jet-stream boundaries, undetectable by weather radar."
+  },
+  {
+   "term": "Moderate turbulence",
+   "definition": "Apparent strain against seatbelts; liquids splash; airspeed varies 10–15 knots."
+  },
+  {
+   "term": "Severe turbulence",
+   "definition": "Violent forces; momentarily out of control; walking impossible; immediate level change required."
+  },
+  {
+   "term": "PIREP",
+   "definition": "Pilot Weather Report: standardized voice sequence of aircraft type, location, time, flight level, turbulence intensity and airspeed fluctuations."
+  },
+  {
+   "term": "Turbulence penetration speed (V_RA)",
+   "definition": "The designated speed flown in turbulence, providing structural margin against stall and overstress."
+  },
+  {
+   "term": "Coffin corner",
+   "definition": "The narrow speed band near an airliner's ceiling between low-speed stall and high-speed Mach buffet."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Which turbulence classification corresponds to conditions where occupants are forced violently against seatbelts, unsecured objects are tossed about, and momentary loss of aircraft control occurs?",
+   "options": [
+    "Moderate chop",
+    "Light turbulence",
+    "Severe turbulence",
+    "Mechanical turbulence"
+   ],
+   "correctIndex": 2,
+   "explanation": "Under ICAO criteria, severe turbulence is characterized by large, abrupt changes in altitude/attitude, large airspeed variations, and momentary loss of aircraft control."
+  },
+  {
+   "question": "What is the primary piloting technique recommended when penetrating severe turbulence in transport category aircraft?",
+   "options": [
+    "Aggressively fight the autopilot to maintain exact target altitude.",
+    "Maintain wings level, control pitch attitude with smooth inputs, and allow altitude and airspeed to fluctuate within safe margins at Turbulence Penetration Speed.",
+    "Immediately deploy full speedbrakes to slow below stall speed.",
+    "Retract flaps and climb at maximum angle of climb (V_x)."
+   ],
+   "correctIndex": 1,
+   "explanation": "Attempting to hold altitude strictly in severe turbulence causes severe structural load factors (G-forces). Pilots fly the certified turbulence penetration speed (V_RA), fly attitude, and allow the aircraft to ride the waves."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "| Phrase / Command | ICAO Standard Definition | Operational Example |\n|---|---|\n| Request descent/climb due chop | Requesting level change due to rapid rhythmic jolts/bumps. | \"Request descent FL310 due chop.\" |\n| Moderate turbulence | Apparent strain against seatbelts; liquids splash; airspeed varies. | Airspeed fluctuates 10–15 knots. |\n| Severe turbulence | Violent forces; momentarily out of control; walking impossible. | Immediate level change required. |\n| PIREP (Pilot Weather Report) | Standardized voice report detailing in-flight weather hazards. | Mandatory reporting sequence to ATC. |\n| Turbulence Penetration Speed | Designated speed (V_RA / M_RA) providing structural margin. | Flown to prevent stall or overstress. |"
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "- Day 21 Review (+1d): severe convective thunderstorm cells above FL200 require a minimum lateral clearance of 20 nautical miles.\n- Day 17 Review (+7d): semicircular cruising rule — Eastbound tracks (000°–179°) fly ODD flight levels, Westbound (180°–359°) fly EVEN flight levels. RVSM separation is 1,000 feet."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact — Coffin Corner",
+   "body": "Near an airliner's maximum ceiling (e.g. FL410), the margin between low-speed aerodynamic stall and high-speed Mach buffet narrows to just a few knots — a zone pilots dub the \"Coffin Corner\"! If severe turbulence hits an aircraft in the coffin corner, an updraft slowing the plane by 10 knots triggers a stall, while a sudden 10-knot gust pushes it past maximum operating Mach (M_MO). That is why airliners immediately request descent upon encountering high-altitude chop!"
+  }
+ ]
+}

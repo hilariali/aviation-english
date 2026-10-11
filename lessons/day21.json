@@ -1,0 +1,90 @@
+{
+ "day": 21,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Guangzhou Control, Cathay two five one, request twenty miles left of track due weather.",
+   "meaning": "Standard request to deviate laterally from the airway centerline around weather."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Guangzhou Control, deviate right of track approved, report when clear of weather.",
+   "meaning": "Clearance authorizing a right deviation; in this scenario it is the ATC-proposed turn the pilot must veto."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cathay two five one, unable right of track due severe convective cells, request left of track fifteen miles, or climb Flight Level three seven zero.",
+   "meaning": "Pilot veto of the turn into severe cells, asserting safety authority and proposing alternatives."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger, deviate left of track fifteen miles approved, maintain Flight Level three fife zero, report clear of weather.",
+   "meaning": "Revised clearance for the safe left deviation with a requirement to report clear of weather."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Deviate left of track fifteen miles approved, maintain Flight Level three fife zero, report clear of weather, Cathay two five one.",
+   "meaning": "Readback of the weather deviation clearance."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Deviation",
+   "definition": "A lateral offset from the planned track to avoid weather, requested by the pilot and approved by ATC."
+  },
+  {
+   "term": "Unable right/left due weather",
+   "definition": "The pilot's immediate veto of an ATC-proposed turn toward severe weather, asserting pilot safety authority."
+  },
+  {
+   "term": "Report clear of weather",
+   "definition": "Instruction to notify ATC when it is safe to begin returning to track."
+  },
+  {
+   "term": "Cumulonimbus (CB)",
+   "definition": "Towering convective thunderstorm cell: severe updrafts/downdrafts, extreme icing, hail and lightning."
+  },
+  {
+   "term": "Radar tilt",
+   "definition": "Tilting the airborne weather radar antenna downward into the freezing level to detect wet convective cores."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is the recommended minimum lateral separation distance when circumnavigating a severe thunderstorm cell above FL200?",
+   "options": [
+    "5 nautical miles",
+    "10 nautical miles",
+    "20 nautical miles",
+    "50 nautical miles"
+   ],
+   "correctIndex": 2,
+   "explanation": "Above FL200, severe thunderstorm cells generate intense turbulence and can eject hail miles from the cloud core. ICAO and FAA guidelines specify maintaining at least 20 nautical miles lateral clearance."
+  },
+  {
+   "question": "If an air traffic controller clears an aircraft to deviate right of track due to weather, but the pilot's radar shows severe convective activity to the right, what is the pilot's correct action?",
+   "options": [
+    "Advise ATC immediately that turning right is unable due to convective weather, and request an alternate deviation to the left or an altitude change.",
+    "Turn right as cleared and rely on weather radar to dodge individual cells.",
+    "Disconnect autopilot and circle until weather clears.",
+    "Squawk 7600 and declare radio failure."
+   ],
+   "correctIndex": 0,
+   "explanation": "The pilot-in-command has ultimate responsibility for flight safety. Pilots must decline clearances that lead into severe weather by stating \"Unable [clearance] due weather\" and requesting a safe alternative."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "| Phrase / Command | ICAO Standard Definition | Operational Example |\n|---|---|\n| Request [dist] left/right of track | Standard request to deviate laterally from airway centerline. | \"Request 20 miles left of track due weather.\" |\n| Deviate [dist] left/right approved | ATC clearance authorizing lateral offset from route. | \"Deviate left of track 15 miles approved.\" |\n| Report clear of weather | Instruction to notify ATC when safe to begin returning to track. | Allows ATC to coordinate downstream traffic. |\n| Unable right/left due weather | Immediate pilot veto of an ATC-proposed turn into severe cells. | Asserts pilot safety authority over weather hazards. |"
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "- Day 20 Review (+1d): \"Contact\" requires two-way transmission; \"Monitor\" requires listening watch only. Guard frequency 121.5 MHz is constantly monitored on long-haul cruising flights.\n- Day 14 Review (+7d): on radar vectors, steer assigned compass heading without applying wind crab. Assert pilot authority if vectored into terrain."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact — Hail in the Blue Sky",
+   "body": "Hail can hit an aircraft in clear blue sky up to 20 miles away from a storm! Massive updrafts inside supercells loft tons of liquid water into the freezing stratosphere; the jetstream shears the anvil cloud downwind, and giant hail can be ejected out of the top of the cloud, falling through seemingly clear air miles from the visible rain. That is why ICAO recommends avoiding severe thunderstorm anvils downwind by at least 20 nautical miles."
+  }
+ ]
+}
