@@ -1,9 +1,9 @@
 {
  "meta": {
   "version": 2,
-  "updated": "2026-10-11",
-  "lessons": 21,
-  "phrases": 209
+  "updated": "2026-10-14",
+  "lessons": 23,
+  "phrases": 220
  },
  "lessons": [
   {
@@ -258,6 +258,32 @@
    "icaoRefs": [
     "ICAO Doc 9432",
     "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 23,
+   "topic": "Mountain Wave & Altimeter Errors",
+   "phase": "En-route",
+   "summary": "Following Day 22's clear-air turbulence lesson, Day 23 examines mountain waves (orographic waves) and terrain-induced altimeter errors. High winds crossing mountain ranges create severe standing waves with downdrafts…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1JW5uSGi6AZakDkUokgYVCw8A_6z1GlLe&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1JW5uSGi6AZakDkUokgYVCw8A_6z1GlLe/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 24,
+   "topic": "Holding Patterns & Holding Phraseology",
+   "phase": "Approach & Landing",
+   "summary": "Day 24 opens Phase 4: Descent Planning, Terminal Holding & Arrivals. It covers standard holding-pattern phraseology at the BETTY fix: inbound/outbound leg discipline, the 1.0-minute outbound leg at or below 14,000…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1_j_x91zA1wO9ZW92wtlHUMaTuhHXXhU9&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1_j_x91zA1wO9ZW92wtlHUMaTuhHXXhU9/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835",
+    "ICAO PANS-OPS (Doc 8168)",
+    "ICAO Annex 2"
    ]
   }
  ],
@@ -1932,6 +1958,94 @@
    "meaning": "ATC acknowledges the pilot weather report.",
    "day": 22,
    "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Taipei Control, Cathay two five one, level Flight Level three tree zero.",
+   "speaker": "Pilot",
+   "meaning": "Reports cruising at Flight Level 330 on initial contact with Taipei Control.",
+   "day": 23,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Taipei Control, caution severe mountain wave activity reported west of waypoint MEGAR, moderate to severe turbulence.",
+   "speaker": "ATC",
+   "meaning": "Warns of severe mountain wave activity and moderate-to-severe turbulence west of waypoint MEGAR.",
+   "day": 23,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Caution mountain wave acknowledged, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Acknowledges the mountain wave caution to ATC.",
+   "day": 23,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Taipei Control, Cathay two five one, unable maintain Flight Level three tree zero due severe downdraft, descending through Flight Level three two five, request turn left heading zero fow-er zero to exit wave.",
+   "speaker": "Pilot",
+   "meaning": "Mandatory ICAO call: declares inability to maintain FL330 due severe downdraft and requests an oblique escape turn to exit the wave.",
+   "day": 23,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, roger, turn left heading zero fow-er zero approved, maintain Flight Level three wun zero or above, report level.",
+   "speaker": "ATC",
+   "meaning": "Approves the escape turn, assigns a new minimum level of FL310 or above, and requests a level report.",
+   "day": 23,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Turn left heading zero fow-er zero, maintain Flight Level three wun zero or above, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Full readback of the approved escape turn and the new altitude constraint.",
+   "day": 23,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Radar, Cathay two five one, passing Flight Level two eight zero descending to Flight Level one six zero, inbound BETTY.",
+   "speaker": "Pilot",
+   "meaning": "Initial call descending to the hold at the BETTY fix, reporting position inbound.",
+   "day": 24,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, hold at BETTY as published, Flight Level one six zero, right hand pattern, outbound time one minute, Expected Approach Time zero fow-er fow-er zero.",
+   "speaker": "ATC",
+   "meaning": "Clearance to hold at BETTY with right-hand turns, 1-minute outbound leg, and EAT 0440.",
+   "day": 24,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hold at BETTY as published, Flight Level one six zero, right hand pattern, outbound time one minute, Expected Approach Time zero fow-er fow-er zero, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Full readback of the holding clearance including the mandatory EAT.",
+   "day": 24,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, update, holding delay extended due runway inspection, revised Expected Approach Time zero fife wun zero, advise holding endurance.",
+   "speaker": "ATC",
+   "meaning": "Extends the hold due to a runway inspection, revises EAT to 0510, and requests the aircraft's holding endurance.",
+   "day": 24,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Revised Expected Approach Time zero fife wun zero, holding endurance forty-five minutes before diversion, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Confirms the revised EAT and reports 45 minutes of holding endurance before a diversion becomes necessary.",
+   "day": 24,
+   "phase": "Approach & Landing",
    "icaoRef": "ICAO Doc 9432"
   }
  ]
