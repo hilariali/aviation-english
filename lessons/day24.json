@@ -1,0 +1,90 @@
+{
+ "day": 24,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Radar, Cathay two five one, passing Flight Level two eight zero descending to Flight Level one six zero, inbound BETTY.",
+   "meaning": "Initial call descending to the hold at the BETTY fix, reporting position inbound."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, hold at BETTY as published, Flight Level one six zero, right hand pattern, outbound time one minute, Expected Approach Time zero fow-er fow-er zero.",
+   "meaning": "Clearance to hold at BETTY with right-hand turns, 1-minute outbound leg, and EAT 0440."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hold at BETTY as published, Flight Level one six zero, right hand pattern, outbound time one minute, Expected Approach Time zero fow-er fow-er zero, Cathay two five one.",
+   "meaning": "Full readback of the holding clearance including the mandatory EAT."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, update, holding delay extended due runway inspection, revised Expected Approach Time zero fife wun zero, advise holding endurance.",
+   "meaning": "Extends the hold due to a runway inspection, revises EAT to 0510, and requests the aircraft's holding endurance."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Revised Expected Approach Time zero fife wun zero, holding endurance forty-five minutes before diversion, Cathay two five one.",
+   "meaning": "Confirms the revised EAT and reports 45 minutes of holding endurance before a diversion becomes necessary."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Hold at [fix] as published",
+   "definition": "Clearance to hold following the charted racetrack pattern."
+  },
+  {
+   "term": "Right / Left hand pattern",
+   "definition": "Direction of standard turns; the default is right-hand unless specified otherwise."
+  },
+  {
+   "term": "Outbound time [min]",
+   "definition": "Timing on the outbound leg: 1.0 min at or below 14,000 ft; 1.5 min above 14,000 ft, adjusted for wind."
+  },
+  {
+   "term": "Expected Approach Time (EAT)",
+   "definition": "The time ATC expects the aircraft to leave the hold for the approach; mandatory anchor for lost communications."
+  },
+  {
+   "term": "Holding endurance [time]",
+   "definition": "Maximum time the aircraft can hold before diversion fuel is reached; critical fuel threshold."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is the standard direction of turn and standard outbound leg timing for an aircraft holding at or below 14,000 ft under ICAO PANS-OPS?",
+   "options": [
+    "Right-hand turns; 1.0 minute outbound",
+    "Left-hand turns; 1.5 minutes outbound",
+    "Right-hand turns; 2.0 minutes outbound",
+    "Left-hand turns; 1.0 minute outbound"
+   ],
+   "correctIndex": 0,
+   "explanation": "Under ICAO PANS-OPS (Doc 8168), all turns in a standard holding pattern are to the right. The standard outbound leg timing at or below 14,000 ft (FL140) is 1.0 minute (above 14,000 ft it is 1.5 minutes)."
+  },
+  {
+   "question": "What is the primary operational reason why air traffic control is required to transmit an Expected Approach Time (EAT) whenever holding delays are anticipated?",
+   "options": [
+    "To allow passengers to plan connecting flights.",
+    "If two-way radio communications are lost, the EAT establishes the exact time the aircraft is authorized to depart the holding pattern and commence the instrument approach.",
+    "To allow pilots to turn off navigation lights while holding.",
+    "To calculate landing runway friction coefficient."
+   ],
+   "correctIndex": 1,
+   "explanation": "Under ICAO Annex 2 rules of the air, if an aircraft experiences communication failure (NORDO) while holding, the assigned EAT serves as the definitive clearance time to leave the holding fix and start the approach."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "Hold at [fix] as published — Clearance to hold following charted racetrack pattern. / Right / Left hand pattern — Direction of standard turns (standard is right-hand). / Outbound time [min] — Timing on outbound leg (1.0 min at or below 14,000 ft; 1.5 min above 14,000 ft), adjusted for wind. / Expected Approach Time (EAT) — Time ATC expects the aircraft to leave hold for approach; mandatory anchor for lost comms. / Holding endurance [time] — Maximum time aircraft can hold before diversion fuel is reached; critical fuel threshold."
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "Day 21 Review (+3d): Lateral weather avoidance around severe thunderstorms requires at least 20 nautical miles clearance above FL200. Day 17 Review (+7d): Semicircular cruising rule - Eastbound tracks (000-179 degrees) fly ODD flight levels, Westbound (180-359 degrees) fly EVEN flight levels; RVSM separation is 1,000 feet. Day 23 Review (+1d): In severe mountain wave downdrafts, fly turbulence penetration speed (VRA), set climb thrust, turn away from the ridge, and notify ATC."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact — The Holding Stack",
+   "body": "Over busy terminal airspaces like London Heathrow or Hong Kong, air traffic control stacks dozens of holding aircraft in vertical Holding Stacks separated by exactly 1,000 feet. Aircraft enter at the top of the stack (e.g. FL160); when the bottom aircraft at FL070 leaves the hold to land, every aircraft in the stack descends simultaneously by 1,000 feet in a massive coordinated vertical spiral staircase."
+  }
+ ]
+}

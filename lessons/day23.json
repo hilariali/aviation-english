@@ -1,0 +1,91 @@
+{
+ "day": 23,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Taipei Control, Cathay two five one, level Flight Level three tree zero.",
+   "meaning": "Reports cruising at Flight Level 330 on initial contact with Taipei Control."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Taipei Control, caution severe mountain wave activity reported west of waypoint MEGAR, moderate to severe turbulence.",
+   "meaning": "Warns of severe mountain wave activity and moderate-to-severe turbulence west of waypoint MEGAR."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Caution mountain wave acknowledged, Cathay two five one.",
+   "meaning": "Acknowledges the mountain wave caution to ATC."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Taipei Control, Cathay two five one, unable maintain Flight Level three tree zero due severe downdraft, descending through Flight Level three two five, request turn left heading zero fow-er zero to exit wave.",
+   "meaning": "Mandatory ICAO call: declares inability to maintain FL330 due severe downdraft and requests an oblique escape turn to exit the wave."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger, turn left heading zero fow-er zero approved, maintain Flight Level three wun zero or above, report level.",
+   "meaning": "Approves the escape turn, assigns a new minimum level of FL310 or above, and requests a level report."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Turn left heading zero fow-er zero, maintain Flight Level three wun zero or above, Cathay two five one.",
+   "meaning": "Full readback of the approved escape turn and the new altitude constraint."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Mountain wave activity",
+   "definition": "Standing atmospheric gravity waves triggered by airflow over ridges."
+  },
+  {
+   "term": "Unable maintain FL due downdraft",
+   "definition": "Mandatory notification when downdraft exceeds climb performance; the emergency clearance deviation call."
+  },
+  {
+   "term": "Rotor clouds / Roll clouds",
+   "definition": "Low-level turbulent vortices beneath wave crests; severe structural turbulence zone."
+  },
+  {
+   "term": "Venturi altimeter error",
+   "definition": "Pressure drop over ridges causing altimeters to over-read true height; can deceive pilots by 1,000+ ft."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "When flying on the leeward side of a mountain ridge in strong winds, how does the localized pressure drop caused by the Venturi effect affect the barometric altimeter reading?",
+   "options": [
+    "The altimeter indicates higher than the actual true altitude of the aircraft.",
+    "The altimeter indicates lower than the actual true altitude.",
+    "The altimeter is completely unaffected.",
+    "The altimeter reads zero."
+   ],
+   "correctIndex": 0,
+   "explanation": "The Venturi acceleration of wind over ridges drops static pressure. Altimeters interpret lower pressure as higher altitude, causing the instrument to over-read true altitude."
+  },
+  {
+   "question": "What is the primary piloting technique if an aircraft encounters a severe mountain wave downdraft that exceeds climb performance?",
+   "options": [
+    "Pull the yoke to full aft stop to maintain exact altitude.",
+    "Maintain pitch attitude for turbulence penetration speed (V_RA), set max continuous thrust, accept altitude loss within safe limits, and turn obliquely away from the ridge to exit the wave.",
+    "Deploy speedbrakes immediately.",
+    "Squawk 7500."
+   ],
+   "correctIndex": 1,
+   "explanation": "Pulling up to fight a 3,000 ft/min downdraft risks an aerodynamic stall. Pilots fly V_RA, set climb thrust, turn away from the mountain wave crest, and notify ATC."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "Mountain wave activity: standing atmospheric gravity waves triggered by airflow over ridges (\"Caution severe mountain wave activity\"). Unable maintain FL due downdraft: mandatory notification when downdraft exceeds climb performance — emergency clearance deviation call. Rotor clouds / Roll clouds: low-level turbulent vortices beneath wave crests — severe structural turbulence zone. Venturi altimeter error: pressure drop over ridges causing altimeters to over-read true height; can deceive pilots by 1,000+ ft."
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "Day 22 Review (+1d): PIREP structure: Aircraft type, location, time UTC, level, intensity. Fly turbulence penetration speed (V_RA). Day 10 Review (+14d): In cold weather, indicated altitude is higher than true altitude (\"from warm to cold, look out below\")."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact",
+   "body": "In Patagonia, the Airbus Perlan Mission II glider rode massive stratospheric mountain waves to reach 76,124 feet — higher than the cruising altitude of a U-2 spy plane — completely unpowered! Mountain waves also create stationary, lens-shaped Altocumulus Lenticularis clouds hovering above ridges, historically responsible for more UFO sightings than any other meteorological phenomenon!"
+  }
+ ]
+}
