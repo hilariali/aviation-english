@@ -1,0 +1,94 @@
+{
+ "day": 25,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Radar, Cathay two five one, passing Flight Level one eight zero descending to Flight Level one two zero, inbound LOTUS.",
+   "meaning": "Initial call to Hong Kong Radar, reporting descent to FL120 and position inbound the LOTUS fix."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, hold on the two fife zero radial of LOTUS VOR, left hand pattern, one zero mile legs, maintain maximum two wun zero knots, Expected Approach Time zero fife tree zero.",
+   "meaning": "Non-standard holding clearance: hold on the 250 radial of LOTUS VOR with left-hand turns, 10 NM DME legs, maximum 210 kt, EAT 0530."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hold on the two fife zero radial of LOTUS VOR, left hand pattern, one zero mile legs, maximum speed two wun zero knots, Expected Approach Time zero fife tree zero, Cathay two five one.",
+   "meaning": "Pilot readback of the non-standard holding clearance, confirming left-hand turns and leg distance."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, confirm holding entry procedure.",
+   "meaning": "ATC asks the crew to confirm which holding entry sector they will use."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Entering via Sector two teardrop entry, outbound heading two two zero, Cathay two five one.",
+   "meaning": "Pilot reports Sector 2 (teardrop) entry with outbound heading 220 degrees."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Hold on [radial] of [fix]",
+   "definition": "Holding along a specified magnetic radial or bearing."
+  },
+  {
+   "term": "Left-hand pattern",
+   "definition": "Mandatory instruction to make all turns to the left; non-standard; critical for terrain avoidance."
+  },
+  {
+   "term": "[Number] mile legs",
+   "definition": "Specifying leg length by DME distance instead of time."
+  },
+  {
+   "term": "Sector 1 (Parallel)",
+   "definition": "Entry from the 110° sector on the holding side; parallel outbound on the non-holding side."
+  },
+  {
+   "term": "Sector 2 (Teardrop)",
+   "definition": "Entry from the 70° sector; fly 30° offset outbound, turning 30° toward the holding side."
+  },
+  {
+   "term": "Sector 3 (Direct)",
+   "definition": "Entry from the 180° sector; turn directly into the hold; most common entry."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "In an ICAO standard holding pattern with right-hand turns, an aircraft approaching the holding fix from an angle within the 70° sector on the holding side should execute which entry procedure?",
+   "options": [
+    "Sector 1 / Parallel entry",
+    "Sector 2 / Teardrop (Offset) entry",
+    "Sector 3 / Direct entry",
+    "45/180 procedure turn"
+   ],
+   "correctIndex": 1,
+   "explanation": "Under ICAO PANS-OPS (Doc 8168), Sector 2 covers a 70° zone on the holding side. The entry procedure requires crossing the fix, turning onto an outbound track offset by 30° toward the holding side, flying outbound, and turning right to intercept the inbound track."
+  },
+  {
+   "question": "What is the maximum permitted holding speed for a Category C or D jet transport aircraft holding between 14,000 ft and 20,000 ft under standard ICAO PANS-OPS?",
+   "options": [
+    "210 knots",
+    "230 knots",
+    "240 knots",
+    "265 knots"
+   ],
+   "correctIndex": 2,
+   "explanation": "ICAO PANS-OPS specifies maximum holding speeds: up to 14,000 ft is 230 kt (or 170 kt for CAT A/B); from 14,000 ft to 20,000 ft is 240 kt; and above 20,000 ft up to 34,000 ft is 265 kt."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Core Learning Content & Vocabulary",
+   "body": "Hold on [radial] of [fix] — holding along a specified magnetic radial or bearing (e.g. 'Hold on the 250 radial of LOTUS VOR'). Left-hand pattern — mandatory instruction to make all turns to the left; non-standard; critical for terrain avoidance. [Number] mile legs — leg length by DME distance instead of time (e.g. 'One zero mile legs'). Sector 1 (Parallel) — entry from the 110° sector on the holding side; parallel outbound on non-holding side. Sector 2 (Teardrop) — entry from the 70° sector; fly 30° offset outbound; turn 30° toward holding side. Sector 3 (Direct) — entry from the 180° sector; turn directly into hold; most common entry."
+  },
+  {
+   "heading": "Spaced Repetition Review Drill",
+   "body": "Day 24 review (+1d): Standard holding timing is 1.0 minute at/below 14,000 ft (1.5 minutes above). Triple drift rule applies on the outbound leg (3×W). EAT is mandatory for lost communications."
+  },
+  {
+   "heading": "Fun Aviation Fact — The 3-Second Pilot Thumb Trick",
+   "body": "For a standard right-hand hold, place your right thumb at the 70° position top-right on the heading indicator; your thumb and index finger divide the 360° dial into the exact three entry sectors (Sector 1, Sector 2, Sector 3). Wherever your inbound track falls instantly shows your entry with zero pencil-and-paper math."
+  }
+ ]
+}
