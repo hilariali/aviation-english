@@ -1,9 +1,9 @@
 {
  "meta": {
   "version": 2,
-  "updated": "2026-10-14",
-  "lessons": 23,
-  "phrases": 220
+  "updated": "2026-10-17",
+  "lessons": 25,
+  "phrases": 230
  },
  "lessons": [
   {
@@ -284,6 +284,31 @@
     "ICAO Doc 9835",
     "ICAO PANS-OPS (Doc 8168)",
     "ICAO Annex 2"
+   ]
+  },
+  {
+   "day": 25,
+   "topic": "Non-Standard Holding Instructions & Entry Procedures",
+   "phase": "Approach & Landing",
+   "summary": "Day 25 continues the terminal-holding sequence with non-standard holding instructions at LOTUS VOR: left-hand patterns assigned for terrain avoidance, holding along a specified radial of a fix, distance-based DME…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1rjpBoRz0-R7S6m42HBHkGjTAldMaJmuw&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1rjpBoRz0-R7S6m42HBHkGjTAldMaJmuw/view",
+   "icaoRefs": [
+    "ICAO PANS-OPS (Doc 8168)",
+    "ICAO Doc 9432",
+    "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 26,
+   "topic": "Descent Planning & Top of Descent",
+   "phase": "Approach & Landing",
+   "summary": "Day 26 covers descent planning, Top of Descent (TOD) calculations and energy management for high-altitude jet transports. Covers the 3:1 descent rule (3 NM per 1,000 ft of altitude to lose), the target…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=172t7yjzHxvaORxsoGZF2L1F4JbVyl3rE&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/172t7yjzHxvaORxsoGZF2L1F4JbVyl3rE/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835"
    ]
   }
  ],
@@ -2045,6 +2070,86 @@
    "speaker": "Pilot",
    "meaning": "Confirms the revised EAT and reports 45 minutes of holding endurance before a diversion becomes necessary.",
    "day": 24,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Radar, Cathay two five one, passing Flight Level one eight zero descending to Flight Level one two zero, inbound LOTUS.",
+   "speaker": "Pilot",
+   "meaning": "Initial call to Hong Kong Radar, reporting descent to FL120 and position inbound the LOTUS fix.",
+   "day": 25,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO PANS-OPS (Doc 8168)"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, hold on the two fife zero radial of LOTUS VOR, left hand pattern, one zero mile legs, maintain maximum two wun zero knots, Expected Approach Time zero fife tree zero.",
+   "speaker": "ATC",
+   "meaning": "Non-standard holding clearance: hold on the 250 radial of LOTUS VOR with left-hand turns, 10 NM DME legs, max 210 kt, EAT 0530.",
+   "day": 25,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO PANS-OPS (Doc 8168)"
+  },
+  {
+   "text": "Hold on the two fife zero radial of LOTUS VOR, left hand pattern, one zero mile legs, maximum speed two wun zero knots, Expected Approach Time zero fife tree zero, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Pilot readback of the non-standard holding clearance, confirming left-hand turns and leg distance.",
+   "day": 25,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO PANS-OPS (Doc 8168)"
+  },
+  {
+   "text": "Cathay two five one, confirm holding entry procedure.",
+   "speaker": "ATC",
+   "meaning": "ATC asks the crew to confirm which holding entry sector they will use.",
+   "day": 25,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO PANS-OPS (Doc 8168)"
+  },
+  {
+   "text": "Entering via Sector two teardrop entry, outbound heading two two zero, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reports Sector 2 (teardrop) entry with outbound heading 220°",
+   "day": 25,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO PANS-OPS (Doc 8168)"
+  },
+  {
+   "text": "Hong Kong Radar, Cathay two five one, level Flight Level three fife zero, approaching top of descent.",
+   "speaker": "Pilot",
+   "meaning": "Initial check-in at cruise FL350, reporting approaching Top of Descent to request a descent clearance.",
+   "day": 26,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, when ready descend to Flight Level wun eight zero, cross LOTUS at Flight Level wun wun zero.",
+   "speaker": "ATC",
+   "meaning": "Clearance for pilot-discretion descent from the calculated TOD, with a mandatory crossing constraint at fix LOTUS at FL110.",
+   "day": 26,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "When ready descend to Flight Level wun eight zero, cross LOTUS at Flight Level wun wun zero, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Full readback of the discretion-descent clearance including the crossing constraint.",
+   "day": 26,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, expedite descent through Flight Level two zero zero, cross LOTUS at Flight Level wun wun zero or below due crossing traffic.",
+   "speaker": "ATC",
+   "meaning": "Instruction to increase the descent rate through FL200, with an altitude-window crossing constraint at LOTUS due to traffic.",
+   "day": 26,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Expediting descent through Flight Level two zero zero, cross LOTUS at Flight Level wun wun zero or below, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Readback confirming the expedited descent and the at-or-below crossing constraint.",
+   "day": 26,
    "phase": "Approach & Landing",
    "icaoRef": "ICAO Doc 9432"
   }
