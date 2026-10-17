@@ -1,0 +1,102 @@
+{
+ "day": 26,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Radar, Cathay two five one, level Flight Level three fife zero, approaching top of descent.",
+   "meaning": "Initial check-in at cruise FL350, reporting approaching Top of Descent to request a descent clearance."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, when ready descend to Flight Level wun eight zero, cross LOTUS at Flight Level wun wun zero.",
+   "meaning": "Clearance for pilot-discretion descent from the calculated TOD, with a mandatory crossing constraint at fix LOTUS at FL110."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "When ready descend to Flight Level wun eight zero, cross LOTUS at Flight Level wun wun zero, Cathay two five one.",
+   "meaning": "Full readback of the discretion-descent clearance including the crossing constraint."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, expedite descent through Flight Level two zero zero, cross LOTUS at Flight Level wun wun zero or below due crossing traffic.",
+   "meaning": "Instruction to increase the descent rate through FL200, with an altitude-window crossing constraint at LOTUS due to traffic."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Expediting descent through Flight Level two zero zero, cross LOTUS at Flight Level wun wun zero or below, Cathay two five one.",
+   "meaning": "Readback confirming the expedited descent and the at-or-below crossing constraint."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Top of Descent (TOD)",
+   "definition": "The calculated point where the aircraft must leave cruise altitude to reach its destination via a planned descent profile."
+  },
+  {
+   "term": "3:1 Rule",
+   "definition": "3 nautical miles of distance required per 1,000 ft of altitude to lose, equivalent to a 3-degree flight path angle."
+  },
+  {
+   "term": "Target Rate of Descent (ROD)",
+   "definition": "Ground speed multiplied by 5 gives the target vertical speed in ft/min for a 3-degree descent."
+  },
+  {
+   "term": "Crossing constraint",
+   "definition": "A mandatory altitude or altitude window at a specified fix, e.g. \"Cross LOTUS at FL110\"."
+  },
+  {
+   "term": "Speedbrakes",
+   "definition": "Flight spoilers deployed to steepen the descent angle when excess energy must be dissipated quickly."
+  },
+  {
+   "term": "Continuous Descent Operations (CDO)",
+   "definition": "An idle-thrust descent from cruise to the runway that saves fuel, emissions and noise — the \"green descent\"."
+  },
+  {
+   "term": "Expedite descent",
+   "definition": "Instruction to increase the rate of descent immediately, usually due to traffic."
+  },
+  {
+   "term": "Energy management",
+   "definition": "The pilot technique of balancing altitude, speed and configuration to arrive at a fix at the required altitude and speed."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "An aircraft is cruising at FL350 and needs to descend to 5,000 ft. Using the standard 3:1 descent rule (without wind or deceleration allowance), at what distance from the fix should the descent commence?",
+   "options": [
+    "60 NM",
+    "75 NM",
+    "90 NM",
+    "105 NM"
+   ],
+   "correctIndex": 2,
+   "explanation": "Altitude to lose = 35,000 - 5,000 = 30,000 ft. Using 3 NM per 1,000 ft: (30,000 / 1,000) * 3 = 90 nautical miles."
+  },
+  {
+   "question": "What is the operational meaning of the ATC clearance \"When ready, descend to Flight Level 140\"?",
+   "options": [
+    "The pilot must begin an immediate descent at a minimum rate of 1,000 ft/min.",
+    "The pilot is authorized to commence the descent at their discretion from the calculated Top of Descent point.",
+    "The pilot must declare an emergency before descending.",
+    "The pilot must request a new transponder code before leaving cruise."
+   ],
+   "correctIndex": 1,
+   "explanation": "Under ICAO radiotelephony procedures, \"When ready descend...\" grants pilot discretion to begin descent at the optimum flight management computer Top of Descent (TOD) point."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "| Phrase / Command | ICAO Standard Definition | Phonetic Guide | Operational Example |\n|---|---|\n| When ready descend to [FL] | Pilot discretion descent starting from calculated Top of Descent. | when RED-ee de-SEND... | \"When ready descend to FL180.\" |\n| Cross [fix] at [FL] | Mandatory vertical altitude constraint at a specified fix. | cross [FIX] at Flight Level... | \"Cross LOTUS at FL110.\" |\n| Cross [fix] at or above/below | Altitude window constraint for crossing traffic separation. | at or a-BUV / be-LOH | \"Cross LOTUS at FL110 or below.\" |\n| 3:1 Rule | 3 NM required per 1,000 ft of descent (3-degree flight path angle). | TREE to WUN rool | Altitude to lose / 1000 * 3 = Distance. |\n| Target ROD Formula | Ground Speed * 5 = Target vertical speed in ft/min. | rate of de-SENT | At 400 kt GS, ROD = 2,000 ft/min. |"
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "- Day 25 Review (+1d): Holding entry sectors: Sector 1 Parallel (110 deg), Sector 2 Teardrop (70 deg), Sector 3 Direct (180 deg). Non-standard left-hand turns must always be read back.\n- Day 23 Review (+3d): Mountain wave altimeter error: accelerating winds over mountain crests drop local static pressure (Venturi effect), causing altimeters to over-read true altitude."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact — The Green \"Idle Descent\"",
+   "body": "Modern airline operations strive for Continuous Descent Operations (CDO), informally called \"Green Descents\". In an ideal CDO, the flight crew retards the engine throttles to flight idle at 38,000 feet and glides silently for over 100 miles, without adding engine thrust once until 1,000 feet above the runway! This saves over 500 kg of jet fuel per arrival and slashes carbon emissions and airport community noise."
+  }
+ ]
+}
