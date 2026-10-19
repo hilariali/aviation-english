@@ -1,0 +1,117 @@
+{
+ "day": 28,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Radar, Cathay two five one, passing Flight Level wun wun zero descending to seven thousand feet.",
+   "meaning": "Arrival check-in: reporting passing FL110 while descending to 7,000 ft."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, transition level Flight Level wun zero zero, altimeter wun zero wun fow-er hectopascals, descend to seven thousand feet.",
+   "meaning": "Assigns transition level FL100 with altimeter setting 1014 hPa, and clears descent to 7,000 ft."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Transition level Flight Level wun zero zero, QNH wun zero wun fow-er, descend to seven thousand feet, Cathay two five one.",
+   "meaning": "Mandatory readback of the transition level, QNH, and descent clearance."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, attention all aircraft, weather update, QNH drops to wun zero zero eight hectopascals, reset altimeters.",
+   "meaning": "All-aircraft advisory: rapid QNH fall to 1008 hPa; instruction to reset altimeter subscales."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Reset altimeters QNH wun zero zero eight, Cathay two five one.",
+   "meaning": "Readback confirming the altimeter reset to QNH 1008."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Altimeter QNH 1014 set, cross-checked, passing 9,000 ft.",
+   "meaning": "Standard cockpit callout when passing the transition level: QNH set and cross-checked between both pilots' displays."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "QNH one zero one four.",
+   "meaning": "Announces the current QNH setting in discrete digits."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Passing TL, reset altimeter to QNH.",
+   "meaning": "Operational shorthand: passing the transition level, switch the altimeter subscale from Standard 1013.25 hPa to local QNH."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Transition Level (TL)",
+   "definition": "Lowest usable flight level above the transition altitude (e.g. FL100); passing it on descent triggers the switch from Standard 1013.25 hPa to local QNH."
+  },
+  {
+   "term": "Transition Layer",
+   "definition": "Airspace between the transition altitude and the transition level; level flight is prohibited inside it worldwide to preserve vertical separation."
+  },
+  {
+   "term": "QNH",
+   "definition": "Local barometric pressure setting corrected to sea level, expressed in hectopascals; setting it keeps the altimeter indicating true altitude above sea level."
+  },
+  {
+   "term": "Reset altimeter",
+   "definition": "Instruction to adjust the altimeter subscale to the updated barometric pressure setting, e.g. during rapid frontal weather changes."
+  },
+  {
+   "term": "Transition Altitude",
+   "definition": "Altitude (e.g. 9,000 ft at VHHH) at or below which vertical position is expressed in altitude with local QNH; above it, in flight levels with Standard pressure."
+  },
+  {
+   "term": "Altimeter misset",
+   "definition": "Error from leaving the subscale on the wrong pressure datum; 1 hPa of error equals ~30 ft of altitude error (\"high to low, look out below\")."
+  },
+  {
+   "term": "Cross-checked",
+   "definition": "Both pilots verifying their Primary Flight Displays (PFD) and standby instruments agree after an altimeter setting change."
+  },
+  {
+   "term": "Hearback",
+   "definition": "ATC listening to the pilot's readback to catch errors — here, the 10 hPa readback error (1004 vs 1014) that would put the aircraft 300 ft low."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "When descending through the Transition Level on an instrument arrival, what action must the flight crew perform on the aircraft barometric altimeters?",
+   "options": [
+    "Change the altimeter subscale from Standard 1013.25 hPa to the current local airport QNH.",
+    "Reset the altimeter to QFE (field elevation zero).",
+    "Cycle the transponder to standby.",
+    "Disconnect autopilot altitude hold."
+   ],
+   "correctIndex": 0,
+   "explanation": "Under ICAO Annex 2 and Doc 9432, descending through the Transition Level requires transitioning from standard pressure (1013.25 hPa) back to local airport QNH to ensure terrain clearance."
+  },
+  {
+   "question": "If an aircraft descends into a terminal area where the actual sea level pressure is 998 hPa, but the crew mistakenly leaves the altimeter set to standard pressure (1013.2 hPa), how does the aircraft's true altitude compare to its indicated altitude?",
+   "options": [
+    "True altitude is approximately 450 feet higher than indicated.",
+    "True altitude is approximately 450 feet lower than indicated.",
+    "True altitude matches indicated altitude.",
+    "The altimeter automatically corrects for the discrepancy."
+   ],
+   "correctIndex": 1,
+   "explanation": "Pressure difference = 1013.2 - 998 = 15.2 hPa. Using ~30 ft per hPa: 15.2 * 30 = 456 feet. Flying from high pressure datum to low pressure without resetting causes the altimeter to over-read (\"High to low, look out below\"), placing the aircraft ~450 ft lower than indicated!"
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "| Phrase / Command | ICAO Standard Definition | Phonetic Guide | Operational Example |\n|---|---|---|---|\n| Transition Level (TL) | Lowest usable flight level above transition altitude (e.g. FL100). | tran-ZI-shun LEV-el | Passing TL, reset altimeter to QNH. |\n| Transition Layer | Airspace between Transition Altitude and Transition Level. | tran-ZI-shun LAY-er | Level flight prohibited in this layer! |\n| QNH [number] hectopascals | Local barometric pressure setting corrected to sea level. | Q-N-H [DI-GITS] | \"QNH one zero one four.\" |\n| Reset altimeter | Instruction to adjust subscale to updated barometric pressure. | re-SET al-TI-me-ter | Issued during rapid frontal weather changes. |"
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "- Day 27 Review (+1d): \"Descend via STAR\" mandates complying with all published altitude windows and speed restrictions. Cancelling level restrictions only cancels vertical constraints.\n- Day 21 Review (+7d): Lateral weather deviations around severe thunderstorms require at least 20 nautical miles clearance above FL200."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact — Why Level Flight in the Transition Layer is Illegal",
+   "body": "The Transition Layer is the airspace sandwiched between the Transition Altitude (e.g. 9,000 ft) and Transition Level (e.g. FL100). Cruising in level flight within the transition layer is strictly prohibited worldwide! If an aircraft were allowed to cruise inside this layer, one climbing aircraft on Standard 1013.25 and one descending aircraft on local QNH would have conflicting altimeter calibrations, making vertical separation impossible!"
+  }
+ ]
+}

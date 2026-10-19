@@ -1,0 +1,102 @@
+{
+ "day": 27,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Radar, Cathay two five one, passing Flight Level one six zero descending via CANTO three Alfa arrival, Information Golf.",
+   "meaning": "Initial arrival check-in: reporting descending via the CANTO 3A STAR with the current ATIS (Information Golf)."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, descend via CANTO three Alfa arrival to eight thousand feet, cross LOTUS at or above Flight Level wun wun zero, QNH wun zero wun fife.",
+   "meaning": "Descend-via-STAR clearance down to 8,000 ft with a mandatory at-or-above crossing window at fix LOTUS (FL110), plus the local QNH for the altimeter transition."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Descend via CANTO three Alfa arrival to eight thousand feet, cross LOTUS at or above Flight Level wun wun zero, QNH wun zero wun fife, Cathay two five one.",
+   "meaning": "Full readback of the descend-via-STAR clearance including the crossing window and QNH."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, level restrictions on arrival cancelled, descend to eight thousand feet, maintain two wun zero knots.",
+   "meaning": "Cancels only the STAR's vertical constraints; descend to 8,000 ft while continuing the charted lateral track, with a temporary speed restriction of 210 kt."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Level restrictions cancelled, descend to eight thousand feet, maintain two wun zero knots, Cathay two five one.",
+   "meaning": "Readback confirming the cancelled level restrictions, the descend-to altitude and the 210 kt speed assignment."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Standard Terminal Arrival Route (STAR)",
+   "definition": "A published IFR route connecting high-altitude airway exits to the initial approach fix (IAF) of a runway; provides pre-charted lateral tracks, crossing windows and speed limits."
+  },
+  {
+   "term": "Descend via STAR",
+   "definition": "Clearance authorizing descent while obeying every published waypoint altitude window and speed restriction on the STAR down to the cleared level."
+  },
+  {
+   "term": "Level restrictions cancelled",
+   "definition": "ATC instruction lifting only the vertical altitude constraints on a STAR; the charted lateral route and published speed limits remain active."
+  },
+  {
+   "term": "Cross [fix] at/above/below [FL]",
+   "definition": "Charted vertical altitude window constraints at a specified fix, e.g. \"Cross LOTUS at or above FL110\"."
+  },
+  {
+   "term": "Resume published speed",
+   "definition": "Instruction to return to the charted STAR speed limits after a temporary ATC speed override."
+  },
+  {
+   "term": "Transition Level",
+   "definition": "The altitude/flight level (assigned by ATC or ATIS) at which crews transition the barometric subscale from Standard 1013.25 hPa to the local airport QNH during arrival."
+  },
+  {
+   "term": "Point Merge",
+   "definition": "An arrival system where aircraft fly sequencing arcs equidistant from a merge point; ATC clears them direct to the merge point when spacing is ideal, eliminating holding."
+  },
+  {
+   "term": "Trombone routing",
+   "definition": "A path-stretching arrival technique used at ultra-busy airports as an alternative to circular holding patterns."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "When an air traffic controller issues the clearance \"Descend via STAR to 6,000 ft\", what is the flight crew authorized and required to do?",
+   "options": [
+    "Descend at pilot's discretion directly to 6,000 ft ignoring all intermediate restrictions.",
+    "Follow the lateral route of the STAR and comply with all published waypoint altitude windows and speed restrictions down to 6,000 ft.",
+    "Cancel IFR and proceed visually.",
+    "Maintain cruise speed until 6,000 ft."
+   ],
+   "correctIndex": 1,
+   "explanation": "Under ICAO and FAA procedures, \"Descend via STAR\" requires the pilot to follow the lateral route and obey all published altitude constraints and speed limits down to the cleared level."
+  },
+  {
+   "question": "If ATC states \"Level restrictions on STAR cancelled, descend to 5,000 ft\", what happens to published speed restrictions on the STAR?",
+   "options": [
+    "Published speed restrictions remain fully in effect unless explicitly cancelled by ATC.",
+    "Speed restrictions are automatically cancelled.",
+    "The aircraft must accelerate to maximum operating speed (V_MO).",
+    "The pilot must declare minimum fuel."
+   ],
+   "correctIndex": 0,
+   "explanation": "Cancelling level restrictions applies strictly to vertical constraints. Published lateral waypoints and speed restrictions remain fully mandatory unless specifically cancelled."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "| Phrase / Command | ICAO Standard Definition | Phonetic Guide | Operational Example |\n|---|---|\n| Descend via STAR to [level] | Clearance authorizing descent while obeying all charted restrictions. | de-SEND VEE-ah... | \"Descend via CANTO 3A to 8,000 ft.\" |\n| Cross [fix] at/above/below [FL] | Charted vertical altitude window constraints. | cross [FIX] at or a-BUV... | \"Cross LOTUS at or above FL110.\" |\n| Level restrictions cancelled | Lifting of vertical altitude constraints on the STAR. | LEV-el re-STRIK-shunz KAN-seld | Lateral route & speed limits remain active! |\n| Resume published speed | Instruction to return to charted STAR speed limits. | re-ZOOM PUB-lisht speed | Cancels temporary ATC speed overrides. |"
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "- Day 26 Review (+1d): 3:1 descent rule requires 3 NM per 1,000 ft of altitude to lose. \"When ready descend\" authorizes pilot discretion descent from calculated Top of Descent.\n- Day 21 Review (+7d): Severe convective thunderstorm cells above FL200 require a minimum lateral clearance of 20 nautical miles."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact — \"Point Merge\" & \"Trombone\" Routing",
+   "body": "At ultra-busy international airports, circular holding patterns are increasingly being replaced by \"Point Merge\" and \"Trombone\" arrival systems! In Point Merge, arriving aircraft fly along circular sequencing arcs equidistant from a merge point. When spacing is ideal, ATC simply clears the aircraft to turn direct to the merge point. This eliminates holding entirely and saves millions of gallons of fuel!"
+  }
+ ]
+}
