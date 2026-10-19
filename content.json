@@ -1,9 +1,9 @@
 {
  "meta": {
   "version": 2,
-  "updated": "2026-10-17",
-  "lessons": 25,
-  "phrases": 230
+  "updated": "2026-10-19",
+  "lessons": 27,
+  "phrases": 243
  },
  "lessons": [
   {
@@ -307,6 +307,31 @@
    "audioURL": "https://drive.usercontent.google.com/download?id=172t7yjzHxvaORxsoGZF2L1F4JbVyl3rE&export=download&confirm=t",
    "audioPageURL": "https://drive.google.com/file/d/172t7yjzHxvaORxsoGZF2L1F4JbVyl3rE/view",
    "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 27,
+   "topic": "STAR Arrival Routing & Level Constraints",
+   "phase": "Approach & Landing",
+   "summary": "Day 27 covers Standard Terminal Arrival Routes (STARs), vertical crossing altitude windows, and speed constraints for terminal arrivals. Key learning: \"Descend via STAR\" mandates compliance with every published…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1Zy4Fk3xfpotwo3y09R1fT5zQwraqX5V2&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1Zy4Fk3xfpotwo3y09R1fT5zQwraqX5V2/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 28,
+   "topic": "Transition Level & Altimeter Reset",
+   "phase": "Approach & Landing",
+   "summary": "Day 28 covers one of the most safety-critical moments of every instrument arrival: descending through the Transition Level and resetting the altimeter subscale from Standard 1013.25 hPa back to local airport QNH. It…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1xOgjFypp9uuTuYR9imvIGieEuuzcTyJ5&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1xOgjFypp9uuTuYR9imvIGieEuuzcTyJ5/view",
+   "icaoRefs": [
+    "ICAO Annex 2",
     "ICAO Doc 9432",
     "ICAO Doc 9835"
    ]
@@ -2152,6 +2177,110 @@
    "day": 26,
    "phase": "Approach & Landing",
    "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Radar, Cathay two five one, passing Flight Level one six zero descending via CANTO three Alfa arrival, Information Golf.",
+   "speaker": "Pilot",
+   "meaning": "Initial arrival check-in: reporting descending via the CANTO 3A STAR with the current ATIS (Information Golf).",
+   "day": 27,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, descend via CANTO three Alfa arrival to eight thousand feet, cross LOTUS at or above Flight Level wun wun zero, QNH wun zero wun fife.",
+   "speaker": "ATC",
+   "meaning": "Descend-via-STAR clearance down to 8,000 ft with a mandatory at-or-above crossing window at fix LOTUS (FL110), plus the local QNH for the altimeter transition.",
+   "day": 27,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Descend via CANTO three Alfa arrival to eight thousand feet, cross LOTUS at or above Flight Level wun wun zero, QNH wun zero wun fife, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Full readback of the descend-via-STAR clearance including the crossing window and QNH.",
+   "day": 27,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, level restrictions on arrival cancelled, descend to eight thousand feet, maintain two wun zero knots.",
+   "speaker": "ATC",
+   "meaning": "Cancels only the STAR's vertical constraints; descend to 8,000 ft while continuing the charted lateral track, with a temporary speed restriction of 210 kt.",
+   "day": 27,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Level restrictions cancelled, descend to eight thousand feet, maintain two wun zero knots, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Readback confirming the cancelled level restrictions, the descend-to altitude and the 210 kt speed assignment.",
+   "day": 27,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Radar, Cathay two five one, passing Flight Level wun wun zero descending to seven thousand feet.",
+   "speaker": "Pilot",
+   "meaning": "Arrival check-in: reporting passing FL110 while descending to 7,000 ft.",
+   "day": 28,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Annex 2"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, transition level Flight Level wun zero zero, altimeter wun zero wun fow-er hectopascals, descend to seven thousand feet.",
+   "speaker": "ATC",
+   "meaning": "Assigns transition level FL100 with altimeter setting 1014 hPa, and clears descent to 7,000 ft.",
+   "day": 28,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Annex 2"
+  },
+  {
+   "text": "Transition level Flight Level wun zero zero, QNH wun zero wun fow-er, descend to seven thousand feet, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Mandatory readback of the transition level, QNH, and descent clearance.",
+   "day": 28,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Annex 2"
+  },
+  {
+   "text": "Cathay two five one, attention all aircraft, weather update, QNH drops to wun zero zero eight hectopascals, reset altimeters.",
+   "speaker": "ATC",
+   "meaning": "All-aircraft advisory: rapid QNH fall to 1008 hPa; instruction to reset altimeter subscales.",
+   "day": 28,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Annex 2"
+  },
+  {
+   "text": "Reset altimeters QNH wun zero zero eight, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Readback confirming the altimeter reset to QNH 1008.",
+   "day": 28,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Annex 2"
+  },
+  {
+   "text": "Altimeter QNH 1014 set, cross-checked, passing 9,000 ft.",
+   "speaker": "Pilot",
+   "meaning": "Standard cockpit callout when passing the transition level: QNH set and cross-checked between both pilots' displays.",
+   "day": 28,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Annex 2"
+  },
+  {
+   "text": "QNH one zero one four.",
+   "speaker": "Pilot",
+   "meaning": "Announces the current QNH setting in discrete digits.",
+   "day": 28,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Annex 2"
+  },
+  {
+   "text": "Passing TL, reset altimeter to QNH.",
+   "speaker": "Pilot",
+   "meaning": "Operational shorthand: passing the transition level, switch the altimeter subscale from Standard 1013.25 hPa to local QNH.",
+   "day": 28,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Annex 2"
   }
  ]
 }
