@@ -1,9 +1,9 @@
 {
  "meta": {
   "version": 2,
-  "updated": "2026-10-19",
-  "lessons": 27,
-  "phrases": 243
+  "updated": "2026-10-20",
+  "lessons": 28,
+  "phrases": 248
  },
  "lessons": [
   {
@@ -332,6 +332,19 @@
    "audioPageURL": "https://drive.google.com/file/d/1xOgjFypp9uuTuYR9imvIGieEuuzcTyJ5/view",
    "icaoRefs": [
     "ICAO Annex 2",
+    "ICAO Doc 9432",
+    "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 29,
+   "topic": "Approach Radar Vectors & Sequencing",
+   "phase": "Approach & Landing",
+   "summary": "Day 29 opens Phase 5: terminal approach radar vectors, ILS interception and landing sequencing. It teaches the Director sequencing geometry (downwind, base and intercept legs), the 30° localizer intercept rule from…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1OKV_w0wUmCjLATqOPQqoBHwQIplT038m&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1OKV_w0wUmCjLATqOPQqoBHwQIplT038m/view",
+   "icaoRefs": [
+    "ICAO Doc 4444",
     "ICAO Doc 9432",
     "ICAO Doc 9835"
    ]
@@ -2281,6 +2294,46 @@
    "day": 28,
    "phase": "Approach & Landing",
    "icaoRef": "ICAO Annex 2"
+  },
+  {
+   "text": "Hong Kong Director, Cathay two five one, passing seven thousand feet descending to five thousand feet, heading two fow-er zero, Information Hotel.",
+   "speaker": "Pilot",
+   "meaning": "Approach check-in: descending 7,000 to 5,000 ft on heading 240, with ATIS Hotel received.",
+   "day": 29,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Director, radar contact, fly heading two fow-er zero, vector for ILS Runway zero sev-en left, number two in sequence.",
+   "speaker": "ATC",
+   "meaning": "Radar contact established: continue heading 240 as a vector for ILS Runway 07L; the aircraft is number two in the arrival sequence.",
+   "day": 29,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Fly heading two fow-er zero, vector for ILS Runway zero sev-en left, number two, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Full readback of the vector heading, ILS approach intent and sequence position, with the callsign last.",
+   "day": 29,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, turn right heading zero fow-er zero, descend to three thousand feet, maintain wun eight zero knots.",
+   "speaker": "ATC",
+   "meaning": "Tactical sequencing vector: right turn to heading 040, descend to 3,000 ft and hold 180 knots until established.",
+   "day": 29,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Turn right heading zero fow-er zero, descend to three thousand feet, speed wun eight zero knots, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Readback of the heading turn, descent and speed control, with the callsign last.",
+   "day": 29,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 4444"
   }
  ]
 }
