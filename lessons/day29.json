@@ -1,0 +1,110 @@
+{
+ "day": 29,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Director, Cathay two five one, passing seven thousand feet descending to five thousand feet, heading two fow-er zero, Information Hotel.",
+   "meaning": "Approach check-in: descending 7,000 to 5,000 ft on heading 240, with ATIS Hotel received."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Director, radar contact, fly heading two fow-er zero, vector for ILS Runway zero sev-en left, number two in sequence.",
+   "meaning": "Radar contact established: continue heading 240 as a vector for ILS Runway 07L; the aircraft is number two in the arrival sequence."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Fly heading two fow-er zero, vector for ILS Runway zero sev-en left, number two, Cathay two five one.",
+   "meaning": "Full readback of the vector heading, ILS approach intent and sequence position, with the callsign last."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, turn right heading zero fow-er zero, descend to three thousand feet, maintain wun eight zero knots.",
+   "meaning": "Tactical sequencing vector: right turn to heading 040, descend to 3,000 ft and hold 180 knots until established."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Turn right heading zero fow-er zero, descend to three thousand feet, speed wun eight zero knots, Cathay two five one.",
+   "meaning": "Readback of the heading turn, descent and speed control, with the callsign last."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Vector for ILS Runway",
+   "definition": "ATC's stated tactical intent that the current heading is being issued to position the aircraft onto the ILS final approach course — a vector is NOT an approach clearance."
+  },
+  {
+   "term": "Downwind leg",
+   "definition": "Terminal pattern leg flown parallel to but opposite the landing runway direction, where approach radar spaces and sequences arrivals."
+  },
+  {
+   "term": "Base leg",
+   "definition": "Terminal pattern leg flown perpendicular to the runway after the downwind turn, leading to the intercept turn onto final."
+  },
+  {
+   "term": "Number [num] in sequence",
+   "definition": "Relative arrival-sequence position among terminal arrivals (e.g. \"number two in sequence\"), telling the crew its order to the runway."
+  },
+  {
+   "term": "Localizer intercept",
+   "definition": "The closing turn (max 30° per ICAO Doc 4444) from the intercept heading onto the localizer course."
+  },
+  {
+   "term": "Maintain [speed] until established",
+   "definition": "Speed-control restriction for sequencing that stays in effect until the aircraft is established on the final approach course."
+  },
+  {
+   "term": "Director",
+   "definition": "Approach radar control position providing tactical vectors and sequencing in the terminal area around the airport."
+  },
+  {
+   "term": "Wake turbulence spacing",
+   "definition": "Extra in-trail distance behind heavy-category aircraft (including the Boeing 757, treated as a heavy) whose vortices can roll over lighter followers."
+  },
+  {
+   "term": "STAR",
+   "definition": "Standard Terminal Arrival Route — the published instrument procedure flown before handoff to Director for radar vectors."
+  },
+  {
+   "term": "Glideslope",
+   "definition": "The ILS vertical guidance path; the pilot must not descend on it until explicitly cleared for the approach."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "When an air traffic controller vectors an aircraft to intercept an instrument final approach course, what is the maximum recommended intercept angle under ICAO Doc 4444?",
+   "options": [
+    "15 degrees",
+    "30 degrees",
+    "45 degrees",
+    "60 degrees"
+   ],
+   "correctIndex": 1,
+   "explanation": "Under standard ICAO radar vectoring criteria, the closing turn onto the localizer or final approach track should not exceed 30 degrees (up to 45° in specific airspace configurations) to ensure smooth capture without overshooting."
+  },
+  {
+   "question": "What is the primary operational distinction between \"Vector for ILS approach\" and \"Cleared ILS approach\"?",
+   "options": [
+    "\"Vector for ILS\" is a heading instruction toward the localizer; \"Cleared ILS\" authorizes the pilot to track the localizer and descend on the glide path.",
+    "\"Vector for ILS\" authorizes landing on the runway.",
+    "\"Cleared ILS\" cancels all speed restrictions.",
+    "There is no operational difference."
+   ],
+   "correctIndex": 0,
+   "explanation": "A vector is strictly a tactical heading assignment. Only when the clearance \"Cleared ILS approach\" is explicitly issued is the pilot authorized to intercept and track the localizer and descend on the glideslope."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "| Phrase / Command | ICAO Standard Definition | Phonetic Guide | Operational Example |\n|---|---|---|---|\n| Vector for ILS Runway [num] | Stating tactical intent of approach radar vectoring. | VEK-tor for eye-el-ess... | \"Fly heading 240, vector for ILS Runway 07L.\" |\n| Downwind / Base leg | Standard legs of the terminal radar rectangular pattern. | DOWN-wind / BASE leg | Positions aircraft parallel/perpendicular to runway. |\n| Number [num] in sequence | Relative arrival sequence position among terminal arrivals. | NUM-ber [DI-GIT] in SEE-kwens | \"Number two in sequence behind B777.\" |\n| Turn to intercept [course] | Closing turn onto the localizer (max 30° intercept angle). | turn to in-ter-SEPT... | \"Turn right heading 040 to intercept.\" |\n| Maintain [speed] until established | Speed control applied for sequencing onto final approach. | mayn-TAYN [speed] un-TIL es-TAB-lisht | \"Maintain 180 knots until established.\" |"
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "- **Day 28 Review (+1d):** Descending through Transition Level, reset subscale from Standard 1013.25 hPa back to airport QNH.\n- **Day 14 Review (+14d):** On radar vectors, steer assigned compass heading without applying wind crab."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact — Why the B757 is Treated as a Heavy",
+   "body": "Although the Boeing 757's maximum takeoff weight (115 tonnes) places it in the ICAO \"Medium\" weight class, its exceptionally high-lift supercritical wing produces wake vortices as violent as those generated by a Boeing 747! Following several fatal rollover crashes involving smaller aircraft trailing 757s in the 1990s, aviation authorities created a dedicated wake turbulence category for the 757, requiring full 4-to-5-mile heavy spacing behind it!"
+  }
+ ]
+}
