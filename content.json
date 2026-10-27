@@ -1,9 +1,9 @@
 {
  "meta": {
   "version": 2,
-  "updated": "2026-10-20",
-  "lessons": 28,
-  "phrases": 248
+  "updated": "2026-10-27",
+  "lessons": 35,
+  "phrases": 293
  },
  "lessons": [
   {
@@ -347,6 +347,94 @@
     "ICAO Doc 4444",
     "ICAO Doc 9432",
     "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 30,
+   "topic": "Speed Control on Intermediate Approach",
+   "phase": "Approach & Landing",
+   "summary": "Day 30 teaches speed control on intermediate approach and stabilized approach criteria. It covers ATC speed gates (210-220 kt on initial approach, 180-190 kt on base, 160 kt to 4 DME), the mandatory 1,000 ft IMC /…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1RVvT22j-BOs6iRWrJjIx-bE2-26aRKWc&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1RVvT22j-BOs6iRWrJjIx-bE2-26aRKWc/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 31,
+   "topic": "ILS Localizer Interception",
+   "phase": "Approach & Landing",
+   "summary": "Day 31 masters ILS localizer interception: the precise handover from terminal radar vectoring to ground-based instrument guidance. Covers the localizer's VHF signal physics (90 Hz left / 150 Hz right modulations,…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1aTqq1c9u-MN1h7WFHEs25rp3I7h1rtXr&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1aTqq1c9u-MN1h7WFHEs25rp3I7h1rtXr/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835",
+    "ICAO Doc 4444"
+   ]
+  },
+  {
+   "day": 32,
+   "topic": "ILS Glide Path & Cleared Approach",
+   "phase": "Approach & Landing",
+   "summary": "Day 32 moves from horizontal to vertical precision guidance: ILS glide path interception and the cleared-approach procedure. Covers the UHF glide path transmitter physics (329.15–335.00 MHz, 90/150 Hz lobes forming…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1XiotOZTx6q90ZvO-ccx_Obyf2_juCTij&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1XiotOZTx6q90ZvO-ccx_Obyf2_juCTij/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 33,
+   "topic": "RNP / RNAV / GNSS Approach Clearances",
+   "phase": "Approach & Landing",
+   "summary": "Day 33 masters Required Navigation Performance (RNP) and RNAV (GNSS) instrument approaches. Satellite-guided RNP approaches let aircraft fly curved, obstacle-avoiding paths (Radius-to-Fix legs) with internal on-board…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1ZbkN7RzAuMmH4pH7zGFmmHLMngpDerCN&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1ZbkN7RzAuMmH4pH7zGFmmHLMngpDerCN/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 34,
+   "topic": "Visual Approach Clearances",
+   "phase": "Approach & Landing",
+   "summary": "Day 34 explores visual approach clearances. When weather permits, controllers clear visual approaches to expedite arrivals and maximize airport capacity — but accepting one transfers full legal responsibility for…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1BocW8PmFkmIOd1a1_hpMzEfaOCh7gwgY&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1BocW8PmFkmIOd1a1_hpMzEfaOCh7gwgY/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835",
+    "ICAO Doc 4444"
+   ]
+  },
+  {
+   "day": 35,
+   "topic": "Circling Approach Procedures",
+   "phase": "Approach & Landing",
+   "summary": "Day 35 concludes Phase 5 with circling approaches. When the runway in use is not aligned with the instrument approach (e.g. winds require landing on Runway 25R but the ILS is only installed on Runway 07L), pilots fly…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1Qn1Gd4wy5smn20Dw7QQ7MZpJOu_LglUD&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1Qn1Gd4wy5smn20Dw7QQ7MZpJOu_LglUD/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835",
+    "ICAO Doc 8168"
+   ]
+  },
+  {
+   "day": 36,
+   "topic": "Low Visibility Operations (CAT II/III & Autoland)",
+   "phase": "Approach & Landing",
+   "summary": "Day 36 opens Phase 6: Landing Clearances, Missed Approaches & Emergencies, with Low Visibility Operations (CAT II/III & Autoland). In dense fog or heavy haze, airports activate Low Visibility Procedures (LVP), which…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1ClMLbcKVtKHoOnKZ53QvvpZNIG85A1la&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1ClMLbcKVtKHoOnKZ53QvvpZNIG85A1la/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835",
+    "ICAO Annex 6"
    ]
   }
  ],
@@ -2334,6 +2422,366 @@
    "day": 29,
    "phase": "Approach & Landing",
    "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Hong Kong Director, Cathay two five one, heading zero fow-er zero, descending to three thousand feet.",
+   "speaker": "Pilot",
+   "meaning": "Approach check-in: heading 040, descending to 3,000 ft, contacting the Director frequency.",
+   "day": 30,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Director, maintain two wun zero knots until wun two DME, turn left heading zero wun zero to intercept.",
+   "speaker": "ATC",
+   "meaning": "Intermediate approach speed restriction gate: hold 210 knots until 12 DME, with a left turn to intercept the localizer.",
+   "day": 30,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Maintain two wun zero knots until wun two DME, turn left heading zero wun zero, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Readback confirming the speed restriction gate and the intercept heading, callsign last.",
+   "day": 30,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, reduce speed to wun six zero knots, maintain wun six zero knots to fow-er DME.",
+   "speaker": "ATC",
+   "meaning": "Mandatory deceleration to the universal final approach speed gate: 160 knots to 4 DME.",
+   "day": 30,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Reduce speed wun six zero knots, maintain wun six zero knots to fow-er DME, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Readback of the 160-knots-to-4-DME final approach speed assignment.",
+   "day": 30,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Unable 160 knots to 2 DME, need to reduce at 4 DME for landing configuration.",
+   "speaker": "Pilot",
+   "meaning": "Pilot veto: declares unable when an ATC speed assignment would exceed flap placard limits, asserting the 4 DME deceleration gate needed for landing configuration.",
+   "day": 30,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Maintain 210 knots until 12 DME.",
+   "speaker": "ATC",
+   "meaning": "Standard intermediate-approach speed restriction gate.",
+   "day": 30,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Reduce to 160 knots.",
+   "speaker": "ATC",
+   "meaning": "Mandatory deceleration instruction for approach sequencing.",
+   "day": 30,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Director, Cathay two five one, heading zero four zero, descending to three thousand feet.",
+   "speaker": "Pilot",
+   "meaning": "Initial approach check-in: reporting current heading and descent to the Director controller.",
+   "day": 31,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Director, turn left heading wun zero zero, intercept localizer Runway zero sev-en left, report established.",
+   "speaker": "ATC",
+   "meaning": "Radar vector to intercept the ILS localizer for Runway 07L, with the mandatory report-established requirement.",
+   "day": 31,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Turn left heading wun zero zero, intercept localizer Runway zero sev-en left, report established, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Full readback of the intercept vector confirming the heading, runway and reporting requirement.",
+   "day": 31,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, confirm localizer established.",
+   "speaker": "ATC",
+   "meaning": "Controller's confirmation query verifying localizer capture before the frequency transfer.",
+   "day": 31,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Director, Cathay two five one, established localizer Runway zero sev-en left.",
+   "speaker": "Pilot",
+   "meaning": "The mandatory \"established\" report that signals Director to transfer the flight to Tower for landing clearance.",
+   "day": 31,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, roger, contact Hong Kong Tower wun wun eight day-see-mal sev-en.",
+   "speaker": "ATC",
+   "meaning": "Handoff to Tower frequency 118.7 once localizer establishment is confirmed.",
+   "day": 31,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Tower wun wun eight day-see-mal sev-en, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Brief readback of the frequency transfer to Tower.",
+   "day": 31,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Director, Cathay two five one, established on localizer Runway zero sev-en left, three thousand feet.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reports established on the localizer at the cleared platform altitude, awaiting the descent clearance.",
+   "day": 32,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Director, maintain three thousand feet until glide path interception, cleared ILS Runway zero sev-en left approach.",
+   "speaker": "ATC",
+   "meaning": "ATC issues the mandatory level constraint until vertical capture and clears the ILS approach.",
+   "day": 32,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Maintain three thousand feet until glide path interception, cleared ILS Runway zero sev-en left approach, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reads back the altitude constraint and approach clearance verbatim — descending early here is the hearback trap.",
+   "day": 32,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, confirm glide path intercepted.",
+   "speaker": "ATC",
+   "meaning": "Controller's confirmation query verifying vertical glide path capture.",
+   "day": 32,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Director, Cathay two five one, glide path intercepted, descending on glide path.",
+   "speaker": "Pilot",
+   "meaning": "Pilot confirms the glide path is captured and the aircraft is now descending on profile.",
+   "day": 32,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, contact Hong Kong Tower wun wun eight day-see-mal sev-en.",
+   "speaker": "ATC",
+   "meaning": "Handoff to Tower frequency 118.7 after glide path capture is confirmed.",
+   "day": 32,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Director, Cathay two five one, inbound RIVER, descending to fow-er thousand feet, Information Juliet.",
+   "speaker": "Pilot",
+   "meaning": "Pilot's initial call to Hong Kong Director, inbound via RIVER, descending to 4,000 ft with ATIS Information Juliet.",
+   "day": 33,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Director, cleared RNP Runway zero sev-en right approach, report LNAV and VNAV established.",
+   "speaker": "ATC",
+   "meaning": "ATC clears the satellite-guided RNP approach for Runway 07R and requires a call when lateral and vertical guidance are captured.",
+   "day": 33,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cleared RNP Runway zero sev-en right approach, report LNAV and VNAV established, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reads back the RNP approach clearance and the LNAV/VNAV established reporting requirement verbatim.",
+   "day": 33,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Director, Cathay two five one, going around, loss of GPS RAIM integrity, climbing fow-er thousand feet heading zero seven three.",
+   "speaker": "Pilot",
+   "meaning": "Pilot initiates a go-around after losing GPS integrity past the FAF, advising ATC of the climb and heading.",
+   "day": 33,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, roger, fly missed approach, climb fow-er thousand feet, contact Hong Kong Radar wun two tree day-see-mal eight.",
+   "speaker": "ATC",
+   "meaning": "Controller acknowledges the missed approach, confirms the climb, and hands the aircraft to Radar on 123.8.",
+   "day": 33,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Missed approach fow-er thousand feet, Radar wun two tree day-see-mal eight, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reads back the missed approach climb and the Radar frequency transfer.",
+   "day": 33,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Director, Cathay two five one, passing fow-er thousand feet, runway in sight.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reports passing 4,000 ft with the runway in sight, the mandatory visual-contact report that makes a visual approach possible.",
+   "day": 34,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Director, cleared visual approach Runway zero sev-en right, maintain visual separation from preceding Boeing seven seven seven on fow-er mile final.",
+   "speaker": "ATC",
+   "meaning": "ATC clears the visual approach for Runway 07R and transfers wake turbulence separation responsibility to the pilot behind the preceding 777.",
+   "day": 34,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cleared visual approach Runway zero sev-en right, maintain visual separation from preceding traffic, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reads back the visual approach clearance and accepts visual separation responsibility.",
+   "day": 34,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Tower, Cathay two five one, going around, visual reference lost in rain shower, climbing fow-er thousand feet.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reports going around after losing visual reference in a rain shower and states the climb.",
+   "day": 34,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Tower, roger, fly missed approach, straight ahead climbing fow-er thousand feet.",
+   "speaker": "ATC",
+   "meaning": "Tower acknowledges the go-around and issues the missed approach instruction: straight ahead, climbing 4,000 ft.",
+   "day": 34,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Straight ahead climbing fow-er thousand feet, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reads back the missed approach instruction concisely.",
+   "day": 34,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Director, Cathay two five one, established on localizer Runway zero sev-en left, three thousand feet, runway in sight.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reports established on the localizer at 3,000 ft with the runway in sight, setting up the circling clearance.",
+   "day": 35,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Director, wind two fow-er zero at wun fife, cleared ILS Runway zero sev-en left approach, circle to land Runway two fife right, circling south.",
+   "speaker": "ATC",
+   "meaning": "ATC issues the wind, clears the ILS 07L approach, and authorizes circling south to land on Runway 25R.",
+   "day": 35,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cleared ILS Runway zero sev-en left, circle to land Runway two fife right, circling south, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reads back the ILS clearance, the circle-to-land runway, and the circling direction.",
+   "day": 35,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Tower, Cathay two five one, visual reference lost in cloud, executing missed approach, climbing turn toward Runway two fife right.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reports losing visual reference while circling and executes the missed approach with a climbing turn toward the runway.",
+   "day": 35,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Tower, roger, climbing turn toward runway approved, climb fow-er thousand feet on missed approach.",
+   "speaker": "ATC",
+   "meaning": "Tower approves the climbing turn toward the runway and the missed approach climb to 4,000 ft.",
+   "day": 35,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Climbing turn toward runway, climb fow-er thousand feet on missed approach, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reads back the climbing turn and the missed approach climb.",
+   "day": 35,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Director, Cathay two five one, established on localizer Runway zero sev-en left, three thousand feet, request CAT three autoland.",
+   "speaker": "Pilot",
+   "meaning": "Initial call established on the localizer, requesting a CAT III autoland in low visibility.",
+   "day": 36,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Director, Low Visibility Procedures in force, CAT three operations in progress, autoland approved, maintain three thousand feet until glide path interception, contact Hong Kong Tower wun wun eight day-see-mal sev-en.",
+   "speaker": "ATC",
+   "meaning": "Confirms LVP in force and CAT III operations, approves the autoland, and hands off to Tower 118.7.",
+   "day": 36,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "CAT three autoland approved, Tower wun wun eight day-see-mal sev-en, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Readback confirming the CAT III autoland approval and the Tower frequency 118.7.",
+   "day": 36,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Tower, Cathay two five one, established ILS Runway zero sev-en left, passing wun thousand two hundred feet, request RVR.",
+   "speaker": "Pilot",
+   "meaning": "Established on the ILS at 1,200 ft, requesting the current Runway Visual Range values.",
+   "day": 36,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Tower, RVR Runway zero sev-en left touchdown wun sev-en fife meters, midpoint wun fife zero meters, rollout wun two fife meters, wind calm, cleared to land Runway zero sev-en left.",
+   "speaker": "ATC",
+   "meaning": "Reports the 3-point RVR (touchdown 175 m, midpoint 150 m, rollout 125 m) and clears the aircraft to land.",
+   "day": 36,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "RVR wun sev-en fife, wun fife zero, wun two fife, cleared to land Runway zero sev-en left, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Mandatory readback of all three RVR values plus the landing clearance.",
+   "day": 36,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
   }
  ]
 }
