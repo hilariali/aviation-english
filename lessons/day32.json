@@ -1,0 +1,108 @@
+{
+ "day": 32,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Director, Cathay two five one, established on localizer Runway zero sev-en left, three thousand feet.",
+   "meaning": "Pilot reports established on the localizer at the cleared platform altitude, awaiting the descent clearance."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Director, maintain three thousand feet until glide path interception, cleared ILS Runway zero sev-en left approach.",
+   "meaning": "ATC issues the mandatory level constraint until vertical capture and clears the ILS approach."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Maintain three thousand feet until glide path interception, cleared ILS Runway zero sev-en left approach, Cathay two five one.",
+   "meaning": "Pilot reads back the altitude constraint and approach clearance verbatim — descending early here is the hearback trap."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, confirm glide path intercepted.",
+   "meaning": "Controller's confirmation query verifying vertical glide path capture."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Director, Cathay two five one, glide path intercepted, descending on glide path.",
+   "meaning": "Pilot confirms the glide path is captured and the aircraft is now descending on profile."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, contact Hong Kong Tower wun wun eight day-see-mal sev-en.",
+   "meaning": "Handoff to Tower frequency 118.7 after glide path capture is confirmed."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Tower wun wun eight day-see-mal sev-en, Cathay two five one.",
+   "meaning": "Brief readback of the frequency transfer to Tower."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Cleared ILS Runway [num]",
+   "definition": "Clearance authorizing localizer tracking and glideslope descent; descent is authorized only once the glide path is intercepted — being established on the localizer alone does NOT permit descent."
+  },
+  {
+   "term": "Maintain [alt] until glide path",
+   "definition": "Mandatory level constraint: the aircraft must not descend below the cleared platform altitude (e.g. 3,000 ft) until the glideslope diamond centers."
+  },
+  {
+   "term": "Glide path intercepted",
+   "definition": "Pilot confirmation of vertical glide path capture — the aircraft is now descending on profile."
+  },
+  {
+   "term": "3-degree descent gradient",
+   "definition": "Standard ILS descent angle: about 300 ft per nautical mile; rate of descent ≈ ground speed × 5 (e.g. 140 kt → 700 ft/min)."
+  },
+  {
+   "term": "False glideslope lobe",
+   "definition": "Spurious ground-reflection lobes radiated at 6° and 9°; capturing one from above can command a lethal 1,500+ ft/min dive — always intercept the glide path from below."
+  },
+  {
+   "term": "Glide path transmitter",
+   "definition": "UHF transmitter (329.15–335.00 MHz) adjacent to the runway touchdown zone (~1,000 ft past threshold), projecting overlapping 90 Hz (upper) and 150 Hz (lower) lobes to form the 3.0° electronic ramp."
+  },
+  {
+   "term": "ILS critical / sensitive areas",
+   "definition": "Marked by double yellow lines with alternating yellow ladders on taxiways; a taxiing aircraft crossing them in low visibility (CAT II/III) can reflect and bend the glideslope signal for an aircraft on final."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "On a standard 3-degree ILS glide path with a ground speed of 140 knots, what is the required rate of descent to remain on the glide path centerline?",
+   "options": [
+    "500 ft/min",
+    "Approximately 700 ft/min",
+    "900 ft/min",
+    "1,100 ft/min"
+   ],
+   "correctIndex": 1,
+   "explanation": "Standard 3° glideslope rule of thumb: Ground Speed * 5 = Rate of Descent. 140 * 5 = 700 ft/min."
+  },
+  {
+   "question": "Why is it hazardous to attempt capturing an ILS glide path from above the published glide slope angle?",
+   "options": [
+    "Ground reflections generate false glide path lobes at odd multiples (e.g. 6 degrees), which can cause the flight director/autopilot to command dangerously excessive descent rates.",
+    "It causes the transponder to squawk 7600.",
+    "It permanently damages the aircraft's glideslope receiver antenna.",
+    "It invalidates the aircraft's altimeter calibration."
+   ],
+   "correctIndex": 0,
+   "explanation": "UHF ground reflections create false glideslope signals at steep angles (typically 6° and 9°). Intercepting from above risks capturing a 6° false slope requiring a lethal 1,500+ ft/min descent rate."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "| Phrase / Command | ICAO Standard Definition | Phonetic Guide | Operational Example |\n|---|---|\n| Cleared ILS Runway [num] | Clearance authorizing localizer tracking and glideslope descent. | kleerd eye-el-ess... | \"Cleared ILS Runway 07L approach.\" |\n| Maintain [alt] until glide path | Mandatory level constraint until vertical capture point. | mayn-TAYN... un-TIL GLYDE-path | Must not descend until diamond centers! |\n| Glide path intercepted | Pilot confirmation of vertical glide path capture. | GLYDE-path in-ter-SEP-ted | Confirms aircraft is descending on profile. |\n| 3-degree descent gradient | Standard descent angle: ~300 ft per nautical mile. | TREE de-GREE de-SENT | ROD = Ground Speed * 5 (e.g. 700 ft/min). |\n| False glideslope lobe | Spurious ground reflection lobes radiated at 6° and 9°. | fawls GLYDE-slope | Dangerous if captured from above! |"
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "- Day 31 Review (+1d): Localizer full-scale deflection is only ±2.5 degrees. Always report \"Established localizer\" to trigger Tower frequency transfer.\n- Day 30 Review (+2d): Universal intermediate approach speed is 160 knots to 4 DME. Approach must be fully stabilized by 1,000 ft in IMC."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact — ILS Critical & Sensitive Areas",
+   "body": "Have you ever noticed the double yellow lines on airport taxiways with alternating yellow ladders? Those mark the ILS Critical Area! If a taxiing aircraft crosses those lines while another aircraft is landing in low visibility (CAT II/III), its metal fuselage will reflect and bend the glideslope signal, causing the landing plane's autopilot to follow a warped signal straight into the ground!"
+  }
+ ]
+}

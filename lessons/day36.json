@@ -1,0 +1,95 @@
+{
+ "day": 36,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Director, Cathay two five one, established on localizer Runway zero sev-en left, three thousand feet, request CAT three autoland.",
+   "meaning": "Initial call established on the localizer, requesting a CAT III autoland in low visibility."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Director, Low Visibility Procedures in force, CAT three operations in progress, autoland approved, maintain three thousand feet until glide path interception, contact Hong Kong Tower wun wun eight day-see-mal sev-en.",
+   "meaning": "Confirms LVP in force and CAT III operations, approves the autoland, and hands off to Tower 118.7."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "CAT three autoland approved, Tower wun wun eight day-see-mal sev-en, Cathay two five one.",
+   "meaning": "Readback confirming the CAT III autoland approval and the Tower frequency 118.7."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Tower, Cathay two five one, established ILS Runway zero sev-en left, passing wun thousand two hundred feet, request RVR.",
+   "meaning": "Established on the ILS at 1,200 ft, requesting the current Runway Visual Range values."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Tower, RVR Runway zero sev-en left touchdown wun sev-en fife meters, midpoint wun fife zero meters, rollout wun two fife meters, wind calm, cleared to land Runway zero sev-en left.",
+   "meaning": "Reports the 3-point RVR (touchdown 175 m, midpoint 150 m, rollout 125 m) and clears the aircraft to land."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "RVR wun sev-en fife, wun fife zero, wun two fife, cleared to land Runway zero sev-en left, Cathay two five one.",
+   "meaning": "Mandatory readback of all three RVR values plus the landing clearance."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "LVP in force",
+   "definition": "Low Visibility Procedures active; ground traffic restricted to protect ILS sensitive areas."
+  },
+  {
+   "term": "Autoland approved",
+   "definition": "ATC confirmation that the ILS sensitive area is clear for an automatic landing."
+  },
+  {
+   "term": "RVR Touchdown / Mid / Rollout",
+   "definition": "Runway Visual Range measured in meters at three sensors along the runway."
+  },
+  {
+   "term": "Approach Ban",
+   "definition": "Regulatory barrier prohibiting descent past 1,000 ft if RVR is below minima; mandates an immediate go-around before 1,000 ft AGL."
+  },
+  {
+   "term": "Sensitive Area Protected",
+   "definition": "Zone clear of vehicles and aircraft to prevent distortion of ILS guidance signals."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Under the ICAO \"Approach Ban\" rule, if the reported Runway Visual Range (RVR) drops below the required landing minimum, at what point is the aircraft prohibited from continuing the approach past?",
+   "options": [
+    "At the runway threshold",
+    "1,000 feet above aerodrome elevation, or the Final Approach Fix (FAF)",
+    "At Decision Height (DH)",
+    "At 500 feet AGL"
+   ],
+   "correctIndex": 1,
+   "explanation": "Under ICAO Annex 6, if reported RVR is below minimums prior to reaching 1,000 ft above airport elevation (or FAF), the approach cannot be continued past that point."
+  },
+  {
+   "question": "What is the primary operational purpose of establishing ILS Sensitive Areas on the ground during Low Visibility Operations (LVP)?",
+   "options": [
+    "To prevent taxiing aircraft and ground vehicles from distorting or deflecting the localizer and glide path radio signals.",
+    "To allow emergency vehicles to drive at higher speeds.",
+    "To preserve runway surface friction.",
+    "To reduce jet blast noise."
+   ],
+   "correctIndex": 0,
+   "explanation": "Large metal aircraft and vehicles moving near ILS transmitters cause multipath reflection and signal bending. Protecting sensitive areas ensures clean, uncorrupted guidance down to autoland touchdown."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "LVP in force — Low Visibility Procedures active; ground traffic restricted. Protects ILS localizer/glideslope sensitive areas. / Autoland approved — ATC confirmation that sensitive area is clear for landing. Mandatory for automatic rollout. / RVR Touchdown / Mid / Rollout — Runway Visual Range measured in meters at 3 sensors. \"RVR 175m, 150m, 125m.\" / Approach Ban — Regulatory barrier prohibiting descent past 1,000 ft if RVR is below minima. Mandates immediate go-around before 1,000 ft AGL. / Sensitive Area Protected — Zone clear of vehicles and aircraft to prevent signal distortion. Ensures uncorrupted guidance down to touchdown."
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "Day 35 Review (+1d): In circling approaches, if visual reference is lost, execute an immediate climbing turn toward the landing runway to remain within protected obstacle clearance. Day 30 Review (+7d): Universal approach speed gate is 160 knots to 4 DME. Approach must be fully stabilized by 1,000 ft in IMC. Day 7 Review (+30d): 30-Day milestone! Never cross an illuminated red stop-bar even if cleared by ATC. In LVP, stop-bars are automated anti-collision lifelines."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact — The 1965 Pea-Soup Fog Landing",
+   "body": "On November 4, 1965, a British European Airways Hawker Siddeley Trident (flight BE 343) flying from Zurich to London Heathrow touched down smoothly in dense pea-soup fog with zero forward visibility, carrying 65 passengers! It was the world's very first commercial passenger autoland in history, using the British \"Smiths SEP5\" triplex system that paved the way for modern CAT III autolands!"
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "day": 33,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Director, Cathay two five one, inbound RIVER, descending to fow-er thousand feet, Information Juliet.",
+   "meaning": "Pilot's initial call to Hong Kong Director, inbound via RIVER, descending to 4,000 ft with ATIS Information Juliet."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Director, cleared RNP Runway zero sev-en right approach, report LNAV and VNAV established.",
+   "meaning": "ATC clears the satellite-guided RNP approach for Runway 07R and requires a call when lateral and vertical guidance are captured."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cleared RNP Runway zero sev-en right approach, report LNAV and VNAV established, Cathay two five one.",
+   "meaning": "Pilot reads back the RNP approach clearance and the LNAV/VNAV established reporting requirement verbatim."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Director, Cathay two five one, going around, loss of GPS RAIM integrity, climbing fow-er thousand feet heading zero seven three.",
+   "meaning": "Pilot initiates a go-around after losing GPS integrity past the FAF, advising ATC of the climb and heading."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger, fly missed approach, climb fow-er thousand feet, contact Hong Kong Radar wun two tree day-see-mal eight.",
+   "meaning": "Controller acknowledges the missed approach, confirms the climb, and hands the aircraft to Radar on 123.8."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Missed approach fow-er thousand feet, Radar wun two tree day-see-mal eight, Cathay two five one.",
+   "meaning": "Pilot reads back the missed approach climb and the Radar frequency transfer."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Cleared RNP Runway [num]",
+   "definition": "Clearance authorizing a satellite-guided RNP approach; the aircraft flies published RF curved legs with on-board performance monitoring."
+  },
+  {
+   "term": "Report LNAV/VNAV established",
+   "definition": "Mandatory pilot call when lateral (LNAV) and vertical (VNAV) guidance paths are captured on final approach."
+  },
+  {
+   "term": "RAIM warning / alert",
+   "definition": "Receiver Autonomous Integrity Monitoring failure — satellite geometry is insufficient for the approach; 5 satellites are needed to detect an error, 6 to isolate and exclude it (FDE)."
+  },
+  {
+   "term": "Radius-to-Fix (RF) leg",
+   "definition": "Constant-radius curved turn flown on autopilot around terrain, enabling curved arrivals into mountainous valleys."
+  },
+  {
+   "term": "Loss of GPS integrity",
+   "definition": "Failure annunciation (e.g. 'GPS PRIMARY LOST' / 'RAIM ALERT') requiring an immediate missed approach, especially past the FAF."
+  },
+  {
+   "term": "On-Board Performance Monitoring and Alerting (OBPMA)",
+   "definition": "The defining RNP requirement: the aircraft system must guarantee containment (e.g. RNP 0.3 = within 0.3 NM 95% of the time) and alert pilots if total system error exceeds 0.6 NM."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is the primary difference between Required Navigation Performance (RNP) and basic Area Navigation (RNAV)?",
+   "options": [
+    "RNAV requires GPS; RNP requires ground VOR beacons.",
+    "RNP requires on-board performance monitoring and alerting (OBPMA), whereas RNAV does not.",
+    "RNP is only permitted for military aircraft.",
+    "RNAV cannot be used above 10,000 ft."
+   ],
+   "correctIndex": 1,
+   "explanation": "Under ICAO PBN specifications, the defining distinction of RNP is the requirement for on-board performance monitoring and alerting (OBPMA) to warn the pilot if navigational containment accuracy is degraded."
+  },
+  {
+   "question": "What action is required if a GPS RAIM warning occurs after passing the Final Approach Fix (FAF) on an RNP approach?",
+   "options": [
+    "Execute an immediate Missed Approach and notify ATC of the loss of GPS integrity.",
+    "Continue descending visually.",
+    "Recycle the transponder to standby.",
+    "Switch to manual dead reckoning."
+   ],
+   "correctIndex": 0,
+   "explanation": "If GPS integrity monitoring fails past the FAF, the approach is no longer approved for obstacle clearance. The flight crew must immediately execute a missed approach and advise ATC."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "| Phrase / Command | ICAO Standard Definition | Phonetic Guide | Operational Example |\n|---|---|\n| Cleared RNP Runway [num] | Clearance authorizing satellite-guided RNP approach. | kleerd ar-en-pee... | \"Cleared RNP Runway 07R approach.\" |\n| Report LNAV/VNAV established | Mandatory call when lateral & vertical paths are captured. | re-PORT el-nav vee-nav... | Confirms guidance on final approach. |\n| RAIM warning / alert | Receiver Autonomous Integrity Monitoring failure. | RAY-im WORN-ing | Satellite geometry insufficient for approach. |\n| Radius-to-Fix (RF) leg | Constant-radius curved turn flown on autopilot around terrain. | RAY-dee-us to fix leg | Enables curved arrival into mountainous valleys. |\n| Loss of GPS integrity | Failure annunciation requiring immediate missed approach. | loss of G-P-S in-TEG-ri-tee | \"Going around, loss of GPS integrity.\" |"
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "- Day 32 Review (+1d): ILS glide path must always be intercepted from below to prevent locking onto false 6° or 9° ground reflection lobes.\n- Day 31 Review (+2d): Localizer full-scale deflection is only ±2.5°. Report \"Established on localizer\" prior to Tower transfer."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact — Mountain Approaches of Queenstown & Paro",
+   "body": "Before RNP, airports surrounded by towering mountains like Paro, Bhutan or Queenstown, New Zealand could only operate in severe visual weather because straight-line radio signals bounce off rock walls. With RNP \"Radius-to-Fix\" (RF) curved legs, modern airliners fly blind through narrow winding river canyons on autopilot, banking around mountain ridges with sub-meter accuracy right down to the runway threshold!"
+  }
+ ]
+}

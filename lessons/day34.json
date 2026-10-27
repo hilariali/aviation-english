@@ -1,0 +1,95 @@
+{
+ "day": 34,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Director, Cathay two five one, passing fow-er thousand feet, runway in sight.",
+   "meaning": "Pilot reports passing 4,000 ft with the runway in sight, the mandatory visual-contact report that makes a visual approach possible."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Director, cleared visual approach Runway zero sev-en right, maintain visual separation from preceding Boeing seven seven seven on fow-er mile final.",
+   "meaning": "ATC clears the visual approach for Runway 07R and transfers wake turbulence separation responsibility to the pilot behind the preceding 777."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cleared visual approach Runway zero sev-en right, maintain visual separation from preceding traffic, Cathay two five one.",
+   "meaning": "Pilot reads back the visual approach clearance and accepts visual separation responsibility."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Tower, Cathay two five one, going around, visual reference lost in rain shower, climbing fow-er thousand feet.",
+   "meaning": "Pilot reports going around after losing visual reference in a rain shower and states the climb."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Tower, roger, fly missed approach, straight ahead climbing fow-er thousand feet.",
+   "meaning": "Tower acknowledges the go-around and issues the missed approach instruction: straight ahead, climbing 4,000 ft."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Straight ahead climbing fow-er thousand feet, Cathay two five one.",
+   "meaning": "Pilot reads back the missed approach instruction concisely."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Runway [number] in sight",
+   "definition": "Mandatory pilot report verifying visual contact with the runway — the precondition for a visual approach clearance."
+  },
+  {
+   "term": "Cleared visual approach",
+   "definition": "Clearance authorizing flight visually to the runway; the cloud ceiling must be at or above the minimum vectoring altitude."
+  },
+  {
+   "term": "Maintain visual separation",
+   "definition": "Pilot legally assumes full responsibility for wake turbulence separation from preceding traffic — fly above the preceding aircraft's flight path and land beyond its touchdown point."
+  },
+  {
+   "term": "Visual reference lost",
+   "definition": "Mandatory go-around trigger when cloud, rain or fog obscures the runway environment; the pilot must not descend further."
+  },
+  {
+   "term": "Checkerboard Approach (Kai Tak IGS Runway 13)",
+   "definition": "Hong Kong's old Kai Tak visual approach: an offset instrument guidance beam to a giant orange-and-white checkerboard on the mountainside, then a 47° right bank at 200 ft above the Kowloon rooftops to align with the runway."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "When an IFR flight is cleared for and accepts a visual approach following a preceding heavy aircraft, who is legally responsible for wake turbulence separation?",
+   "options": [
+    "The approach air traffic controller",
+    "The pilot-in-command of the following aircraft",
+    "The airport tower controller",
+    "Separation is automatically guaranteed by TCAS"
+   ],
+   "correctIndex": 1,
+   "explanation": "Under ICAO Doc 4444, when an aircraft accepts a clearance to maintain visual separation on a visual approach, the flight crew assumes full responsibility for wake turbulence avoidance."
+  },
+  {
+   "question": "What is the mandatory flight crew action if visual reference to the runway is lost during a visual approach due to a sudden rain squall or fog patch?",
+   "options": [
+    "Initiate an immediate go-around, execute the published missed approach procedure, and notify ATC.",
+    "Continue descending on instruments until decision altitude.",
+    "Orbit over the threshold at 500 ft.",
+    "Switch to manual dead reckoning."
+   ],
+   "correctIndex": 0,
+   "explanation": "A visual approach requires continuous visual reference to the surface. If visual reference is lost, an immediate go-around must be executed following missed approach procedures."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "| Phrase / Command | ICAO Standard Definition | Phonetic Guide | Operational Example |\n|---|---|\n| Runway [number] in sight | Mandatory pilot report verifying visual contact with the runway. | RUN-way [num] in sight | \"Hong Kong Director, runway in sight.\" |\n| Cleared visual approach | Clearance authorizing flight visually to the runway. | kleerd VIZH-oo-al ap-PROACH | \"Cleared visual approach Runway 07R.\" |\n| Maintain visual separation | Pilot legally assumes responsibility for wake separation. | mayn-TAYN VIZH-oo-al sep... | Must maintain spacing behind preceding jet! |\n| Visual reference lost | Mandatory go-around trigger when cloud/rain obscures runway. | VIZH-oo-al REF-er-ens lost | Execute missed approach immediately! |"
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "- Day 33 Review (+1d): RNP approaches require on-board performance monitoring and alerting (OBPMA). Any RAIM alert past the FAF mandates an immediate Go-Around.\n- Day 31 Review (+3d): ILS localizer course width is only ±2.5°. Always report \"Established localizer\" before Tower transfer."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact — The Checkerboard Approach into Kai Tak",
+   "body": "Hong Kong's old Kai Tak Airport (VHHH/HKG) featured the world's most famous visual approach: the IGS Runway 13 Checkerboard Approach! Heavily loaded 747s flew down an offset instrument guidance beam toward a giant orange-and-white checkerboard painted on the mountain side. At exactly 200 feet above the rooftops of Kowloon, captains had to click off the autopilot, look out the cockpit window, and bank 47° to the right in heavy crosswinds to align with the runway!"
+  }
+ ]
+}

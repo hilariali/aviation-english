@@ -1,0 +1,108 @@
+{
+ "day": 31,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Director, Cathay two five one, heading zero four zero, descending to three thousand feet.",
+   "meaning": "Initial approach check-in: reporting current heading and descent to the Director controller."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Director, turn left heading wun zero zero, intercept localizer Runway zero sev-en left, report established.",
+   "meaning": "Radar vector to intercept the ILS localizer for Runway 07L, with the mandatory report-established requirement."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Turn left heading wun zero zero, intercept localizer Runway zero sev-en left, report established, Cathay two five one.",
+   "meaning": "Full readback of the intercept vector confirming the heading, runway and reporting requirement."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, confirm localizer established.",
+   "meaning": "Controller's confirmation query verifying localizer capture before the frequency transfer."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Director, Cathay two five one, established localizer Runway zero sev-en left.",
+   "meaning": "The mandatory \"established\" report that signals Director to transfer the flight to Tower for landing clearance."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger, contact Hong Kong Tower wun wun eight day-see-mal sev-en.",
+   "meaning": "Handoff to Tower frequency 118.7 once localizer establishment is confirmed."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Tower wun wun eight day-see-mal sev-en, Cathay two five one.",
+   "meaning": "Brief readback of the frequency transfer to Tower."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Localizer",
+   "definition": "VHF navigation transmitter (108.10–111.95 MHz) at the departure end of the runway; radiates 90 Hz modulation on the left and 150 Hz on the right — the signals are equal when the aircraft is aligned with the runway centerline."
+  },
+  {
+   "term": "Intercept localizer",
+   "definition": "ATC heading vector assigned to capture the final approach course, e.g. \"Turn left heading 100, intercept localizer 07L\"."
+  },
+  {
+   "term": "Report established",
+   "definition": "Mandatory instruction to notify ATC upon localizer capture; the established report triggers handoff to Tower."
+  },
+  {
+   "term": "Established on localizer",
+   "definition": "Pilot confirmation that the CDI needle is centered within half-scale deflection — the mandatory check-in phraseology."
+  },
+  {
+   "term": "Localizer beam width",
+   "definition": "Extremely narrow course: ±2.5° full-scale CDI deflection, roughly 700 ft wide at the threshold."
+  },
+  {
+   "term": "False course / false lobes",
+   "definition": "Spurious ground reflections radiated outside the main beam (±35°); avoided by intercepting at under 30°."
+  },
+  {
+   "term": "LOC / APP autopilot mode",
+   "definition": "On localizer intercept the pilot presses the LOC or APP pushbutton; the autopilot transitions from HDG mode to LOC* (Capture) then LOC (Track) as the localizer diamond moves inward on the PFD."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "When an aircraft is tracking inbound on the ILS localizer course, what angular displacement does full-scale deflection of the Course Deviation Indicator (CDI) needle represent?",
+   "options": [
+    "Approximately 10 degrees",
+    "Approximately 2.5 degrees",
+    "Approximately 5 degrees",
+    "Approximately 0.5 degrees"
+   ],
+   "correctIndex": 1,
+   "explanation": "A standard VOR CDI needle represents 10° for full-scale deflection, but an ILS localizer is four times more sensitive: full-scale deflection represents approximately 2.5° off the centerline."
+  },
+  {
+   "question": "What is the primary operational objective of the ATC instruction \"Report established on localizer\"?",
+   "options": [
+    "To confirm the aircraft has captured the final approach course and can be safely transferred to the Tower controller for landing sequence.",
+    "To authorize the flight to begin immediate descent below minimum vectoring altitude.",
+    "To cancel all wake turbulence separation minimums.",
+    "To verify the aircraft's fuel reserve."
+   ],
+   "correctIndex": 0,
+   "explanation": "Under ICAO Doc 4444, when the aircraft reports established on the localizer, approach radar control confirms lateral guidance has succeeded and transfers control to the Tower for landing clearance."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "| Phrase / Command | ICAO Standard Definition | Phonetic Guide | Operational Example |\n|---|---|\n| Turn to intercept localizer | Heading vector assigned to capture final approach course. | turn to in-ter-SEPT LOH-ka-ly-zer | \"Turn left heading 100, intercept localizer 07L.\" |\n| Report established | Mandatory instruction to notify ATC upon localizer capture. | re-PORT es-TAB-lisht | Triggers handoff to Tower. |\n| Established on localizer | Pilot confirmation that CDI needle is centered within half-scale. | es-TAB-lisht on LOH-ka-ly-zer | Mandatory check-in phraseology. |\n| Localizer beam width | Extremely narrow course: ±2.5° full scale deflection. | LOH-ka-ly-zer beem | Approx. 700 ft wide at threshold. |\n| False course / False lobes | Spurious ground reflections radiated outside main beam (±35°). | fawls korss | Avoided by intercepting under 30°. |"
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "- Day 30 Review (+1d): Standard speed gate on intermediate final approach is 160 knots to 4 DME. Approach must be fully stabilized by 1,000 ft in IMC.\n- Day 1 Review (+30d Milestone): The 30-Day forgetting curve benchmark! Complete review of ICAO numbers (WUN, TREE, FOW-ER, FIFE, NIN-ER, DAY-SEE-MAL) and phonetic alphabet clarity under heavy static."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact — Jimmy Doolittle's 1929 Blind Flight",
+   "body": "On September 24, 1929, aviation pioneer Jimmy Doolittle took off, flew a 15-mile course, and landed a biplane without ever seeing outside! His cockpit was completely sealed in canvas. Doolittle navigated and landed relying purely on an artificial horizon, directional gyro, and a primitive visual radio localizer — inventing instrument flight and the foundation of the modern ILS!"
+  }
+ ]
+}

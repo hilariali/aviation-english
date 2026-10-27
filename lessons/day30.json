@@ -1,0 +1,109 @@
+{
+ "day": 30,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Director, Cathay two five one, heading zero fow-er zero, descending to three thousand feet.",
+   "meaning": "Approach check-in: heading 040, descending to 3,000 ft, contacting the Director frequency."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Director, maintain two wun zero knots until wun two DME, turn left heading zero wun zero to intercept.",
+   "meaning": "Intermediate approach speed restriction gate: hold 210 knots until 12 DME, with a left turn to intercept the localizer."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Maintain two wun zero knots until wun two DME, turn left heading zero wun zero, Cathay two five one.",
+   "meaning": "Readback confirming the speed restriction gate and the intercept heading, callsign last."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, reduce speed to wun six zero knots, maintain wun six zero knots to fow-er DME.",
+   "meaning": "Mandatory deceleration to the universal final approach speed gate: 160 knots to 4 DME."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Reduce speed wun six zero knots, maintain wun six zero knots to fow-er DME, Cathay two five one.",
+   "meaning": "Readback of the 160-knots-to-4-DME final approach speed assignment."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Unable 160 knots to 2 DME, need to reduce at 4 DME for landing configuration.",
+   "meaning": "Pilot veto: declares unable when an ATC speed assignment would exceed flap placard limits, asserting the 4 DME deceleration gate needed for landing configuration."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Maintain 210 knots until 12 DME.",
+   "meaning": "Standard intermediate-approach speed restriction gate."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Reduce to 160 knots.",
+   "meaning": "Mandatory deceleration instruction for approach sequencing."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Speed restriction gate",
+   "definition": "An ATC-assigned speed with a distance limit, e.g. 'maintain 210 knots until 12 DME' - the aircraft must hold the speed until passing the fix."
+  },
+  {
+   "term": "160 knots to 4 DME",
+   "definition": "Universal international final approach speed gate: all jets fly 160 kt until 4 DME to prevent the arrival stream from accordioning; inside 4 DME pilots decelerate to V_APP."
+  },
+  {
+   "term": "Stabilized approach",
+   "definition": "Flight parameters locked by 1,000 ft above aerodrome elevation in IMC (500 ft in VMC): on localizer and glideslope, final landing configuration, target speed -0/+10 kt, engines spooled up. Go-around is mandatory if not stabilized."
+  },
+  {
+   "term": "V_APP (final approach speed)",
+   "definition": "The target speed flown on final inside 4 DME once landing configuration is set."
+  },
+  {
+   "term": "V_FE (maximum flap extended speed)",
+   "definition": "Structural placard limit for a given flap setting; pilots must refuse ATC speeds that would exceed it - 'Unable speed due flaps.'"
+  },
+  {
+   "term": "Pilot veto / 'Unable'",
+   "definition": "The pilot's right and duty to decline an ATC clearance or speed assignment that conflicts with aerodynamic safety limits, stating the maximum acceptable alternative."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Under stabilized approach criteria recommended by the Flight Safety Foundation, by what altitude must an instrument approach in Instrument Meteorological Conditions (IMC) be fully stabilized?",
+   "options": [
+    "500 feet above aerodrome elevation",
+    "1,000 feet above aerodrome elevation",
+    "1,500 feet above aerodrome elevation",
+    "200 feet above decision height"
+   ],
+   "correctIndex": 1,
+   "explanation": "Under standard airline and Flight Safety Foundation criteria, an approach must be fully stabilized by 1,000 ft above ground level in IMC (or 500 ft in VMC). If not stabilized at the gate, a Go-Around is mandatory."
+  },
+  {
+   "question": "What is the proper pilot action if an air traffic controller assigns an approach speed that is faster than the maximum flap extended placard speed (V_FE) for the required landing flap setting?",
+   "options": [
+    "Advise ATC immediately that the speed is unable due to flap operational limits, and state the maximum acceptable speed.",
+    "Comply with ATC and extend flaps regardless of speed.",
+    "Land with flaps fully retracted without informing ATC.",
+    "Squawk 7700."
+   ],
+   "correctIndex": 0,
+   "explanation": "Pilots must never violate aircraft structural placard speeds. If an ATC speed command conflicts with flap extension limits, the pilot must state \"Unable\" and state the lowest or highest acceptable speed."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "| Phrase / Command | ICAO Standard Definition | Operational Example |\n| Maintain [speed] until [DME] | Standard speed restriction gate on intermediate approach. | \"Maintain 210 knots until 12 DME.\" |\n| Reduce to [speed] knots | Mandatory deceleration instruction for approach sequencing. | \"Reduce to 160 knots.\" |\n| 160 knots to 4 DME | Universal international final approach speed gate. | Enables runway capacity optimization. |\n| Stabilized Approach | Flight parameters locked by 1,000 ft IMC / 500 ft VMC. | Mandatory go-around if not stabilized! |\n| Unable speed due flaps | Pilot refusal when ATC speed exceeds flap limit or stall margin. | Asserts aerodynamic safety limits."
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "- Day 29 Review (+1d): Radar vector localizer closing intercept angles must not exceed 30 degrees. \"Vector for ILS\" is not an approach clearance.\n- Day 23 Review (+7d): Mountain wave altimeter error: Venturi effect over ridges drops static pressure, causing altimeters to over-read true altitude."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact -- \"160 to 4\"",
+   "body": "At high-volume airports like Hong Kong (VHHH), London Heathrow (EGLL), and Atlanta (KATL), controllers land an aircraft every 90 seconds! To prevent the arrival line from accordioning, air traffic control locks every jet - from a light regional jet to an A380 superjumbo - onto the exact same speed: 160 knots to 4 DME! At 4 DME, pilots disconnect speed control, drop gear and full flaps, and decelerate to landing speed."
+  }
+ ]
+}

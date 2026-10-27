@@ -1,0 +1,95 @@
+{
+ "day": 35,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Director, Cathay two five one, established on localizer Runway zero sev-en left, three thousand feet, runway in sight.",
+   "meaning": "Pilot reports established on the localizer at 3,000 ft with the runway in sight, setting up the circling clearance."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Director, wind two fow-er zero at wun fife, cleared ILS Runway zero sev-en left approach, circle to land Runway two fife right, circling south.",
+   "meaning": "ATC issues the wind, clears the ILS 07L approach, and authorizes circling south to land on Runway 25R."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cleared ILS Runway zero sev-en left, circle to land Runway two fife right, circling south, Cathay two five one.",
+   "meaning": "Pilot reads back the ILS clearance, the circle-to-land runway, and the circling direction."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Tower, Cathay two five one, visual reference lost in cloud, executing missed approach, climbing turn toward Runway two fife right.",
+   "meaning": "Pilot reports losing visual reference while circling and executes the missed approach with a climbing turn toward the runway."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Tower, roger, climbing turn toward runway approved, climb fow-er thousand feet on missed approach.",
+   "meaning": "Tower approves the climbing turn toward the runway and the missed approach climb to 4,000 ft."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Climbing turn toward runway, climb fow-er thousand feet on missed approach, Cathay two five one.",
+   "meaning": "Pilot reads back the climbing turn and the missed approach climb."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Circle to land Runway [num]",
+   "definition": "Clearance to visually maneuver to land on a different runway from the one the instrument approach serves — e.g. cleared ILS 07L, circle to land Runway 25R."
+  },
+  {
+   "term": "Circling MDA",
+   "definition": "Lowest altitude permitted while circling before final alignment; the pilot must not descend below it until visual reference is established, the threshold is in sight, and the aircraft can descend on a normal glideslope."
+  },
+  {
+   "term": "Circling north / south",
+   "definition": "Mandatory direction of the visual circuit dictated by terrain; the aircraft must stay on the designated side of the runway."
+  },
+  {
+   "term": "Climbing turn toward runway",
+   "definition": "Mandatory initial missed approach turn if visual contact is lost while circling — it keeps the aircraft inside the protected obstacle clearance bowl; never continue the turn away from the runway."
+  },
+  {
+   "term": "Circling obstacle clearance area (394 ft safety bowl)",
+   "definition": "Per ICAO PANS-OPS, the circling area provides only 394 ft (120 m) of clearance over the tallest obstacle inside the visual maneuvering area; for a Category D airliner at 165 kt the radius is only 5.3 NM from the thresholds."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "If visual reference to the runway environment is lost while executing a circling approach, what is the mandatory initial flight maneuver?",
+   "options": [
+    "Turn immediately away from the airport toward the lowest terrain.",
+    "Initiate an immediate climbing turn toward the landing runway and fly overhead the aerodrome to establish on the published missed approach procedure.",
+    "Continue descending at 500 ft/min until visual contact is regained.",
+    "Squawk 7600 and hold at the outer marker."
+   ],
+   "correctIndex": 1,
+   "explanation": "Under ICAO PANS-OPS (Doc 8168), if visual reference is lost while circling, the pilot must make an initial climbing turn toward the landing runway to remain within the protected obstacle clearance area while establishing on the missed approach."
+  },
+  {
+   "question": "What is the lowest altitude to which an aircraft is permitted to descend during a circling approach before becoming established on final approach alignment?",
+   "options": [
+    "The published Circling Minimum Descent Altitude (MDA).",
+    "Decision Height (DH) of the straight-in approach.",
+    "100 feet above airport elevation.",
+    "Any altitude selected on the flight director."
+   ],
+   "correctIndex": 0,
+   "explanation": "An aircraft must not descend below the circling MDA until the pilot has visual reference to the runway environment and is in a position to descend on a normal glideslope to the threshold."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "| Phrase / Command | ICAO Standard Definition | Phonetic Guide | Operational Example |\n|---|---|\n| Circle to land Runway [num] | Clearance to visually maneuver to land on a different runway. | SUR-kul to land... | \"Cleared ILS 07L, circle to land Runway 25R.\" |\n| Circling MDA | Lowest altitude permitted while circling before final alignment. | SUR-kling M-D-A | Level flight mandatory until final turn! |\n| Circling north / south | Mandatory direction of visual circuit dictated by terrain. | SUR-kling nowrth / sowth | Must stay on designated side of runway. |\n| Climbing turn toward runway | Mandatory initial missed approach turn if visual contact lost. | KLYM-ing turn to-WARD... | Keeps aircraft inside protected obstacle bowl! |"
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "- Day 34 Review (+1d): Visual approach wake turbulence separation is 100% the pilot's legal responsibility. If visual reference is lost in rain, execute an immediate Go-Around.\n- Day 31 Review (+4d): ILS localizer course width is ±2.5°. Report \"Established on localizer\" prior to Tower frequency transfer."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact — The 394-Foot Safety Bowl",
+   "body": "In ICAO PANS-OPS, the circling obstacle clearance area provides only 394 feet (120 meters) of clearance over the tallest building or terrain peak inside the visual maneuvering area! For a Category D airliner like a Boeing 777 flying at 165 knots, the circling area radius is only 5.3 nautical miles from runway thresholds. Drifting just 200 meters outside that protected bowl places an airliner directly into unmapped obstacles!"
+  }
+ ]
+}
