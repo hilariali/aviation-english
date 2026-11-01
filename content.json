@@ -1,9 +1,9 @@
 {
  "meta": {
   "version": 2,
-  "updated": "2026-10-27",
-  "lessons": 35,
-  "phrases": 293
+  "updated": "2026-11-01",
+  "lessons": 40,
+  "phrases": 327
  },
  "lessons": [
   {
@@ -435,6 +435,69 @@
     "ICAO Doc 9432",
     "ICAO Doc 9835",
     "ICAO Annex 6"
+   ]
+  },
+  {
+   "day": 37,
+   "topic": "Tower Landing Clearances & Surface Wind",
+   "phase": "Approach & Landing",
+   "summary": "Day 37 covers Tower Landing Clearances, Dynamic Surface Winds, and Gust Limitations. Landing requires absolute compliance with crosswind and tailwind operating limits, runway braking action reports, and the mandatory…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=18Py9xf_nEnEG_OK2-sp2YA8WYU7UV1u8&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/18Py9xf_nEnEG_OK2-sp2YA8WYU7UV1u8/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 38,
+   "topic": "Touch-and-Go & Stop-and-Go Clearances",
+   "phase": "Approach & Landing",
+   "summary": "Day 38 covers visual traffic patterns and flight training clearances: Touch-and-Go, Stop-and-Go, and Low Approach procedures. A touch-and-go lands and takes off again without stopping (flaps reset, trim verified,…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=16VmSc6A1vXLcQ5Nh0KbkdFIOECwrXvQQ&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/16VmSc6A1vXLcQ5Nh0KbkdFIOECwrXvQQ/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 39,
+   "topic": "Missed Approach & Go-Around Procedures",
+   "phase": "Approach & Landing",
+   "summary": "Day 39 covers aviation's primary safety maneuver: the missed approach / go-around. A go-around is not an emergency or a failure but a normal, professional decision whenever an approach becomes unstabilized, wind…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1zqgTtVR1Q639UzTk2QpaV2G5KEfa_2nl&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1zqgTtVR1Q639UzTk2QpaV2G5KEfa_2nl/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835",
+    "ICAO Doc 8168"
+   ]
+  },
+  {
+   "day": 40,
+   "topic": "Runway Vacating & Gate Taxi Procedures",
+   "phase": "Approach & Landing",
+   "summary": "Day 40 concludes the arrival cycle: landing rollout, runway vacating, ground transfer, and gate taxiing. An aircraft is not clear of the runway until ALL parts of it, including the tail, have completely crossed the…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=173IfxVQnnnFuUkVkbFSbuXJnZxTFtBoh&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/173IfxVQnnnFuUkVkbFSbuXJnZxTFtBoh/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835",
+    "ICAO Annex 14"
+   ]
+  },
+  {
+   "day": 41,
+   "topic": "Urgency Phraseology: PAN PAN & Medical Emergencies",
+   "phase": "Emergency",
+   "summary": "Day 41 opens the final chapter, Emergency & Non-Routine Radiotelephony: the distinction between an Urgency condition (PAN PAN) and a Distress condition (MAYDAY). PAN PAN covers serious safety situations with no grave…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=10sm2la4iUYOTqQHYK-diZtZzQ1PcQRCa&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/10sm2la4iUYOTqQHYK-diZtZzQ1PcQRCa/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835",
+    "ICAO Annex 10"
    ]
   }
  ],
@@ -2781,6 +2844,278 @@
    "meaning": "Mandatory readback of all three RVR values plus the landing clearance.",
    "day": 36,
    "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Tower, Cathay two five one, four mile final, Runway zero sev-en left.",
+   "speaker": "Pilot",
+   "meaning": "Initial call on a four-mile final for Runway 07L.",
+   "day": 37,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Tower, wind zero sev-en zero degrees wun fife knots, gusts two fow-er knots, Runway zero sev-en left, cleared to land.",
+   "speaker": "ATC",
+   "meaning": "Passes the surface wind with gusts and issues the landing clearance for Runway 07L.",
+   "day": 37,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Wind zero sev-en zero at wun fife gusts two fow-er, Runway zero sev-en left, cleared to land, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Mandatory readback of the wind and the landing clearance.",
+   "day": 37,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, caution, wind shift, wind two fife zero degrees wun fow-er knots gusts two zero knots, tailwind component wun fow-er knots.",
+   "speaker": "ATC",
+   "meaning": "Warns of a wind shift creating a 14-knot tailwind component.",
+   "day": 37,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Tower, Cathay two five one, going around, tailwind exceeds landing limits, climbing fow-er thousand feet.",
+   "speaker": "Pilot",
+   "meaning": "Executes a go-around because the tailwind exceeds the 10-knot landing limit.",
+   "day": 37,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, roger, fly missed approach, straight ahead climbing fow-er thousand feet, contact Departure wun two tree day-see-mal eight.",
+   "speaker": "ATC",
+   "meaning": "Approves the missed approach, instructs a straight-ahead climb to 4,000 ft and handoff to Departure 123.8.",
+   "day": 37,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Straight ahead climbing fow-er thousand feet, Departure wun two tree day-see-mal eight, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Readback of the missed-approach climb and the Departure frequency change.",
+   "day": 37,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Tower, Cathay two five one, late downwind Runway zero sev-en right, request touch-and-go.",
+   "speaker": "Pilot",
+   "meaning": "Requests a touch-and-go while late downwind for Runway 07R.",
+   "day": 38,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Tower, number two following Diamond four zero on two mile final, report final.",
+   "speaker": "ATC",
+   "meaning": "Sequences Cathay 251 as number two behind Diamond 40 on a two-mile final and asks it to report final.",
+   "day": 38,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Number two, follow Diamond, report final, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Readback of the number-two sequence and the report-final instruction.",
+   "day": 38,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Tower, Cathay two five one, final Runway zero sev-en right, touch-and-go.",
+   "speaker": "Pilot",
+   "meaning": "Reports final for Runway 07R intending a touch-and-go.",
+   "day": 38,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, wind zero six zero degrees wun zero knots, Runway zero sev-en right, cleared touch-and-go.",
+   "speaker": "ATC",
+   "meaning": "Passes the surface wind and issues the touch-and-go clearance for Runway 07R.",
+   "day": 38,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Wind zero six zero at wun zero, Runway zero sev-en right, cleared touch-and-go, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Readback of the wind and the touch-and-go clearance.",
+   "day": 38,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, go around immediately, aircraft stopped on runway!",
+   "speaker": "ATC",
+   "meaning": "Orders an immediate go-around because an aircraft has stopped on the runway.",
+   "day": 38,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Going around immediately, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Readback of the immediate go-around instruction.",
+   "day": 38,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Tower, Cathay two five one, two mile final, Runway zero sev-en left.",
+   "speaker": "Pilot",
+   "meaning": "Reports two miles out on final for Runway 07L.",
+   "day": 39,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Tower, cancel landing clearance, go around immediately, preceding aircraft disabled on runway!",
+   "speaker": "ATC",
+   "meaning": "Cancels the landing clearance and orders an immediate go-around because a preceding aircraft is disabled on the runway.",
+   "day": 39,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cancel landing clearance, going around immediately, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Readback of the cancelled landing clearance and the immediate go-around.",
+   "day": 39,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, fly missed approach, straight ahead climbing fow-er thousand feet, contact Departure wun two tree day-see-mal eight.",
+   "speaker": "ATC",
+   "meaning": "Instructs Cathay 251 to fly the missed approach straight ahead to 4,000 feet and contact Departure on 123.8.",
+   "day": 39,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Departure, Cathay two five one, passing two thousand feet climbing fow-er thousand feet, going around Runway zero sev-en left.",
+   "speaker": "Pilot",
+   "meaning": "Checks in with Departure passing 2,000 feet climbing to 4,000 feet after going around from Runway 07L.",
+   "day": 39,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Departure, radar contact, climb five thousand feet, report intentions.",
+   "speaker": "ATC",
+   "meaning": "Confirms radar contact, clears Cathay 251 to 5,000 feet, and asks for its intentions.",
+   "day": 39,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Climb five thousand feet, request radar vectors for another ILS Runway zero sev-en left, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Readback of the climb to 5,000 feet and request for radar vectors for another ILS approach to Runway 07L.",
+   "day": 39,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Tower, Cathay two five one, runway vacated via Alpha fow-er.",
+   "speaker": "Pilot",
+   "meaning": "Reports the runway vacated via taxiway Alpha 4.",
+   "day": 40,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Tower, roger, contact Ground wun two wun day-see-mal six.",
+   "speaker": "ATC",
+   "meaning": "Acknowledges the vacated report and instructs the aircraft to contact Ground on 121.6.",
+   "day": 40,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Ground wun two wun day-see-mal six, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Readback of the Ground frequency 121.6.",
+   "day": 40,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Ground, Cathay two five one, vacated Runway zero sev-en left at Alpha fow-er, request taxi to gate.",
+   "speaker": "Pilot",
+   "meaning": "Reports vacated Runway 07L at Alpha 4 and requests taxi to the gate.",
+   "day": 40,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Ground, taxi to Stand November two fow-er via taxiway Golf, hold short of taxiway Bravo.",
+   "speaker": "ATC",
+   "meaning": "Clears the aircraft to taxi to Stand N24 via taxiway Golf, holding short of taxiway Bravo.",
+   "day": 40,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Taxi to Stand November two fow-er via Golf, hold short of taxiway Bravo, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Readback of the taxi clearance to Stand N24 via Golf with the hold-short of Bravo.",
+   "day": 40,
+   "phase": "Approach & Landing",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "PAN PAN, PAN PAN, PAN PAN, Hong Kong Radar, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Declares an urgency condition to Hong Kong Radar.",
+   "day": 41,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, go ahead with your PAN PAN.",
+   "speaker": "ATC",
+   "meaning": "Invites the aircraft to transmit its urgency message.",
+   "day": 41,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Boeing seven seven seven, position SIKOU, Flight Level three fife zero, passenger medical emergency, passenger unconscious, request immediate priority return to Hong Kong, direct SIRA, descending to Flight Level wun zero zero.",
+   "speaker": "Pilot",
+   "meaning": "Reports a passenger medical emergency with an unconscious passenger and requests an immediate priority return to Hong Kong via SIRA, descending to FL100.",
+   "day": 41,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, roger PAN PAN, cleared direct SIRA, descend to Flight Level wun zero zero, priority granted, advise persons on board and fuel endurance.",
+   "speaker": "ATC",
+   "meaning": "Acknowledges the PAN PAN, clears the aircraft direct SIRA descending to FL100 with priority, and asks for persons on board and fuel endurance.",
+   "day": 41,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cleared direct SIRA, descend Flight Level wun zero zero, persons on board two eight fow-er, fuel endurance fow-er hours, request overweight landing Runway zero sev-en left, and ambulance on arrival.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the clearance, reports 284 persons on board and 4 hours fuel endurance, and requests an overweight landing on Runway 07L with an ambulance on arrival.",
+   "day": 41,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, roger, emergency medical services alerted, expect Runway zero sev-en left.",
+   "speaker": "ATC",
+   "meaning": "Confirms emergency medical services are alerted and to expect Runway 07L.",
+   "day": 41,
+   "phase": "Emergency",
    "icaoRef": "ICAO Doc 9432"
   }
  ]
