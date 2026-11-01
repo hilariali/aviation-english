@@ -1,0 +1,100 @@
+{
+ "day": 37,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Tower, Cathay two five one, four mile final, Runway zero sev-en left.",
+   "meaning": "Initial call on a four-mile final for Runway 07L."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Tower, wind zero sev-en zero degrees wun fife knots, gusts two fow-er knots, Runway zero sev-en left, cleared to land.",
+   "meaning": "Passes the surface wind with gusts and issues the landing clearance for Runway 07L."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Wind zero sev-en zero at wun fife gusts two fow-er, Runway zero sev-en left, cleared to land, Cathay two five one.",
+   "meaning": "Mandatory readback of the wind and the landing clearance."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, caution, wind shift, wind two fife zero degrees wun fow-er knots gusts two zero knots, tailwind component wun fow-er knots.",
+   "meaning": "Warns of a wind shift creating a 14-knot tailwind component."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Tower, Cathay two five one, going around, tailwind exceeds landing limits, climbing fow-er thousand feet.",
+   "meaning": "Executes a go-around because the tailwind exceeds the 10-knot landing limit."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger, fly missed approach, straight ahead climbing fow-er thousand feet, contact Departure wun two tree day-see-mal eight.",
+   "meaning": "Approves the missed approach, instructs a straight-ahead climb to 4,000 ft and handoff to Departure 123.8."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Straight ahead climbing fow-er thousand feet, Departure wun two tree day-see-mal eight, Cathay two five one.",
+   "meaning": "Readback of the missed-approach climb and the Departure frequency change."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Runway [num], cleared to land",
+   "definition": "Mandatory legal authorization required to touch down."
+  },
+  {
+   "term": "Wind [deg] [speed] gusts [speed]",
+   "definition": "Surface wind velocity vector passed with landing clearance."
+  },
+  {
+   "term": "Tailwind component",
+   "definition": "Negative wind vector parallel to runway heading; strict 10-knot maximum limit."
+  },
+  {
+   "term": "Continue approach",
+   "definition": "Instruction to fly toward the runway; NOT cleared to land."
+  },
+  {
+   "term": "Braking action [Good/Poor]",
+   "definition": "Official runway surface friction condition report; determines stopping performance."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is the standard certified maximum tailwind component for landing for most commercial transport category aircraft unless specially certified otherwise?",
+   "options": [
+    "5 knots",
+    "10 knots",
+    "15 knots",
+    "20 knots"
+   ],
+   "correctIndex": 1,
+   "explanation": "Standard aircraft operating limitations certify transport category aircraft for a maximum tailwind component of 10 knots for landing."
+  },
+  {
+   "question": "If an air traffic controller states \"Continue approach Runway 07L\", what is the flight crew permitted to do?",
+   "options": [
+    "Touch down on the runway.",
+    "Execute an immediate missed approach.",
+    "Continue flying the approach toward the runway, but the aircraft is NOT cleared to land until an explicit landing clearance is issued.",
+    "Turn off all landing lights."
+   ],
+   "correctIndex": 2,
+   "explanation": "\"Continue approach\" authorizes the aircraft to proceed along the approach course, but does NOT authorize landing. The aircraft must receive an explicit \"cleared to land\" before touchdown."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "Runway [num], cleared to land — Mandatory legal authorization required to touch down. / Wind [deg] [speed] gusts [speed] — Surface wind velocity vector passed with landing clearance. \"Wind 070 at 15 gusts 24.\" / Tailwind component — Negative wind vector parallel to runway heading. Strict 10-knot maximum limit! / Continue approach — Instruction to fly toward runway; NOT cleared to land! Used when the runway is not yet clear of traffic. / Braking action [Good/Poor] — Official runway surface friction condition report. Determines stopping performance."
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "Day 36 Review (+1d): Under the ICAO Approach Ban rule, if reported RVR is below minimums before 1,000 ft AGL, the approach cannot legally be continued. Day 30 Review (+7d): The universal international final approach speed gate is 160 knots to 4 DME. The aircraft must be fully stabilized by 1,000 ft in IMC."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact — The 777 Crab Landing",
+   "body": "For light aircraft, pilots \"decrab\" into a wing-low sideslip before touchdown. But on giant twin-aisle jets with massive engine nacelles hanging low beneath the wings, banking close to the ground risks scraping an engine pod on the runway! Instead, Boeing 777s and A350s are designed to touch down while still in a crab angle; the landing gear bogies are engineered to absorb side-loads and automatically align the aircraft with the runway as the tires bite into the tarmac!"
+  }
+ ]
+}

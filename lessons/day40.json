@@ -1,0 +1,95 @@
+{
+ "day": 40,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Tower, Cathay two five one, runway vacated via Alpha fow-er.",
+   "meaning": "Reports the runway vacated via taxiway Alpha 4."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Tower, roger, contact Ground wun two wun day-see-mal six.",
+   "meaning": "Acknowledges the vacated report and instructs the aircraft to contact Ground on 121.6."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Ground wun two wun day-see-mal six, Cathay two five one.",
+   "meaning": "Readback of the Ground frequency 121.6."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Ground, Cathay two five one, vacated Runway zero sev-en left at Alpha fow-er, request taxi to gate.",
+   "meaning": "Reports vacated Runway 07L at Alpha 4 and requests taxi to the gate."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Ground, taxi to Stand November two fow-er via taxiway Golf, hold short of taxiway Bravo.",
+   "meaning": "Clears the aircraft to taxi to Stand N24 via taxiway Golf, holding short of taxiway Bravo."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Taxi to Stand November two fow-er via Golf, hold short of taxiway Bravo, Cathay two five one.",
+   "meaning": "Readback of the taxi clearance to Stand N24 via Golf with the hold-short of Bravo."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Vacate via [taxiway]",
+   "definition": "Instruction to exit active runway at specified turnoff."
+  },
+  {
+   "term": "When vacated, contact Ground",
+   "definition": "Conditional frequency transfer upon completely clearing runway."
+  },
+  {
+   "term": "Runway vacated",
+   "definition": "Report that all parts of the aircraft have crossed holding line."
+  },
+  {
+   "term": "Rapid-Exit Taxiway (RET)",
+   "definition": "Angled taxiway (30°) allowing turnoff at up to 50 knots."
+  },
+  {
+   "term": "Visual Docking Guidance (VDGS)",
+   "definition": "Automated laser apron docking system (e.g. Safedock)."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Under ICAO Annex 14 standards, when is an aircraft considered to have completely vacated an active runway?",
+   "options": [
+    "When the nose landing gear crosses the runway edge line.",
+    "When all parts of the aircraft, including the tail, have completely crossed the runway holding position marking.",
+    "When the pilot applies reverse thrust.",
+    "When the aircraft slows below 30 knots."
+   ],
+   "correctIndex": 1,
+   "explanation": "An aircraft is not clear of the runway until all parts (fuselage, wings, and tail overhang) have completely passed the runway holding position marking."
+  },
+  {
+   "question": "What is the maximum recommended turnoff speed for an aircraft exiting a runway onto a standard ICAO Rapid-Exit Taxiway (RET) under dry conditions?",
+   "options": [
+    "20 knots",
+    "35 knots",
+    "50 knots",
+    "70 knots"
+   ],
+   "correctIndex": 2,
+   "explanation": "Under ICAO aerodrome design criteria, Rapid-Exit Taxiways for Code 3 and 4 runways are designed for turnoff speeds of up to 50 knots (93 km/h) under dry conditions."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "Vacate via [taxiway] — Instruction to exit active runway at specified turnoff. \"Vacate left via Alpha four.\" / When vacated, contact Ground — Conditional frequency transfer upon completely clearing runway. Never switch while rolling on runway! / Runway vacated — Report that all parts of the aircraft have crossed holding line. Includes tail overhang past markings. / Rapid-Exit Taxiway (RET) — Angled taxiway (30°) allowing turnoff at up to 50 knots. Minimizes runway occupancy time. / Visual Docking Guidance (VDGS) — Automated laser apron docking system (e.g. Safedock). Guides aircraft to stop mark at gate."
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "Day 39 Review (+1d): In a go-around, apply TOGA thrust, pitch to 15°, retract flaps by one stage, and call \"Positive rate, gear up\". Standard missed approach climb gradient is 2.5%. / Day 33 Review (+7d): RNP approaches require on-board performance monitoring. Any RAIM failure past the FAF mandates an immediate missed approach. / Day 7 Review (+33d): Never cross an illuminated red stop-bar. Stop-bars protect runway safety areas against incursions."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact — The 50-Knot Turnoff",
+   "body": "Before the 1960s, runways only had 90-degree right-angle exits. Airliners had to brake down to 10 knots on the runway before turning, keeping the runway occupied for nearly 90 seconds! The invention of the Rapid-Exit Taxiway (RET) with a gentle 30-degree curved geometry allowed jets to exit at up to 50 knots (93 km/h), slashing Runway Occupancy Time down to 42 seconds and effectively doubling runway capacity worldwide!"
+  }
+ ]
+}

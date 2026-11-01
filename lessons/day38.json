@@ -1,0 +1,105 @@
+{
+ "day": 38,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Tower, Cathay two five one, late downwind Runway zero sev-en right, request touch-and-go.",
+   "meaning": "Requests a touch-and-go while late downwind for Runway 07R."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Tower, number two following Diamond four zero on two mile final, report final.",
+   "meaning": "Sequences Cathay 251 as number two behind Diamond 40 on a two-mile final and asks it to report final."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Number two, follow Diamond, report final, Cathay two five one.",
+   "meaning": "Readback of the number-two sequence and the report-final instruction."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Tower, Cathay two five one, final Runway zero sev-en right, touch-and-go.",
+   "meaning": "Reports final for Runway 07R intending a touch-and-go."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, wind zero six zero degrees wun zero knots, Runway zero sev-en right, cleared touch-and-go.",
+   "meaning": "Passes the surface wind and issues the touch-and-go clearance for Runway 07R."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Wind zero six zero at wun zero, Runway zero sev-en right, cleared touch-and-go, Cathay two five one.",
+   "meaning": "Readback of the wind and the touch-and-go clearance."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, go around immediately, aircraft stopped on runway!",
+   "meaning": "Orders an immediate go-around because an aircraft has stopped on the runway."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Going around immediately, Cathay two five one.",
+   "meaning": "Readback of the immediate go-around instruction."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Cleared touch-and-go",
+   "definition": "Authorization to land and take off without stopping or vacating."
+  },
+  {
+   "term": "Cleared stop-and-go",
+   "definition": "Authorization to land, come to a complete stop, and take off. Requires substantial runway length."
+  },
+  {
+   "term": "Cleared low approach",
+   "definition": "Approach over runway without touching down on the surface. Used during instrument training."
+  },
+  {
+   "term": "Make left / right traffic",
+   "definition": "Direction of standard circuit/pattern turns. Defines circuit direction."
+  },
+  {
+   "term": "Go around immediately",
+   "definition": "Mandatory command to abort landing due to runway obstruction."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is the primary operational difference between a \"Touch-and-Go\" and a \"Stop-and-Go\" clearance?",
+   "options": [
+    "A touch-and-go is only permitted for twin-engine aircraft.",
+    "A touch-and-go takes off immediately after touchdown without stopping; a stop-and-go comes to a complete halt on the runway before taking off again.",
+    "A stop-and-go requires vacating the runway and taxiing back.",
+    "There is no operational difference."
+   ],
+   "correctIndex": 1,
+   "explanation": "Under standard ATC definitions, a touch-and-go consists of landing and taking off without coming to a stop. A stop-and-go involves bringing the aircraft to a full stop on the runway before applying takeoff thrust."
+  },
+  {
+   "question": "What is the flight crew required to do if an air traffic controller commands \"Go around immediately, aircraft on runway\" while the aircraft is in the landing flare?",
+   "options": [
+    "Apply full go-around power immediately, pitch up to establish a climb, retract flaps in stages, and climb straight ahead or follow published missed approach instructions.",
+    "Land firmly on the runway and apply maximum brakes.",
+    "Swerve onto the parallel taxiway.",
+    "Shut down engines to prevent collision."
+   ],
+   "correctIndex": 0,
+   "explanation": "An immediate go-around instruction in the landing flare requires immediate application of maximum go-around thrust, arresting descent, establishing a positive rate of climb, and retracting drag devices in stages."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "Cleared touch-and-go — Authorization to land and take off without stopping or vacating. \"Runway 07R, cleared touch-and-go.\" / Cleared stop-and-go — Authorization to land, come to a complete stop, and take off. Requires substantial runway length! / Cleared low approach — Approach over runway without touching down on the surface. Used during instrument training. / Make left / right traffic — Direction of standard circuit/pattern turns. Defines circuit direction. / Go around immediately — Mandatory command to abort landing due to runway obstruction. Preceding traffic stalled on runway!"
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "Day 37 Review (+1d): Landing clearances require an explicit \"Runway 07L, cleared to land\". Strict 10-knot certified tailwind limit. Day 35 Review (+3d): If visual reference is lost while circling, execute an immediate climbing turn toward the landing runway to remain within protected obstacle clearance."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact — \"Hands Off the Gear Handle\"",
+   "body": "During flight training, touch-and-goes are notorious for accidental gear retractions on the ground! In the rush to reconfigure flaps during a high-speed rollout, nervous pilots have accidentally grabbed the landing gear lever instead of the flap handle, collapsing the gear and belly-landing on the runway! Flight instructors teach the golden rule: eyes confirmed on the flap lever, and NEVER touch the gear handle until positive rate of climb is established!"
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "day": 39,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Tower, Cathay two five one, two mile final, Runway zero sev-en left.",
+   "meaning": "Reports two miles out on final for Runway 07L."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Tower, cancel landing clearance, go around immediately, preceding aircraft disabled on runway!",
+   "meaning": "Cancels the landing clearance and orders an immediate go-around because a preceding aircraft is disabled on the runway."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cancel landing clearance, going around immediately, Cathay two five one.",
+   "meaning": "Readback of the cancelled landing clearance and the immediate go-around."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, fly missed approach, straight ahead climbing fow-er thousand feet, contact Departure wun two tree day-see-mal eight.",
+   "meaning": "Instructs Cathay 251 to fly the missed approach straight ahead to 4,000 feet and contact Departure on 123.8."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Straight ahead climbing fow-er thousand feet, Departure wun two tree day-see-mal eight, Cathay two five one.",
+   "meaning": "Readback of the missed approach climb and the Departure frequency."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Departure, Cathay two five one, passing two thousand feet climbing fow-er thousand feet, going around Runway zero sev-en left.",
+   "meaning": "Checks in with Departure passing 2,000 feet climbing to 4,000 feet after going around from Runway 07L."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Departure, radar contact, climb five thousand feet, report intentions.",
+   "meaning": "Confirms radar contact, clears Cathay 251 to 5,000 feet, and asks for its intentions."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Climb five thousand feet, request radar vectors for another ILS Runway zero sev-en left, Cathay two five one.",
+   "meaning": "Readback of the climb to 5,000 feet and request for radar vectors for another ILS approach to Runway 07L."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Going around",
+   "definition": "Standard pilot transmission initiating missed approach."
+  },
+  {
+   "term": "Cancel landing clearance",
+   "definition": "ATC instruction revoking landing authorization."
+  },
+  {
+   "term": "Fly missed approach",
+   "definition": "Command to track published missed approach routing."
+  },
+  {
+   "term": "Balked landing",
+   "definition": "Go-around initiated from low altitude (below 50 ft / flare). Engines at idle take seconds to spool up."
+  },
+  {
+   "term": "Missed Approach Point (MAPt)",
+   "definition": "Point where missed approach must be initiated if no visual contact. Decision point on instrument charts."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is the initial flight deck action required upon deciding to execute a missed approach on an instrument approach procedure?",
+   "options": [
+    "Apply maximum go-around thrust, pitch up to arrest descent and establish a positive climb rate, and configure flaps/landing gear.",
+    "Retract all flaps fully before adding engine power.",
+    "Squawk 7700 immediately.",
+    "Turn 90 degrees away from the localizer."
+   ],
+   "correctIndex": 0,
+   "explanation": "A go-around requires simultaneous application of maximum go-around thrust, pitching up to arrest sink rate, and retracting drag devices (flaps by one stage, landing gear upon positive climb)."
+  },
+  {
+   "question": "What is the standard minimum climb gradient required by ICAO PANS-OPS for a missed approach procedure unless a higher gradient is specifically published on the approach chart?",
+   "options": [
+    "1.5%",
+    "2.5%",
+    "3.5%",
+    "5.0%"
+   ],
+   "correctIndex": 1,
+   "explanation": "Under ICAO PANS-OPS (Doc 8168), the nominal design climb gradient for a missed approach is 2.5% (approx. 152 ft/NM) unless a steeper gradient is specified for obstacle clearance."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "Going around — Standard pilot transmission initiating missed approach. \"Cathay 251, going around.\" / Cancel landing clearance — ATC instruction revoking landing authorization. Immediate abort ordered by Tower! / Fly missed approach — Command to track published missed approach routing. Climb straight ahead or track fix. / Balked landing — Go-around initiated from low altitude (below 50 ft / flare). Engines at idle take seconds to spool up! / Missed Approach Point (MAPt) — Point where missed approach must be initiated if no visual contact. Decision point on instrument charts."
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "Day 38 Review (+1d): In touch-and-go operations, remaining runway must always exceed landing ground roll plus takeoff distance over 50-ft obstacle. Day 36 Review (+3d): Under the ICAO Approach Ban rule, if reported RVR is below minimums before 1,000 ft AGL, the approach cannot legally be continued. Day 32 Review (+7d): Always intercept an ILS glide path from below to avoid capturing false 6 degrees and 9 degrees ground reflection lobes."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact — \"Plan Continuation Bias\"",
+   "body": "Why do flight crews occasionally attempt dangerous, unstabilized landings? Aviation psychologists call this \"Plan Continuation Bias\" — the deep human subconscious desire to complete a task once committed. Major airlines now train crews under a core safety philosophy: \"A landing is just a go-around that happened not to occur!\" Pilots are praised for deciding to go around, with zero disciplinary or financial penalties!"
+  }
+ ]
+}

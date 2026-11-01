@@ -1,0 +1,95 @@
+{
+ "day": 41,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "PAN PAN, PAN PAN, PAN PAN, Hong Kong Radar, Cathay two five one.",
+   "meaning": "Declares an urgency condition to Hong Kong Radar."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, go ahead with your PAN PAN.",
+   "meaning": "Invites the aircraft to transmit its urgency message."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cathay two five one, Boeing seven seven seven, position SIKOU, Flight Level three fife zero, passenger medical emergency, passenger unconscious, request immediate priority return to Hong Kong, direct SIRA, descending to Flight Level wun zero zero.",
+   "meaning": "Reports a passenger medical emergency with an unconscious passenger and requests an immediate priority return to Hong Kong via SIRA, descending to FL100."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, roger PAN PAN, cleared direct SIRA, descend to Flight Level wun zero zero, priority granted, advise persons on board and fuel endurance.",
+   "meaning": "Acknowledges the PAN PAN, clears the aircraft direct SIRA descending to FL100 with priority, and asks for persons on board and fuel endurance."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cleared direct SIRA, descend Flight Level wun zero zero, persons on board two eight fow-er, fuel endurance fow-er hours, request overweight landing Runway zero sev-en left, and ambulance on arrival.",
+   "meaning": "Reads back the clearance, reports 284 persons on board and 4 hours fuel endurance, and requests an overweight landing on Runway 07L with an ambulance on arrival."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger, emergency medical services alerted, expect Runway zero sev-en left.",
+   "meaning": "Confirms emergency medical services are alerted and to expect Runway 07L."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "PAN PAN (x3)",
+   "definition": "International radiotelephony urgency signal (spoken three times)."
+  },
+  {
+   "term": "Urgency Condition",
+   "definition": "Safety concern NOT requiring immediate assistance."
+  },
+  {
+   "term": "Request priority diversion",
+   "definition": "Requesting expedited air traffic handling to nearest field."
+  },
+  {
+   "term": "Persons on board (POB)",
+   "definition": "Total number of passengers and crew members on the aircraft."
+  },
+  {
+   "term": "Overweight landing",
+   "definition": "Touchdown above Maximum Landing Weight (MLW) for medical urgency."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is the primary regulatory definition of an \"Urgency\" condition compared to a \"Distress\" condition under ICAO Doc 9432?",
+   "options": [
+    "Urgency is declared only when aircraft fuel is below 15 minutes.",
+    "An urgency condition concerns the safety of an aircraft or person on board, but does NOT require immediate assistance; distress involves serious and/or imminent danger requiring immediate assistance.",
+    "Urgency is used only on military frequencies.",
+    "There is no operational difference."
+   ],
+   "correctIndex": 1,
+   "explanation": "Under ICAO Annex 10, Urgency (PAN PAN) concerns aircraft or occupant safety without grave/imminent danger; Distress (MAYDAY) indicates grave and imminent danger requiring immediate assistance."
+  },
+  {
+   "question": "What is the required radiotelephony prefix spoken at the beginning of an urgency message?",
+   "options": [
+    "\"MAYDAY\" spoken three times.",
+    "\"SECURITY\" spoken three times.",
+    "\"PAN PAN, PAN PAN, PAN PAN\" spoken three times.",
+    "\"ATTENTION ALL STATIONS\" spoken once."
+   ],
+   "correctIndex": 2,
+   "explanation": "Standard ICAO radiotelephony requires the urgency signal \"PAN PAN\" to be spoken three times at the commencement of the urgency transmission."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "PAN PAN (x3) — International radiotelephony urgency signal (spoken three times). Transmitted at start of message. / Urgency Condition — Safety concern NOT requiring immediate assistance. Medical emergency, partial systems loss. / Request priority diversion — Requesting expedited air traffic handling to nearest field. Clears preceding traffic out of path. / Persons on board (POB) — Total number of passengers and crew members on the aircraft. Mandatory report to rescue services. / Overweight landing — Touchdown above Maximum Landing Weight (MLW) for medical urgency. Permitted when life safety is at stake!"
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Review Drill",
+   "body": "Day 40 Review (+1d): An aircraft is not clear of the runway until all parts (including 40-ft tail overhang) have crossed the holding point line. Never switch off Tower while rolling on the runway. / Day 34 Review (+7d): On visual approaches, wake turbulence separation is 100% the pilot's legal responsibility. / Day 37 Review (+4d): Landing clearance requires explicit words \"Runway 07L, cleared to land\". Strict 10-knot tailwind limitation."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact — French Maritime Roots",
+   "body": "Both international distress signals originate from French maritime radiotelegraphy! In 1923, Croydon Airport senior radio officer Jack Bamford suggested \"MAYDAY\" from the French \"m'aider\" (\"help me\"). In 1927, international regulators added \"PAN PAN\" from the French word \"panne\" (meaning a breakdown or mechanical malfunction). Both terms were chosen because they cut through radio static cleanly in any accent!"
+  }
+ ]
+}
