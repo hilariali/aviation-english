@@ -1,0 +1,104 @@
+{
+ "day": 42,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "MAYDAY, MAYDAY, MAYDAY. Hong Kong Radar, Cathay two five one, passing one thousand five hundred feet, engine fire number two engine, shutting down, squawking seven seven zero zero. Request immediate return, radar vectors ILS runway zero seven left.",
+   "meaning": "Declares distress for an engine fire, reports position and altitude, sets squawk 7700, and requests an immediate return with radar vectors for ILS runway 07L."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, MAYDAY acknowledged. Squawk seven seven zero zero observed. Turn left heading zero four zero, climb and maintain four thousand feet. You have priority for runway zero seven left.",
+   "meaning": "Acknowledges the MAYDAY, confirms squawk 7700 observed, and gives priority vectors: left heading 040, climb and maintain 4,000 feet for runway 07L."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Left heading zero four zero, climb and maintain four thousand feet, Cathay two five one.",
+   "meaning": "Reads back the heading and altitude clearance."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, when able, report persons on board and fuel endurance.",
+   "meaning": "Asks the crew to report persons on board and fuel endurance when able."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cathay two five one, souls on board two hundred and forty, endurance three hours one five minutes, hazardous cargo nil. Engine secured, fire extinguished.",
+   "meaning": "Reports 240 souls on board, 3 hours 15 minutes fuel endurance, no hazardous cargo, and that the engine is secured and the fire extinguished."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger. Emergency services notified, standing by runway zero seven left. Continue heading zero four zero, vectoring for downwind.",
+   "meaning": "Confirms emergency services are notified and standing by runway 07L, and continues vectors for downwind."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Heading zero four zero, Cathay two five one.",
+   "meaning": "Reads back continuing heading 040."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "MAYDAY, MAYDAY, MAYDAY",
+   "definition": "Distress signal spoken three times; indicates grave and/or imminent danger requiring immediate assistance."
+  },
+  {
+   "term": "Squawk 7700",
+   "definition": "Universal transponder emergency code triggering visual flashing and audible alarm on ATC radar screens."
+  },
+  {
+   "term": "PACE Model",
+   "definition": "Problem, Action, Consequence, Expectation — structured Plain English model for non-standard emergencies."
+  },
+  {
+   "term": "Souls on Board (SOB / POB)",
+   "definition": "Total number of living human beings aboard, vital for ARFF triage."
+  },
+  {
+   "term": "Fuel Endurance",
+   "definition": "Time remaining before total fuel exhaustion at current fuel flow, reported in hours and minutes."
+  },
+  {
+   "term": "Hazardous Cargo Status",
+   "definition": "Dangerous goods nil or class, informing crash crews of explosive, toxic, radioactive, or lithium battery hazards."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "According to ICAO Doc 9432 and Annex 10, which of the following scenarios legally warrants the declaration of a MAYDAY (Distress) rather than a PAN PAN (Urgency)?",
+   "options": [
+    "A passenger on board suffers severe chest pain and requires an ambulance upon landing.",
+    "An alternator failure leaves the aircraft operating on single battery power in VMC with 45 minutes of reserve.",
+    "An in-flight engine fire warning illuminates with confirmed smoke in the cockpit.",
+    "The flight will land with less than final reserve fuel remaining, but no delay is expected."
+   ],
+   "correctIndex": 2,
+   "explanation": "Under ICAO definitions, Distress (MAYDAY) is defined as a condition of being threatened by grave and/or imminent danger requiring immediate assistance. An active engine fire and smoke in the flight deck poses immediate danger to the structural integrity of the aircraft and life. A passenger medical issue [A], an electrical degradation in VMC [B], or minimum fuel [D] represent Urgency conditions (PAN PAN)."
+  },
+  {
+   "question": "When a pilot transmits a distress message, what is the primary operational purpose of stating \"Souls on Board\" and \"Fuel Endurance\"?",
+   "options": [
+    "To allow ATC to calculate the aircraft's exact weight for runway braking coefficient models.",
+    "To provide Airport Rescue and Firefighting (ARFF) with vital passenger rescue triage numbers and fire-suppression burn-time data.",
+    "To enable customs and immigration officials to prepare arrival passenger manifests.",
+    "To assist airline dispatch in calculating passenger compensation and rebooking connections."
+   ],
+   "correctIndex": 1,
+   "explanation": "In any aircraft emergency landing, Airport Rescue and Firefighting (ARFF) services must know the exact number of living persons on board (SOB/POB) to confirm 100% accountability during cabin evacuation and rescue. Fuel endurance in hours and minutes tells fire commanders how much flammable jet fuel remains on board to determine foam coverage strategy."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "The Distress Signal — MAYDAY, MAYDAY, MAYDAY: Spoken three times at the beginning of the transmission. Derived from French m'aider. Indicates grave and/or imminent danger requiring immediate assistance. / Distress SSR Code — Squawk 7700: Universal transponder emergency code. Triggers immediate visual flashing and audible alarm on all civil and military air traffic control radar screens. / The PACE Framework — Problem, Action, Consequence, Expectation: Structured Plain English model developed by ICAO and airlines to communicate non-standard emergencies without ambiguous conversational chatter. / Souls on Board (SOB / POB) — Souls on board [Number]: Total number of living human beings aboard (passengers + flight crew + cabin crew + infants). Vital for Airport Rescue & Firefighting (ARFF) triage. / Fuel Endurance — Endurance [Hours] [Minutes]: Time remaining before total fuel exhaustion, calculated at current fuel flow. Never reported in kilograms or pounds on initial distress call. / Hazardous Cargo Status — Dangerous goods nil / [Class]: Informs crash crews whether explosive, toxic, radioactive, or lithium battery hazards are present in the cargo hold before foam suppression."
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Reinforcement Drill",
+   "body": "Day 41 Review (+1d - Urgency vs Distress): PAN PAN is for safety situations NOT involving imminent danger (medical diversion, low fuel advisory). MAYDAY is strictly reserved for grave and imminent peril (fire, structural failure, double engine loss). / Day 35 Review (+7d - Circling Approach Missed Approach): If visual reference is lost while circling, the pilot must make an immediate climbing turn towards the landing runway before turning onto the published missed approach track. / Day 38 Review (+4d - Circuit Spacing): Wake turbulence separation behind a Heavy aircraft in the circuit requires a mandatory 2-minute time spacing (or 3 minutes if departing from an intermediate intersection)."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact",
+   "body": "The Origin of MAYDAY & Squawk 7700: In 1923, Frederick Stanley Mockford, senior radio officer at Croydon Airport in London, was asked to devise a distress word that could easily be understood by British and French pilots during cross-channel flights. Because much of the traffic was between Croydon and Le Bourget (Paris), Mockford coined the phonetic word 'MAYDAY' from the French 'venez m'aider' ('come help me'). Four years later, in 1927, the International Radiotelegraph Convention officially replaced the maritime Morse SOS with MAYDAY for radiotelephony. Meanwhile, the emergency transponder code 7700 was chosen in the post-WWII IFF (Identification Friend or Foe) era because the number 77 was easy to quickly dial on mechanical rotaries without looking away from flight instruments!"
+  }
+ ]
+}

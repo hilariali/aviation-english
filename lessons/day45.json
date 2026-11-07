@@ -1,0 +1,103 @@
+{
+ "day": 45,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Cathay two five one, WINDSHEAR ESCAPE.",
+   "meaning": "Mandatory windshear escape call transmitted immediately when executing the escape maneuver; tells ATC standard missed approach procedures are suspended."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger, climb straight ahead to four thousand feet. Wind zero nine zero degrees, one eight knots gusting three five knots, microburst alert.",
+   "meaning": "Acknowledges the windshear escape, clears the aircraft to climb straight ahead to 4,000 feet, and reports wind 090 degrees at 18 knots gusting 35 knots with a microburst alert."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Climb straight ahead four thousand feet, Cathay two five one.",
+   "meaning": "Reads back the climb-straight-ahead clearance to 4,000 feet."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cathay two five one, clear of windshear, passing three thousand feet climbing four thousand feet. PIREP, windshear on final approach runway zero seven right, loss of two five knots at six hundred feet, severe turbulence.",
+   "meaning": "Reports clear of windshear passing 3,000 feet climbing to 4,000 feet, and files a PIREP: windshear on final approach runway 07R, loss of 25 knots at 600 feet, severe turbulence."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, thank you for the report. Contact Hong Kong Radar on one two one decimal three.",
+   "meaning": "Thanks the pilot for the PIREP and instructs contact with Hong Kong Radar on 121.3."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "One two one decimal three, Cathay two five one.",
+   "meaning": "Reads back the frequency change to 121.3."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Windshear Escape Call",
+   "definition": "Mandatory phraseology '[Callsign], WINDSHEAR ESCAPE' transmitted immediately when executing the windshear escape maneuver; standard missed approach procedures are suspended."
+  },
+  {
+   "term": "Reactive Windshear Alert",
+   "definition": "GPWS aural and visual warning 'WINDSHEAR, WINDSHEAR, WINDSHEAR' triggered by instantaneous energy loss (e.g. >15 kt speed loss or >500 fpm sink rate); requires an immediate TOGA escape maneuver."
+  },
+  {
+   "term": "Predictive Windshear (PWS)",
+   "definition": "Radar Doppler warning 'GO-AROUND, WINDSHEAR AHEAD' generated up to 3 miles ahead of the aircraft; mandates an immediate go-around before entering the convective downdraft."
+  },
+  {
+   "term": "Clear of Windshear Call",
+   "definition": "'[Callsign], CLEAR OF WINDSHEAR' transmitted once the aircraft has regained positive climb performance and a safe airspeed margin, enabling ATC to resume standard radar vectoring."
+  },
+  {
+   "term": "Pilot Weather Report (PIREP)",
+   "definition": "Mandatory concise report giving following aircraft and meteorologists exact quantitative shear values and turbulence levels, e.g. 'Windshear on final runway [XX], loss/gain [knots] at [feet]'."
+  },
+  {
+   "term": "Microburst Alert",
+   "definition": "Tower advisory issued when ground-based Doppler radar (TDWR) detects dangerous outflow columns, e.g. 'Microburst alert, [wind direction and speed], loss/gain [knots]'."
+  },
+  {
+   "term": "Weather Deviation Request",
+   "definition": "Standard en-route and terminal phraseology to navigate around convective thunderstorm cells (Cumulonimbus): 'Request deviation [number] miles left/right of track due weather'."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "When an aircraft flies directly through a convective microburst on final approach, what sequence of airspeed and flight path deviations will the pilot experience?",
+   "options": [
+    "Immediate severe tailwind and sink, followed by sudden headwind on touchdown.",
+    "Rapid increase in indicated airspeed and ballooning above glide path, followed by strong downdraft, then a sudden violent drop in airspeed and severe loss of lift.",
+    "Continuous gradual decrease in airspeed with steady updrafts throughout the approach.",
+    "Zero change in indicated airspeed, but total loss of altimeter accuracy due to static port icing."
+   ],
+   "correctIndex": 1,
+   "explanation": "As an aircraft enters a microburst, it first encounters the outward-rushing horizontal headwind, increasing indicated airspeed and causing the aircraft to pitch up/balloon. Within seconds, it enters the central core downdraft, followed immediately by the outflow tailwind on the other side, causing airspeed to plummet and the aircraft to lose altitude rapidly."
+  },
+  {
+   "question": "During an in-flight windshear escape maneuver triggered by a reactive windshear warning, what is the mandatory operating procedure regarding landing gear and flap configuration?",
+   "options": [
+    "Immediately retract flaps to 0 to minimize parasite drag.",
+    "Retract landing gear immediately to improve single-engine climb gradient.",
+    "Maintain existing flap and landing gear configuration until ground contact is no longer a factor and clear of windshear.",
+    "Extend full flaps to achieve maximum lift coefficient."
+   ],
+   "correctIndex": 2,
+   "explanation": "Standard operating procedures across all commercial and transport aircraft mandate that landing gear and flaps must NOT be changed during a windshear escape maneuver. Opening the gear doors during retraction cycle creates a massive surge in parasite drag, and altering flap settings changes the stall speed and pitch trim characteristics when the aircraft is flying near maximum angle of attack."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "Windshear Escape Call — [Callsign], WINDSHEAR ESCAPE: Mandatory phraseology transmitted immediately when executing the windshear escape maneuver. Informs ATC that standard missed approach procedures are suspended. / Reactive Windshear Alert — WINDSHEAR, WINDSHEAR, WINDSHEAR: Flight deck GPWS aural and visual warning triggered by instantaneous energy loss (e.g. >15 kt speed loss or >500 fpm sink rate). Requires immediate TOGA escape maneuver. / Predictive Windshear (PWS) — GO-AROUND, WINDSHEAR AHEAD: Radar Doppler warning generated up to 3 miles ahead of the aircraft. Mandates an immediate go-around before entering the convective downdraft. / Clear of Windshear Call — [Callsign], CLEAR OF WINDSHEAR: Transmitted once the aircraft has regained positive climb performance and returned to a safe airspeed margin, enabling ATC to resume standard radar vectoring. / Pilot Weather Report (PIREP) — Windshear on final runway [XX], loss/gain [knots] at [feet]: Mandatory concise report providing following aircraft and meteorologists with exact quantitative shear values and turbulence levels. / Microburst Alert — Microburst alert, [wind direction and speed], loss/gain [knots]: Tower advisory issued to arriving and departing aircraft when ground-based Doppler radar (TDWR) detects dangerous outflow columns. / Weather Deviation Request — Request deviation [number] miles left/right of track due weather: Standard en-route and terminal phraseology used to navigate around convective thunderstorm ce"
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Reinforcement Drill",
+   "body": "Day 44 Review (+1d — Flapless Operations): Approach speed is 30–40 knots higher; pilot must state 'UNABLE speed reduction due flapless approach' when assigned 160 knots to 4 NM. Tow tug required to vacate. / Day 39 Review (+7d — Missed Approach): Standard go-around initial call is '[Callsign], GOING AROUND'. Fly straight ahead and follow published missed approach altitude. / Day 31 Review (+14d — Localizer & Glide Path): Intercept localizer from below the glide path. Report 'Established on localizer runway zero seven left' upon beam capture."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact",
+   "body": "The Hong Kong LiDAR Revolution: When Hong Kong International Airport opened in 1998, Chek Lap Kok's location adjacent to the 900+ meter mountains of Lantau Island made it a global hot-spot for terrain-induced windshear. However, conventional Terminal Doppler Weather Radar (TDWR) only works when raindrops reflect radar pulses — leaving 'dry' mountain waves completely invisible! In 2002, the Hong Kong Observatory (HKO) solved this by installing the world's very first operational airport Doppler LiDAR (Light Detection and Ranging) system. By shooting invisible infrared laser pulses that bounce off microscopic dust particles and sea-salt aerosols in the air, Hong Kong controllers and meteorologists can detect dangerous windshear even under clear blue skies!"
+  }
+ ]
+}

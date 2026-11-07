@@ -1,0 +1,112 @@
+{
+ "day": 44,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "PAN PAN, PAN PAN, PAN PAN. Hong Kong Radar, Cathay two five one, position LOTUS, flight level eight zero. We have a dual hydraulic failure, flight controls degraded, flaps and slats inoperative. Request radar vectors for ILS runway zero seven left, final approach speed one eight zero knots, unable to vacate runway under own power.",
+   "meaning": "Declares urgency (PAN PAN x3), reports a dual hydraulic failure with degraded flight controls and inoperative flaps/slats, and requests radar vectors for ILS runway 07L at a final approach speed of 180 knots, unable to vacate the runway under own power."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, PAN PAN acknowledged. Cleared direct CANTO, descend and maintain three thousand feet, QNH one zero one eight. High approach speed approved, priority for runway zero seven left.",
+   "meaning": "Acknowledges the PAN PAN, clears the aircraft direct to CANTO, descend and maintain 3,000 feet, QNH 1018, approves the high approach speed, and gives priority for runway 07L."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Direct CANTO, descend three thousand feet, QNH one zero one eight, Cathay two five one.",
+   "meaning": "Reads back the clearance: direct CANTO, descend 3,000 feet, QNH 1018."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, report when ready for approach, advise if you require emergency equipment on arrival.",
+   "meaning": "Asks the pilot to report when ready for the approach and to advise whether emergency equipment is required on arrival."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cathay two five one, affirmative, request emergency services on standby. Alternate gear extension completed, gravity down and locked. Expect long landing roll, unable nosewheel steering, will require tug assistance on the runway.",
+   "meaning": "Requests emergency services on standby, confirms alternate (gravity) gear extension completed down and locked, and warns of a long landing roll, no nosewheel steering, and a need for tug assistance on the runway."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger. Emergency services standing by runway zero seven left, tow tug dispatched to holding point Alpha. Cleared ILS runway zero seven left.",
+   "meaning": "Confirms emergency services are standing by at runway 07L, the tow tug is dispatched to holding point Alpha, and clears the aircraft for the ILS to runway 07L."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cleared ILS runway zero seven left, Cathay two five one.",
+   "meaning": "Reads back the ILS clearance for runway 07L."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Flapless / Slatless Approach",
+   "definition": "Landing without high-lift wing devices; requires a higher approach speed (Vref + 30 to 40 kt) to prevent an aerodynamic stall."
+  },
+  {
+   "term": "Unable Speed Reduction",
+   "definition": "Mandatory phraseology declining ATC speed gates (such as 160 knots to 4 NM) because the aircraft would stall at lower speeds."
+  },
+  {
+   "term": "Alternate Gear Extension",
+   "definition": "Gravity free-fall extension of the landing gear when hydraulic actuators fail; uplocks are released mechanically, confirmed down and locked."
+  },
+  {
+   "term": "Nosewheel Steering Inoperative",
+   "definition": "No steering on the ground using tiller controls; the aircraft cannot turn off the runway onto taxiways."
+  },
+  {
+   "term": "Long Landing Roll",
+   "definition": "The aircraft cannot brake aggressively and will roll to the far end of the runway, preventing rapid vacating."
+  },
+  {
+   "term": "Tow Tug Assistance",
+   "definition": "Ground handling pushback/towing vehicles meeting the disabled aircraft on the active runway after stopping."
+  },
+  {
+   "term": "Hot Brakes Precaution",
+   "definition": "High kinetic energy absorption may trigger brake fires or fuse plug releases; request emergency services standby."
+  },
+  {
+   "term": "Thermal Fuse Plugs",
+   "definition": "Low-melting-point bismuth alloy plugs in wheel rims that melt at about 177°C (350°F), venting tire pressure before the rim can fracture."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is the primary effect of landing an aircraft without flaps (flapless approach) compared to a normal full-flap landing?",
+   "options": [
+    "Lower stall speed, steeper approach angle, and reduced landing distance.",
+    "Higher stall speed, flatter pitch attitude, and significantly longer landing ground roll.",
+    "Reduced tire wear and decreased brake kinetic energy absorption.",
+    "Higher rate of descent on final with shorter float in ground effect."
+   ],
+   "correctIndex": 1,
+   "explanation": "Without trailing-edge flaps deployed, the wing has lower camber and reduced maximum coefficient of lift (CLmax). Consequently, stall speed is higher, requiring a higher approach speed (Vref). In flight, the aircraft maintains a flatter pitch attitude, experiences longer float in ground effect, touches down at higher groundspeed, and requires substantially more runway distance to stop."
+  },
+  {
+   "question": "Why must a flight crew immediately report \"Unable nosewheel steering\" to Tower when conducting a non-normal hydraulic failure landing?",
+   "options": [
+    "To request that the tower controller steer the aircraft remotely via airport radar.",
+    "Because the aircraft will be unable to turn off the runway onto taxiways and will require a tow tug to vacate, temporarily closing the runway.",
+    "To enable airport maintenance to apply chemical de-icer to the taxiways.",
+    "To waive the requirement for runway visual range (RVR) minimums."
+   ],
+   "correctIndex": 1,
+   "explanation": "Without hydraulic pressure powering the nosewheel steering tiller, the aircraft cannot negotiate 90-degree turns off the runway onto rapid-exit or standard taxiways. It must stop straight ahead on the runway centerline and wait for a heavy aircraft tug to tow it clear. Notifying Tower early allows controllers to arrange towing assistance and divert or hold following arrivals."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "Flapless / Slatless Approach — Flapless approach / Slatless approach: Landing without high-lift wing devices. Requires a higher approach speed (Vref + 30 to 40 kt) to prevent an aerodynamic stall. / Unable Speed Reduction — Unable [speed], due flapless approach: Mandatory phraseology declining ATC speed gates (such as 160 knots to 4 NM) because the aircraft would stall at lower speeds. / Alternate Gear Extension — Alternate gear extension completed, down and locked: Gravity free-fall extension of the landing gear when hydraulic actuators fail. Uplocks are released mechanically. / Nosewheel Steering Inoperative — Unable nosewheel steering / No nosewheel steering: Alerts Tower that the aircraft cannot steer on the ground using tiller controls and cannot turn off the runway onto taxiways. / Long Landing Roll — Expect full runway length / Long landing roll: Notifies ATC that the aircraft cannot brake aggressively and will roll to the far end of the runway, preventing rapid vacating. / Tow Tug Assistance — Require tow tug on runway to vacate: Requests ground handling pushback/towing vehicles to meet the disabled aircraft on the active runway after stopping. / Hot Brakes Precaution — Request emergency services standby due hot brakes: Alerts Airport Rescue and Firefighting (ARFF) that high kinetic energy absorption may trigger brake fires or fuse plug releases."
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Reinforcement Drill",
+   "body": "Day 43 Review (+1d — Lost Communications): Transponder code is Squawk 7600. Precede blind transmissions with 'TRANSMITTING BLIND DUE TO RECEIVER FAILURE'. A steady green light gun signal on final means 'Cleared to land'. / Day 37 Review (+8d — Surface Wind & Tailwinds): Standard certified commercial transport tailwind limit for landing is 10 knots. Crosswinds require pilot assessment of demonstrated limits. / Day 30 Review (+14d — Speed Gates): Standard terminal approach speed gate is 160 knots to 4 NM from the threshold; only aircraft in non-normal configurations may request deviations."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact",
+   "body": "The 800C Cherry-Red Glow & Thermal Fuse Plugs: During a high-speed flapless landing, the carbon brake heat packs absorb staggering amounts of kinetic energy — converting moving tons of aircraft into pure heat. Within minutes of rollout, brake temperatures can spike over 800C (1,470F), making the steel brake assemblies glow bright cherry red in the dark! If the tire air pressure heated up unchecked, the high-pressure nitrogen inside would violently explode the wheel rims. To prevent catastrophic wheel explosions, every aircraft wheel rim contains thermal fuse plugs made with a low-melting-point bismuth alloy. At approximately 177C (350F), the plug core safely melts away, venting tire pressure before the rim can fracture!"
+  }
+ ]
+}

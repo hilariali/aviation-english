@@ -1,0 +1,119 @@
+{
+ "day": 43,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "TRANSMITTING BLIND DUE TO RECEIVER FAILURE. Hong Kong Radar, Cathay two five one, squawking seven six zero zero, passing six thousand feet, heading zero four zero, proceeding direct to LOTUS for ILS runway zero seven left.",
+   "meaning": "Broadcasts blind (receiver failed): reports squawk 7600, passing 6,000 feet, heading 040, proceeding direct to LOTUS for ILS runway 07L."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, squawk seven six zero zero observed. You are unreadable. If you read Hong Kong Radar, turn left heading zero two zero, or squawk ident.",
+   "meaning": "Confirms squawk 7600 observed, tells the aircraft it is unreadable, and tests whether it can still hear by asking for a left turn to heading 020 or a squawk ident."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "TRANSMITTING BLIND DUE TO RECEIVER FAILURE. Cathay two five one, turning left heading zero two zero, squawking ident. Continuing descent to four thousand feet to intercept localizer.",
+   "meaning": "Confirms turning left to heading 020 and squawking ident, continuing descent to 4,000 feet to intercept the localizer."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, ident observed. Hong Kong Radar acknowledges your turn. You are number one for approach. All conflicting traffic cleared.",
+   "meaning": "Confirms the ident was observed, acknowledges the turn, and clears the aircraft as number one for approach with conflicting traffic cleared."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "TRANSMITTING BLIND DUE TO RECEIVER FAILURE. Cathay two five one, established on localizer runway zero seven left, four miles, descending on glide path. Watching for Tower light signals.",
+   "meaning": "Reports established on the localizer for runway 07L, 4 miles out, descending on the glide path, and watching for tower light signals."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Tower transmitting blind. Steady green light gun signal displayed from tower. Cleared to land runway zero seven left, wind zero eight zero at one zero knots.",
+   "meaning": "Tower transmits blind: a steady green light gun signal is displayed, clearing the aircraft to land on runway 07L, wind 080 at 10 knots."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "NORDO",
+   "definition": "No Radio — total two-way communication failure."
+  },
+  {
+   "term": "Squawk 7600",
+   "definition": "International transponder emergency code alerting all radar controllers of two-way radio failure."
+  },
+  {
+   "term": "Transmitting Blind",
+   "definition": "Broadcasting position reports preceded by 'TRANSMITTING BLIND DUE TO RECEIVER FAILURE' when the transmitter may work but the receiver is dead."
+  },
+  {
+   "term": "Squawk Ident / Radar Turn",
+   "definition": "ATC's non-verbal test of whether a NORDO aircraft can still hear: the radar target blossoms (ident) or turns as instructed."
+  },
+  {
+   "term": "Steady Green Light",
+   "definition": "Tower light gun signal: in flight, cleared to land; on ground, cleared for takeoff."
+  },
+  {
+   "term": "Flashing Green Light",
+   "definition": "Tower light gun signal: in flight, return for landing (wait for steady green); on ground, cleared to taxi."
+  },
+  {
+   "term": "Steady Red Light",
+   "definition": "Tower light gun signal: in flight, give way to other aircraft and continue circling; on ground, STOP."
+  },
+  {
+   "term": "Flashing Red Light",
+   "definition": "Tower light gun signal: in flight, aerodrome unsafe, DO NOT LAND; on ground, taxi clear of the runway in use immediately."
+  },
+  {
+   "term": "Flashing White Light",
+   "definition": "Tower light gun signal: in flight, land at this aerodrome and proceed to apron; on ground, return to starting point on aerodrome."
+  },
+  {
+   "term": "Alternating Red/Green Light",
+   "definition": "Tower light gun signal: danger, exercise extreme caution (both in flight and on ground)."
+  },
+  {
+   "term": "AVEF / MEA",
+   "definition": "IMC lost-comms rules: route by Assigned, Vectored, Expected, Filed; altitude by Minimum IFR altitude, Expected, Assigned — fly the highest."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "While on final approach with total radio communication failure, you observe a Flashing Red light directed at your aircraft from the control tower. What does this signal mean?",
+   "options": [
+    "Give way to other aircraft and continue circling.",
+    "Airport unsafe, do not land.",
+    "Return for landing, expect steady green light on short final.",
+    "Cleared to land, exercise caution."
+   ],
+   "correctIndex": 1,
+   "explanation": "Under ICAO Annex 2 (Rules of the Air), a flashing red light directed at an aircraft in flight signifies: \"Aerodrome unsafe, do not land\". (A steady red means \"Give way to other aircraft and continue circling\"; a flashing green means \"Return for landing\")."
+  },
+  {
+   "question": "If operating under IFR in Visual Meteorological Conditions (VMC) and you experience two-way radio failure, what action is required under ICAO Annex 2?",
+   "options": [
+    "Maintain assigned IFR flight plan altitude and route all the way to destination.",
+    "Immediately climb to the Minimum En-Route Altitude (MEA) and continue in IMC.",
+    "Continue to fly in VMC, land at the nearest suitable aerodrome, and report your arrival to ATC by the most expeditious means.",
+    "Orbit over the current position for 15 minutes before proceeding direct to the destination airport."
+   ],
+   "correctIndex": 2,
+   "explanation": "ICAO Annex 2 Section 3.6.5.2 explicitly mandates that if an aircraft experiences communication failure while in VMC (or encounters VMC afterwards), the pilot must continue flight in visual conditions, land at the nearest suitable aerodrome, and notify ATS by phone or other expeditious means. You must not enter IMC if visual flight and landing are possible."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "Lost Comms SSR Code — Squawk 7600: International transponder emergency code alerting all radar controllers of two-way radio failure. / Transmitting Blind — TRANSMITTING BLIND DUE TO RECEIVER FAILURE: Spoken twice at each mandatory reporting point. Informs ATC of your position and intentions in case your transmitter works while your receiver is dead. / Radar Ident Acknowledgment — Squawk Ident / Turn heading [degrees]: ATC's non-verbal method to verify an unreadable aircraft can still hear instructions (radar target blossoms or turns). / Steady Green Light — Aerodrome Tower Light Gun: In flight: Cleared to land. On ground: Cleared for takeoff. / Flashing Green Light — Aerodrome Tower Light Gun: In flight: Return for landing (cleared to approach, wait for steady green). On ground: Cleared to taxi. / Steady Red Light — Aerodrome Tower Light Gun: In flight: Give way to other aircraft and continue circling. On ground: STOP. / Flashing Red Light — Aerodrome Tower Light Gun: In flight: Aerodrome unsafe, DO NOT LAND. On ground: Taxi clear of runway in use immediately. / Flashing White Light — Aerodrome Tower Light Gun: In flight: Land at this aerodrome and proceed to apron. On ground: Return to starting point on aerodrome. / Alternating Red/Green — Aerodrome Tower Light Gun: Danger: Exercise extreme caution. (Applies both in flight and on ground)."
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Reinforcement Drill",
+   "body": "Day 42 Review (+1d — Distress Phraseology): The distress signal is MAYDAY (3x), transponder is 7700, and Plain English should follow the PACE model (Problem, Action, Consequence, Expectation). / Day 40 Review (+4d — Runway Vacating): An aircraft is only vacated when all portions are past the runway holding point. Never switch off Tower frequency until explicitly told to contact Ground. / Day 36 Review (+8d — Low Visibility Operations): CAT II precision approach minima: Decision Height not below 100 ft, Runway Visual Range (RVR) not less than 300 m."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact",
+   "body": "The Aldis Lamp & The 100-Year Backup: In 1915 during the First World War, British inventor Arthur Cyril Webb Aldis patented a handheld signaling lamp that could project focused, high-intensity beams of white, red, and green light over several miles. Over a century later, despite satellite datalinks, VHF digital radios, and automated ADS-B surveillance, the Aldis Lamp (light gun) remains a mandatory piece of emergency equipment in every certified air traffic control tower in the world! Every control tower maintains a dedicated light gun on a swivel mount powered by an independent backup battery, ready to guide NORDO pilots to safety when all electronics fail."
+  }
+ ]
+}
