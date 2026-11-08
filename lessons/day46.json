@@ -1,0 +1,108 @@
+{
+ "day": 46,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "MAYDAY, MAYDAY, MAYDAY. Hong Kong Radar, Cathay two five one, flight level three five zero. Encountering volcanic ash, engine surging, turning right heading one six zero, descending to flight level two eight zero. Request diversion.",
+   "meaning": "Declares MAYDAY on encountering volcanic ash at FL350, reports engine surging, and advises the immediate 180° turn to heading 160 with descent to FL280 and a diversion request."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, MAYDAY acknowledged. Right turn heading one six zero approved, descend and maintain flight level two eight zero. Squawk seven seven zero zero.",
+   "meaning": "Acknowledges the MAYDAY, approves the right turn to heading 160, clears descent to FL280, and instructs squawk 7700."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Right turn heading one six zero, descending flight level two eight zero, squawking seven seven zero zero, Cathay two five one.",
+   "meaning": "Reads back the turn, descent and squawk 7700."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, when able, report aircraft status and intentions.",
+   "meaning": "Asks the crew to report aircraft status and intentions when able."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cathay two five one, clear of ash cloud passing flight level three zero zero. Engines stabilized at flight level two eight zero, sulfur odor clearing. Request diversion to Hong Kong, radar vectors.",
+   "meaning": "Reports clear of the ash cloud passing FL300, engines stabilized at FL280 with the sulfur odor clearing, and requests diversion to Hong Kong with radar vectors."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger. Cleared direct CANTO, descend to flight level one six zero, Hong Kong emergency services notified.",
+   "meaning": "Clears the aircraft direct to CANTO, descent to FL160, and confirms Hong Kong emergency services have been notified."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Direct CANTO, descending flight level one six zero, Cathay two five one.",
+   "meaning": "Reads back the direct CANTO clearance and descent to FL160."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Volcanic Ash Encounter",
+   "definition": "Initial pilot alert 'Encountering volcanic ash, turning [heading]' notifying ATC of entry into an unforecast ash plume, requiring immediate airspace priority."
+  },
+  {
+   "term": "St. Elmo's Fire",
+   "definition": "Luminescent coronal discharge ('St. Elmo's fire / static discharge on windshield') caused by abrasive friction of pulverized silica dust striking the aircraft skin at high Mach numbers."
+  },
+  {
+   "term": "Engine Surge & Compressor Stall",
+   "definition": "Disruption of axial airflow through compressor stages caused by ash contamination, resulting in loud bangs and surging RPM/EGT; phraseology 'Engine surge / compressor stall, number [X] engine'."
+  },
+  {
+   "term": "Turbine Blade Glazing (Vitrification)",
+   "definition": "Volcanic silica melts (>1,100°C) inside the combustion chamber and cools into a glassy enamel that blocks turbine airflow."
+  },
+  {
+   "term": "Flight Idle Thrust Retard",
+   "definition": "Immediate memory action 'Thrust levers to flight idle' reducing turbine temperatures below the melting point of silica to prevent engine seizure."
+  },
+  {
+   "term": "180-Degree Descending Turn",
+   "definition": "Standard ICAO escape trajectory 'Request 180 turn and immediate descent' returning the aircraft to the known clear air mass traversed moments earlier."
+  },
+  {
+   "term": "Volcanic Ash PIREP (VAR)",
+   "definition": "Standard meteorological reporting format 'Volcanic activity report: position, flight level, odor, density' transmitted to ATC and the regional Volcanic Ash Advisory Centre (VAAC)."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Why are airborne weather radar systems generally incapable of detecting in-flight volcanic ash clouds?",
+   "options": [
+    "Volcanic ash absorbs radar energy and reflects it back at identical wavelengths.",
+    "Weather radars are designed to reflect off water droplets and precipitation; dry volcanic ash particles contain virtually no moisture.",
+    "The high speed of the aircraft creates Doppler cancellation on the radar antenna.",
+    "Volcanic ash particles are magnetized and jam the receiver circuits."
+   ],
+   "correctIndex": 1,
+   "explanation": "Airborne weather radar detects precipitation by measuring the backscatter of microwave energy off liquid water droplets and wet hail. Volcanic ash consists of microscopic, dry pulverized rock and silica with virtually zero liquid water content, producing negligible radar return and rendering the ash cloud invisible on cockpit weather displays."
+  },
+  {
+   "question": "What is the primary technical rationale for immediately retarding thrust levers to flight idle upon accidentally entering a volcanic ash plume?",
+   "options": [
+    "To reduce fuel burn and increase total glide range.",
+    "To lower combustion chamber temperatures below the melting point of volcanic silica, preventing molten glass from glazing turbine blades.",
+    "To prevent over-pressurizing the cabin air conditioning packs.",
+    "To permit immediate deployment of thrust reversers in flight."
+   ],
+   "correctIndex": 1,
+   "explanation": "Volcanic ash contains silica minerals with a melting point of approximately 1,100°C. Modern jet engines operate at combustion temperatures exceeding 1,400°C under cruise thrust. At high thrust, ash melts into liquid glass that adheres to turbine nozzle guide vanes and blades, choking airflow and causing compressor stalls. Retarding thrust to flight idle lowers turbine gas temperatures, preventing ash from melting."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "Volcanic Ash Encounter — Encountering volcanic ash, turning [heading]: Initial pilot alert notifying ATC of entry into an unforecast ash plume, requiring immediate airspace priority. / St. Elmo's Fire — St. Elmo's fire / static discharge on windshield: Luminescent coronal discharge caused by abrasive friction of pulverized silica dust striking the aircraft skin at high Mach numbers. / Engine Surge & Compressor Stall — Engine surge / compressor stall, number [X] engine: Disruption of axial airflow through compressor stages caused by ash contamination, resulting in loud bangs and surging RPM/EGT. / Turbine Blade Glazing (Vitrification) — Turbine blade vitrification risk: Physical phenomenon where volcanic silica melts (>1,100°C) inside the combustion chamber, cooling into a glassy enamel that blocks turbine airflow. / Flight Idle Thrust Retard — Thrust levers to flight idle: Immediate memory action reducing turbine temperatures below the melting point of silica to prevent engine seizure. / 180-Degree Descending Turn — Request 180 turn and immediate descent: Standard ICAO escape trajectory returning the aircraft to the known clear air mass traversed moments earlier. / Volcanic Ash PIREP (VAR) — Volcanic activity report: position, flight level, odor, density: Standard meteorological reporting format transmitted to ATC and the regional Volcanic Ash Advisory Centre (VAAC)."
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Reinforcement Drill",
+   "body": "Day 45 Review (+1d — Windshear Escape): When escaping low-level windshear, maintain existing aircraft configuration (DO NOT touch flaps or landing gear). Issue immediate 'WINDSHEAR ESCAPE' transmission. / Day 42 Review (+5d — Distress MAYDAY): The distress signal is 'MAYDAY, MAYDAY, MAYDAY', transponder squawk is 7700, and report souls on board and fuel endurance when able. / Day 38 Review (+10d — Circuit Wake Turbulence): Mandatory 2-minute time spacing required when performing touch-and-go operations behind a preceding Heavy aircraft."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact",
+   "body": "British Airways Flight 009 & The 'Speedbird 9' Glider: On June 24, 1982, a British Airways Boeing 747-200 (Callsign 'Speedbird 9') was cruising over West Java at 37,000 ft when it flew into an invisible ash cloud from Mount Galunggung. Within minutes, St. Elmo's fire lit up the windshield like static lightning, sulfur smoke filled the cabin, and all four Rolls-Royce RB211 engines surged and flamed out simultaneously! Transforming a 300-ton jumbo jet into an unpowered glider, Captain Eric Moody made the calmest PA announcement in history: 'Ladies and gentlemen, this is your captain speaking. We have a small problem. All four engines have stopped. We are doing our damnedest to get them going again.' As the crew glided down through 12,000 ft into cooler, denser air, the brittle solidified glass crust cracked off the turbine blades, allowing them to successfully restart three engines and land safely in Jakarta!"
+  }
+ ]
+}
