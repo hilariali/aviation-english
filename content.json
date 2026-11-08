@@ -1,9 +1,9 @@
 {
  "meta": {
   "version": 2,
-  "updated": "2026-11-07",
-  "lessons": 44,
-  "phrases": 353
+  "updated": "2026-11-08",
+  "lessons": 45,
+  "phrases": 360
  },
  "lessons": [
   {
@@ -549,6 +549,18 @@
    "icaoRefs": [
     "ICAO Doc 9432",
     "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 46,
+   "topic": "Volcanic Ash Encounters & Engine Stalls",
+   "phase": "En-route",
+   "summary": "Day 46 elevates to high-altitude en-route operations to confront one of the most insidious threats in aviation: in-flight volcanic ash encounters (ICAO Doc 9691). Because microscopic ash particles contain zero…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1CkrA34VJuXi8AYYa25OieVwhBwmEsb_A&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1CkrA34VJuXi8AYYa25OieVwhBwmEsb_A/view",
+   "icaoRefs": [
+    "ICAO Doc 9691",
+    "ICAO Doc 9432"
    ]
   }
  ],
@@ -3376,6 +3388,62 @@
    "day": 45,
    "phase": "Emergency",
    "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "MAYDAY, MAYDAY, MAYDAY. Hong Kong Radar, Cathay two five one, flight level three five zero. Encountering volcanic ash, engine surging, turning right heading one six zero, descending to flight level two eight zero. Request diversion.",
+   "speaker": "Pilot",
+   "meaning": "Declares MAYDAY on encountering volcanic ash at FL350, reports engine surging, and advises the immediate 180° turn to heading 160 with descent to FL280 and a diversion request.",
+   "day": 46,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9691"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, MAYDAY acknowledged. Right turn heading one six zero approved, descend and maintain flight level two eight zero. Squawk seven seven zero zero.",
+   "speaker": "ATC",
+   "meaning": "Acknowledges the MAYDAY, approves the right turn to heading 160, clears descent to FL280, and instructs squawk 7700.",
+   "day": 46,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9691"
+  },
+  {
+   "text": "Right turn heading one six zero, descending flight level two eight zero, squawking seven seven zero zero, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the turn, descent and squawk 7700.",
+   "day": 46,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9691"
+  },
+  {
+   "text": "Cathay two five one, when able, report aircraft status and intentions.",
+   "speaker": "ATC",
+   "meaning": "Asks the crew to report aircraft status and intentions when able.",
+   "day": 46,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9691"
+  },
+  {
+   "text": "Cathay two five one, clear of ash cloud passing flight level three zero zero. Engines stabilized at flight level two eight zero, sulfur odor clearing. Request diversion to Hong Kong, radar vectors.",
+   "speaker": "Pilot",
+   "meaning": "Reports clear of the ash cloud passing FL300, engines stabilized at FL280 with the sulfur odor clearing, and requests diversion to Hong Kong with radar vectors.",
+   "day": 46,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9691"
+  },
+  {
+   "text": "Cathay two five one, roger. Cleared direct CANTO, descend to flight level one six zero, Hong Kong emergency services notified.",
+   "speaker": "ATC",
+   "meaning": "Clears the aircraft direct to CANTO, descent to FL160, and confirms Hong Kong emergency services have been notified.",
+   "day": 46,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9691"
+  },
+  {
+   "text": "Direct CANTO, descending flight level one six zero, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the direct CANTO clearance and descent to FL160.",
+   "day": 46,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9691"
   }
  ]
 }
