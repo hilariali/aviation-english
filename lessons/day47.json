@@ -1,0 +1,108 @@
+{
+ "day": 47,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "MAYDAY, MAYDAY, MAYDAY. Hong Kong Radar, Cathay two five one, rapid depressurization, EMERGENCY DESCENT, leaving flight level three niner zero for one zero thousand feet, turning right heading zero niner zero.",
+   "meaning": "Declares MAYDAY on rapid depressurization, announces an emergency descent from FL390 to 10,000 feet, and advises the right turn to heading 090."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, MAYDAY acknowledged. Emergency descent approved to one zero thousand feet, right turn heading zero niner zero, QNH one zero one six. Squawk seven seven zero zero.",
+   "meaning": "Acknowledges the MAYDAY, approves the emergency descent to 10,000 feet and the right turn to heading 090, gives QNH 1016, and instructs squawk 7700."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Descending one zero thousand feet, heading zero niner zero, QNH one zero one six, squawking seven seven zero zero, Cathay two five one.",
+   "meaning": "Reads back the descent to 10,000 feet, heading 090, QNH 1016, and squawk 7700."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Attention all aircraft on airway Victor One, emergency descent in progress by Cathay two five one, leaving flight level three niner zero descending to one zero thousand feet.",
+   "meaning": "Broadcasts to all traffic on airway Victor One that Cathay 251 is in an emergency descent from FL390 to 10,000 feet, clearing the descent corridor."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cathay two five one, leveled off at one zero thousand feet. Cabin altitude stabilized, structural integrity intact, passenger oxygen deployed. Request radar vectors to Hong Kong.",
+   "meaning": "Reports level at 10,000 feet with cabin altitude stabilized, structure intact and passenger oxygen deployed, and requests radar vectors to Hong Kong."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger. Turn left heading zero four zero, vectoring for direct Hong Kong runway zero seven left.",
+   "meaning": "Acknowledges and vectors the aircraft left to heading 040, direct to Hong Kong runway 07L."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Left heading zero four zero, Cathay two five one.",
+   "meaning": "Reads back the left turn to heading 040."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Emergency Descent Call",
+   "definition": "Mandatory distress phraseology '[Callsign], EMERGENCY DESCENT, leaving [FL] for [Level]' notifying ATC that the aircraft is descending immediately at maximum rates (6,000 to 8,000+ fpm)."
+  },
+  {
+   "term": "Lateral Airway Offset",
+   "definition": "Immediate turn 'Turning left/right heading [degrees]' (typically 30° to 90° off airway centerline) to avoid colliding with lower traffic on stacked RVSM airway tracks."
+  },
+  {
+   "term": "Time of Useful Consciousness (TUC)",
+   "definition": "The critical window of purposeful cognitive function remaining before hypoxia induces confusion and unconsciousness; TUC at FL400 is 15–20 seconds."
+  },
+  {
+   "term": "Target Safe Altitude",
+   "definition": "10,000 feet or Minimum En-Route Altitude (MEA/MSA) — the altitude where atmospheric oxygen concentration is sufficient for unassisted breathing; in mountainous terrain, MEA/MORA takes precedence."
+  },
+  {
+   "term": "ATC Area Emergency Broadcast",
+   "definition": "General broadcast 'Attention all aircraft on airway [Airway], emergency descent in progress' transmitted by ATC on area frequencies warning surrounding traffic to clear the descent corridor immediately."
+  },
+  {
+   "term": "Oxygen Mask Acoustics",
+   "definition": "Audio Control Panel (ACP) set to MASK mic — phonetic transmission under pressurized silicone mask delivery, requiring exaggerated enunciation to overcome audio distortion."
+  },
+  {
+   "term": "Cabin Altitude Horn / Warning",
+   "definition": "Audible intermittent horn and master warning when cabin altitude exceeds 10,000 ft (warning at 14,000 ft), triggering automatic passenger oxygen mask deployment."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is the approximate Time of Useful Consciousness (TUC) for a healthy individual following an explosive decompression at Flight Level 400 (40,000 feet)?",
+   "options": [
+    "3 to 5 minutes.",
+    "15 to 20 seconds.",
+    "45 to 60 seconds.",
+    "Over 10 minutes."
+   ],
+   "correctIndex": 1,
+   "explanation": "At FL400, atmospheric pressure is roughly 187 hPa (compared to 1,013 hPa at sea level). Following explosive decompression, oxygen rapidly diffuses out of the bloodstream, reducing the Time of Useful Consciousness (TUC)—the time available to take deliberate corrective action before cognitive collapse—to approximately 15 to 20 seconds."
+  },
+  {
+   "question": "Why is a lateral turn (typically 30° to 90°) off the airway centerline mandated when initiating an emergency descent in RVSM airspace?",
+   "options": [
+    "To allow passengers to see the ground clearly during the descent.",
+    "To avoid colliding with lower aircraft cruising on the exact same airway track at stacked 1,000-foot intervals.",
+    "To increase the rate of descent through coordinated centrifugal lift loss.",
+    "To assist the weather radar in detecting mountain terrain ahead."
+   ],
+   "correctIndex": 1,
+   "explanation": "Under Reduced Vertical Separation Minimum (RVSM), opposite-direction and same-direction aircraft operate along the exact same airway centerline separated vertically by only 1,000 feet. An aircraft descending at high rates (6,000 to 8,000 fpm) would slice directly through multiple active flight levels. Turning off the centerline ensures the descending aircraft clears the airway before plunging through underlying levels."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "Emergency Descent Call — [Callsign], EMERGENCY DESCENT, leaving [FL] for [Level]: Mandatory distress phraseology notifying ATC that the aircraft is descending immediately at maximum rates (6,000 to 8,000+ fpm). / Lateral Airway Offset — Turning left/right heading [degrees]: Immediate turn (typically 30° to 90° off airway centerline) to avoid colliding with lower traffic on stacked RVSM airway tracks. / Time of Useful Consciousness (TUC) — TUC at FL400: 15–20 seconds: The critical window of purposeful cognitive function remaining before hypoxia induces confusion and unconsciousness. / Target Safe Altitude — 10,000 feet or Minimum En-Route Altitude (MEA/MSA): Altitude where atmospheric oxygen concentration is sufficient for unassisted breathing. In mountainous terrain, MEA/MORA takes precedence. / ATC Area Emergency Broadcast — Attention all aircraft on airway [Airway], emergency descent in progress: General broadcast transmitted by ATC on area frequencies warning surrounding traffic to clear the descent corridor immediately. / Oxygen Mask Acoustics — Audio Control Panel (ACP) set to MASK mic: Phonetic transmission under pressurized silicone mask delivery, requiring exaggerated enunciation to overcome audio distortion. / Cabin Altitude Horn / Warning — Cabin altitude exceeds 10,000 ft (Warning at 14,000 ft): Audible intermittent horn and master warning triggering automatic passenger oxygen mask deployment."
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Reinforcement Drill",
+   "body": "Day 46 Review (+1d — Volcanic Ash): Flight idle thrust memory action prevents airborne silica from melting onto turbine blades (>1,100°C); execute immediate 180° descending turnback into clear air. / Day 43 Review (+5d — Lost Communications): Transponder code is Squawk 7600. Precede reports with 'TRANSMITTING BLIND DUE TO RECEIVER FAILURE'. A steady green light gun signal on final means 'Cleared to land'. / Day 40 Review (+8d — Runway Vacating): An aircraft is legally vacated only when all parts cross beyond the runway holding point marking. Never switch off Tower frequency until instructed."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact",
+   "body": "The 'Rubber Jungle' & Chemical Oxygen Candles: When passenger oxygen masks drop from the overhead panels (known informally by crews as the 'rubber jungle'), they are NOT connected to pressurized central oxygen bottles! Carrying heavy high-pressure gas cylinders for 300+ passengers would be prohibitively heavy and pose an extreme explosion risk. Instead, above each seat row is a compact Chemical Oxygen Generator (an oxygen candle) containing sodium chlorate (NaClO3) and iron powder. When a passenger pulls down on the mask lanyard, a spring-loaded firing pin strikes a percussion primer, igniting an exothermic chemical reaction that burns at 260°C (producing a noticeable hot scorch smell) and generates pure breathable oxygen for 12 to 15 minutes! That 15-minute supply gives the flight crew ample time to dive the aircraft from 41,000 ft down to 10,000 ft."
+  }
+ ]
+}

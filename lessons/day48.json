@@ -1,0 +1,113 @@
+{
+ "day": 48,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "PAN PAN, PAN PAN, PAN PAN. Hong Kong Radar, Cathay two five one, gross weight three three zero tonnes, maximum landing weight two five one tonnes. Request fuel jettison over water, require twenty minutes to dump seven zero tonnes.",
+   "meaning": "Declares PAN PAN on a return-to-field situation, states gross weight 330 tonnes against a 251-tonne maximum landing weight, and requests fuel jettison over water for twenty minutes to dump 70 tonnes."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, PAN PAN acknowledged. Cleared to fuel dumping area South China Sea, maintain flight level one zero zero. Advise when ready to commence fuel jettison.",
+   "meaning": "Acknowledges the PAN PAN, clears the aircraft to the South China Sea fuel dumping area at FL100, and asks to be advised when ready to commence dumping."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cleared to fuel dumping area, maintain flight level one zero zero, Cathay two five one.",
+   "meaning": "Reads back the clearance to the fuel dumping area and to maintain FL100."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cathay two five one, established in dumping area flight level one zero zero, COMMENCING FUEL JETTISON.",
+   "meaning": "Reports established in the dumping area at FL100 and announces fuel jettison is commencing."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger. Attention all aircraft, fuel dumping in progress by Cathay two five one over South China Sea, flight level one zero zero. Avoid area by ten miles and two thousand feet.",
+   "meaning": "Broadcasts to all traffic that Cathay 251 is dumping fuel over the South China Sea at FL100 and to avoid the area by 10 miles and 2,000 feet."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cathay two five one, FUEL JETTISON COMPLETED, landing weight two five zero tonnes. Request radar vectors for ILS runway zero seven left.",
+   "meaning": "Reports fuel jettison complete with landing weight 250 tonnes and requests radar vectors for the ILS to runway 07L."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger. Turn left heading zero four zero, descend to five thousand feet, vectoring for ILS runway zero seven left.",
+   "meaning": "Acknowledges and vectors the aircraft left to heading 040, descending to 5,000 feet for the ILS to runway 07L."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Left heading zero four zero, descending five thousand feet, Cathay two five one.",
+   "meaning": "Reads back the left turn to heading 040 and descent to 5,000 feet."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Fuel Jettison Request",
+   "definition": "Initial pilot request notifying ATC of the need to dump fuel: 'Request fuel jettison over water, require [mins/tonnes]', specifying desired area, duration, and target landing weight."
+  },
+  {
+   "term": "Commencing Fuel Jettison",
+   "definition": "Mandatory tactical transmission '[Callsign], COMMENCING FUEL JETTISON' when nozzle valves are opened and fuel dumping begins."
+  },
+  {
+   "term": "Fuel Jettison Completed",
+   "definition": "Mandatory tactical transmission '[Callsign], FUEL JETTISON COMPLETED, landing weight [weight]' when nozzle valves are closed, confirming the aircraft is now at or below Maximum Landing Weight (MLW)."
+  },
+  {
+   "term": "Minimum Jettison Altitude",
+   "definition": "At or above 6,000 ft AGL (preferably 10,000 ft over sea) — the required altitude buffer ensuring high-pressure atomized kerosene vaporizes in the atmosphere before reaching the surface."
+  },
+  {
+   "term": "Protected Separation Bubble",
+   "definition": "Mandatory ATC airspace buffer cleared around the dumping aircraft: 10 NM lateral buffer, 1,000 ft above / 2,000 ft below, to prevent other aircraft from ingesting atomized fuel vapor."
+  },
+  {
+   "term": "ATC Area Broadcast",
+   "definition": "General broadcast 'Attention all aircraft, fuel dumping in progress by [Callsign]' transmitted by ATC across all sector frequencies alerting surrounding traffic to avoid the dumping area."
+  },
+  {
+   "term": "Standpipe Level / Fuel Trapping",
+   "definition": "Engineered mechanical fuel pipe design (fuel jettison system standpipe limit) preventing the fuel dump pumps from emptying the main fuel tanks below safe reserve levels."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Under ICAO PANS-ATM (Doc 4444), what is the minimum vertical separation buffer that Air Traffic Control must maintain beneath an aircraft actively conducting in-flight fuel jettison?",
+   "options": [
+    "500 feet.",
+    "1,000 feet.",
+    "2,000 feet.",
+    "5,000 feet."
+   ],
+   "correctIndex": 2,
+   "explanation": "ICAO Doc 4444 Section 15.5.3 specifies that other aircraft must be separated from an aircraft dumping fuel by at least 10 nautical miles horizontally, 1,000 feet above, and 2,000 feet below the dumping aircraft to prevent kerosene aerosol ingestion into jet engines."
+  },
+  {
+   "question": "What is the internationally accepted minimum altitude for conducting fuel jettison over land to ensure that atomized fuel completely evaporates before reaching the surface?",
+   "options": [
+    "1,500 feet AGL.",
+    "3,000 feet AGL.",
+    "6,000 feet AGL.",
+    "18,000 feet AGL."
+   ],
+   "correctIndex": 2,
+   "explanation": "International and national aviation regulations recommend that in-flight fuel jettison over land be conducted at or above 6,000 feet AGL (and preferably at or above 10,000 ft over open water) so that the sprayed kerosene atomizes and completely evaporates in ambient air, preventing toxic, flammable liquid from contaminating the ground."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "Fuel Jettison Request — Request fuel jettison over water, require [mins/tonnes]: Initial pilot request notifying ATC of the need to dump fuel, specifying desired area, duration, and target landing weight. / Commencing Fuel Jettison — [Callsign], COMMENCING FUEL JETTISON: Mandatory tactical transmission when nozzle valves are opened and fuel dumping begins. / Fuel Jettison Completed — [Callsign], FUEL JETTISON COMPLETED, landing weight [weight]: Mandatory tactical transmission when nozzle valves are closed, confirming the aircraft is now at or below Maximum Landing Weight (MLW). / Minimum Jettison Altitude — At or above 6,000 ft AGL (preferably 10,000 ft over sea): Required altitude buffer ensuring that high-pressure atomized kerosene vaporizes in the atmosphere before reaching the surface. / Protected Separation Bubble — 10 NM lateral buffer, 1,000 ft above / 2,000 ft below: Mandatory ATC airspace buffer cleared around the dumping aircraft to prevent other aircraft from ingesting atomized fuel vapor. / ATC Area Broadcast — Attention all aircraft, fuel dumping in progress by [Callsign]: General broadcast transmitted by ATC across all sector frequencies alerting surrounding traffic to avoid the dumping area. / Standpipe Level / Fuel Trapping — Fuel jettison system standpipe limit: Engineered mechanical fuel pipe design preventing the fuel dump pumps from emptying the main fuel tanks below safe reserve levels."
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Reinforcement Drill",
+   "body": "Day 47 Review (+1d — Rapid Depressurization): Don oxygen masks within 15–20s (TUC at FL400); execute immediate 90° lateral airway offset; dive to 10,000 ft or MEA with speedbrakes extended. / Day 41 Review (+7d — Urgency PAN PAN): State PAN PAN (3x) for safety situations not involving imminent peril (medical emergencies, precautionary diversions). / Day 34 Review (+14d — RNP AR Approach): Radius to Fix (RF) legs require precise autopilot roll control and strict lateral containment within 0.3 NM."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact",
+   "body": "Why Narrowbody Jets Don’t Have Fuel Dump Nozzles: Next time you fly on an Airbus A320 or Boeing 737, look out at the wingtips—you will find zero fuel dumping nozzles! Why? Under FAA and EASA certification regulations (FAR Part 25), commercial aircraft are only required to install fuel jettison systems if their Maximum Takeoff Weight (MTOW) exceeds Maximum Landing Weight (MLW) by more than 105% AND they cannot meet single-engine climb gradient requirements. Narrowbody aircraft have a small enough gap between MTOW and MLW that they are structurally certified to execute an immediate Overweight Landing at maximum takeoff weight if an emergency occurs, requiring only a post-flight maintenance inspection of brakes and landing gear! Only widebody long-haul giants (B777, B747, A340, A350) carry heavy fuel jettison pumps and wingtip dump pipes."
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "day": 49,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "MAYDAY, MAYDAY, MAYDAY. Hong Kong Departure, Cathay two five one, passing eight hundred feet. Severe bird strike, number one engine failure, shutting down, squawking seven seven zero zero. Stop climb at three thousand feet, request radar vectors for return runway zero seven left.",
+   "meaning": "Declares MAYDAY on departure, reports a severe bird strike with number one engine failure at 800 feet, squawking 7700, and requests a stop climb at 3,000 feet with radar vectors for a return to runway 07L."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Departure, MAYDAY acknowledged. Stop climb at three thousand feet, turn left heading zero four zero. You have priority for runway zero seven left.",
+   "meaning": "Acknowledges the MAYDAY, instructs a stop climb at 3,000 feet and a left turn to heading 040, and confirms priority for runway 07L."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Stop climb three thousand feet, left heading zero four zero, Cathay two five one.",
+   "meaning": "Reads back the stop climb at 3,000 feet and the left turn to heading 040."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, advise when able number of persons on board, fuel endurance, and report bird details for runway inspection.",
+   "meaning": "Asks the pilot to report souls on board and fuel endurance when able, and to give bird strike details so a runway inspection can be arranged."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cathay two five one, souls on board two hundred and eighty, endurance four hours three zero minutes. Bird strike details: large flock of kites, multiple strikes on radome and number one engine. Recommend immediate runway inspection runway zero seven left.",
+   "meaning": "Reports 280 souls on board and 4 hours 30 minutes fuel endurance, describes a large flock of kites striking the radome and number one engine, and recommends an immediate runway inspection of runway 07L."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger. Runway inspection vehicle dispatched, emergency services standing by runway zero seven left. Continue heading zero four zero, vectoring for downwind.",
+   "meaning": "Confirms a runway inspection vehicle is dispatched and emergency services are standing by at runway 07L, and continues vectors on heading 040 for downwind."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Heading zero four zero, Cathay two five one.",
+   "meaning": "Reads back continuing on heading 040."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Bird Strike Report",
+   "definition": "Immediate notification to Tower or Departure control confirming avian impact: '[Callsign], BIRD STRIKE on departure/approach'."
+  },
+  {
+   "term": "Engine Ingestion & Vibration",
+   "definition": "Report 'Number [X] engine severe vibration / engine failure' when birds are ingested into the turbofan core/blades, triggering EGT spikes and unbalanced rotational vibration."
+  },
+  {
+   "term": "Burning Organic / Feather Odor",
+   "definition": "Physical diagnostic cue where vaporized organic matter is sucked into compressor bleed ports, demanding immediate bleed air isolation."
+  },
+  {
+   "term": "Stop Climb Instruction",
+   "definition": "ATC tactical instruction 'Stop climb at [altitude], maintain [heading]' holding an emergency aircraft at a safe level-off altitude while troubleshooting."
+  },
+  {
+   "term": "Runway Inspection Request",
+   "definition": "Pilot report 'Request runway inspection due bird remains / debris' prompting Tower to temporarily close the runway and dispatch an inspection vehicle to prevent following aircraft from suffering tire blowouts."
+  },
+  {
+   "term": "Foreign Object Debris (FOD)",
+   "definition": "Any loose physical object, animal remains, or detached hardware on a runway or taxiway surface capable of causing aircraft damage; 'Runway [XX] closed for FOD sweep'."
+  },
+  {
+   "term": "IBIS Report (ICAO Bird Strike)",
+   "definition": "Standard data captured for aerodrome wildlife hazard management: 'Flock of [species/size], strikes on [radome/engine]' (small/medium/large, number of birds, damage extent)."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "During takeoff roll, an aircraft experiences a severe bird strike resulting in engine vibration and partial power loss. What is the universally mandated decision rule regarding the Takeoff Decision Speed (V1)?",
+   "options": [
+    "If the bird strike occurs above V1, abort the takeoff immediately using maximum emergency braking.",
+    "Abort the takeoff at any speed prior to liftoff, regardless of V1, if engine power is reduced.",
+    "If the strike occurs prior to V1, abort the takeoff; if the strike occurs after V1, the takeoff MUST be continued and the aircraft climbed to a safe altitude before troubleshooting.",
+    "Retard both throttles to idle and steer the aircraft off the side of the runway into the grass."
+   ],
+   "correctIndex": 2,
+   "explanation": "V1 is the Takeoff Decision Speed. Prior to V1, sufficient runway remains to safely stop the aircraft. After passing V1, there is insufficient runway remaining to stop safely without an overrun; therefore, even with an engine failure or severe bird strike, the crew MUST continue takeoff, climb away on remaining engine thrust, establish a safe stop-climb altitude, and execute single-engine return procedures."
+  },
+  {
+   "question": "Why are pilots mandated to immediately notify Air Traffic Control following any bird strike on departure or landing, even when the aircraft sustains no structural damage?",
+   "options": [
+    "To allow ATC to file bird insurance claims on behalf of the local airport authority.",
+    "Because bird remains or dislodged debris left on the runway surface create a lethal Foreign Object Debris (FOD) hazard for subsequent departing and arriving aircraft.",
+    "To automatically cancel all existing IFR flight plans in the regional airspace.",
+    "To recalculate the atmospheric humidity of the aerodrome."
+   ],
+   "correctIndex": 1,
+   "explanation": "A bird strike frequently leaves organic carcasses, bone fragments, or dislodged airframe parts directly on the runway centerline. A following aircraft taking off or landing at high speed could run over the debris, causing high-pressure tire blowouts, brake line punctures, or engine ingestion. Immediate pilot reporting enables Tower to hold queue traffic and deploy safety sweepers for an urgent runway inspection."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "Bird Strike Report — [Callsign], BIRD STRIKE on departure/approach: Immediate notification to Tower or Departure control confirming avian impact. / Engine Ingestion & Vibration — Number [X] engine severe vibration / engine failure: Reports physical ingestion of birds into turbofan core/blades, triggering EGT spikes and unbalanced rotational vibration. / Burning Organic / Feather Odor — Air conditioning bleed air isolation: Physical diagnostic cue where vaporized organic matter is sucked into compressor bleed ports, demanding immediate bleed isolation. / Stop Climb Instruction — Stop climb at [altitude], maintain [heading]: ATC tactical instruction holding an emergency aircraft at a safe level-off altitude while troubleshooting. / Runway Inspection Request — Request runway inspection due bird remains / debris: Crucial pilot report prompting Tower to temporarily close the runway and dispatch an inspection vehicle to prevent following aircraft from suffering tire blowouts. / Foreign Object Debris (FOD) — Runway [XX] closed for FOD sweep: Any loose physical object, animal remains, or detached hardware on a runway or taxiway surface capable of causing aircraft damage. / IBIS Report (ICAO Bird Strike) — Flock of [species/size], strikes on [radome/engine]: Standard data captured for aerodrome wildlife hazard management (small/medium/large, number of birds, damage extent)."
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Reinforcement Drill",
+   "body": "Day 48 Review (+1d — Fuel Jettison): Must be conducted at or above 6,000 ft AGL over land (10,000 ft over sea). Mandatory 10 NM horizontal and 2,000 ft vertical clearance maintained by ATC. / Day 42 Review (+7d — Distress MAYDAY & PACE): Problem, Action, Consequence, Expectation. Squawk 7700. State souls on board and fuel endurance when able. / Day 35 Review (+14d — Circling Missed Approach): Immediate climbing turn towards the landing runway before turning onto the published missed approach track."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact",
+   "body": "Sully, The Hudson & The Infamous 'Chicken Cannon': On January 15, 2009, US Airways Flight 1549 (Airbus A320) struck a flock of migrating Canada geese at 2,800 ft after departing New York LaGuardia. Both CFM56 turbofans ingested multiple 8-pound birds, losing all thrust and forcing Captain Chesley 'Sully' Sullenberger to execute the legendary unpowered ditching onto the Hudson River. To certify that modern jet engines and windshields can survive avian collisions, aerospace engineers test them using a massive pneumatic air cannon colloquially called the 'Chicken Cannon'! Operating at air pressures up to 200 psi, the cannon shoots 4-pound thawed bird carcasses at speeds over 400 knots directly into rotating fan blades and multi-pane cockpit windshields to prove they will not disintegrate into the passenger cabin!"
+  }
+ ]
+}

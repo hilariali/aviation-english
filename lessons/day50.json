@@ -1,0 +1,108 @@
+{
+ "day": 50,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "MAYDAY, MAYDAY, MAYDAY. Hong Kong Radar, Cathay two five one, passing flight level one two zero. Number two engine failure, shut down and secured. Right hydraulic system lost, flaps limited to flaps five, approach speed one seven five knots. Request straight-in ILS runway zero seven left, emergency services on standby.",
+   "meaning": "Declares MAYDAY with a compound failure: number two engine failed and secured, right hydraulic system lost, flaps limited to flaps five with a 175-knot approach speed, and requests a straight-in ILS to runway 07L with emergency services on standby."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, MAYDAY acknowledged. Squawk seven seven zero zero observed. Descend and maintain four thousand feet, QNH one zero one eight. Cleared direct CANTO for straight-in ILS runway zero seven left. You have absolute priority.",
+   "meaning": "Acknowledges the MAYDAY, confirms squawk 7700 observed, clears descent to 4,000 feet on QNH 1018, clears direct CANTO for a straight-in ILS to runway 07L, and grants absolute priority."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Descend four thousand feet, QNH one zero one eight, direct CANTO for straight-in runway zero seven left, Cathay two five one.",
+   "meaning": "Reads back the descent to 4,000 feet, QNH 1018, and direct CANTO for the straight-in runway 07L approach."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, report persons on board and fuel endurance, advise if you can vacate under own power.",
+   "meaning": "Asks the pilot to report souls on board and fuel endurance, and whether the aircraft can vacate the runway under its own power."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cathay two five one, souls on board two hundred and sixty, endurance two hours one five minutes. Due hydraulic loss, unable nosewheel steering, will roll to the end and stop on runway centerline. Require tow tug to vacate.",
+   "meaning": "Reports 260 souls on board and 2 hours 15 minutes fuel endurance, and states that with no nosewheel steering the aircraft will roll to the end and stop on the runway centerline, requiring a tow tug to vacate."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger. Emergency services standing by runway zero seven left, tow tug on standby. Cleared ILS runway zero seven left.",
+   "meaning": "Confirms emergency services are standing by at runway 07L with a tow tug on standby, and clears the aircraft for the ILS to runway 07L."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cleared ILS runway zero seven left, Cathay two five one.",
+   "meaning": "Reads back the ILS clearance for runway 07L."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Compound Emergency Declaration",
+   "definition": "Immediate notification 'MAYDAY, MAYDAY, MAYDAY. [Callsign], compound failure' alerting ATC that multiple interconnected primary systems have failed simultaneously."
+  },
+  {
+   "term": "The Structured PACE Model",
+   "definition": "Problem, Action, Consequence, Expectation — the definitive ICAO format for communicating complex technical states in under 20 seconds without conversational confusion."
+  },
+  {
+   "term": "Workload Shedding (CRM Division)",
+   "definition": "Clear separation of duties: 'I have control and ATC, you run the QRH' — Pilot Flying maintains trajectory while Pilot Monitoring executes non-normal checklists."
+  },
+  {
+   "term": "Asymmetric / Limited Flap Status",
+   "definition": "Report 'Flaps limited to [setting], approach speed [speed]' to inform controllers of higher touchdown speeds and the impossibility of complying with standard terminal speed gates."
+  },
+  {
+   "term": "Straight-In ILS Requirement",
+   "definition": "Request 'straight-in ILS, minimum 10-mile final' to avoid steep circling or base turns when flying at high weights with single-engine and degraded flight controls."
+  },
+  {
+   "term": "Runway Centerline Rollout & Tug",
+   "definition": "Advise 'Will roll to the end, unable nosewheel steering, require tow tug' to pre-alert Tower that the aircraft will stop straight ahead on the runway centerline and cannot turn off under own power."
+  },
+  {
+   "term": "Absolute Airspace Priority",
+   "definition": "ATC: 'You have absolute priority, all traffic cleared' — clears all preceding arrivals and departures, suspends holds, and establishes an open straight-in path to the threshold."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "When confronted with cascading multi-system compound failures in flight, what is the mandatory sequence of task prioritization for the flight crew?",
+   "options": [
+    "Communicate first to declare emergency, then run checklists, then fly the aircraft.",
+    "Aviate (maintain aircraft attitude, speed, and trajectory), Navigate (steer toward a safe sector/altitude), then Communicate (inform ATC using structured phraseology).",
+    "Silence all warning alarms immediately, program the FMC for automatic return, then notify cabin crew.",
+    "Begin immediate descent toward the nearest runway regardless of terrain or traffic."
+   ],
+   "correctIndex": 1,
+   "explanation": "The fundamental rule of airmanship across all civil and military aviation is Aviate, Navigate, Communicate. Flight crews must first maintain positive control of aircraft pitch, bank, and airspeed; second, direct the flight path away from terrain and conflicting traffic; and third, communicate their status and intentions to Air Traffic Control."
+  },
+  {
+   "question": "Why is the PACE model (Problem, Action, Consequence, Expectation) strongly advocated by ICAO during compound aircraft emergencies?",
+   "options": [
+    "Because it eliminates the requirement for the pilot to set transponder code 7700.",
+    "Because it delivers a concise, structured briefing of non-normal capabilities and intentions, eliminating conversational ambiguity and allowing ATC to prepare appropriate runway services immediately.",
+    "Because it automatically legally absolves the flight crew from adhering to air traffic regulations.",
+    "Because it allows the controller to fly the aircraft via datalink."
+   ],
+   "correctIndex": 1,
+   "explanation": "In high-stress compound emergencies, standard phraseology alone may not cover unique multiple failures. The PACE model ensures Plain English is used with maximum structural efficiency: stating the Problem, Action taken, Consequence on performance (speed, braking, steering), and Expectation/Intentions. This allows controllers to immediately organize emergency services, tow tugs, and straight-in separation without distracting the crew with unnecessary questions."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "Compound Emergency Declaration — MAYDAY, MAYDAY, MAYDAY. [Callsign], compound failure: Immediate notification alerting ATC that multiple interconnected primary systems have failed simultaneously. / The Structured PACE Model — Problem, Action, Consequence, Expectation: The definitive ICAO format communicating complex technical states in under 20 seconds without conversational confusion. / Workload Shedding (CRM Division) — \"I have control and ATC, you run the QRH\": Clear separation of duties: Pilot Flying (PF) maintains trajectory; Pilot Monitoring (PM) executes non-normal checklists. / Asymmetric / Limited Flap Status — Flaps limited to [setting], approach speed [speed]: Informs controllers of higher touchdown speeds and the impossibility of complying with standard terminal speed gates. / Straight-In ILS Requirement — Request straight-in ILS, minimum 10-mile final: Avoids steep circling or base turns when flying at high weights with single-engine and degraded flight controls. / Runway Centerline Rollout & Tug — Will roll to the end, unable nosewheel steering, require tow tug: Pre-alerts Tower that the aircraft will stop straight ahead on the runway centerline and cannot turn off under own power. / Absolute Airspace Priority — You have absolute priority, all traffic cleared: ATC clears all preceding arrivals and departures, suspends holds, and establishes an open straight-in path to the threshold."
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Reinforcement Drill",
+   "body": "Day 49 Review (+1d — Bird Strikes): Continue takeoff after V1; level off at safe stop-climb altitude; isolate engine bleed air to prevent smoke in cabin; report bird location for runway sweep. / Day 43 Review (+7d — Lost Comms): Squawk 7600; blind transmission format; steady green light gun signal on final means \"Cleared to land\". / Day 36 Review (+14d — CAT II/III Low Visibility): Decision Height 50 ft, RVR 300 m, ILS sensitive area protected; pilot must disconnect autoland if lateral guidance fluctuates."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact",
+   "body": "United Flight 232 & The Birth of Modern CRM: On July 19, 1989, a McDonnell Douglas DC-10 (United 232) suffered an uncontained failure of its tail engine at 37,000 ft. Shrapnel sliced through all three independent hydraulic lines, draining every drop of hydraulic fluid and leaving the crew with zero flight controls — no ailerons, elevators, rudder, spoilers, or flaps! Rather than succumbing to panic, Captain Al Haynes, First Officer William Records, Flight Engineer Dudley Dvorak, and off-duty DC-10 instructor Dennis Fitch formed a legendary team. They discovered they could steer and pitch the aircraft solely by modulating differential thrust between the two remaining wing engines! By coordinating every single power change, they brought the crippled jumbo jet to an emergency landing in Sioux City, saving 184 lives. The calm, structured communication demonstrated on that flight deck revolutionized global aviation, establishing modern Crew Resource Management (CRM) as mandatory training worldwide."
+  }
+ ]
+}
