@@ -1,9 +1,9 @@
 {
  "meta": {
   "version": 2,
-  "updated": "2026-11-08",
-  "lessons": 45,
-  "phrases": 360
+  "updated": "2026-11-14",
+  "lessons": 50,
+  "phrases": 393
  },
  "lessons": [
   {
@@ -561,6 +561,65 @@
    "icaoRefs": [
     "ICAO Doc 9691",
     "ICAO Doc 9432"
+   ]
+  },
+  {
+   "day": 47,
+   "topic": "Rapid Depressurization & Emergency Descent",
+   "phase": "Emergency",
+   "summary": "Day 47 tackles one of the most intense, time-critical emergencies in modern commercial aviation: rapid depressurization and high-speed emergency descent. At typical jet cruising altitudes of 39,000 to 41,000 feet,…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1PjuH4yfGwCPZFCKr8p87KFKa7OuNb-Xw&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1PjuH4yfGwCPZFCKr8p87KFKa7OuNb-Xw/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 48,
+   "topic": "Fuel Jettison (Dumping) Procedures",
+   "phase": "Emergency",
+   "summary": "Day 48 covers in-flight fuel jettison (fuel dumping) and over-water protected corridors for heavy aircraft. A long-haul widebody departing Hong Kong can carry up to 140 tonnes of jet fuel, with a takeoff weight over…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1gaYt7EguUB3VyvO6CBIO8qTXjP_hwO-1&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1gaYt7EguUB3VyvO6CBIO8qTXjP_hwO-1/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 4444"
+   ]
+  },
+  {
+   "day": 49,
+   "topic": "Bird Strikes, Engine Ingestions & FOD Reporting",
+   "phase": "Emergency",
+   "summary": "Day 49 completes the final tactical emergency module of Phase 7 before the Day 50 capstone review, confronting bird strikes, high-bypass turbofan ingestions and runway Foreign Object Debris (FOD) reporting. Hong Kong…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1_nqHusTsFbK-O4J4frwPNcXOzRPGCnmm&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1_nqHusTsFbK-O4J4frwPNcXOzRPGCnmm/view",
+   "icaoRefs": [
+    "ICAO Doc 9137",
+    "ICAO Doc 9432"
+   ]
+  },
+  {
+   "day": 50,
+   "topic": "Phase 7 Capstone & Compound Emergencies",
+   "phase": "Emergency",
+   "summary": "Day 50 is the Phase 7 capstone and the 50-day milestone (83.3% of the 60-day ICAO Level 5/6 roadmap): compound emergencies, where multiple interrelated systems fail simultaneously under high cognitive workload. After…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1IBlNR8Z2jy78yrTEaOMPudem6nL-IDkT&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1IBlNR8Z2jy78yrTEaOMPudem6nL-IDkT/view",
+   "icaoRefs": [
+    "ICAO Doc 9432"
+   ]
+  },
+  {
+   "day": 51,
+   "topic": "Mock ICAO Checkride (Fast-Tempo ATC)",
+   "phase": "Departure & Climb",
+   "summary": "Day 51 launches Phase 8, the final summit of the 60-day roadmap: Comprehensive Mock ICAO Checkrides & Cathay Pacific Cadet Pilot Interview Simulations (Days 51–60). Today targets the #1 challenge for cadet candidates…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1r3ywc8QBR-JMS4y-Xxgzwlsn1GtMt2np&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1r3ywc8QBR-JMS4y-Xxgzwlsn1GtMt2np/view",
+   "icaoRefs": [
+    "ICAO Doc 4444",
+    "ICAO Annex 10"
    ]
   }
  ],
@@ -3444,6 +3503,270 @@
    "day": 46,
    "phase": "En-route",
    "icaoRef": "ICAO Doc 9691"
+  },
+  {
+   "text": "MAYDAY, MAYDAY, MAYDAY. Hong Kong Radar, Cathay two five one, rapid depressurization, EMERGENCY DESCENT, leaving flight level three niner zero for one zero thousand feet, turning right heading zero niner zero.",
+   "speaker": "Pilot",
+   "meaning": "Declares MAYDAY on rapid depressurization, announces an emergency descent from FL390 to 10,000 feet, and advises the right turn to heading 090.",
+   "day": 47,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, MAYDAY acknowledged. Emergency descent approved to one zero thousand feet, right turn heading zero niner zero, QNH one zero one six. Squawk seven seven zero zero.",
+   "speaker": "ATC",
+   "meaning": "Acknowledges the MAYDAY, approves the emergency descent to 10,000 feet and the right turn to heading 090, gives QNH 1016, and instructs squawk 7700.",
+   "day": 47,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Descending one zero thousand feet, heading zero niner zero, QNH one zero one six, squawking seven seven zero zero, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the descent to 10,000 feet, heading 090, QNH 1016, and squawk 7700.",
+   "day": 47,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Attention all aircraft on airway Victor One, emergency descent in progress by Cathay two five one, leaving flight level three niner zero descending to one zero thousand feet.",
+   "speaker": "ATC",
+   "meaning": "Broadcasts to all traffic on airway Victor One that Cathay 251 is in an emergency descent from FL390 to 10,000 feet, clearing the descent corridor.",
+   "day": 47,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, leveled off at one zero thousand feet. Cabin altitude stabilized, structural integrity intact, passenger oxygen deployed. Request radar vectors to Hong Kong.",
+   "speaker": "Pilot",
+   "meaning": "Reports level at 10,000 feet with cabin altitude stabilized, structure intact and passenger oxygen deployed, and requests radar vectors to Hong Kong.",
+   "day": 47,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, roger. Turn left heading zero four zero, vectoring for direct Hong Kong runway zero seven left.",
+   "speaker": "ATC",
+   "meaning": "Acknowledges and vectors the aircraft left to heading 040, direct to Hong Kong runway 07L.",
+   "day": 47,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Left heading zero four zero, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the left turn to heading 040.",
+   "day": 47,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "PAN PAN, PAN PAN, PAN PAN. Hong Kong Radar, Cathay two five one, gross weight three three zero tonnes, maximum landing weight two five one tonnes. Request fuel jettison over water, require twenty minutes to dump seven zero tonnes.",
+   "speaker": "Pilot",
+   "meaning": "Declares PAN PAN on a return-to-field situation, states gross weight 330 tonnes against a 251-tonne maximum landing weight, and requests fuel jettison over water for twenty minutes to dump 70 tonnes.",
+   "day": 48,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, PAN PAN acknowledged. Cleared to fuel dumping area South China Sea, maintain flight level one zero zero. Advise when ready to commence fuel jettison.",
+   "speaker": "ATC",
+   "meaning": "Acknowledges the PAN PAN, clears the aircraft to the South China Sea fuel dumping area at FL100, and asks to be advised when ready to commence dumping.",
+   "day": 48,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cleared to fuel dumping area, maintain flight level one zero zero, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the clearance to the fuel dumping area and to maintain FL100.",
+   "day": 48,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, established in dumping area flight level one zero zero, COMMENCING FUEL JETTISON.",
+   "speaker": "Pilot",
+   "meaning": "Reports established in the dumping area at FL100 and announces fuel jettison is commencing.",
+   "day": 48,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, roger. Attention all aircraft, fuel dumping in progress by Cathay two five one over South China Sea, flight level one zero zero. Avoid area by ten miles and two thousand feet.",
+   "speaker": "ATC",
+   "meaning": "Broadcasts to all traffic that Cathay 251 is dumping fuel over the South China Sea at FL100 and to avoid the area by 10 miles and 2,000 feet.",
+   "day": 48,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, FUEL JETTISON COMPLETED, landing weight two five zero tonnes. Request radar vectors for ILS runway zero seven left.",
+   "speaker": "Pilot",
+   "meaning": "Reports fuel jettison complete with landing weight 250 tonnes and requests radar vectors for the ILS to runway 07L.",
+   "day": 48,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, roger. Turn left heading zero four zero, descend to five thousand feet, vectoring for ILS runway zero seven left.",
+   "speaker": "ATC",
+   "meaning": "Acknowledges and vectors the aircraft left to heading 040, descending to 5,000 feet for the ILS to runway 07L.",
+   "day": 48,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Left heading zero four zero, descending five thousand feet, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the left turn to heading 040 and descent to 5,000 feet.",
+   "day": 48,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "MAYDAY, MAYDAY, MAYDAY. Hong Kong Departure, Cathay two five one, passing eight hundred feet. Severe bird strike, number one engine failure, shutting down, squawking seven seven zero zero. Stop climb at three thousand feet, request radar vectors for return runway zero seven left.",
+   "speaker": "Pilot",
+   "meaning": "Declares MAYDAY on departure, reports a severe bird strike with number one engine failure at 800 feet, squawking 7700, and requests a stop climb at 3,000 feet with radar vectors for a return to runway 07L.",
+   "day": 49,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9137"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Departure, MAYDAY acknowledged. Stop climb at three thousand feet, turn left heading zero four zero. You have priority for runway zero seven left.",
+   "speaker": "ATC",
+   "meaning": "Acknowledges the MAYDAY, instructs a stop climb at 3,000 feet and a left turn to heading 040, and confirms priority for runway 07L.",
+   "day": 49,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9137"
+  },
+  {
+   "text": "Stop climb three thousand feet, left heading zero four zero, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the stop climb at 3,000 feet and the left turn to heading 040.",
+   "day": 49,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9137"
+  },
+  {
+   "text": "Cathay two five one, advise when able number of persons on board, fuel endurance, and report bird details for runway inspection.",
+   "speaker": "ATC",
+   "meaning": "Asks the pilot to report souls on board and fuel endurance when able, and to give bird strike details so a runway inspection can be arranged.",
+   "day": 49,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9137"
+  },
+  {
+   "text": "Cathay two five one, souls on board two hundred and eighty, endurance four hours three zero minutes. Bird strike details: large flock of kites, multiple strikes on radome and number one engine. Recommend immediate runway inspection runway zero seven left.",
+   "speaker": "Pilot",
+   "meaning": "Reports 280 souls on board and 4 hours 30 minutes fuel endurance, describes a large flock of kites striking the radome and number one engine, and recommends an immediate runway inspection of runway 07L.",
+   "day": 49,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9137"
+  },
+  {
+   "text": "Cathay two five one, roger. Runway inspection vehicle dispatched, emergency services standing by runway zero seven left. Continue heading zero four zero, vectoring for downwind.",
+   "speaker": "ATC",
+   "meaning": "Confirms a runway inspection vehicle is dispatched and emergency services are standing by at runway 07L, and continues vectors on heading 040 for downwind.",
+   "day": 49,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9137"
+  },
+  {
+   "text": "MAYDAY, MAYDAY, MAYDAY. Hong Kong Radar, Cathay two five one, passing flight level one two zero. Number two engine failure, shut down and secured. Right hydraulic system lost, flaps limited to flaps five, approach speed one seven five knots. Request straight-in ILS runway zero seven left, emergency services on standby.",
+   "speaker": "Pilot",
+   "meaning": "Declares MAYDAY with a compound failure: number two engine failed and secured, right hydraulic system lost, flaps limited to flaps five with a 175-knot approach speed, and requests a straight-in ILS to runway 07L with emergency services on standby.",
+   "day": 50,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, MAYDAY acknowledged. Squawk seven seven zero zero observed. Descend and maintain four thousand feet, QNH one zero one eight. Cleared direct CANTO for straight-in ILS runway zero seven left. You have absolute priority.",
+   "speaker": "ATC",
+   "meaning": "Acknowledges the MAYDAY, confirms squawk 7700 observed, clears descent to 4,000 feet on QNH 1018, clears direct CANTO for a straight-in ILS to runway 07L, and grants absolute priority.",
+   "day": 50,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Descend four thousand feet, QNH one zero one eight, direct CANTO for straight-in runway zero seven left, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the descent to 4,000 feet, QNH 1018, and direct CANTO for the straight-in runway 07L approach.",
+   "day": 50,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, report persons on board and fuel endurance, advise if you can vacate under own power.",
+   "speaker": "ATC",
+   "meaning": "Asks the pilot to report souls on board and fuel endurance, and whether the aircraft can vacate the runway under its own power.",
+   "day": 50,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, souls on board two hundred and sixty, endurance two hours one five minutes. Due hydraulic loss, unable nosewheel steering, will roll to the end and stop on runway centerline. Require tow tug to vacate.",
+   "speaker": "Pilot",
+   "meaning": "Reports 260 souls on board and 2 hours 15 minutes fuel endurance, and states that with no nosewheel steering the aircraft will roll to the end and stop on the runway centerline, requiring a tow tug to vacate.",
+   "day": 50,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, roger. Emergency services standing by runway zero seven left, tow tug on standby. Cleared ILS runway zero seven left.",
+   "speaker": "ATC",
+   "meaning": "Confirms emergency services are standing by at runway 07L with a tow tug on standby, and clears the aircraft for the ILS to runway 07L.",
+   "day": 50,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, radar contact passing two thousand five hundred feet. Cancel standard instrument departure speed restriction, expedite climb through flight level eight zero. Turn right direct BEKOL, climb and maintain flight level one three zero. Traffic twelve o'clock, five miles, opposite direction, Airbus three three zero descending through flight level one four zero.",
+   "speaker": "ATC",
+   "meaning": "A compound departure clearance: radar contact at 2,500 feet, cancel the SID speed restriction, expedite climb through FL080, turn right direct BEKOL, climb and maintain FL130, with traffic information on an opposite-direction A330 descending through FL140.",
+   "day": 51,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cancel speed restriction, expedite through flight level eight zero, right direct BEKOL, climb and maintain flight level one three zero. Looking for traffic, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the compound clearance in logical sequence — speed, vertical, lateral — and reports looking for the traffic.",
+   "day": 51,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, report traffic in sight, then resume normal speed, contact Guangzhou Control on one two zero decimal six.",
+   "speaker": "ATC",
+   "meaning": "Instructs the pilot to report the traffic in sight, then resume normal speed and transfer to Guangzhou Control on 120.6.",
+   "day": 51,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, traffic in sight on TCAS, clear of conflict. Resuming normal speed, switching to Guangzhou Control on one two zero decimal six. Good day.",
+   "speaker": "Pilot",
+   "meaning": "Confirms traffic in sight on TCAS and clear of conflict, resumes normal speed, and switches to Guangzhou Control on 120.6.",
+   "day": 51,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, good day.",
+   "speaker": "ATC",
+   "meaning": "Acknowledges the frequency transfer with a standard farewell.",
+   "day": 51,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Right heading zero six zero, climb flight level one four zero, cancel speed restriction, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "The correct readback of a compound clearance: heading, level, and the mandatory speed-restriction cancellation — speed instructions are mandatory readback items under ICAO Doc 4444 and Annex 10.",
+   "day": 51,
+   "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 4444"
   }
  ]
 }
