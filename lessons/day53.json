@@ -1,0 +1,108 @@
+{
+ "day": 53,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Radar, Cathay two five one, flight level two eight zero, seventy miles south of BETTY. Request deviation two zero miles right of track due embedded thunderstorm cells.",
+   "meaning": "Requests a 20-mile lateral weather deviation right of track around embedded thunderstorm cells, reporting position 70 miles south of BETTY at FL280."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, deviation up to two zero miles right of track approved. Advise when able direct BETTY. Expect severe turbulence and holding at BETTY due typhoon crosswinds at Hong Kong.",
+   "meaning": "Approves a deviation of up to 20 miles right of track, asks the pilot to advise when able to proceed direct BETTY, and warns of severe turbulence and holding at BETTY due to typhoon crosswinds."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Deviation two zero miles right of track approved, will advise when clear of weather, Cathay two five one.",
+   "meaning": "Reads back the deviation approval and confirms the pilot will advise when clear of weather."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong surface wind now zero six zero degrees at three eight knots, gusting five two knots, windshear reported on all approaches. Indefinite holding.",
+   "meaning": "Reports surface wind 060 degrees at 38 knots gusting 52, windshear on all approaches, and indefinite holding — no estimated landing time can be given."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Roger, Cathay two five one. Clear of weather, unable to hold due fuel limits. Request diversion to alternate Taipei via ELATO, climb and maintain flight level three three zero.",
+   "meaning": "Acknowledges, reports clear of weather but unable to hold due to fuel limits, and requests diversion to Taipei via ELATO, climbing to FL330."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, diversion to Taipei approved. Cleared direct ELATO, climb and maintain flight level three three zero, contact Taipei Control on one two eight decimal seven when passing ELATO.",
+   "meaning": "Approves the diversion to Taipei, clears the aircraft direct ELATO and climb to FL330, and transfers it to Taipei Control on 128.7 when passing ELATO."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Direct ELATO, climb flight level three three zero, Taipei Control one two eight decimal seven passing ELATO, Cathay two five one.",
+   "meaning": "Reads back the diversion clearance: direct ELATO, climb FL330, Taipei Control 128.7 when passing ELATO."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Weather Deviation Request",
+   "definition": "Request deviation [distance] miles left/right of track due weather — standard request to deviate off the airway centerline to circumnavigate convective thunderstorms (CBs)."
+  },
+  {
+   "term": "Embedded Thunderstorm (EMBD CB)",
+   "definition": "Embedded thunderstorm cells — dangerous convective storm cells concealed inside stratiform cloud layers, invisible to the naked eye and detectable only via airborne weather radar."
+  },
+  {
+   "term": "Clear of Weather / Direct",
+   "definition": "Clear of weather, request direct [Waypoint] — notifies ATC that the storm cell has been bypassed and the crew is ready to rejoin the cleared flight plan route."
+  },
+  {
+   "term": "Indefinite Holding",
+   "definition": "Expect indefinite holding / No EFC available — indicates that landing delays cannot be estimated due to severe weather or runway closure, signaling crews to strongly consider immediate diversion."
+  },
+  {
+   "term": "Crosswind & Gust Spread",
+   "definition": "Wind [direction] at [speed], gusting [max] knots — surface wind report with peak gusts; if crosswind or gust factor exceeds aircraft/company limits, approach must be abandoned."
+  },
+  {
+   "term": "Cross-FIR Diversion Clearance",
+   "definition": "Request diversion to [Alternate] via [Fix], flight level [FL] — coordinates an international/inter-FIR route change (e.g., Hong Kong FIR to Taipei FIR via ELATO) requiring higher cruise altitude for fuel efficiency."
+  },
+  {
+   "term": "Radar-to-Next-FIR Handoff",
+   "definition": "Contact [Unit] on [Frequency] when passing [Waypoint] — conditional frequency transfer tied to crossing a Flight Information Region (FIR) boundary fix such as ELATO."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is an \"embedded thunderstorm\" (EMBD CB), and why does it pose a heightened hazard during IFR flight?",
+   "options": [
+    "A thunderstorm that remains stationary over a runway threshold for more than 6 hours.",
+    "A convective thunderstorm cell concealed within surrounding stratiform cloud layers, preventing visual identification by the flight crew.",
+    "A dry thunderstorm that produces no vertical updrafts or turbulence.",
+    "A storm cell that can only form below 2,000 feet AGL."
+   ],
+   "correctIndex": 1,
+   "explanation": "Embedded thunderstorms (EMBD CB) are hidden inside extensive layers of stratiform clouds (such as nimbostratus or altostratus in a typhoon rainband). Because pilots cannot see the towering cumulus visually, they must rely on airborne weather radar and ATC weather advisories to request timely lateral deviations."
+  },
+  {
+   "question": "When ATC clears an aircraft for a weather deviation (\"Deviation up to 20 miles right of track approved\"), what is the pilot's responsibility once clear of the storm cell?",
+   "options": [
+    "Remain 20 miles off-course until reaching the destination airport.",
+    "Turn immediately back onto the airway without informing ATC.",
+    "Advise ATC that the aircraft is clear of weather and request a direct clearance or heading to rejoin the cleared route.",
+    "Climb 2,000 feet above the cleared flight level to celebrate clearing the storm."
+   ],
+   "correctIndex": 2,
+   "explanation": "Under ICAO Doc 4444, once the weather hazard has been passed, the pilot must notify ATC (\"Clear of weather\") and obtain clearance to rejoin the assigned airway or proceed direct to a downstream waypoint so standard airway separation can be re-established."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "Weather Deviation Request — Request deviation [distance] miles left/right of track due weather: Standard request to deviate off the airway centerline to circumnavigate convective thunderstorms (CBs). / Embedded Thunderstorm (EMBD CB) — Embedded thunderstorm cells: Dangerous convective storm cells concealed inside stratiform cloud layers, invisible to the naked eye and detectable only via airborne weather radar. / Clear of Weather / Direct — Clear of weather, request direct [Waypoint]: Notifies ATC that the storm cell has been bypassed and the crew is ready to rejoin the cleared flight plan route. / Indefinite Holding — Expect indefinite holding / No EFC available: Indicates that landing delays cannot be estimated due to severe weather or runway closure, signaling crews to strongly consider immediate diversion. / Crosswind & Gust Spread — Wind [direction] at [speed], gusting [max] knots: Surface wind report with peak gusts; if crosswind or gust factor exceeds aircraft/company limits, approach must be abandoned. / Cross-FIR Diversion Clearance — Request diversion to [Alternate] via [Fix], flight level [FL]: Coordinates an international/inter-FIR route change (e.g., Hong Kong FIR to Taipei FIR via ELATO) requiring higher cruise altitude for fuel efficiency. / Radar-to-Next-FIR Handoff — Contact [Unit] on [Frequency] when passing [Waypoint]: Conditional frequency transfer tied to crossing a Flight Information Region (FIR) boundary fix such as ELATO."
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Reinforcement Drill",
+   "body": "Day 52 Review (+1d — TEM & Minimum Fuel): MINIMUM FUEL is an advisory (no priority granted); MAYDAY, MAYDAY, MAYDAY, FUEL is mandatory if Final Reserve Fuel (30 mins) will be breached. / Day 50 Review (+5d — Compound Emergencies): Follow Aviate → Navigate → Communicate and structure crisis briefings using PACE (Problem, Action, Consequence, Expectation). / Day 46 Review (+9d — Volcanic Ash): Retard thrust levers to flight idle immediately to prevent silica melting (>1,100°C) on turbine blades, then execute a 180° descending turn. / Day 39 Review (+16d — Missed Approach): Call \"[Callsign], GOING AROUND\" immediately upon initiating an aborted approach and follow the published missed approach track."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact",
+   "body": "Why Hong Kong Uses the Typhoon \"8-Knot\" & Crosswind Rule: At Hong Kong International Airport (Chek Lap Kok), both parallel runways (07L/25R and 07R/25L, plus the third runway 07L/25R complex) are oriented almost directly East–West (074°/254°). When a typhoon sits south of Hong Kong, prevailing winds blow violently from the North-Northeast or Southeast—hitting the runways almost perpendicularly as a pure 90-degree crosswind! Combined with mechanical rotor turbulence spilling off Lantau Peak's 934-meter ridges, Hong Kong experiences some of the most demanding typhoon approach conditions on Earth. That is why every Hong Kong cadet pilot must master early diversion math and crisp weather-deviation phraseology long before stepping onto the line!"
+  }
+ ]
+}
