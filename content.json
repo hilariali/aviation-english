@@ -1,9 +1,9 @@
 {
  "meta": {
   "version": 2,
-  "updated": "2026-11-14",
-  "lessons": 50,
-  "phrases": 393
+  "updated": "2026-11-16",
+  "lessons": 52,
+  "phrases": 410
  },
  "lessons": [
   {
@@ -620,6 +620,32 @@
    "icaoRefs": [
     "ICAO Doc 4444",
     "ICAO Annex 10"
+   ]
+  },
+  {
+   "day": 52,
+   "topic": "Cathay Cadet Interview (TEM & ADM Scenarios)",
+   "phase": "En-route",
+   "summary": "Day 52 of Phase 8 turns to what Cathay Pacific Cadet Pilot interview boards evaluate most closely: Aeronautical Decision Making (ADM) and Threat & Error Management (TEM) during a dynamic weather and fuel-critical…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1vQxNRbvLe-TORxhTWIo8wMXCkVCE320u&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1vQxNRbvLe-TORxhTWIo8wMXCkVCE320u/view",
+   "icaoRefs": [
+    "ICAO Doc 9976",
+    "ICAO Doc 4444",
+    "ICAO Doc 9868"
+   ]
+  },
+  {
+   "day": 53,
+   "topic": "Typhoon Avoidance & Divergent Routing",
+   "phase": "En-route",
+   "summary": "Day 53 opens the final 8-day sprint of the 60-day ICAO Level 5/6 roadmap with tropical cyclone operations in the Pearl River Delta: requesting a 20-mile lateral weather deviation around embedded thunderstorms in the…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1JlOOGOM-3ep7OivloU0tymQmy9fnw7Fs&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1JlOOGOM-3ep7OivloU0tymQmy9fnw7Fs/view",
+   "icaoRefs": [
+    "ICAO Doc 4444",
+    "ICAO Doc 9432",
+    "ICAO Doc 9835"
    ]
   }
  ],
@@ -3766,6 +3792,142 @@
    "meaning": "The correct readback of a compound clearance: heading, level, and the mandatory speed-restriction cancellation — speed instructions are mandatory readback items under ICAO Doc 4444 and Annex 10.",
    "day": 51,
    "phase": "Departure & Climb",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Approach, expect holding at ABBEY due to thunderstorm activity over the airfield. Expected approach time zero niner four five.",
+   "speaker": "ATC",
+   "meaning": "Holding instruction at ABBEY because of thunderstorms over Hong Kong, with an Expected Approach Time of 0945Z — the time the aircraft is expected to leave the hold for its approach.",
+   "day": 52,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9976"
+  },
+  {
+   "text": "Hold at ABBEY, expected approach time zero niner four five, Cathay two five one. Request current weather and runway conditions at Hong Kong.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the holding instruction and EAT, and requests the current weather and runway conditions at Hong Kong.",
+   "day": 52,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9976"
+  },
+  {
+   "text": "Cathay two five one, surface wind one four zero degrees at two two knots, gusting three four knots, heavy rain, visibility one thousand two hundred meters. Alternate Macao is clear.",
+   "speaker": "ATC",
+   "meaning": "Reports surface wind 140 degrees at 22 knots gusting 34, heavy rain, visibility 1,200 metres, and advises that the alternate, Macao, is clear.",
+   "day": 52,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9976"
+  },
+  {
+   "text": "Roger, Cathay two five one. We have forty five minutes of holding fuel before minimum diversion fuel. Request one holding pattern at ABBEY, then advise if unable approach.",
+   "speaker": "Pilot",
+   "meaning": "Acknowledges the weather, states 45 minutes of holding fuel remain before Minimum Diversion Fuel, and requests one holding pattern at ABBEY.",
+   "day": 52,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9976"
+  },
+  {
+   "text": "Cathay two five one, cleared to hold at ABBEY at flight level one two zero. Report entering the hold.",
+   "speaker": "ATC",
+   "meaning": "Clears the aircraft to hold at ABBEY at FL120 and asks the pilot to report entering the hold.",
+   "day": 52,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9976"
+  },
+  {
+   "text": "Entering the hold at ABBEY, flight level one two zero, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reports entering the hold at ABBEY at FL120.",
+   "day": 52,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9976"
+  },
+  {
+   "text": "Hong Kong Approach, Cathay two five one, minimum fuel reached, weather below company minima. Request immediate diversion to Macao via airway Alpha Four Six One, flight level one four zero.",
+   "speaker": "Pilot",
+   "meaning": "Declares MINIMUM FUEL, reports weather below company minima, and requests an immediate diversion to Macao via airway A461 at FL140.",
+   "day": 52,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9976"
+  },
+  {
+   "text": "Cathay two five one, roger, diversion approved. Cleared direct TAMOT, climb and maintain flight level one four zero, contact Macao Approach on one two three decimal niner five.",
+   "speaker": "ATC",
+   "meaning": "Approves the diversion, clears the aircraft direct TAMOT, climb and maintain FL140, and transfers it to Macao Approach on 123.95.",
+   "day": 52,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9976"
+  },
+  {
+   "text": "Direct TAMOT, climb flight level one four zero, Macao Approach one two three decimal niner five, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the diversion clearance: direct TAMOT, climb FL140, Macao Approach 123.95.",
+   "day": 52,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9976"
+  },
+  {
+   "text": "MAYDAY, MAYDAY, MAYDAY, FUEL, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "The correct distress declaration when any further delay would leave the aircraft landing with less than Final Reserve Fuel (30 minutes). Unlike MINIMUM FUEL, it immediately grants absolute priority.",
+   "day": 52,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 9976"
+  },
+  {
+   "text": "Hong Kong Radar, Cathay two five one, flight level two eight zero, seventy miles south of BETTY. Request deviation two zero miles right of track due embedded thunderstorm cells.",
+   "speaker": "Pilot",
+   "meaning": "Requests a 20-mile lateral weather deviation right of track around embedded thunderstorm cells, reporting position 70 miles south of BETTY at FL280.",
+   "day": 53,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, deviation up to two zero miles right of track approved. Advise when able direct BETTY. Expect severe turbulence and holding at BETTY due typhoon crosswinds at Hong Kong.",
+   "speaker": "ATC",
+   "meaning": "Approves a deviation of up to 20 miles right of track, asks the pilot to advise when able to proceed direct BETTY, and warns of severe turbulence and holding at BETTY due to typhoon crosswinds.",
+   "day": 53,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Deviation two zero miles right of track approved, will advise when clear of weather, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the deviation approval and confirms the pilot will advise when clear of weather.",
+   "day": 53,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong surface wind now zero six zero degrees at three eight knots, gusting five two knots, windshear reported on all approaches. Indefinite holding.",
+   "speaker": "ATC",
+   "meaning": "Reports surface wind 060 degrees at 38 knots gusting 52, windshear on all approaches, and indefinite holding — no estimated landing time can be given.",
+   "day": 53,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Roger, Cathay two five one. Clear of weather, unable to hold due fuel limits. Request diversion to alternate Taipei via ELATO, climb and maintain flight level three three zero.",
+   "speaker": "Pilot",
+   "meaning": "Acknowledges, reports clear of weather but unable to hold due to fuel limits, and requests diversion to Taipei via ELATO, climbing to FL330.",
+   "day": 53,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, diversion to Taipei approved. Cleared direct ELATO, climb and maintain flight level three three zero, contact Taipei Control on one two eight decimal seven when passing ELATO.",
+   "speaker": "ATC",
+   "meaning": "Approves the diversion to Taipei, clears the aircraft direct ELATO and climb to FL330, and transfers it to Taipei Control on 128.7 when passing ELATO.",
+   "day": 53,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Direct ELATO, climb flight level three three zero, Taipei Control one two eight decimal seven passing ELATO, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the diversion clearance: direct ELATO, climb FL330, Taipei Control 128.7 when passing ELATO.",
+   "day": 53,
+   "phase": "En-route",
    "icaoRef": "ICAO Doc 4444"
   }
  ]
