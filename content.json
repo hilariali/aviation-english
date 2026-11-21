@@ -1,9 +1,9 @@
 {
  "meta": {
   "version": 2,
-  "updated": "2026-11-16",
-  "lessons": 52,
-  "phrases": 410
+  "updated": "2026-11-21",
+  "lessons": 57,
+  "phrases": 445
  },
  "lessons": [
   {
@@ -642,6 +642,69 @@
    "summary": "Day 53 opens the final 8-day sprint of the 60-day ICAO Level 5/6 roadmap with tropical cyclone operations in the Pearl River Delta: requesting a 20-mile lateral weather deviation around embedded thunderstorms in the…",
    "audioURL": "https://drive.usercontent.google.com/download?id=1JlOOGOM-3ep7OivloU0tymQmy9fnw7Fs&export=download&confirm=t",
    "audioPageURL": "https://drive.google.com/file/d/1JlOOGOM-3ep7OivloU0tymQmy9fnw7Fs/view",
+   "icaoRefs": [
+    "ICAO Doc 4444",
+    "ICAO Doc 9432",
+    "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 54,
+   "topic": "Pilot Incapacitation & Single-Pilot Hand-Off",
+   "phase": "Emergency",
+   "summary": "Day 54 (90.0% complete) tackles one of the rarest yet most demanding human-factors scenarios on a commercial flight deck: flight crew incapacitation. Unlike a passenger medical emergency (a PAN PAN urgency), an…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=19ZkdCnNQve1Rf4leD4invJHI7xMVZ9ZP&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/19ZkdCnNQve1Rf4leD4invJHI7xMVZ9ZP/view",
+   "icaoRefs": [
+    "ICAO Doc 4444",
+    "ICAO Doc 9432",
+    "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 55,
+   "topic": "Degraded Radar & Procedural Separation",
+   "phase": "En-route",
+   "summary": "Day 55 (91.7% complete) practices a classic ICAO Checkride and IFR skill-test scenario: degraded radar and procedural non-radar separation. When primary or secondary surveillance radar fails, controllers go 'blind'…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1X0pWWnQlPNK-V_LJHC8M7Y08ZjtXVCF-&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1X0pWWnQlPNK-V_LJHC8M7Y08ZjtXVCF-/view",
+   "icaoRefs": [
+    "ICAO Doc 4444",
+    "ICAO Doc 9432",
+    "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 56,
+   "topic": "Rejected Takeoff & Emergency Evacuation",
+   "phase": "Emergency",
+   "summary": "Day 56 (93.3% complete) practices one of the most decisive moments in airline operations: a Rejected Takeoff (RTO) followed by an on-runway emergency evacuation. Before V1, an engine fire, tire blowout, or flight…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1yD9cL2HOyPAAeiWmXx9Ja_rLubtbKngg&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1yD9cL2HOyPAAeiWmXx9Ja_rLubtbKngg/view",
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 57,
+   "topic": "ICAO Chart & Picture Description",
+   "phase": "Ground & Taxi",
+   "summary": "Day 57 (95.0% complete) trains the ICAO Doc 9835 Plain English skill that Level 5/6 tests demand: switching from standard phraseology into clear, structured description when no standard phrase exists. It teaches the…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1JTQrRFkSckCXSODiMQQAgrom7l2ZT6K5&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1JTQrRFkSckCXSODiMQQAgrom7l2ZT6K5/view",
+   "icaoRefs": [
+    "ICAO Doc 9835",
+    "ICAO Doc 9432"
+   ]
+  },
+  {
+   "day": 58,
+   "topic": "End-to-End Mock Line Flight (VHHH–VMMC)",
+   "phase": "General Knowledge",
+   "summary": "Day 58 (96.7% complete) integrates the entire 57-day skillset into one continuous End-to-End Mock Line Flight from Hong Kong (VHHH) to Macao (VMMC). Across four ATC agencies — Hong Kong Delivery, Hong Kong Tower,…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1icgeF7x6m1Hy4ERnFBCl83qqq1tqVPZY&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1icgeF7x6m1Hy4ERnFBCl83qqq1tqVPZY/view",
    "icaoRefs": [
     "ICAO Doc 4444",
     "ICAO Doc 9432",
@@ -3928,6 +3991,286 @@
    "meaning": "Reads back the diversion clearance: direct ELATO, climb FL330, Taipei Control 128.7 when passing ELATO.",
    "day": 53,
    "phase": "En-route",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "MAYDAY, MAYDAY, MAYDAY. Hong Kong Radar, Cathay two five one, passing flight level two four zero, squawking seven seven zero zero. Captain incapacitated, single pilot operation. Request priority radar vectors for autoland ILS runway zero seven left and medical assistance on arrival.",
+   "speaker": "Pilot",
+   "meaning": "Declares a MAYDAY for an incapacitated captain, reports single-pilot operation at FL240 squawking 7700, and requests priority radar vectors for an autoland ILS to runway 07L plus medical assistance on arrival.",
+   "day": 54,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, MAYDAY acknowledged. Squawk seven seven zero zero observed. You have absolute priority. Turn left heading zero five zero, descend and maintain eight thousand feet, QNH one zero one seven. Advise if you require slower vectoring for checklist completion.",
+   "speaker": "ATC",
+   "meaning": "Acknowledges the MAYDAY, confirms the 7700 squawk, grants absolute priority, and issues a left turn to heading 050, descent to 8,000 feet on QNH 1017, offering slower vectoring for checklist completion.",
+   "day": 54,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Left heading zero five zero, descending eight thousand feet, QNH one zero one seven, slower vectors appreciated, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the heading, altitude and QNH and accepts the offer of slower vectors for checklist completion.",
+   "day": 54,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, roger. Reduce speed to two two zero knots, cleared direct CANTO, descend four thousand feet. Medical team and ambulance standing by at Bay Whiskey Four Two.",
+   "speaker": "ATC",
+   "meaning": "Reduces speed to 220 knots, clears the aircraft direct CANTO and down to 4,000 feet, and confirms a medical team and ambulance are standing by at Bay W42.",
+   "day": 54,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Speed two two zero knots, direct CANTO, descending four thousand feet. Cabin crew assisting on flight deck, autopilot engaged for dual-channel autoland, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the speed, routing and descent, confirms cabin crew are assisting on the flight deck and the autopilot is engaged for a dual-channel autoland.",
+   "day": 54,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, cleared ILS runway zero seven left, contact Tower on one one eight decimal two when established.",
+   "speaker": "ATC",
+   "meaning": "Clears the aircraft for the ILS approach to runway 07L and instructs contact with Tower on 118.2 once established on the localiser.",
+   "day": 54,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cleared ILS runway zero seven left, Tower one one eight decimal two when established, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the ILS clearance for runway 07L and the Tower frequency 118.2 to be contacted when established.",
+   "day": 54,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "All stations, Hong Kong Control, radar service terminated due equipment failure. Procedural control in effect. Cathay two five one, resume own navigation direct SIERA, maintain flight level one five zero.",
+   "speaker": "ATC",
+   "meaning": "Broadcasts to all aircraft that radar service is terminated due to equipment failure, procedural control is in effect, and instructs Cathay 251 to resume own navigation direct SIERA maintaining FL150.",
+   "day": 55,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Radar service terminated, resuming own navigation direct SIERA, maintaining flight level one five zero, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the radar termination and confirms resuming own navigation direct SIERA while maintaining FL150.",
+   "day": 55,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, report passing SIERA with estimate for ABBEY. Maintain flight level one five zero until passing SIERA, then descend to flight level one one zero.",
+   "speaker": "ATC",
+   "meaning": "Instructs the pilot to report passing SIERA with an estimate for ABBEY and to maintain FL150 until passing SIERA before descending to FL110 (conditional level gate).",
+   "day": 55,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Wilco, will report passing SIERA with estimate ABBEY, maintain flight level one five zero until SIERA, then descend flight level one one zero, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Acknowledges and reads back the position-report instruction and the conditional level gate: FL150 until SIERA, then descend to FL110.",
+   "day": 55,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Hong Kong Control, Cathay two five one, position SIERA at time one two one five, leaving flight level one five zero for flight level one one zero, estimating ABBEY at time one two two three.",
+   "speaker": "Pilot",
+   "meaning": "Standard four-part ICAO position report: over SIERA at 1215Z, leaving FL150 for FL110, estimating ABBEY at 1223Z.",
+   "day": 55,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, roger. Hold at ABBEY at flight level one one zero, expect procedural ILS approach runway zero seven left. Expected approach time one two three five.",
+   "speaker": "ATC",
+   "meaning": "Acknowledges the position report, instructs a hold at ABBEY at FL110, and gives a procedural ILS approach to runway 07L with an expected approach time of 1235Z.",
+   "day": 55,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Hold at ABBEY flight level one one zero, expected approach time one two three five, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the hold at ABBEY at FL110 and the expected approach time of 1235Z.",
+   "day": 55,
+   "phase": "En-route",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Hong Kong Tower, Cathay two five one, STOPPING, runway zero seven left.",
+   "speaker": "Pilot",
+   "meaning": "Mandatory concise RTO callout alerting Tower that the takeoff has been aborted and the aircraft remains stopped on runway 07L.",
+   "day": 56,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Tower, roger. All following traffic go around. Advise intentions and if assistance required.",
+   "speaker": "ATC",
+   "meaning": "Acknowledges the RTO, orders all following traffic to go around to protect the stopped aircraft, and asks the crew to advise intentions and whether assistance is required.",
+   "day": 56,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "MAYDAY, MAYDAY, MAYDAY. Hong Kong Tower, Cathay two five one, stopped on runway zero seven left, number two engine fire, fire handles pulled, both bottles discharged. Request immediate fire services.",
+   "speaker": "Pilot",
+   "meaning": "Declares a MAYDAY for a stopped aircraft with a number two engine fire, confirms fire handles pulled and both Halon bottles discharged, and requests immediate fire services.",
+   "day": 56,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, MAYDAY acknowledged. Fire services dispatched, approaching from the upwind left side. Wind zero eight zero at one two knots. Advise if evacuating and persons on board.",
+   "speaker": "ATC",
+   "meaning": "Acknowledges the MAYDAY, confirms fire services are dispatched and approaching from the upwind left side, passes wind 080 at 12 knots, and asks whether the crew is evacuating and how many persons are on board.",
+   "day": 56,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, fire still burning, EVACUATING on runway zero seven left, left side exits only. Souls on board two hundred and seventy, hazardous cargo nil.",
+   "speaker": "Pilot",
+   "meaning": "Declares an emergency evacuation on runway 07L using left-side (upwind, non-fire side) exits only, with 270 souls on board and no hazardous cargo.",
+   "day": 56,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay two five one, roger, evacuating left side exits only, two seven zero souls on board. Emergency services on scene now, runway zero seven left closed.",
+   "speaker": "ATC",
+   "meaning": "Reads back the evacuation with left-side exits only and 270 souls on board, confirms emergency services are on scene, and closes runway 07L.",
+   "day": 56,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Hong Kong Ground, Cathay two five one, holding short of Taxiway Juliet Three. Report your visual observation at Stand Delta Four.",
+   "speaker": "ATC",
+   "meaning": "Ground asks Cathay 251, holding short of Taxiway Juliet Three, to report its visual observation at Stand Delta Four.",
+   "day": 57,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9835"
+  },
+  {
+   "text": "Hong Kong Ground, Cathay two five one. At Stand Delta Four, a fuel bowser hose has detached beneath the right wing of an Airbus three three zero. Significant jet fuel is pooling on the apron around an active ground power unit.",
+   "speaker": "Pilot",
+   "meaning": "Reports a detached fuel bowser hose beneath the A330's right wing at Stand Delta Four, with significant jet fuel pooling on the apron around an active ground power unit.",
+   "day": 57,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9835"
+  },
+  {
+   "text": "Cathay two five one, roger. Advise if any personnel are near the spill and if the aircraft APU is running.",
+   "speaker": "ATC",
+   "meaning": "Acknowledges the report and asks whether any personnel are near the spill and whether the aircraft APU is running.",
+   "day": 57,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9835"
+  },
+  {
+   "text": "Cathay two five one, affirmative, two ground crew are standing near the right main landing gear, and the aircraft tail exhaust is shimmering, indicating the APU is running. Request immediate airport fire service dispatch and stand power isolation.",
+   "speaker": "Pilot",
+   "meaning": "Confirms two ground crew near the right main landing gear and the APU running (shimmering tail exhaust), and requests immediate airport fire service dispatch and stand power isolation.",
+   "day": 57,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9835"
+  },
+  {
+   "text": "Cathay two five one, fire services and apron safety dispatched to Stand Delta Four. Hold position at Juliet Three, expect revised taxi routing via Kilo to bypass the hazard.",
+   "speaker": "ATC",
+   "meaning": "Confirms fire services and apron safety are dispatched to Stand Delta Four, and instructs the aircraft to hold position at Juliet Three and expect revised taxi routing via Kilo to bypass the hazard.",
+   "day": 57,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9835"
+  },
+  {
+   "text": "Holding position at Juliet Three, expecting revised taxi via Kilo, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back holding position at Juliet Three and expecting revised taxi routing via Kilo.",
+   "day": 57,
+   "phase": "Ground & Taxi",
+   "icaoRef": "ICAO Doc 9835"
+  },
+  {
+   "text": "Hong Kong Delivery, Cathay two five one, stand Delta Four, information Kilo, request IFR clearance to Macao.",
+   "speaker": "Pilot",
+   "meaning": "Requests IFR clearance to Macao from Hong Kong Delivery, confirming stand Delta Four and ATIS Kilo.",
+   "day": 58,
+   "phase": "General Knowledge",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, cleared to Macao via PECAN One Alpha departure, climb via SID to five thousand feet, squawk three four one two, QNH one zero one six.",
+   "speaker": "ATC",
+   "meaning": "Clears Cathay 251 to Macao via the PECAN One Alpha SID, climb via SID to 5,000 feet, squawk 3412, QNH 1016.",
+   "day": 58,
+   "phase": "General Knowledge",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cleared Macao, PECAN One Alpha, climb via SID five thousand feet, squawk three four one two, QNH one zero one six, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the full IFR clearance: destination Macao, PECAN One Alpha, climb via SID 5,000 feet, squawk 3412, QNH 1016.",
+   "day": 58,
+   "phase": "General Knowledge",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Tower, behind landing Airbus three two zero, line up and wait runway zero seven right behind.",
+   "speaker": "ATC",
+   "meaning": "Conditional line-up clearance: line up and wait on Runway 07R only after the landing Airbus A320 has passed, with the condition and trailing 'behind' both mandatory.",
+   "day": 58,
+   "phase": "General Knowledge",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Behind landing Airbus three two zero, line up and wait runway zero seven right behind, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the full conditional line-up clearance, including the condition and the trailing 'behind'.",
+   "day": 58,
+   "phase": "General Knowledge",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, turn right heading two eight zero for traffic avoidance, climb to six thousand feet. Report traffic in sight.",
+   "speaker": "ATC",
+   "meaning": "Tactical traffic-avoidance vector: turn right to heading 280 and climb to 6,000 feet, and report traffic in sight.",
+   "day": 58,
+   "phase": "General Knowledge",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Right heading two eight zero, climb six thousand feet, looking for traffic, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the right turn to heading 280 and climb to 6,000 feet, and confirms looking for the traffic.",
+   "day": 58,
+   "phase": "General Knowledge",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, clear of traffic, turn left direct ALLEY, cleared ILS runway three four, contact Macao Tower on one one eight decimal zero when established.",
+   "speaker": "ATC",
+   "meaning": "Clears the aircraft direct to ALLEY for the ILS Runway 34 approach, and to contact Macao Tower on 118.0 once established on the localizer.",
+   "day": 58,
+   "phase": "General Knowledge",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Direct ALLEY, cleared ILS runway three four, Macao Tower one one eight decimal zero when established, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back direct ALLEY, cleared ILS Runway 34, and Macao Tower 118.0 when established.",
+   "day": 58,
+   "phase": "General Knowledge",
    "icaoRef": "ICAO Doc 4444"
   }
  ]
