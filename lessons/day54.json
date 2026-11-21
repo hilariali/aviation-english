@@ -1,0 +1,108 @@
+{
+ "day": 54,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "MAYDAY, MAYDAY, MAYDAY. Hong Kong Radar, Cathay two five one, passing flight level two four zero, squawking seven seven zero zero. Captain incapacitated, single pilot operation. Request priority radar vectors for autoland ILS runway zero seven left and medical assistance on arrival.",
+   "meaning": "Declares a MAYDAY for an incapacitated captain, reports single-pilot operation at FL240 squawking 7700, and requests priority radar vectors for an autoland ILS to runway 07L plus medical assistance on arrival."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, MAYDAY acknowledged. Squawk seven seven zero zero observed. You have absolute priority. Turn left heading zero five zero, descend and maintain eight thousand feet, QNH one zero one seven. Advise if you require slower vectoring for checklist completion.",
+   "meaning": "Acknowledges the MAYDAY, confirms the 7700 squawk, grants absolute priority, and issues a left turn to heading 050, descent to 8,000 feet on QNH 1017, offering slower vectoring for checklist completion."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Left heading zero five zero, descending eight thousand feet, QNH one zero one seven, slower vectors appreciated, Cathay two five one.",
+   "meaning": "Reads back the heading, altitude and QNH and accepts the offer of slower vectors for checklist completion."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger. Reduce speed to two two zero knots, cleared direct CANTO, descend four thousand feet. Medical team and ambulance standing by at Bay Whiskey Four Two.",
+   "meaning": "Reduces speed to 220 knots, clears the aircraft direct CANTO and down to 4,000 feet, and confirms a medical team and ambulance are standing by at Bay W42."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Speed two two zero knots, direct CANTO, descending four thousand feet. Cabin crew assisting on flight deck, autopilot engaged for dual-channel autoland, Cathay two five one.",
+   "meaning": "Reads back the speed, routing and descent, confirms cabin crew are assisting on the flight deck and the autopilot is engaged for a dual-channel autoland."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, cleared ILS runway zero seven left, contact Tower on one one eight decimal two when established.",
+   "meaning": "Clears the aircraft for the ILS approach to runway 07L and instructs contact with Tower on 118.2 once established on the localiser."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cleared ILS runway zero seven left, Tower one one eight decimal two when established, Cathay two five one.",
+   "meaning": "Reads back the ILS clearance for runway 07L and the Tower frequency 118.2 to be contacted when established."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Pilot Incapacitation Call",
+   "definition": "MAYDAY, MAYDAY, MAYDAY... Captain/First Officer incapacitated — declares a full distress condition when an operating flight crew member becomes medically unable to perform duties."
+  },
+  {
+   "term": "Single-Pilot Operation",
+   "definition": "Single pilot operation — alerts ATC that only one pilot is flying, running checklists, and working the radios, signaling controllers to keep instructions simple and paced."
+  },
+  {
+   "term": "Request Slower Vectoring",
+   "definition": "Request slower vectoring / longer final for checklist completion — proactively buys time and airspace so the remaining pilot is never rushed during approach setup and landing checks."
+  },
+  {
+   "term": "Dual-Channel Autoland",
+   "definition": "Autopilot engaged for dual-channel autoland — engaging both autopilots (CMD A + B / AP 1 + 2) to reduce manual flying workload and execute an automated flare and touchdown."
+  },
+  {
+   "term": "Cabin Crew Assistance",
+   "definition": "Cabin crew assisting on flight deck — confirms the senior purser or cabin crew member is securing the incapacitated pilot's harness and reading aloud checklist items."
+  },
+  {
+   "term": "Medical Assistance on Arrival",
+   "definition": "Request medical assistance / ambulance on arrival at Bay [X] — coordinates paramedics to meet the aircraft immediately upon engine shutdown at the designated parking stand."
+  },
+  {
+   "term": "The Two-Communication Rule",
+   "definition": "\"Are you okay?\" (2x verbal/physical check) — standard airline CRM trigger: if a pilot fails to respond to two consecutive communications or exhibits abnormal flight control inputs, assume incapacitation immediately."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "What is the standard \"Two-Communication Rule\" used on commercial flight decks to detect subtle pilot incapacitation?",
+   "options": [
+    "If a pilot fails to transmit two consecutive position reports to ATC.",
+    "If a pilot fails to respond appropriately to two consecutive verbal communications, or fails to respond to a callout regarding a significant flight path deviation.",
+    "Requiring two separate radio frequencies to be monitored at all times above FL200.",
+    "Waiting two minutes before checking on a quiet crew member during cruise."
+   ],
+   "correctIndex": 1,
+   "explanation": "Subtle incapacitation often looks like normal daydreaming or quiet focus. The Two-Communication Rule trains pilots to assume incapacitation immediately if the other pilot does not respond appropriately to two direct verbal queries or a significant flight-path/altitude deviation callout, prompting immediate control takeover and autopilot engagement."
+  },
+  {
+   "question": "When a flight crew member becomes incapacitated in flight, why does standard procedure require locking their shoulder harness and sliding their seat fully aft?",
+   "options": [
+    "To improve cabin airflow toward the forward galley.",
+    "To prevent the incapacitated pilot's body from slumping forward onto the control yoke/sidestick, thrust levers, or rudder pedals.",
+    "To allow the aircraft's center of gravity to shift aft for better fuel economy.",
+    "To enable the autoland system to calibrate its glide slope antenna."
+   ],
+   "correctIndex": 1,
+   "explanation": "An unconscious pilot slumping forward can jam the control column nose-down, push the rudder pedals into an uncommanded yaw, or accidentally retard thrust levers. Locking the inertial shoulder harness and moving the seat fully aft physically isolates the flight controls so the remaining pilot can fly safely."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "Pilot Incapacitation Call — MAYDAY, MAYDAY, MAYDAY... Captain/First Officer incapacitated: Declares a full distress condition when an operating flight crew member becomes medically unable to perform duties. / Single-Pilot Operation — Single pilot operation: Alerts ATC that only one pilot is flying, running checklists, and working the radios—signaling controllers to keep instructions simple and paced. / Request Slower Vectoring — Request slower vectoring / longer final for checklist completion: Proactively buys time and airspace so the remaining pilot is never rushed during approach setup and landing checks. / Dual-Channel Autoland — Autopilot engaged for dual-channel autoland: Engaging both autopilots (CMD A + B / AP 1 + 2) to reduce manual flying workload and execute an automated flare and touchdown. / Cabin Crew Assistance — Cabin crew assisting on flight deck: Confirms the senior purser or cabin crew member is securing the incapacitated pilot's harness and reading aloud checklist items. / Medical Assistance on Arrival — Request medical assistance / ambulance on arrival at Bay [X]: Coordinates paramedics to meet the aircraft immediately upon engine shutdown at the designated parking stand. / The Two-Communication Rule — \"Are you okay?\" (2x verbal/physical check): Standard airline CRM trigger: if a pilot fails to respond to two consecutive communications or exhibits abnormal flight control inputs, assume incapacitation immediately."
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Reinforcement Drill",
+   "body": "Day 53 Review (+1d — Typhoon Deviations): Request lateral weather deviations explicitly (\"Request deviation 20 miles right of track\"); report \"Clear of weather\" when passed; never switch FIR frequency early when given \"when passing [Fix]\". / Day 51 Review (+3d — Fast-Tempo Checkride): Chunk clearances into Speed, Vertical, Lateral, and Traffic; always read back speed restriction cancellations. / Day 47 Review (+7d — Rapid Depressurization): Don 100% oxygen masks within 15–20s (TUC at FL400), turn 90° off RVSM airway centerline, and descend to 10,000 ft or MEA. / Day 40 Review (+14d — Runway Vacating): Aircraft is vacated only when all parts pass the runway holding point; stay on Tower frequency until instructed to contact Ground."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact",
+   "body": "Why Pilots Never Eat the Same Meal: Airline SOPs forbid the Captain and First Officer from eating the exact same crew meal in flight—it's a strict anti-incapacitation rule! Following a famous 1982 food-poisoning incident where contaminated pudding incapacitated multiple crew members on an international flight, airlines worldwide mandated that the Captain and First Officer must order completely different meals prepared from separate food batches (for instance, one eats chicken, the other eats fish or pasta) and eat at staggered times. That simple rule ensures that even in a worst-case foodborne illness, at least one healthy pilot remains fully alert on the flight deck!"
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "day": 55,
+ "exchanges": [
+  {
+   "speaker": "ATC",
+   "text": "All stations, Hong Kong Control, radar service terminated due equipment failure. Procedural control in effect. Cathay two five one, resume own navigation direct SIERA, maintain flight level one five zero.",
+   "meaning": "Broadcasts to all aircraft that radar service is terminated due to equipment failure, procedural control is in effect, and instructs Cathay 251 to resume own navigation direct SIERA maintaining FL150."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Radar service terminated, resuming own navigation direct SIERA, maintaining flight level one five zero, Cathay two five one.",
+   "meaning": "Reads back the radar termination and confirms resuming own navigation direct SIERA while maintaining FL150."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, report passing SIERA with estimate for ABBEY. Maintain flight level one five zero until passing SIERA, then descend to flight level one one zero.",
+   "meaning": "Instructs the pilot to report passing SIERA with an estimate for ABBEY and to maintain FL150 until passing SIERA before descending to FL110 (conditional level gate)."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Wilco, will report passing SIERA with estimate ABBEY, maintain flight level one five zero until SIERA, then descend flight level one one zero, Cathay two five one.",
+   "meaning": "Acknowledges and reads back the position-report instruction and the conditional level gate: FL150 until SIERA, then descend to FL110."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Control, Cathay two five one, position SIERA at time one two one five, leaving flight level one five zero for flight level one one zero, estimating ABBEY at time one two two three.",
+   "meaning": "Standard four-part ICAO position report: over SIERA at 1215Z, leaving FL150 for FL110, estimating ABBEY at 1223Z."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger. Hold at ABBEY at flight level one one zero, expect procedural ILS approach runway zero seven left. Expected approach time one two three five.",
+   "meaning": "Acknowledges the position report, instructs a hold at ABBEY at FL110, and gives a procedural ILS approach to runway 07L with an expected approach time of 1235Z."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hold at ABBEY flight level one one zero, expected approach time one two three five, Cathay two five one.",
+   "meaning": "Reads back the hold at ABBEY at FL110 and the expected approach time of 1235Z."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Radar Service Terminated",
+   "definition": "Radar service terminated due equipment failure — notifies all aircraft that ATC can no longer see radar targets and will no longer provide radar vectors or traffic advisories."
+  },
+  {
+   "term": "Resume Own Navigation",
+   "definition": "Resume own navigation direct [Waypoint] — transfers lateral navigation responsibility back to the pilot via onboard FMS/VOR/GPS following radar vectoring."
+  },
+  {
+   "term": "Compulsory Reporting Point",
+   "definition": "Report passing [Fix] with estimate for [Next Fix] — mandatory position report at fixes marked with a solid triangle (▲) on IFR charts whenever radar service is not active."
+  },
+  {
+   "term": "ICAO Position Report Format",
+   "definition": "[Callsign], position [Fix] at [Time], [Level], estimating [Next Fix] at [Time] — standardized 4-part report enabling procedural controllers to update paper/electronic flight progress strips and calculate longitudinal separation."
+  },
+  {
+   "term": "Conditional Level Gate",
+   "definition": "Maintain [Level] until passing [Fix], then descend [Level] — procedural vertical separation rule ensuring an aircraft does not descend into lower crossing traffic until it has physically passed a known fix."
+  },
+  {
+   "term": "Procedural Approach",
+   "definition": "Expect procedural ILS approach runway [XX] — full instrument approach flown from an Initial Approach Fix (e.g., outbound teardrop or procedure turn) without radar vectoring to final."
+  },
+  {
+   "term": "Expected Approach Time (EAT)",
+   "definition": "Expected approach time [UTC Time] — the time ATC expects the aircraft to leave the holding fix to begin its procedural approach."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "When operating under procedural (non-radar) control, how are Compulsory Reporting Points identified on an ICAO IFR en-route or arrival chart?",
+   "options": [
+    "By a hollow (white) triangle symbol.",
+    "By a solid (filled black) triangle symbol.",
+    "By a dashed red circle around the waypoint name.",
+    "By an asterisk (*) next to the VHF frequency."
+   ],
+   "correctIndex": 1,
+   "explanation": "On ICAO and Jeppesen IFR charts, a solid (filled) triangle (▲) designates a Compulsory Reporting Point where pilots must transmit a position report whenever radar service is not in effect. A hollow (open) triangle (△) indicates an \"On Request\" reporting point."
+  },
+  {
+   "question": "When ATC broadcasts \"Radar service terminated, resume own navigation\", what primary responsibility shifts immediately back to the flight crew?",
+   "options": [
+    "Visual separation from all IFR traffic in IMC conditions.",
+    "Lateral navigation along the cleared route and mandatory position reporting at compulsory fixes.",
+    "Setting QNH to standard pressure 1013 hPa regardless of altitude.",
+    "Shutting off the aircraft transponder to prevent radar interference."
+   ],
+   "correctIndex": 1,
+   "explanation": "Terminating radar service means ATC is no longer providing radar vectors or radar traffic advisories. The pilot must resume lateral navigation via onboard instruments (FMS/VOR/GPS) along the cleared route and resume mandatory position reporting at compulsory fixes so ATC can maintain procedural separation."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "Radar Service Terminated — Radar service terminated due equipment failure: Notifies all aircraft that ATC can no longer see radar targets and will no longer provide radar vectors or traffic advisories. / Resume Own Navigation — Resume own navigation direct [Waypoint]: Transfers lateral navigation responsibility back to the pilot via onboard FMS/VOR/GPS following radar vectoring. / Compulsory Reporting Point — Report passing [Fix] with estimate for [Next Fix]: Mandatory position report at fixes marked with a solid triangle (▲) on IFR charts whenever radar service is not active. / ICAO Position Report Format — [Callsign], position [Fix] at [Time], [Level], estimating [Next Fix] at [Time]: Standardized 4-part report enabling procedural controllers to update paper/electronic flight progress strips and calculate longitudinal separation. / Conditional Level Gate — Maintain [Level] until passing [Fix], then descend [Level]: Procedural vertical separation rule ensuring an aircraft does not descend into lower crossing traffic until it has physically passed a known fix. / Procedural Approach — Expect procedural ILS approach runway [XX]: Full instrument approach flown from an Initial Approach Fix (e.g., outbound teardrop or procedure turn) without radar vectoring to final. / Expected Approach Time (EAT) — Expected approach time [UTC Time]: The time ATC expects the aircraft to leave the holding fix to begin its procedural approach."
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Reinforcement Drill",
+   "body": "Day 54 Review (+1d — Pilot Incapacitation): Apply the Two-Communication Rule; declare MAYDAY (with Squawk 7700); state \"Single pilot operation\" and request slower vectoring for dual-channel autoland. / Day 52 Review (+3d — TEM & Minimum Fuel): MINIMUM FUEL is an advisory (no priority); declare MAYDAY, MAYDAY, MAYDAY, FUEL if Final Reserve Fuel (30 mins) will be breached. / Day 48 Review (+7d — Fuel Jettison): Maintain at least 6,000 ft AGL over land (10,000 ft over sea); ATC protects 10 NM laterally and 2,000 ft below. / Day 41 Review (+14d — Urgency PAN PAN): Reserve PAN PAN (3x) for safety situations not involving grave and imminent danger (e.g., passenger medical diversion)."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact",
+   "body": "How Controllers Separate Atlantic & Pacific Jets Without Radar: Even today, vast stretches of the North Atlantic and Pacific Oceans have zero ground-based radar coverage! Every night, hundreds of widebody jets cross the Atlantic on the North Atlantic Tracks (NAT) using pure Procedural Non-Radar Separation. Controllers in Shanwick (Ireland) and Gander (Canada) rely on exact Mach Number Technique (assigning fixed speeds like Mach 0.82), satellite CPDLC/ADS-C position reports, and time-based longitudinal spacing (typically 10 minutes between jets at the same flight level). Every time you practice a crisp procedural position report with exact UTC times, you are using the exact same discipline that safely moves thousands of transoceanic passengers every single day!"
+  }
+ ]
+}

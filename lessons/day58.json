@@ -1,0 +1,114 @@
+{
+ "day": 58,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Delivery, Cathay two five one, stand Delta Four, information Kilo, request IFR clearance to Macao.",
+   "meaning": "Requests IFR clearance to Macao from Hong Kong Delivery, confirming stand Delta Four and ATIS Kilo."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, cleared to Macao via PECAN One Alpha departure, climb via SID to five thousand feet, squawk three four one two, QNH one zero one six.",
+   "meaning": "Clears Cathay 251 to Macao via the PECAN One Alpha SID, climb via SID to 5,000 feet, squawk 3412, QNH 1016."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cleared Macao, PECAN One Alpha, climb via SID five thousand feet, squawk three four one two, QNH one zero one six, Cathay two five one.",
+   "meaning": "Reads back the full IFR clearance: destination Macao, PECAN One Alpha, climb via SID 5,000 feet, squawk 3412, QNH 1016."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Tower, behind landing Airbus three two zero, line up and wait runway zero seven right behind.",
+   "meaning": "Conditional line-up clearance: line up and wait on Runway 07R only after the landing Airbus A320 has passed, with the condition and trailing 'behind' both mandatory."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Behind landing Airbus three two zero, line up and wait runway zero seven right behind, Cathay two five one.",
+   "meaning": "Reads back the full conditional line-up clearance, including the condition and the trailing 'behind'."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, turn right heading two eight zero for traffic avoidance, climb to six thousand feet. Report traffic in sight.",
+   "meaning": "Tactical traffic-avoidance vector: turn right to heading 280 and climb to 6,000 feet, and report traffic in sight."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Right heading two eight zero, climb six thousand feet, looking for traffic, Cathay two five one.",
+   "meaning": "Reads back the right turn to heading 280 and climb to 6,000 feet, and confirms looking for the traffic."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, clear of traffic, turn left direct ALLEY, cleared ILS runway three four, contact Macao Tower on one one eight decimal zero when established.",
+   "meaning": "Clears the aircraft direct to ALLEY for the ILS Runway 34 approach, and to contact Macao Tower on 118.0 once established on the localizer."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Direct ALLEY, cleared ILS runway three four, Macao Tower one one eight decimal zero when established, Cathay two five one.",
+   "meaning": "Reads back direct ALLEY, cleared ILS Runway 34, and Macao Tower 118.0 when established."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "IFR Clearance Request",
+   "definition": "Stand [X], information [Letter], request IFR clearance to [Dest] — initial Delivery call confirming parking stand and current ATIS letter before requesting route, SID, squawk, and initial level."
+  },
+  {
+   "term": "Climb via SID",
+   "definition": "Climb via SID to [Altitude] — authorizes climb to the cleared altitude while strictly obeying every published step-climb altitude and speed constraint on the SID."
+  },
+  {
+   "term": "Conditional Line-Up",
+   "definition": "Behind landing [Type], line up and wait runway [XX] behind — authorizes entering the runway only after the specified landing traffic has rolled past your intersection; both the condition and trailing \"behind\" must be read back."
+  },
+  {
+   "term": "Traffic Avoidance Vector",
+   "definition": "Turn right/left heading [XXX] for traffic avoidance — tactical radar heading issued immediately after departure to maintain separation from crossing or low-level traffic."
+  },
+  {
+   "term": "Direct IAF & Approach",
+   "definition": "Turn left direct [Fix], cleared ILS runway [XX] — clears the aircraft to proceed to the Initial Approach Fix and execute the published instrument approach."
+  },
+  {
+   "term": "Frequency Transfer on Establish",
+   "definition": "Contact [Tower] on [Frequency] when established — conditional frequency switch: remain on Radar until localizer beam capture is confirmed, then switch to Tower."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Under ICAO Doc 4444, what elements must always be included in a pilot's readback of a conditional line-up clearance such as \"Behind landing Boeing 737, line up and wait Runway 07R behind\"?",
+   "options": [
+    "Only the runway designator and aircraft callsign.",
+    "The condition (including the specific aircraft type/subject), the line-up instruction, the runway designator, and the trailing word \"behind\".",
+    "\"Roger, wilco\" followed by immediate movement onto the runway.",
+    "Only the current QNH and surface wind."
+   ],
+   "correctIndex": 1,
+   "explanation": "ICAO Doc 4444 requires a full readback of conditional clearances — repeating the condition (e.g., \"Behind landing B737\"), the instruction (\"line up and wait\"), the runway (\"Runway 07R\"), and the trailing \"behind\" so both crew and controller share identical situational awareness."
+  },
+  {
+   "question": "When Radar instructs \"Cleared ILS Runway 34, contact Macao Tower on 118.0 when established\", when should the pilot switch VHF frequency to Tower?",
+   "options": [
+    "Immediately upon reading back the clearance, even if still 15 miles from the localizer.",
+    "Only after the aircraft has captured and stabilized on the localizer course.",
+    "Only after touching down and vacating the runway.",
+    "At 50 feet AGL over the runway threshold."
+   ],
+   "correctIndex": 1,
+   "explanation": "\"When established\" is a conditional transfer tied to localizer capture. Remaining on Radar until established ensures ATC can intervene with heading corrections if the aircraft overshoots or fails to capture the localizer beam."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "IFR Clearance Request — Stand [X], information [Letter], request IFR clearance to [Dest]: Initial Delivery call confirming parking stand and current ATIS letter before requesting route, SID, squawk, and initial level. / Climb via SID — Climb via SID to [Altitude]: Authorizes climb to the cleared altitude while strictly obeying every published step-climb altitude and speed constraint on the SID. / Conditional Line-Up — Behind landing [Type], line up and wait runway [XX] behind: Authorizes entering the runway only after the specified landing traffic has rolled past your intersection. Both the condition and trailing \"behind\" must be read back. / Traffic Avoidance Vector — Turn right/left heading [XXX] for traffic avoidance: Tactical radar heading issued immediately after departure to maintain separation from crossing or low-level traffic. / Direct IAF & Approach — Turn left direct [Fix], cleared ILS runway [XX]: Clears the aircraft to proceed to the Initial Approach Fix and execute the published instrument approach. / Frequency Transfer on Establish — Contact [Tower] on [Frequency] when established: Conditional frequency switch: remain on Radar until localizer beam capture is confirmed, then switch to Tower."
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Reinforcement Drill",
+   "body": "Day 57 Review (+1d — Plain English Precision): Structure non-routine visual hazard reports as Where – What – Risk – Request, always citing ignition sources (GPU/APU) and personnel nearby. / Day 55 Review (+3d — Procedural Control): Respect altitude gates until passing fixes and deliver 4-part position reports with UTC estimates at compulsory reporting points. / Day 51 Review (+7d — Fast-Tempo Clearances): Chunk compound clearances into Speed, Vertical, Lateral, and Traffic; never omit speed restriction cancellations. / Day 44 Review (+14d — Flapless Approaches): Reject speed gates below safe clean speed (\"UNABLE speed restriction due flapless approach\") and request a tow tug to vacate."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact",
+   "body": "The Pearl River Delta's \"Helicopter & Jet\" Airspace Ballet: The flight between Hong Kong (VHHH) and Macao (VMMC) spans barely 35 nautical miles across the Pearl River Estuary — meaning a jet could practically see its destination airport right after takeoff! Yet that tiny corridor is one of the busiest multi-jurisdiction airspaces in Asia, weaving together Hong Kong Chek Lap Kok arrivals, Macao's reclaimed-island runway 34/16, Shenzhen and Zhuhai approaches, and frequent low-level cross-border Sikorsky S-76/AW139 helicopter shuttles. Mastering crisp clearances, conditional line-ups, and rapid frequency handoffs here prepares you for any terminal airspace in the world!"
+  }
+ ]
+}

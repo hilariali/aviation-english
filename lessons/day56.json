@@ -1,0 +1,103 @@
+{
+ "day": 56,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Tower, Cathay two five one, STOPPING, runway zero seven left.",
+   "meaning": "Mandatory concise RTO callout alerting Tower that the takeoff has been aborted and the aircraft remains stopped on runway 07L."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Tower, roger. All following traffic go around. Advise intentions and if assistance required.",
+   "meaning": "Acknowledges the RTO, orders all following traffic to go around to protect the stopped aircraft, and asks the crew to advise intentions and whether assistance is required."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "MAYDAY, MAYDAY, MAYDAY. Hong Kong Tower, Cathay two five one, stopped on runway zero seven left, number two engine fire, fire handles pulled, both bottles discharged. Request immediate fire services.",
+   "meaning": "Declares a MAYDAY for a stopped aircraft with a number two engine fire, confirms fire handles pulled and both Halon bottles discharged, and requests immediate fire services."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, MAYDAY acknowledged. Fire services dispatched, approaching from the upwind left side. Wind zero eight zero at one two knots. Advise if evacuating and persons on board.",
+   "meaning": "Acknowledges the MAYDAY, confirms fire services are dispatched and approaching from the upwind left side, passes wind 080 at 12 knots, and asks whether the crew is evacuating and how many persons are on board."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cathay two five one, fire still burning, EVACUATING on runway zero seven left, left side exits only. Souls on board two hundred and seventy, hazardous cargo nil.",
+   "meaning": "Declares an emergency evacuation on runway 07L using left-side (upwind, non-fire side) exits only, with 270 souls on board and no hazardous cargo."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger, evacuating left side exits only, two seven zero souls on board. Emergency services on scene now, runway zero seven left closed.",
+   "meaning": "Reads back the evacuation with left-side exits only and 270 souls on board, confirms emergency services are on scene, and closes runway 07L."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Abort / Stopping Call",
+   "definition": "[Tower], [Callsign], STOPPING, runway [XX] — mandatory concise ICAO callout alerting Tower that a takeoff has been aborted and the runway remains occupied."
+  },
+  {
+   "term": "Low-Speed vs. High-Speed Regime",
+   "definition": "Below 80–100 knots vs. 100 knots to V1 — low-speed regime aborts for minor cautions; high-speed regime aborts only for Fire, Engine Failure, Predictive Windshear, or Unsafe/Unable-to-Fly conditions."
+  },
+  {
+   "term": "Fire Handles & Bottle Discharge",
+   "definition": "Fire handles pulled, both bottles discharged — confirms fuel, hydraulic, and bleed air to the burning engine are shut off and Halon fire-suppression agents have been fired."
+  },
+  {
+   "term": "Upwind Side Approach",
+   "definition": "Fire services approaching from upwind [left/right] side — ARFF vehicles position upwind of the aircraft so smoke and flames blow away from rescue crews and escape slides."
+  },
+  {
+   "term": "Evacuation Declaration",
+   "definition": "EVACUATING on runway [XX], [left/right] side exits only — alerts Tower and ARFF that emergency slides are deploying and specifies which side of the aircraft is safe for passenger egress."
+  },
+  {
+   "term": "All Following Traffic Go Around",
+   "definition": "All following traffic, go around — immediate Tower directive protecting any aircraft on short final from landing on top of the stopped aircraft."
+  },
+  {
+   "term": "Runway Closed",
+   "definition": "Runway [XX] closed — suspends all takeoffs and landings on that surface until evacuation, firefighting, and FOD clearance are complete."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "In commercial jet operations, what conditions justify initiating a Rejected Takeoff (RTO) in the high-speed regime (between 100 knots and V1)?",
+   "options": [
+    "Any minor master caution light, such as a galley coffee maker fault or cargo heat advisory.",
+    "Only critical conditions: Engine Fire, Engine Failure, Predictive Windshear Warning, or an aircraft condition rendering it unsafe or unable to fly.",
+    "Any slight vibration felt through the rudder pedals after passing V1.",
+    "Whenever ATC requests a speed reduction prior to rotation."
+   ],
+   "correctIndex": 1,
+   "explanation": "Aborting at high speed near V1 carries significant risk of brake fires, tire blowouts, and runway overrun. Therefore, above 80–100 knots (up to V1), crews only reject for Fire, Engine Failure, Predictive Windshear, or a condition making the aircraft unsafe/unable to fly."
+  },
+  {
+   "question": "When an aircraft stops on the runway following an RTO and requires an emergency slide evacuation due to a right-engine fire, what information is critical to transmit to Tower?",
+   "options": [
+    "That the crew is evacuating, which side exits are in use (upwind/non-fire side), and total Souls on Board (SOB).",
+    "Only the aircraft's planned cruising flight level and destination alternate.",
+    "A request for pushback tug clearance to Gate 24 before deploying slides.",
+    "Nothing—radios must be switched off immediately without notifying Tower."
+   ],
+   "correctIndex": 0,
+   "explanation": "Tower and ARFF must know immediately that slides are deploying (EVACUATING), which side passengers are exiting from (so rescue trucks approach from the upwind/safe side without blocking exits), and total Souls on Board for 100% rescue accountability."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "Abort / Stopping Call — [Tower], [Callsign], STOPPING, runway [XX]: Mandatory concise ICAO callout alerting Tower that a takeoff has been aborted and the runway remains occupied. / Low-Speed vs. High-Speed Regime — Below 80–100 knots vs. 100 knots to V1: Low-speed regime aborts for minor cautions; high-speed regime aborts only for Fire, Engine Failure, Predictive Windshear, or Unsafe/Unable-to-Fly conditions. / Fire Handles & Bottle Discharge — Fire handles pulled, both bottles discharged: Confirms fuel, hydraulic, and bleed air to the burning engine are shut off and Halon fire-suppression agents have been fired. / Upwind Side Approach — Fire services approaching from upwind [left/right] side: ARFF vehicles position upwind of the aircraft so smoke and flames blow away from rescue crews and escape slides. / Evacuation Declaration — EVACUATING on runway [XX], [left/right] side exits only: Alerts Tower and ARFF that emergency slides are deploying and specifies which side of the aircraft is safe for passenger egress. / All Following Traffic Go Around — All following traffic, go around: Immediate Tower directive protecting any aircraft on short final from landing on top of the stopped aircraft. / Runway Closed — Runway [XX] closed: Suspends all takeoffs and landings on that surface until evacuation, firefighting, and FOD clearance are complete."
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Reinforcement Drill",
+   "body": "Day 55 Review (+1d — Procedural Control): When radar service is terminated, navigate via FMS/VOR, respect altitude gates until passing fixes, and transmit 4-part position reports at compulsory points (▲). / Day 53 Review (+3d — Typhoon Deviations): Request lateral offsets explicitly, stay within the approved distance fence, and report \"Clear of weather\" when passed. / Day 49 Review (+7d — Bird Strikes & V1): Abort before V1; continue takeoff after V1 and report strikes immediately for runway FOD inspection. / Day 42 Review (+14d — MAYDAY & PACE): Declare MAYDAY (3x), squawk 7700, and brief Problem, Action, Consequence, and Expectation concisely."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact",
+   "body": "The 90-Second Evacuation Rule: Before any new commercial airliner (like the A350 or B777) can be certified to carry passengers, the manufacturer must pass a brutal live test mandated by ICAO, EASA, and the FAA: evacuating a full load of passengers and crew in 90 seconds or less! To make it as realistic as a midnight runway emergency, the test is conducted in total darkness using only emergency floor lighting, carry-on bags and pillows are strewn across the aisles, and half of all emergency exits are permanently blocked without warning the crew which ones will work. Every single cabin crew command and pilot evacuation callout is timed to the second!"
+  }
+ ]
+}

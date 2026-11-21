@@ -1,0 +1,103 @@
+{
+ "day": 57,
+ "exchanges": [
+  {
+   "speaker": "ATC",
+   "text": "Hong Kong Ground, Cathay two five one, holding short of Taxiway Juliet Three. Report your visual observation at Stand Delta Four.",
+   "meaning": "Ground asks Cathay 251, holding short of Taxiway Juliet Three, to report its visual observation at Stand Delta Four."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Ground, Cathay two five one. At Stand Delta Four, a fuel bowser hose has detached beneath the right wing of an Airbus three three zero. Significant jet fuel is pooling on the apron around an active ground power unit.",
+   "meaning": "Reports a detached fuel bowser hose beneath the A330's right wing at Stand Delta Four, with significant jet fuel pooling on the apron around an active ground power unit."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger. Advise if any personnel are near the spill and if the aircraft APU is running.",
+   "meaning": "Acknowledges the report and asks whether any personnel are near the spill and whether the aircraft APU is running."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cathay two five one, affirmative, two ground crew are standing near the right main landing gear, and the aircraft tail exhaust is shimmering, indicating the APU is running. Request immediate airport fire service dispatch and stand power isolation.",
+   "meaning": "Confirms two ground crew near the right main landing gear and the APU running (shimmering tail exhaust), and requests immediate airport fire service dispatch and stand power isolation."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, fire services and apron safety dispatched to Stand Delta Four. Hold position at Juliet Three, expect revised taxi routing via Kilo to bypass the hazard.",
+   "meaning": "Confirms fire services and apron safety are dispatched to Stand Delta Four, and instructs the aircraft to hold position at Juliet Three and expect revised taxi routing via Kilo to bypass the hazard."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Holding position at Juliet Three, expecting revised taxi via Kilo, Cathay two five one.",
+   "meaning": "Reads back holding position at Juliet Three and expecting revised taxi routing via Kilo."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "Fuel Bowser",
+   "definition": "A fuel bowser hose has detached beneath the right wing — mobile refueling tanker or hydrant dispenser truck servicing an aircraft on the parking stand."
+  },
+  {
+   "term": "Apron Pooling / Spillage",
+   "definition": "Significant jet fuel is pooling on the apron — precise verb describing liquid fuel spreading across concrete, creating an immediate vapor and fire hazard."
+  },
+  {
+   "term": "Ground Power Unit (GPU)",
+   "definition": "Around an active ground power unit — external electrical cart/cable supplying 115V AC power; a major ignition/spark source near spilled fuel."
+  },
+  {
+   "term": "Exhaust Shimmering",
+   "definition": "Tail exhaust is shimmering, indicating the APU is running — visual heat-haze cue proving the Auxiliary Power Unit turbine is active and drawing/expelling hot gases."
+  },
+  {
+   "term": "Stand Power Isolation",
+   "definition": "Request immediate stand power isolation — instructing ground operations to cut electrical power to the parking bay to prevent sparks from igniting fuel vapors."
+  },
+  {
+   "term": "Spatial Prepositions",
+   "definition": "Beneath / Outboard of / Forward of / Adjacent to — exact aviation spatial anchors so rescue crews know whether a hazard is under the wing, near the nose gear, or behind the tail."
+  },
+  {
+   "term": "Revised Taxi Routing",
+   "definition": "Expect revised taxi routing via [Taxiway] to bypass the hazard — ATC ground rerouting keeping taxiing aircraft clear of emergency vehicles and fuel-vapor exclusion zones."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Under ICAO Doc 9835 standards, when should a flight crew use Plain English instead of standard ICAO phraseology?",
+   "options": [
+    "During every routine takeoff clearance and altitude readback to sound more natural.",
+    "Only when standard ICAO phraseology cannot adequately describe an unusual, non-routine, or emergency situation.",
+    "Whenever communicating with controllers from the same home country.",
+    "To replace all numeric readbacks such as headings and flight levels."
+   ],
+   "correctIndex": 1,
+   "explanation": "Standard ICAO phraseology must always be used whenever applicable because it is concise and unambiguous. Plain English is reserved for non-routine or unexpected situations (such as describing a specific apron hazard or complex mechanical failure) where no standard phraseology exists—and even then, it must remain clear, direct, and free of slang or idioms."
+  },
+  {
+   "question": "If you observe a large jet fuel spill pooling beneath an aircraft wing on an active stand, why is it critical to report whether a Ground Power Unit (GPU) or APU is running?",
+   "options": [
+    "Because the GPU can be used to pump the spilled fuel back into the tanker.",
+    "Because active electrical carts and hot turbine exhausts are immediate ignition sources that can trigger a flash fire in fuel vapors.",
+    "Because the APU automatically shuts down all airport runway lighting.",
+    "Because Ground Control must calculate the exact cost of the wasted fuel."
+   ],
+   "correctIndex": 1,
+   "explanation": "Jet fuel vapors are heavier than air and spread rapidly across the apron. An active Ground Power Unit (electrical arcing/sparks) or a running APU (hot exhaust gases) can ignite those vapors instantly, making immediate stand power isolation and ARFF dispatch vital."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "Fuel Bowser — A fuel bowser hose has detached beneath the right wing: Mobile refueling tanker or hydrant dispenser truck servicing an aircraft on the parking stand. / Apron Pooling / Spillage — Significant jet fuel is pooling on the apron: Precise verb describing liquid fuel spreading across concrete, creating an immediate vapor and fire hazard. / Ground Power Unit (GPU) — Around an active ground power unit: External electrical cart/cable supplying 115V AC power; a major ignition/spark source near spilled fuel. / Exhaust Shimmering — Tail exhaust is shimmering, indicating the APU is running: Visual heat-haze cue proving the Auxiliary Power Unit turbine is active and drawing/expelling hot gases. / Stand Power Isolation — Request immediate stand power isolation: Instructing ground operations to cut electrical power to the parking bay to prevent sparks from igniting fuel vapors. / Spatial Prepositions — Beneath / Outboard of / Forward of / Adjacent to: Exact aviation spatial anchors so rescue crews know whether a hazard is under the wing, near the nose gear, or behind the tail. / Revised Taxi Routing — Expect revised taxi routing via [Taxiway] to bypass the hazard: ATC ground rerouting keeping taxiing aircraft clear of emergency vehicles and fuel-vapor exclusion zones."
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Reinforcement Drill",
+   "body": "Day 56 Review (+1d — RTO & Evacuation): Transmit STOPPING first; if fire persists after stopping, declare MAYDAY and evacuate via upwind / non-fire side exits only while reporting Souls on Board. / Day 54 Review (+3d — Pilot Incapacitation): Apply the Two-Communication Rule, declare MAYDAY (7700), state \"Single pilot operation\", and request slower vectors for autoland. / Day 50 Review (+7d — Compound Emergencies): Follow Aviate → Navigate → Communicate and deliver crisp PACE briefings (Problem, Action, Consequence, Expectation). / Day 43 Review (+14d — Lost Comms 7600): Precede blind reports with \"TRANSMITTING BLIND DUE TO RECEIVER FAILURE\"; steady green light gun in flight means \"Cleared to land\"."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact",
+   "body": "Why ICAO Tests Both Standard Phraseology AND Plain English: In 1990, Avianca Flight 052 ran out of fuel and crashed on Long Island because the crew kept repeating the non-standard phrase \"running out of fuel\" instead of declaring an emergency—and controllers never realized how critical the situation was! That tragedy, along with the 1977 Tenerife disaster, led ICAO to create Doc 9835 (Language Proficiency Requirements) in 2003. ICAO realized that memorizing standard phraseology alone isn't enough: whenever an unexpected situation occurs (like a leaking fuel bowser next to a GPU), pilots must be able to switch seamlessly into clear, structured Plain English—which is why Level 5/6 assessments always include picture descriptions and unscripted abnormal scenarios!"
+  }
+ ]
+}
