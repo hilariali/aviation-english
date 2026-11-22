@@ -1,9 +1,9 @@
 {
  "meta": {
   "version": 2,
-  "updated": "2026-11-21",
-  "lessons": 57,
-  "phrases": 445
+  "updated": "2026-11-22",
+  "lessons": 58,
+  "phrases": 454
  },
  "lessons": [
   {
@@ -707,6 +707,20 @@
    "audioPageURL": "https://drive.google.com/file/d/1icgeF7x6m1Hy4ERnFBCl83qqq1tqVPZY/view",
    "icaoRefs": [
     "ICAO Doc 4444",
+    "ICAO Doc 9432",
+    "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 59,
+   "topic": "Cathay Cadet CRM & Safety Stress Test (TCAS RA & Unstable Approach)",
+   "phase": "Emergency",
+   "summary": "Day 59 (98.3% complete) is the penultimate session before the Day 60 graduation checkride: a Safety Authority & CRM Stress Test modeled on Cathay Pacific Cadet Pilot panel interviews. It drills the ironclad rule that…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1BkH8WRFGHa-1AVddf5ijIWd0oIoacW0y&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1BkH8WRFGHa-1AVddf5ijIWd0oIoacW0y/view",
+   "icaoRefs": [
+    "ICAO Doc 4444",
+    "ICAO Annex 2",
     "ICAO Doc 9432",
     "ICAO Doc 9835"
    ]
@@ -4271,6 +4285,78 @@
    "meaning": "Reads back direct ALLEY, cleared ILS Runway 34, and Macao Tower 118.0 when established.",
    "day": 58,
    "phase": "General Knowledge",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, turn left heading zero niner zero, descend immediately to six thousand feet due traffic.",
+   "speaker": "ATC",
+   "meaning": "Radar vectors Cathay 251 left to heading 090 and down to 6,000 feet immediately because of traffic.",
+   "day": 59,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "UNABLE, Hong Kong Radar, Cathay two five one, TCAS RA, CLIMB.",
+   "speaker": "Pilot",
+   "meaning": "Mandatory callout refusing the ATC descent because a TCAS Resolution Advisory commands a climb; the TCAS RA always takes priority.",
+   "day": 59,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, roger, TCAS RA acknowledged.",
+   "speaker": "ATC",
+   "meaning": "Controller acknowledges the TCAS RA and must not attempt to modify the aircraft's flight path until the pilot reports clear of conflict.",
+   "day": 59,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, clear of conflict, returning to assigned flight level eight zero.",
+   "speaker": "Pilot",
+   "meaning": "Reports the TCAS RA has ended and the aircraft is maneuvering back to its assigned flight level 080.",
+   "day": 59,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, roger, turn left heading zero niner zero, descend and maintain four thousand feet, cleared ILS runway zero seven left.",
+   "speaker": "ATC",
+   "meaning": "Clears Cathay 251 left to heading 090, down to 4,000 feet, and for the ILS Runway 07L approach.",
+   "day": 59,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Left heading zero niner zero, descending four thousand feet, cleared ILS runway zero seven left, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the left turn to heading 090, descent to 4,000 feet, and the ILS Runway 07L clearance.",
+   "day": 59,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Hong Kong Tower, Cathay two five one, GOING AROUND, unstable approach.",
+   "speaker": "Pilot",
+   "meaning": "Declares an aborted landing to Tower because the approach is unstable, using the mandatory go-around call.",
+   "day": 59,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Tower, roger, climb straight ahead to four thousand feet, contact Radar on one one niner decimal one.",
+   "speaker": "ATC",
+   "meaning": "Tower acknowledges the go-around, instructs a straight-ahead climb to 4,000 feet, and hands off to Radar on 119.1.",
+   "day": 59,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Climb straight ahead four thousand feet, Radar one one niner decimal one, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the straight-ahead climb to 4,000 feet and the Radar frequency 119.1.",
+   "day": 59,
+   "phase": "Emergency",
    "icaoRef": "ICAO Doc 4444"
   }
  ]
