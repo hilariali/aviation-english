@@ -1,0 +1,114 @@
+{
+ "day": 59,
+ "exchanges": [
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Radar, turn left heading zero niner zero, descend immediately to six thousand feet due traffic.",
+   "meaning": "Radar vectors Cathay 251 left to heading 090 and down to 6,000 feet immediately because of traffic."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "UNABLE, Hong Kong Radar, Cathay two five one, TCAS RA, CLIMB.",
+   "meaning": "Mandatory callout refusing the ATC descent because a TCAS Resolution Advisory commands a climb; the TCAS RA always takes priority."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger, TCAS RA acknowledged.",
+   "meaning": "Controller acknowledges the TCAS RA and must not attempt to modify the aircraft's flight path until the pilot reports clear of conflict."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cathay two five one, clear of conflict, returning to assigned flight level eight zero.",
+   "meaning": "Reports the TCAS RA has ended and the aircraft is maneuvering back to its assigned flight level 080."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, roger, turn left heading zero niner zero, descend and maintain four thousand feet, cleared ILS runway zero seven left.",
+   "meaning": "Clears Cathay 251 left to heading 090, down to 4,000 feet, and for the ILS Runway 07L approach."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Left heading zero niner zero, descending four thousand feet, cleared ILS runway zero seven left, Cathay two five one.",
+   "meaning": "Reads back the left turn to heading 090, descent to 4,000 feet, and the ILS Runway 07L clearance."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Tower, Cathay two five one, GOING AROUND, unstable approach.",
+   "meaning": "Declares an aborted landing to Tower because the approach is unstable, using the mandatory go-around call."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay two five one, Hong Kong Tower, roger, climb straight ahead to four thousand feet, contact Radar on one one niner decimal one.",
+   "meaning": "Tower acknowledges the go-around, instructs a straight-ahead climb to 4,000 feet, and hands off to Radar on 119.1."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Climb straight ahead four thousand feet, Radar one one niner decimal one, Cathay two five one.",
+   "meaning": "Reads back the straight-ahead climb to 4,000 feet and the Radar frequency 119.1."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "TCAS Resolution Advisory (RA)",
+   "definition": "UNABLE, [Callsign], TCAS RA — mandatory callout when an airborne TCAS II collision-avoidance command conflicts with an ATC clearance; the TCAS RA always takes priority."
+  },
+  {
+   "term": "Clear of Conflict",
+   "definition": "[Callsign], clear of conflict, returning to [Level] — transmitted immediately once the TCAS RA ends, informing ATC the aircraft is maneuvering back to its last assigned clearance."
+  },
+  {
+   "term": "Stabilized Approach Gate",
+   "definition": "1,000 ft AAL (IMC) / 500 ft AAL (VMC) — hard safety gate: aircraft must be on speed, on glide path, configured for landing, and briefed, otherwise a go-around is mandatory."
+  },
+  {
+   "term": "Unstable Approach Go-Around",
+   "definition": "[Callsign], GOING AROUND, unstable approach — concise Tower transmission declaring an aborted landing due to excessive sink rate, speed deviation, or configuration failure."
+  },
+  {
+   "term": "Authority Gradient",
+   "definition": "Assertive CRM Challenge (PACE) — the professional communication gap between Captain and First Officer; healthy CRM empowers any crew member to call \"Go around!\"."
+  },
+  {
+   "term": "TCAS Traffic Advisory (TA)",
+   "definition": "\"Traffic, Traffic\" (Amber) vs. \"CLIMB / DESCEND\" (Red) — TA: prepare and visually scan (do NOT maneuver solely on TA); RA: immediate, smooth vertical maneuver within 5 seconds."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "If an airborne TCAS II Resolution Advisory (RA) commands \"CLIMB\" at the exact moment Air Traffic Control instructs you to \"DESCEND\", what is the mandatory pilot action?",
+   "options": [
+    "Follow the ATC descent clearance because controllers have legal authority over airspace.",
+    "Maintain current level flight until ATC and TCAS agree.",
+    "Immediately follow the TCAS RA climb command and transmit \"UNABLE, TCAS RA\" to ATC.",
+    "Switch off the transponder so TCAS stops issuing alerts."
+   ],
+   "correctIndex": 2,
+   "explanation": "ICAO Annex 2 and Doc 4444 mandate that pilots must always obey a TCAS Resolution Advisory, even if it contradicts an ATC clearance, and inform ATC immediately using the standard phrase \"UNABLE, TCAS RA\"."
+  },
+  {
+   "question": "What are the standard commercial stabilized approach height gates below which an unstabilized approach requires an immediate go-around?",
+   "options": [
+    "1,000 feet AAL in IMC and 500 feet AAL in VMC.",
+    "200 feet AAL in IMC and 50 feet AAL in VMC.",
+    "3,000 feet AAL in all weather conditions.",
+    "Only after the main wheels touch the runway surface."
+   ],
+   "correctIndex": 0,
+   "explanation": "Industry and ICAO safety standards establish 1,000 ft Above Aerodrome Level (AAL) in IMC and 500 ft AAL in VMC as the mandatory stabilized approach gates. If speed, sink rate, glide path, or landing configuration are not stabilized by the gate, an immediate go-around is required."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Section 2: Core Learning Content & Vocabulary Table",
+   "body": "TCAS Resolution Advisory (RA) — UNABLE, [Callsign], TCAS RA: Mandatory callout when an airborne TCAS II collision-avoidance command conflicts with an ATC clearance. TCAS RA always takes priority. / Clear of Conflict — [Callsign], clear of conflict, returning to [Level]: Transmitted immediately once the TCAS RA ends, informing ATC that the aircraft is maneuvering back to its last assigned clearance. / Stabilized Approach Gate — 1,000 ft AAL (IMC) / 500 ft AAL (VMC): Hard safety gate: aircraft must be on speed, on glide path, configured for landing, and briefed—otherwise a go-around is mandatory. / Unstable Approach Go-Around — [Callsign], GOING AROUND, unstable approach: Concise Tower transmission declaring an aborted landing due to excessive sink rate, speed deviation, or configuration failure. / Authority Gradient — Assertive CRM Challenge (PACE): The professional communication gap between Captain and First Officer; healthy CRM empowers any crew member to call \"Go around!\". / TCAS Traffic Advisory (TA) — \"Traffic, Traffic\" (Amber) vs. \"CLIMB / DESCEND\" (Red): TA: Prepare & visually scan (do NOT maneuver solely on TA). RA: Immediate, smooth vertical maneuver within 5 seconds."
+  },
+  {
+   "heading": "Section 8: Spaced Repetition Reinforcement Drill",
+   "body": "Day 58 Review (+1d — VHHH–VMMC Line Flight): Read back every conditional line-up element including the subject and trailing \"behind\"; switch to Tower only \"when established\" on the localizer. / Day 56 Review (+3d — RTO & Evacuation): Call STOPPING once decelerating safely; evacuate via upwind / non-fire side exits only and report Souls on Board. / Day 52 Review (+7d — TEM & Minimum Fuel): MINIMUM FUEL is an advisory (no priority); declare MAYDAY, MAYDAY, MAYDAY, FUEL if Final Reserve Fuel will be breached. / Day 45 Review (+14d — Windshear Escape): Transmit WINDSHEAR ESCAPE and never change flap or landing gear configuration until clear of the windshear."
+  },
+  {
+   "heading": "Section 9: Fun Aviation Fact",
+   "body": "Why \"TCAS Always Overrides ATC\" Became Absolute World Law: On July 1, 2002, a Bashkirian Airlines Tu-154 and a DHL Boeing 757 collided mid-air over Überlingen, Germany. Both aircraft had working TCAS II systems that coordinated flawlessly: TCAS commanded the DHL jet to descend and the Tu-154 to climb. Tragically, an overloaded controller instructed the Tu-154 to descend—and the Tu-154 crew obeyed the human controller instead of their TCAS RA, causing both jets to dive into each other at 35,000 feet. That tragedy led ICAO to enact one of the clearest, most unbreakable rules in aviation: never follow an ATC clearance that contradicts a TCAS Resolution Advisory—and report \"UNABLE, TCAS RA\" immediately!"
+  }
+ ]
+}
