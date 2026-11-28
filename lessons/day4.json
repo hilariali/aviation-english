@@ -1,0 +1,114 @@
+{
+ "day": 4,
+ "exchanges": [
+  {
+   "speaker": "Pilot",
+   "text": "Hong Kong Delivery, Cathay 251, Stand Whiskey 42, Information Delta, request full IFR clearance to Tokyo Haneda.",
+   "meaning": "Initial call to Delivery after copying ATIS Delta, requesting the complete IFR clearance."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, Hong Kong Delivery, cleared to Tokyo Haneda via BEKOL 3A departure, climb via SID to Flight Level 080, squawk 7142, CTOT zero three four five.",
+   "meaning": "Full IFR clearance: destination, SID route, initial climb level, transponder code, and calculated take-off time."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cleared to Tokyo Haneda via BEKOL 3A departure, climb via SID Flight Level 080, squawk 7142, CTOT zero three four five, Cathay 251.",
+   "meaning": "Pilot readback of the clearance limit, SID, initial level, squawk, and CTOT."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, expect start at time three zero, report ready for pushback.",
+   "meaning": "ATC gives the expected start time so the crew can protect the slot and report when ready."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Expect start at time three zero, wilco, Cathay 251.",
+   "meaning": "Pilot acknowledges the expected start time and will comply."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, clearance valid, slot improvement: CTOT now zero three three eight.",
+   "meaning": "The clearance remains valid, but flow management has moved the take-off slot earlier."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "CTOT now zero three three eight, Cathay 251.",
+   "meaning": "Pilot reads back the improved CTOT digit by digit."
+  },
+  {
+   "speaker": "Pilot",
+   "text": "Cathay 251, unable CTOT zero three three eight, request later slot.",
+   "meaning": "Pilot advises ATC early that the earlier slot cannot be met and requests a later slot."
+  },
+  {
+   "speaker": "ATC",
+   "text": "Cathay 251, information Echo current, QNH one zero one two, report ready for pushback.",
+   "meaning": "Updated ATIS and QNH are passed before pushback; the crew reports when ready."
+  }
+ ],
+ "vocabulary": [
+  {
+   "term": "CTOT",
+   "definition": "Calculated Take-Off Time: the take-off time allocated by flow management for an IFR departure."
+  },
+  {
+   "term": "Clearance limit",
+   "definition": "The point to which an aircraft is cleared, such as the destination aerodrome in a full IFR clearance."
+  },
+  {
+   "term": "SID",
+   "definition": "Standard Instrument Departure: a published departure route from the runway into the en-route structure."
+  },
+  {
+   "term": "Slot improvement",
+   "definition": "A flow-management change that moves a CTOT earlier."
+  },
+  {
+   "term": "Expect start time",
+   "definition": "The time ATC expects to approve engine start or pushback so the aircraft can meet its slot."
+  },
+  {
+   "term": "Clearance valid",
+   "definition": "Phrase confirming that the issued clearance remains usable."
+  }
+ ],
+ "quiz": [
+  {
+   "question": "Which set of items must be read back correctly from a full IFR clearance with a slot restriction?",
+   "options": [
+    "Destination/clearance limit, SID, initial level, squawk, and CTOT",
+    "Passenger count, fuel remaining, and catering status",
+    "ATIS letter only",
+    "Taxi route and stand number only"
+   ],
+   "correctIndex": 0,
+   "explanation": "The clearance is a package: clearance limit, route/SID, initial altitude or level, transponder code, and any CTOT or time restriction must be read back and checked."
+  },
+  {
+   "question": "ATC improves your CTOT from 0345 to 0338, but the aircraft will not be ready. What is the correct action?",
+   "options": [
+    "Ignore the change and keep the old slot",
+    "Read back the new CTOT if able; if unable, advise ATC early and request a later slot",
+    "Push back immediately without start approval",
+    "Change the squawk and continue"
+   ],
+   "correctIndex": 1,
+   "explanation": "A slot improvement only helps if the crew can meet it. Read back the new CTOT when able; if not ready, advise ATC early so the departure can be re-sequenced."
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Core Learning Content — The Full Ifr Clearance",
+   "body": "A full IFR clearance is read back as a complete package: clearance limit/destination ('cleared to Tokyo Haneda'), route or SID ('via BEKOL 3A departure'), initial altitude or level ('climb via SID to Flight Level 080'), transponder code ('squawk 7142'), and any flow restriction ('CTOT zero three four five'). CTOT means Calculated Take-Off Time: the take-off time allocated by flow management so departures enter the network in an orderly sequence. 'Expect start' tells the crew when start/pushback approval is likely, so engines are not started too early and the slot is not missed."
+  },
+  {
+   "heading": "Spaced Repetition (Forgetting Curve) Review",
+   "body": "Recall from Days 1–3: state the ATIS letter on initial contact; read back destination, SID, initial level, squawk, runway instructions, QNH, and slot/CTOT changes; use WILCO only when you understand and will comply; use SAY AGAIN when any element is missed. Day 4 adds the time discipline: a correct clearance readback is not enough if the aircraft is not ready for its CTOT."
+  },
+  {
+   "heading": "Fun Aviation Fact — Why Slots Exist",
+   "body": "A CTOT is not ATC being slow; it is traffic flow management spacing departures so runways, sectors, and arrival streams do not overload downstream. One aircraft leaving a few minutes early can arrive at a sector boundary at the same time as several others. The slot turns a queue on the ground into a smoother sequence in the air."
+  }
+ ]
+}
