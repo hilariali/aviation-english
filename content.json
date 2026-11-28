@@ -1,9 +1,9 @@
 {
  "meta": {
   "version": 2,
-  "updated": "2026-11-22",
-  "lessons": 58,
-  "phrases": 454
+  "updated": "2026-11-28",
+  "lessons": 59,
+  "phrases": 463
  },
  "lessons": [
   {
@@ -723,6 +723,19 @@
     "ICAO Annex 2",
     "ICAO Doc 9432",
     "ICAO Doc 9835"
+   ]
+  },
+  {
+   "day": 60,
+   "topic": "Final ICAO Level 5/6 Graduation Checkride",
+   "phase": "Emergency",
+   "summary": "Day 60 of 60 (100% complete) is the final graduation checkride: a fast-tempo routine departure clearance that turns into a time-critical Forward Cargo Smoke Warning, requiring oxygen masks, Halon fire-bottle…",
+   "audioURL": "https://drive.usercontent.google.com/download?id=1HcvjgEIxrI37OpfcLVW3fIIsW-4PlRCs&export=download&confirm=t",
+   "audioPageURL": "https://drive.google.com/file/d/1HcvjgEIxrI37OpfcLVW3fIIsW-4PlRCs/view",
+   "icaoRefs": [
+    "ICAO Doc 9835",
+    "ICAO Doc 4444",
+    "ICAO Doc 9432"
    ]
   }
  ],
@@ -4358,6 +4371,78 @@
    "day": 59,
    "phase": "Emergency",
    "icaoRef": "ICAO Doc 4444"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, radar contact passing three thousand feet. Cancel SID speed restriction, climb to flight level one four zero, turn right heading zero niner zero.",
+   "speaker": "ATC",
+   "meaning": "Radar establishes contact passing 3,000 feet, cancels the SID speed restriction, and clears Cathay 251 to climb to FL140 on a right turn to heading 090.",
+   "day": 60,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9835"
+  },
+  {
+   "text": "Cancel speed restriction, climb flight level one four zero, right heading zero niner zero, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the speed-restriction cancellation, the climb to FL140, and the right turn to heading 090.",
+   "day": 60,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9835"
+  },
+  {
+   "text": "MAYDAY, MAYDAY, MAYDAY. Hong Kong Radar, Cathay two five one, squawking seven seven zero zero. Forward cargo smoke warning, fire bottles discharged, fumes in flight deck, on oxygen. Request immediate return, priority straight-in ILS runway zero seven left.",
+   "speaker": "Pilot",
+   "meaning": "Declares a MAYDAY for a forward cargo smoke warning, reports the fire bottles discharged and the crew on oxygen, and requests an immediate priority straight-in ILS return to Runway 07L.",
+   "day": 60,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9835"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Radar, MAYDAY acknowledged. Squawk seven seven zero zero observed. Turn left heading two five zero, descend and maintain four thousand feet, QNH one zero one seven. Cleared direct CANTO for straight-in ILS runway zero seven left.",
+   "speaker": "ATC",
+   "meaning": "Acknowledges the MAYDAY, confirms squawk 7700, and vectors Cathay 251 left to heading 250, down to 4,000 feet, QNH 1017, direct CANTO for the straight-in ILS Runway 07L.",
+   "day": 60,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9835"
+  },
+  {
+   "text": "Left heading two five zero, descending four thousand feet, QNH one zero one seven, direct CANTO, Cathay two five one. Souls on board two hundred and fifty, endurance three hours two zero minutes.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the left turn, descent, QNH and direct CANTO, and proactively reports 250 souls on board with 3 hours 20 minutes of fuel endurance.",
+   "day": 60,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9835"
+  },
+  {
+   "text": "Cathay two five one, Hong Kong Tower, wind zero seven zero degrees at one two knots, emergency services on standby, cleared to land runway zero seven left.",
+   "speaker": "ATC",
+   "meaning": "Tower reports wind 070 degrees at 12 knots, confirms emergency services are on standby, and clears Cathay 251 to land on Runway 07L.",
+   "day": 60,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9835"
+  },
+  {
+   "text": "Cleared to land runway zero seven left, Cathay two five one.",
+   "speaker": "Pilot",
+   "meaning": "Reads back the landing clearance for Runway 07L.",
+   "day": 60,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9835"
+  },
+  {
+   "text": "Hong Kong Tower, Cathay two five one, stopped on runway zero seven left, cargo smoke cleared, no evacuation required, vacating via Hotel Four.",
+   "speaker": "Pilot",
+   "meaning": "Reports stopped on Runway 07L, the cargo smoke has cleared, no evacuation is required, and the aircraft will vacate via taxiway Hotel Four.",
+   "day": 60,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9835"
+  },
+  {
+   "text": "Cathay two five one, roger, contact Ground on one two one decimal six, well done.",
+   "speaker": "ATC",
+   "meaning": "Tower acknowledges the vacating report, hands Cathay 251 to Ground on 121.6, and congratulates the crew.",
+   "day": 60,
+   "phase": "Emergency",
+   "icaoRef": "ICAO Doc 9835"
   }
  ]
 }
