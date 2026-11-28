@@ -2,8 +2,8 @@
  "meta": {
   "version": 2,
   "updated": "2026-11-28",
-  "lessons": 59,
-  "phrases": 463
+  "lessons": 60,
+  "phrases": 472
  },
  "lessons": [
   {
@@ -41,6 +41,19 @@
    "audioPageURL": "https://drive.google.com/file/d/1h_zIfrlbad_ZLfMuooZElUdKSk9AWF1T/view",
    "icaoRefs": [
     "ICAO Doc 9432",
+    "ICAO Annex 11"
+   ]
+  },
+  {
+   "day": 4,
+   "topic": "Full IFR Clearance Delivery & Slot Times (CTOT)",
+   "phase": "Pre-flight",
+   "summary": "This reconstructed bridge lesson turns the Day 3 ATIS decode into a full IFR clearance: destination/clearance limit, SID route, initial climb level, squawk, CTOT slot time, expected start time, and amended slot…",
+   "audioURL": null,
+   "audioPageURL": null,
+   "icaoRefs": [
+    "ICAO Doc 9432",
+    "ICAO Doc 4444 (PANS-ATM)",
     "ICAO Annex 11"
    ]
   },
@@ -4443,6 +4456,78 @@
    "day": 60,
    "phase": "Emergency",
    "icaoRef": "ICAO Doc 9835"
+  },
+  {
+   "text": "Hong Kong Delivery, Cathay 251, Stand Whiskey 42, Information Delta, request full IFR clearance to Tokyo Haneda.",
+   "speaker": "Pilot",
+   "meaning": "Initial call to Delivery after copying ATIS Delta, requesting the complete IFR clearance.",
+   "day": 4,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, Hong Kong Delivery, cleared to Tokyo Haneda via BEKOL 3A departure, climb via SID to Flight Level 080, squawk 7142, CTOT zero three four five.",
+   "speaker": "ATC",
+   "meaning": "Full IFR clearance: destination, SID route, initial climb level, transponder code, and calculated take-off time.",
+   "day": 4,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cleared to Tokyo Haneda via BEKOL 3A departure, climb via SID Flight Level 080, squawk 7142, CTOT zero three four five, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "Pilot readback of the clearance limit, SID, initial level, squawk, and CTOT.",
+   "day": 4,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, expect start at time three zero, report ready for pushback.",
+   "speaker": "ATC",
+   "meaning": "ATC gives the expected start time so the crew can protect the slot and report when ready.",
+   "day": 4,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Expect start at time three zero, wilco, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "Pilot acknowledges the expected start time and will comply.",
+   "day": 4,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, clearance valid, slot improvement: CTOT now zero three three eight.",
+   "speaker": "ATC",
+   "meaning": "The clearance remains valid, but flow management has moved the take-off slot earlier.",
+   "day": 4,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "CTOT now zero three three eight, Cathay 251.",
+   "speaker": "Pilot",
+   "meaning": "Pilot reads back the improved CTOT digit by digit.",
+   "day": 4,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, unable CTOT zero three three eight, request later slot.",
+   "speaker": "Pilot",
+   "meaning": "Pilot advises ATC early that the earlier slot cannot be met and requests a later slot.",
+   "day": 4,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
+  },
+  {
+   "text": "Cathay 251, information Echo current, QNH one zero one two, report ready for pushback.",
+   "speaker": "ATC",
+   "meaning": "Updated ATIS and QNH are passed before pushback; the crew reports when ready.",
+   "day": 4,
+   "phase": "Pre-flight",
+   "icaoRef": "ICAO Doc 9432"
   }
  ]
 }
